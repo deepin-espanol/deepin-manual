@@ -310,7 +310,9 @@ endif ()
 
 #set different ISO types
 #1:professional 2:community 3:server 4:personal
-set(ISO_TYPE "professional")
+if(NOT ISO_TYPE)
+    set(ISO_TYPE "professional")
+endif()
 #set(ISO_TYPE "community")
 #set(ISO_TYPE "server")
 #set(ISO_TYPE "personal")
