@@ -13,7 +13,7 @@ Cuando se conecte al sistema por primera vez, se iniciará automáticamente un p
 
 Una vez iniciada la sesión, estará listo para experimentar el entorno de escritorio de Deepin. Está compuesto por el Escritorio, el Muelle (Dock), el Lanzador, el Centro de Control y el Gestor de Ventanas, que sirven de base para su sistema.
 
-Lea a continuación y aprenda a utilizar en el entorno de escritorio de deepin.
+Lea a continuación y aprenda a utilizar en el entorno de escritorio de Deepin.
 
 ## Escritorio
 
@@ -832,7 +832,7 @@ Sin la molestia de los cables o la red, la conexión Bluetooth permite una comun
 
 Los archivos pueden transferirse/recibirse entre el equipo de Deepin y otro sistema operativo o entre el equipo de Deepin y el dispositivo móvil (teléfono inteligente/tableta).
 
-Requisito: el dispositivo Bluetooth del emisor (deepin PC) y el dispositivo Bluetooth del receptor (PC sin deepin / teléfono móvil / tableta) se han emparejado y conectado correctamente.
+Requisito: el dispositivo Bluetooth del emisor (Deepin PC) y el dispositivo Bluetooth del receptor (PC sin Deepin / teléfono móvil / tableta) se han emparejado y conectado correctamente.
 
 1. En la página de inicio del centro de control, haga clic en![bluetooth_normal](icon/bluetooth_normal.svg).
 2. Encienda el Bluetooth. El sistema escaneará automáticamente los dispositivos Bluetooth cercanos.
