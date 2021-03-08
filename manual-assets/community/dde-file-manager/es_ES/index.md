@@ -360,7 +360,7 @@ Puede encontrar las carpetas compartidas de otros usuarios en la misma red local
 3. Introduzca el nombre de usuario y la contraseña o visite mediante acceso anónimo.
    - Las carpetas no cifradas se visitan mediante acceso anónimo sin necesidad de introducir el nombre de usuario y la contraseña.
    - Cuando se visitan carpetas cifradas, aparece una ventana en la que hay que introducir el nombre de usuario y la contraseña antes de visitarlas. Si marca **Recordar contraseña**, no tendrá que introducir la contraseña cuando visite la carpeta la próxima vez.
-2. Haga clic en **Conectar** para establecer la conexión.
+4. Haga clic en **Conectar** para establecer la conexión.
 
 ### Abrir como administrador en una nueva ventana
 
@@ -378,7 +378,6 @@ Puede encontrar las carpetas compartidas de otros usuarios en la misma red local
 ### Crear enlace
 
 1. En la interfaz del Gestor de archivos, haga clic derecho en el elemento que desea crear un acceso.
-
 2. Seleccione **Crear enlace**.
 3. En la ventana emergente, seleccione una ubicación e introduzca el nombre del enlace.
 4. Haga clic en **Guardar** para terminar de crear el enlace.
@@ -391,8 +390,8 @@ Cuando hay un dispositivo externo insertado, puede enviar directamente archivo/c
 
 1. En la interfaz del Gestor de archivos, seleccione un archivo/carpeta.
 2. Haga clic con el botón derecho y seleccione **Enviar a**.
-2. Seleccione el dispositivo al que desea enviar.
-3. El archivo/carpeta se copiará en el dispositivo.
+3. Seleccione el dispositivo al que desea enviar.
+4. El archivo/carpeta se copiará en el dispositivo.
 
 ### Enviar por Bluetooth
 Si su equipo está provisto con un módulo Bluetooth, puedes transferir archivos a corta distancia a través de Bluetooth. El prerequisito es: Los dispositivos Bluetooth del emisor y del receptor deben emparejarse y conectarse con éxito. Consulte [Conectar a otro dispositivo Bluetooth](dman:///dde#Conectar a otro dispositivo Bluetooth) para más detalles.
