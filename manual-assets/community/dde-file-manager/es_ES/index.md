@@ -2,7 +2,8 @@
 
 ## Vistazo
 
-El Gestor de archivos es una herramienta de gestión de archivos potente, sencilla y fácil de usar. Siga la funcionalidades y diseños característicios de un gestor de archivos tradicional, y simplifique la usuabilidad sin perder otras mejoras. Ofrece una barra de navegación que se abre sola, un cuadro de búsqueda con reconocimiento inteligente, múltiples vistas y un filtrador de resultados para revisar los archivos fácilmente. Más allá de lo clásico, ¡le ofrece una mejor experiencia!![1|overview](jpg/overview.png)
+El Gestor de archivos es una herramienta de gestión de archivos potente, sencilla y fácil de usar. Siga la funcionalidades y diseños característicios de un gestor de archivos tradicional, y simplifique la usuabilidad sin perder otras mejoras. Ofrece una barra de navegación que se abre sola, un cuadro de búsqueda con reconocimiento inteligente, múltiples vistas y un filtrador de resultados para revisar los archivos fácilmente. Más allá de lo clásico, ¡le ofrece una mejor experiencia!
+![1|overview](jpg/overview.png)
 
 ## Guía
 
@@ -31,7 +32,8 @@ En la interfaz del Visor de documentos, pulse **Ctrl + Shift + ?** para ver ráp
 
 ## Interfaz de usuario
 
-En la interfaz del Gestor de archivos, puede ejecutar muchas operaciones con las barras funcionales. Está diseñado para ser fácil de usar, amigable al público casual y avanzado.![1|maininterface](jpg/maininterface.png)
+En la interfaz del Gestor de archivos, puede ejecutar muchas operaciones con las barras funcionales. Está diseñado para ser fácil de usar, amigable al público casual y avanzado.
+![1|maininterface](jpg/maininterface.png)
 
 | No. | Nombre     | Descripción                                                     |
 | ---- | ------------- | ------------------------------------------------------------ |
