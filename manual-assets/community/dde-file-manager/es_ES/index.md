@@ -1,568 +1,566 @@
-# File Manager|../common/deepin-file-manager.svg|
+# Gestor de archivos|../common/deepin-file-manager.svg|
 
-## Overview
+## Vistazo
 
-File Manager is a powerful, simple and easy-to-use file management tool. It follows the classic function and layout of traditional file manager, and simplifies the user operation and adds many features. The open-and-shut navigation bar, the search box with intelligent identification, a variety of views and sorting let you manage files easily. It's beyond classic, just to give you a better experience!
+El Gestor de archivos es una herramienta de gestión de archivos potente, sencilla y fácil de usar. Siga la funcionalidades y diseños característicios de un gestor de archivos tradicional, y simplifique la usuabilidad sin perder otras mejoras. Ofrece una barra de navegación que se abre sola, un cuadro de búsqueda con reconocimiento inteligente, múltiples vistas y un filtrador de resultados para revisar los archivos fácilmente. Más allá de lo clásico, ¡le ofrece una mejor experiencia!![1|overview](jpg/overview.png)
 
-![1|overview](jpg/overview.png)
+## Guía
 
-## Guide
+Puede ejecutar, cerrar y crear un acceso directo para el Gestor de archivos de las siguientes maneras.
 
-You can run, close and create a shortcut for File Manager by the following ways.
+### Ejecutar el gestor de archivos
 
-### Run File Manager
+1. Haga clic en ![Launcher](icon/deepin-launcher.svg) en el dock para entrar en la interfaz del Lanzador.
+2. Localice el icono ![FileManager](icon/deepin-file-manager.svg) desplazando la rueda del ratón o buscando como "Gestor de archivos" en la interfaz del Lanzador.
+3. Haga clic con el botón derecho del ratón en ![FileManager](icon/deepin-file-manager.svg), puede que:
+ - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+ - Haga clic en **Enviar al muelle** para fijar la aplicación en el dock.
+ - Haga clic en **Añadir al arranque** para añadir la aplicación al inicio, se ejecutará automáticamente cuando se inicie el sistema.
 
-1. Click ![Launcher](icon/deepin-launcher.svg) on dock to enter Launcher interface.
-2. Locate ![FileManager](icon/deepin-file-manager.svg) by scrolling mouse wheel or searching by "File Manager" in Launcher interface.
-3. Right-click ![FileManager](icon/deepin-file-manager.svg), you can
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix the application on dock.
- - Click **Add to startup** to add the application to startup, it will automatically run when the system starts up.
+### Salir del gestor de archivos
 
-### Exit File Manager
+- En la interfaz del Administrador de Archivos, haga clic en **X** para salir.
+- Haga clic con el botón derecho del ratón en ![FileManager](icon/deepin-file-manager.svg) en el Dock, seleccione **Cerrar todo** para salir del Administrador de archivos.
+- Haga clic en ![Ajustes](icon/icon_menu.svg) y seleccione **Salir** para salir del Gestor de Archivos.
 
-- On File Manager interface, click **X** to exit.
-- Right-click ![FileManager](icon/deepin-file-manager.svg) on Dock, select **Close All** to exit File Manager.
-- Click ![Settings](icon/icon_menu.svg) and select **Exit** to exit File Manager.
+### Ver atajos de teclado
 
-### View Shortcut Keys
-
-On Document Viewer interface, press **Ctrl + Shift + ?** to view all shortcut keys quickly, which helps you to use them skillfully and improves your working efficiency. 
+En la interfaz del Visor de documentos, pulse **Ctrl + Shift + ?** para ver rápidamente todas las teclas de acceso rápido, lo que le ayudará a utilizarlas con destreza y a mejorar su productividad. 
 
 ![1|hotkey](jpg/hotkey.png)
 
-## Main Interface
+## Interfaz de usuario
 
-On File Manager interface, you can execute many operations with the functional bars. It is designed to be easy-to-use, user-friendly and efficient improving.
+En la interfaz del Gestor de archivos, puede ejecutar muchas operaciones con las barras funcionales. Está diseñado para ser fácil de usar, amigable al público casual y avanzado.![1|maininterface](jpg/maininterface.png)
 
-![1|maininterface](jpg/maininterface.png)
-
-| No. | Name          | Description                                                         |
+| No. | Nombre     | Descripción                                                     |
 | ---- | ------------- | ------------------------------------------------------------ |
-| 1    | Left panel        | Click icons in left panel to quickly visit local files, disks, computers in LAN, bookmarks and tags. |
-| 2    | Address bar        | You can quickly switch visiting history, switch among directory levels, search and input address in address bar. |
-| 3    | View | Click ![icon_view](icon/icon_view.svg) and ![list_view](icon/list_view.svg) to switch view modes. |
-| 4    | Info column        | Click ![fileinfo](icon/fileinfo.svg) to view basic information and tags of files(folders). |
-| 5    | Main menu        | You can create new window, switch themes, set share password, make settings, view manual and application information, and exit the application in Main menu. |
-| 6    | Status bar        | You can view the number of files or selected files.                            |
+| 1    | Panel izquierdo    | Haga clic en los iconos del panel izquierdo para visitar rápidamente los archivos locales, los discos, los ordenadores de la red local, los marcadores y las etiquetas. |
+| 2    | Barra de dirección | Puedes cambiar rápidamente el historial de visitas, cambiar entre los niveles del directorio, buscar e introducir la dirección en la barra de direcciones. |
+| 3    | Vista              | Haga clic en ![icon_view](icon/icon_view.svg) y ![list_view](icon/list_view.svg) para cambiar los modos de vista. |
+| 4    | Columna informativa | Clic en ![fileinfo](icon/fileinfo.svg) para ver la información básica y las etiquetas de los archivos (carpetas). |
+| 5    | Menú principal | Puede abrir una nueva ventana, cambiar de tema, establecer una contraseña compartida, realizar ajustes, ver el manual y la información de la aplicación, y cerrar de la aplicación desde el menú principal. |
+| 6    | Barra de estado    | Puede ver el número de archivos o los archivos seleccionados. |
 
 
-> ![tips](icon/tips.svg)Tips: you can drag the dividing line on the right of left panel to change its width.
+> ![tips](icon/tips.svg)Consejos: puede arrastrar la línea divisoria a la derecha del panel izquierdo para cambiar su anchura.
 
 
-## Basic Functions
+## Funciones básicas
 
-File Manager is featured with the basic functions as a file manager, you can easily create, copy, rename or delete files/folders with it.
+El Gestor de archivos cuenta con las funciones básicas de un explorador de ficheros, con el que puede crear, copiar, renombrar o eliminar archivos/carpetas fácilmente.
 
-### New Document/Folder
+### Nuevo documento/carpeta
 
 
-#### New Document
+#### Nuevo documento
 
-1. On File Manager interface, right-click and select **New document**.
-2. In the pop-up menu, select the document format you want to create.
-3. Input a name for the new document, and press **Enter**, or click at blank area.
+1. En la interfaz del Gestor de archivos, haga clic y seleccione **Nuevo documento**.
+2. En el menú emergente, seleccione el formato de documento que desea crear.
+3. Introduzca un nombre para el nuevo documento y pulse **Intro**, o haga clic en el área en blanco.
 
 ![0|newdoc](jpg/newdoc.png)
 
-#### New Folder
+#### Nueva carpeta
 
-1. On File Manager interface, right-click and select **New folder**.
-2. Input a name for the new folder, and press **Enter**, or click at blank area.
+1. En la interfaz del Gestor de archivos, haga clic derecho y seleccione **Nueva carpeta**.
+2. Introduzca un nombre para la nueva carpeta y pulse **Intro**, o haga clic en el área vacía.
 
-### Rename File/Folder
+### Renombrar Archivo/Carpeta
 
-1. Select the file/folder, right-click to select **Rename**.
-2. Input a new name for the file/folder, and press **Enter**, or click at any blank area.
+1. Seleccione el archivo/carpeta, haga clic derecho para seleccionar **Rename**.
+2. Introduzca un nuevo nombre para el archivo/carpeta y pulse **Intro**, o haga clic en cualquier zona en blanco.
 
 ![0|rename](jpg/contextmenu.png)
 
-> ![tips](icon/tips.svg)Tips: Check "Hide file extension when rename" in **Settings** to rename file more conveniently.
+> ![tips](icon/tips.svg)Consejo: Marque la opción "Ocultar la extensión del archivo al renombrarlo" en **Ajustes** para renombrar el archivo con seguridad.
 
-### Batch Rename
+### Renombrar en lote
 
-1. On File Manager interface, select multiple files.
-2. Right-click and select **Rename**.
-   - **Replace Text**: Input the content to be replaced in Find box, and input content to rename in Replace box.
-   - **Add Text**: Input the content to add in Add box, and select the location.
-   - **Custom Text**: Input the file name and SN.
-3. Click **Rename** to finish operation.
+1. En la interfaz del Administrador de Archivos, seleccione varios archivos.
+2. Haga clic con el botón derecho y seleccione **Renombrar**.
+   - **Reemplazar texto**: Introduzca el contenido a reemplazar en la casilla Buscar, e introduzca el contenido a renombrar en la casilla Reemplazar.
+   - **Añadir texto**: Introduzca el contenido a añadir en la casilla Añadir y seleccione la ubicación.
+   - **Personalizar texto **: Introduzca el nombre del archivo y donde empiezar.
+3. Haga clic en **Renombrar** para finalizar la operación.
 
 ![1|batch_rename](jpg/rename.png)
 
-### View files
+### Vista de archivos
 
-Click ![icon_view](icon/icon_view.svg) and ![list_view](icon/list_view.svg) on the interface to switch icon view and list view.
+Haga clic en ![icon_view](icon/icon_view.svg) y ![list_view](icon/list_view.svg) en la interfaz para alternar las vistas de iconos y listas.
 
-- Icon view: displaying filenames, icons or thumbnails.
+- Vista de iconos: muestra nombres de archivos, iconos o miniaturas.
 
 ![1|iconview](jpg/iconview.png)
 
-- List view: displaying file icons or thumbnails, names, time modified, sizes, types and etc in a list. 
+- Vista de listas: muestra en una lista los iconos o miniaturas de los archivos, los nombres, la hora de modificación, los tamaños, los tipos, etc. 
 
 ![1|listview](jpg/listview.png)
 
-> ![tips](icon/tips.svg)Tips: In list view, place the cursor on the dividing line between any two columns and drag it to change the width of the current column. Double-click the dividing line to adjust to the biggest width of the current column automatically. 
+> ![tips](icon/tips.svg)Consejo: En la vista de lista, coloque el cursor en la línea divisoria entre dos columnas cualquiera y arrástrela para cambiar el ancho de la columna actual. Si hace doble clic en la línea divisoria, se ajustará automáticamente a la mayor anchura de la columna actual. 
 
-> ![tips](icon/tips.svg)Tips: Press  **Ctrl**+**1**  or  **Ctrl**+ **2**  to switch icon view and list view. 
+> ![tips](icon/tips.svg)Consejo: Pulse  **Ctrl**+**1**  or  **Ctrl**+ **2**  para alternar las vistas de iconos y listas. 
 
-### Sorting
+### Ordenado
 
-1. Right-click in the blank area on File Manager, select **Sort by**.
-2. Choose among the sorting options, which include **Name**, **Time modified**, **Size** and **Type**.
+1. Haga clic derecho del ratón en el área en blanco del Gestor de archivos y seleccione **Ordenar por**.
+2. Elija entre las opciones de clasificación, que incluyen **Nombre**, **Hora de modificación**, **Tamaño** y **Tipo**.
 
-> ![tips](icon/tips.svg)Tips: you can click the head of the columns in the list view to change the sort order.
+> ![tips](icon/tips.svg)Consejo: puede hacer clic en la cabeza de las columnas en la vista de lista para cambiar el orden de clasificación.
 
 
 ### Open Files
 
-1. On File Manager, right-click the file you want to open.
-2. In the context menu, select **Open with**>**Select default program**.
-3. Select the application you want to open the file in the list.
+1. En el Gestor de archivos, haga clic derecho en el archivo que desea abrir.
+2. En el menú contextual, seleccione **Abrir con**>**Seleccionar aplicaciones por defecto**.
+3. Seleccione la aplicación que desea abrir el archivo en la lista.
 
-> ![notes](icon/notes.svg)Notes: It will use the default application to open the file when you double-click it. You can right-click the file, select **Properties** and choose a default application in **Open with ** list. You can also set the options in the [Default Applications](dman:///dde#Default Application Settings) of the Control Center to change the global default applications of the specified file types.
+> ![notes](icon/notes.svg)Nota: Utilizará la aplicación por defecto para abrir el archivo cuando haga doble clic en él. Puede hacer clic con el botón derecho en el archivo, seleccionar **Propiedades** y elegir una aplicación por defecto en la lista **Abrir con**. También puede establecer las opciones en la sección [Aplicaciones](dman:///dde#Ajustes de aplicaciones predeterminadas) del Centro de Control para cambiar las aplicaciones globales predeterminadas de los tipos de archivo especificados.
 
 ![0|open_with](jpg/open.png)
 
-> ![tips](icon/tips.svg)Tips: You can right-click multiple files of the same type, and select **Open with** to open them at a time.
+> ![tips](icon/tips.svg)Consejo: Puede hacer clic con el botón derecho en varios archivos del mismo tipo y seleccionar **Abrir con** para abrirlos a la vez.
 
-### Hide files
+### Ocultar archivos
 
-1. On File Manager, right-click the file you want to hide.
-2. Select **Properties**, check **Hide this file**.
+1. En el Gestor de archivos, haga clic con el botón derecho en el archivo que desea ocultar.Seleccione **Propiedades**, marque **Ocultar**.
 
-### Copy File/Folder
+### Copiar Archivo/Carpeta
 
-1. Select the files/folders to be copied, right-click and select **Copy**.
-2. Enter the directory to which the files/folders will be pasted, right-click and select **Paste**.
+1. Seleccione los archivos/carpetas a copiar, haga clic con el botón derecho y seleccione **Copiar**.
+2. Introduzca el directorio en el que se van a pegar los archivos/carpetas, haga clic con el botón derecho del ratón y seleccione **Pegar**.
 
-### Compress File/Folder
+### Comprimir Archivo/Carpeta
 
-1. Select the files/folders to be compressed, right-click and select **Compress**.
-2. Input a file name and select a file format for the to be compressed file.
-3. Select a location to store it.
-4. Select **Compress** to generate the compressed file.
+1. Seleccione los archivos/carpetas a comprimir, haga clic derecho y seleccione **Comprimir**.
+2. Introduzca un nombre de archivo y seleccione un formato de archivo para el archivo a comprimir.
+3. Seleccione una ubicación para almacenarlo.
+4. Seleccione **Comprimir** para generar el archivo comprimido.
 
-> ![notes](icon/notes.svg)Notes: Switch on **Advanced Options** to set password and split volumes sizes. **Encrypt the archive** and **Split to volumes** are only applicable for some formats.
+> ![notes](icon/notes.svg)Notas: Active las **Opciones avanzadas** para establecer la contraseña y los tamaños de los volúmenes divididos. Las opciones **Cifrar el archivo** y **Dividir en volúmenes** sólo son aplicables para algunos formatos.
 
-### Delete File/Folder
+### Borrar Archivo/Carpeta
 
-Right-click file/folder to select **Delete**.
-  - You can find the deleted files in Trash. Right-click files in Trash, you can choose **Restore** or **Delete**. 
-  - The shortcut of the deleted files will become invalid.
+Haga clic derecho del ratón en el archivo/carpeta para seleccionar **Borrar**.
+  - Puede encontrar los archivos borrados en la Papelera. Haga clic derecho en los archivos de la papelera y elija **Restaurar** o **Borrar**. 
+  - El acceso directo de los archivos borrados quedará inoperativo.
 
-> ![attention](icon/attention.svg)Attention: File/folder in external device will be permanently deleted and can not be restored when you select **Delete**.
+> ![attention](icon/attention.svg)Atención: El archivo/carpeta en el dispositivo externo se borrará permanentemente y no podrá recuperarse cuando seleccione **Borrar**.
 
-### Undo Operation
-In file manager,  use **Ctrl + Z** to undo the previous steps, including:
-- Delete the newly created file/folder.
-- Resume the renamed file/folder to the previous name.
-- Restore the deleted file/folder from trash.
-- Restore the moved (via dragging or cutting) file/folder to the previous location.
-- Delete the copied and pasted file/folder.
+### Deshacer operación
+En el gestor de archivos, utilice **Ctrl + Z** para deshacer los pasos anteriores, incluyendo:
 
-> ![attention](icon/attention.svg)Attention: If the above operations are continuous, you can undo all of them; if there is file overwriting or permanently file deleting, then you can only return to that step.
+- Eliminar el archivo/carpeta recién creado.
+- Restaurar el archivo/carpeta renombrado con el nombre anterior.
+- Restaurar el archivo/carpeta eliminado de la papelera.
+- Restaurar el archivo/carpeta movido (arrastrando o cortando) a la ubicación anterior.
+- Eliminar el archivo/carpeta copiado y pegado.
+
+> ![attention](icon/attention.svg)Atención: Si las operaciones anteriores son continuas, puede deshacerlas todas; si hay sobrescritura de archivos o borrado permanente de archivos, sólo puede volver a ese paso.
 
 
 
-### File/Folder Properties
+### Propiedades de Archivo/Carpeta
 
-In Properties of files, you can view the basic info, open with list, and permissions. In properties of folders, you can see basic info, sharing info, and permissions.
+En las propiedades de los archivos, puede ver la información básica, la lista de "abrir con" y los permisos. En las propiedades de las carpetas, puede ver la información básica, la información para compartir y los permisos.
 
-1. On File Manager interface, right-click a file. 
-2. Select **Properties**.
+1. En la interfaz del Gestor de Archivos, haga clic derecho en un archivo. 
+2. Seleccione **Propiedades**.
 
 ![0|info](jpg/info.png)
 
 
-> ![notes](icon/notes.svg)Notes: If you check the properties of multiple files at a time, the total size and quantities will be displayed. If you check the properties of a shortcut, the source file location will be displayed in addition. You can use shortcuts **Ctrl + I** to view the properties as well.
+> ![notes](icon/notes.svg)Nota: Si comprueba las propiedades de varios archivos a la vez, se mostrará el tamaño total y las cantidades. Si comprueba las propiedades de un acceso directo, se mostrará además la ubicación del archivo de origen. También puede utilizar los atajos **Ctrl + I** para ver las propiedades.
 
 
 
-## Common Operations
+## Operaciones comunes
 
-File Manager is featured with many useful functions, which are all designed to ease the commonly used operations.
+El Gestor de archivos cuenta con muchas funciones útiles, todas ellas diseñadas para facilitar las operaciones más habituales.
 
-### Switch Address Bar
+### Cambiar barra de dirección
 
-There are three sections in address bar, namely back/forward buttons, breadcrumb bar, and directory/search bar. By default, breadcrumb bar is displayed in the address bar. 
+Hay tres secciones en la barra de direcciones, a saber, los botones de atrás/adelante, la barra de migas de pan y la barra de directorio/búsqueda. Por defecto, la barra de migas de pan se muestra en la barra de direcciones. 
 
 
 
 ![0|addressbar](jpg/addressbar1.png)
 
-- Clicking back/forward buttons to quickly view the previous address or the next address. 
-- Each level of the location of a file will form a breadcrumb. You can switch quickly among levels by clicking all breadcrumbs.
+- Pulsando los botones de atrás/adelante verá rápidamente la dirección anterior o la siguiente. 
+- Cada nivel de la ubicación de un archivo formará una miga de pan. Puede cambiar rápidamente entre los niveles haciendo clic en todas las migas de pan.
 
-By clicking the search icon, or right-click the file path and select **Edit address**, the address bar will be switched into inputting box. By clicking out of the inputting box, the address bar will restore to breadcrumbs automatically. 
+Al hacer clic en el icono de búsqueda, o clic derecho del ratón en la ruta del archivo y seleccionar **Editar dirección**, la barra de direcciones se convertirá en un cuadro de entrada. Al hacer clic fuera del cuadro de entrada, la barra de direcciones volverá a las migas de pan automáticamente. 
 
 
 
 ![0|addressbar](jpg/addressbar2.png)
 
-- The inputting box can identify smartly. You can input keywords or an address and press **Enter**, the system will identify automatically and search or visit.
+- El cuadro de entrada puede identificar inteligentemente. Puede introducir palabras clave o una dirección y pulsar **Intro**, el sistema identificará automáticamente y buscará o accederá.
 
-### Search files
+### Buscar archivos
 
-Click the search button or press **Ctrl + F**  to switch to the search bar. Or, input the keywords and press **Enter**, the search results will be shown in the window.
+Haga clic en el botón de búsqueda o pulse **Ctrl + F** para cambiar a la barra de búsqueda. O bien, introduzca las palabras clave y pulse **Intro**, los resultados de la búsqueda se mostrarán en la ventana.
 
-- If you need to search in a specified directory, please enter it before search.
+- Si necesita buscar en un directorio específico, introdúzcalo antes de la búsqueda.
 
-> ![notes](icon/notes.svg)Notes: 
-   - In **Settings**, check "Auto index internal disk" and "Index external storage device after connected to computer" to quicken the searching speed.
-   - In case you want to search files by keywords in the content, you can check **Full-Text search** in **Settings** > **Advanced** > **Index**.
+> ![notes](icon/notes.svg)Notas: 
+   - En **Ajustes**, marque la opción "Autoindexar disco interno" e "Indexar unidades externas después de conectar al equipo" para acelerar la velocidad de búsqueda.
+   - En caso de que desee buscar archivos por palabras clave en el contenido, puede marcar **Buscar texto completo** en **Configuración** > **Avanzado** > **Indexación**.
 
-#### Advanced Search
-1. In search bar, input the keywords and press **Enter**. When the results appear, you will see ![filter](icon/filter.svg) icon, you can click it to do advanced search.
-2. Select the searching range, file type and size, and modified time, accessed time and created time to narrow the search results.
+#### Búsqueda avanzada
+1. En la barra de búsqueda, introduzca las palabras clave y pulse **Intro**. Cuando aparezcan los resultados, verá el icono ![filtro](icon/filter.svg), puede hacer clic en él para realizar una búsqueda avanzada.
+2. Seleccione el rango de búsqueda, el tipo y el tamaño del archivo, y cronológicamente la fecha de modificación, la de acceso y la de creación para limitar los resultados de la búsqueda.
 
 ![0|filter](jpg/filter.png)
 
-### Recent Files
-By default, there is a **Recent** entry on left panel. Click it to view the recently used files. Files are sorted by default in reverse order of access time.
+### Archivos recientes
+Por defecto, hay una entrada **Recente** en el panel izquierdo. Haga clic en ella para ver los archivos utilizados recientemente. Los archivos se ordenan por defecto en orden inverso al tiempo de acceso.
 
-> ![notes](icon/notes.svg)Notes: If you want to hide "Recent", you can uncheck "Display recent file entry in left panel" in Settings > Basic > Hidden files. To hide the access record of a specific file, right-click the file and select **Remove** which will not delete the file.
+> ![notes](icon/notes.svg)Nota: Si desea ocultar "Recientes", puede desmarcar la opción "Mostrar la entrada de archivos recientes en el panel izquierdo" en Ajustes > Básico > Archivos ocultos. Para desenlazar un archivo específico del registro de acceso, haga clic derecho en el archivo y seleccione **Quitar**, mas no lo borrará.
 
-### Manage Tabs
+### Gestionar pestañas
 
-File Manager supports multi-tab view.
+El gestor de archivos admite el uso de varias pestañas.
 
-1. On File Manager, right-click the folder.
-2. In the pop-up context menu, select **Open in new tab**.
-3. When the window has multi-tabs, you can:
- - Click + in tab bar to add a new tab.
- - Click × on the tab to close it. 
- - Place the cursor on the tab, middle-click to close it.
+1. En el Gestor de archivos, haga clic con el botón derecho en la carpeta.
+2. En el menú contextual emergente, seleccione **Abrir en nueva pestaña**.
+3. Cuando la ventana tiene varias pestañas, puede que:
+
+ - Haga clic en + en la barra de pestañas para añadir una nueva pestaña.
+ - Haga clic en × en la pestaña para cerrarla. 
+ - Coloque el cursor en la pestaña y hacer clic en el centro para cerrarla.
 
 ![1|tab](jpg/tab.png)
 
-> ![tips](icon/tips.svg)Tips: When the File Manager has only one tab, the tab bar is hidden, you can press **Ctrl + T** to add a new tab.
+> ![tips](icon/tips.svg)Consejo: Cuando el Gestor de archivos sólo tiene una pestaña, la barra de pestañas está oculta, pulse **Ctrl + T** para añadir una nueva pestaña.
 
-### Manage Bookmarks
+### Gestionar marcadores
 
-To quickly visit a folder from the left panel, you can add bookmarks for frequently used folders.
+Para visitar rápidamente una carpeta desde el panel izquierdo, puede añadir marcadores para las carpetas más utilizadas.
 
-- Add Bookmarks: On File Manager, right-click the folder, in the pop-up context menu, select **Add to bookmark**.
+- Añada marcadores: En el Gestor de archivos, haga clic con el botón derecho en la carpeta, en el menú contextual emergente, seleccione **Añadir a marcadores**.
 
-- Move Bookmarks: you can move bookmarks within the bookmark area. Drag and drop the bookmark to the designated location.
+- Mover marcadores: puede mover los marcadores dentro del área de marcadores. Arrastre y suelte el marcador a la ubicación designada.
 
-- Delete Bookmarks: you can delete bookmarks by right-clicking the bookmark and select **Remove**, or right-clicking the bookmarked folder and select **Remove bookmark**, or dragging and dropping the bookmark out of the left panel to delete it.
+- Quitar marcadores: elimine los marcadores al hacer clic con el botón derecho en el marcador y seleccionar **Quitar**, o al hacer clic con el botón derecho en la carpeta marcada y seleccionar **Quitar de marcadores**, o arrastrando y soltando el marcador fuera del panel izquierdo para eliminarlo.
 
-### Manage Tags
+### Gestionar etiquetas
 
-By adding tags on file/folder, you can classify and manage your files better.
+Añada etiquetas en archivo/carpeta para clasificar y gestionar mejor sus archivos.
 
-> ![notes](icon/notes.svg)Notes: currently only x86 platform supports **Tag information**. All contents related to "Tag information" in this manual are only applicable for x86 platform.
+> ![notes](icon/notes.svg) Nota: actualmente sólo la plataforma x86 soporta **Información de etiquetas**. Todo el contenido relacionado con la "Información de etiquetas" en este manual sólo es aplicable a la plataforma x86.
 
-#### Add Tags
+#### Añadir etiquetas
 
-##### By Tag information
+##### Por Etiqueta informativa
 
-1. Right-click a file/folder, select **Tag information**.
-2. Input tag info. Use comma to separate tags in case of multiple tags.
-3. Click any blank area to finish adding tag.
+1. Haga clic derecho en un archivo/carpeta, seleccione **Etiqueta informativa**.
+2. Introduzca la información de la etiqueta. Utilice una coma para separar las etiquetas si hubiera varias.
+2. Clic en cualquier área en blanco para terminar de añadir la etiqueta.
 
-> ![notes](icon/notes.svg)Notes: The tag color is randomly assigned from eight default colors.
+> ![notes](icon/notes.svg) Nota: El color de la etiqueta se asigna aleatoriamente entre ocho colores por defecto.
 
 
 ![1|taginfo](jpg/taginfo.png)
 
 
-##### By Color Tag
+##### Por color de etiqueta
 
-Right-click a file/folder, select a "color button" to create a color tag directly.
+Haga clic derecho en un archivo/carpeta, seleccione un "color" para crear una etiqueta de color al instante.![1|colortag](jpg/colortag.png)
 
-![1|colortag](jpg/colortag.png)
+##### Por la columna informativa lateral
 
-##### By information column on the right side
-
-Select a file/folder, click ![fileinfo](icon/fileinfo.svg), and add tags in the information column on the right side.
+Seleccione un archivo/carpeta, clic en ![fileinfo](icon/fileinfo.svg), y añada las etiquetas en la columna de información de la derecha.
 
 ![1|infotag](jpg/infotag.png)
 
-> ![notes](icon/notes.svg)Notes: You can add tag to multiple files/folders at a time, or add multiple tags to a single file/folder; you can also add tags in Properties of the file/folder. The tag appears in the left panel.
+> ![notes](icon/notes.svg)Nota: Puede añadir etiquetas a varios archivos/carpetas a la vez, o añadir varias etiquetas a un solo archivo/carpeta; también puede añadir etiquetas en Propiedades del Archivo/Carpeta. La etiqueta aparece en el panel izquierdo.
 
-> ![attention](icon/attention.svg)Attention: If a file has a tag, copy or cut and then paste it, the new file still has the same tag.
+> ![attention](icon/attention.svg)Atención: Si un archivo tiene una etiqueta, al copiarlo o cortarlo y luego pegarlo, el nuevo archivo sigue teniendo la misma etiqueta.
 
-#### Rename Tag
+#### Renombrar etiqueta
 
-Right-click a tag in  the left panel,  select **Rename** to modify the current tag.
+Haga clic derecho en una etiqueta del panel izquierdo y seleccione **Renombrar** para modificar la etiqueta actual.
 
 ![1|renametag](jpg/renametag.png)
 
-#### Change Tag Color
+#### Cambiar el color de la etiqueta
 
-Right-click a tag in  the left panel,  select a "Color button" to change the current tag color.
+Haga clic derecho en una etiqueta del panel izquierdo y seleccione un "color" para reemplazarla a la etiqueta actual.
 
-#### Change Tag Order
+#### Cambiar el orden de las etiquetas
 
-Drag and drop the tag upwards or downwards to change its order.
+Arrastre y suelte la etiqueta hacia arriba o hacia abajo para cambiar su orden.
 
-#### Delete Tag
-Right-click a tag in left panel,  select **Remove** to delete the tag.
+#### Borrar etiqueta
+Haga clic derecho en una etiqueta del panel izquierdo y seleccione **Quitar** para eliminar la etiqueta.
 
 
 
-### Preview Files
+### Previsualizar archivos
 
-File Manager supports file preview by pressing space bar. Select a file and press the space bar on the keyboard to quickly preview it. In the preview window, you can view the file info, including image resolution, document size, text content. It also supports gif format, audio and video playback.
+El Gestor de archivos admite la vista previa de los archivos al presionar la barra espaciadora. Seleccione un archivo y pulse la barra espaciadora del teclado para obtener una vista previa rápida. En la ventana de vista previa, puede ver la información del archivo, incluyendo la resolución de la imagen, el tamaño del documento y el contenido del texto. También admite el formato gif y la reproducción de audio y vídeo.
 
-#### Preview Video
+#### Previsualizar vídeo
 
-1. Select a video and press  the space bar to start video preview.
-2. Click in the preview window to pause video playing.
-3. Drag the progress bar to play forward or backward.
-4. Click **Open** at the bottom to open the video by default program.
+1. Seleccione un vídeo y pulse la barra espaciadora para iniciar la vista previa del vídeo.
+2. Pulse en la ventana de vista previa para pausar la reproducción del vídeo.
+3. Arrastre la barra de progreso para reproducir hacia adelante o hacia atrás.
+4. Haga clic en **Abrir** en la parte inferior para abrir el vídeo con el programa predeterminado.
 
 ![1|videopreview](jpg/videopreview.png)
 
-![notes](icon/notes.svg)Notes: You can select multiple files and press space bar to preview them at a time.
+![notes](icon/notes.svg)Nota: Puede seleccionar varios archivos y pulsar la barra espaciadora para previsualizarlos a la vez.
 
-### Permission Management
-In file/folder properties, click **Permissions** to set **Owner**, **Group** and **Others**. 
+### Gestión de permisos
+En las propiedades del archivo/carpeta, haga clic en **Permisos** para establecer el **Propietario**, **Grupo** y **Otros**. 
 
 ![0|permission](jpg/permission.png)
 
-### My Shares
+### Uso compartido
 
-You can share folders in File Manager, if there are some folders shared, the share icon will show on the left panel, if not, the share icon will be removed.
+Puede compartir carpetas en el Gestor de Archivos, si hay alguna carpeta compartida, el icono de compartir se mostrará en el panel izquierdo, si no, el icono de compartir se ocultará.
 
-#### Share Local Files
+#### Compartir archivos locales
 
-1. On File Manager interface, right-click a folder, select **Share folder**.
-2. In the pop-up window, check **Share this folder** under **Sharing**.
-3. Input **Share name**, and choose **Permission** and **Anonymous ** according to actual needs before closing the window.
-5. To set share password, click ![menu](icon/icon_menu.svg) and select **Set share password**.
-5. Input password and click **Confirm**.
+1. En la interfaz del Gestor de archivos, haga clic con el botón derecho en una carpeta y seleccione **Compartir carpeta**.
+2. En la ventana emergente, marque **Compartir [esta carpeta]** en **Compartir**.
+3. Introduzca el **Nombre compartido**, y elija **Permiso** y **Anónimo** según las necesidades reales antes de cerrar la ventana.
+4. Para establecer la contraseña de uso compartido, haga clic en ![menú](icon/icon_menu.svg) y seleccione **Establecer contraseña para compartir**.
+5. Introduzca la contraseña y haga clic en **Confirmar**.
 
 ![0|share](jpg/share.png)
 
-> ![tips](icon/tips.svg)Tips: You can cancel sharing by unchecking **Share this folder**, or right-click the folder and select **Cancel sharing**. 
+> ![tips](icon/tips.svg)Consejo: Puede anular el uso compartido desmarcando la opción **Compartir**, o haciendo clic con el botón derecho en la carpeta y seleccionando **Dejar de compartir**. 
 
-#### Visit Sharing Folders 
+#### Visitar carpetas compartidas 
 
-You can find sharing folders of other users in the same LAN in **Computers in LAN**. You can also visit sharing folders via smb.
+Puede encontrar las carpetas compartidas de otros usuarios en la misma red local en **Equipos en LAN**. También puede visitar las carpetas compartidas a través de smb.
 
 
 
-1. On File Manager interface, click ![icon_menu](icon/icon_menu.svg) > **Connect to Server**, input the sharing address of the LAN user, e.g. smb://xx.x.xx.xxx (usually it should be an IP address), click **Connect**.  Or, input the server's address in the address bar directly and press **Enter**.
-2. Double-click the shared document you need to visit, input the username and password or visit by anonymous access in the pop-up dialogue box.
-   - Unencrypted folders can be visited by anonymous access without inputting username and password.
-   - When you visit encrypted folders, a window pops up and you will have to input user name and password before visiting. If you check **Remember password**, you don't have to input password when you visit the folder next time.
-      - Username: i.e. the name created when the user installed the system, which means the one used to log in the system.
-      - Password: i.e. the sharing password set when LAN user shares the folder.  
-3. Click **Connect**. 
+1. En la interfaz del Gestor de archivos, haga clic en ![icon_menu](icon/icon_menu.svg) > **Conectarse  al servidor**, introduzca la dirección compartida del usuario de la LAN, por ejemplo, smb://xx.x.xx.xxx (normalmente debería ser una dirección IP), y haga clic en **Conectar**.  O bien, introduzca la dirección del servidor en la barra de direcciones directamente y pulse **Intro**.
+2. Haga doble clic en el documento compartido que desea visitar, introduzca el nombre de usuario y la contraseña o visite mediante acceso anónimo en el cuadro de diálogo emergente.
+
+   - Las carpetas no cifradas se visitan mediante acceso anónimo sin necesidad de introducir el nombre de usuario y la contraseña.
+   - Cuando se visitan carpetas cifradas, aparece una ventana en la que hay que introducir el nombre de usuario y la contraseña antes de visitarlas. Si marca **Recordar contraseña**, no tendrá que introducir la contraseña cuando visite la carpeta la próxima vez.
+     - Nombre de usuario: es decir, el nombre creado cuando el usuario instaló el sistema o, en otras palabras, el que se utiliza para iniciar la sesión en el sistema.
+     - Contraseña: es decir, la contraseña de uso compartido establecida cuando el usuario de la LAN comparte la carpeta.  
+3. Clic en **Conectar**. 
 
 ![1|viewshare](jpg/visitshare.png)
 
-### Computers in LAN
+### Equipos en LAN
 
-1. On File Manager interface, click ![network](icon/network.svg).
-2. Double-click the folder you want to visit.
-3. Input the username and password or visit by anonymous access.
-   - Unencrypted folders can be visited by anonymous access without inputting username and password.
-   - When you visit encrypted folders, a window pops up and you will have to input user name and password before visiting. If you check **Remember password**, you don't have to input password when you visit the folder next time.
-4. Click **Connect** to establish connection.
+1. En la interfaz del Gestor de archivos, clic en ![network](icon/network.svg).
+2. Doble clic en la carpeta que desea visitar.
+3. Introduzca el nombre de usuario y la contraseña o visite mediante acceso anónimo.
+   - Las carpetas no cifradas se visitan mediante acceso anónimo sin necesidad de introducir el nombre de usuario y la contraseña.
+   - Cuando se visitan carpetas cifradas, aparece una ventana en la que hay que introducir el nombre de usuario y la contraseña antes de visitarlas. Si marca **Recordar contraseña**, no tendrá que introducir la contraseña cuando visite la carpeta la próxima vez.
+2. Haga clic en **Conectar** para establecer la conexión.
 
-### Open in new window as admin
+### Abrir como administrador en una nueva ventana
 
-1. Right-click in the blank area on File Manager. 
-2. Select **Open in new window as admin**, input your login password in the pop-up window and click **Confirm**.
-3. The file will be opened in a new window, in which you can operate with admin permissions. And you will exit admin permissions when you close this window.
+1. Haga clic con el botón derecho del ratón en el área vacía del Gestor de archivos. 
+2. Seleccione **Abrir en nueva ventana como administrador**, introduzca su contraseña de acceso en la ventana emergente y haga clic en **Confirmar**.
+3. El archivo se abrirá en una nueva ventana, en la que podrá operar con permisos de administrador. Y abandonará dichos permisos cuando cierre esta ventana.
 
-### Open in terminal
+### Abrir en terminal
 
-1. Right-click in the blank area on File Manager. 
-2. Select **Open in terminal**, Terminal will be opened, and its directory will be the current one.
+1. Haga clic con el botón derecho en el área vacía del Gestor de archivos. 
+2. Seleccione **Abrir en terminal**, se abrirá el terminal y su directorio será el actual.
 
 ![0|openinterminal](jpg/openinterminal.png)
 
-### Create Link
+### Crear enlace
 
-1. On File Manager interface, right-click the item to create a link for.
-2.  Select **Create link**.
-3. In the pop-up window, select a location and input the name of the link.
-4. Click **Save** to finish creating the link.
+1. En la interfaz del Gestor de archivos, haga clic derecho en el elemento que desea crear un acceso.
 
-> ![tips](icon/tips.svg)Tips: By selecting **Send to desktop** for an item, you can create a link on desktop with one click.
+2. Seleccione **Crear enlace**.
+3. En la ventana emergente, seleccione una ubicación e introduzca el nombre del enlace.
+4. Haga clic en **Guardar** para terminar de crear el enlace.
 
-### Send To Other Device
+> ![tips](icon/tips.svg)Consejo: Al seleccionar **Enviar al escritorio** para un elemento, podrá crear un acceso directo en el escritorio con un solo clic.
 
-When there is an external device inserted, you can directly send file/folder to it.
+### Enviar a otro dispositivo
 
-1. On File Manager interface, select a file/folder.
-2. Right-click and select **Send to**.
-3. Select the device you want to send to.
-4. File/folder will be copied to the device.
+Cuando hay un dispositivo externo insertado, puede enviar directamente archivo/carpeta a él.
 
-### Send to bluetooth
-If your computer is equipped with Bluetooth module, you can transfer files in short distance through Bluetooth.
+1. En la interfaz del Gestor de archivos, seleccione un archivo/carpeta.
+2. Haga clic con el botón derecho y seleccione **Enviar a**.
+2. Seleccione el dispositivo al que desea enviar.
+3. El archivo/carpeta se copiará en el dispositivo.
 
-Prerequisite: The Bluetooth devices of sender and receiver have been paired and connected successfully. Refer to [Connect to a Bluetooth Device](dman:///dde#Connect to a Bluetooth Device) for details.
+### Enviar por Bluetooth
+Si su equipo está provisto con un módulo Bluetooth, puedes transferir archivos a corta distancia a través de Bluetooth. El prerequisito es: Los dispositivos Bluetooth del emisor y del receptor deben emparejarse y conectarse con éxito. Consulte [Conectar a otro dispositivo Bluetooth](dman:///dde#Conectar a otro dispositivo Bluetooth) para más detalles.
 
-1. On File Manager interface, right-click the file to be sent.
-2. Select **Send to** > **Send to Bluetooth**.
-3. Select the receiver in the pop-up dialog box, and click **Next**.  
-4. A file receiving request will pop up on the receiving device. After the receiver agrees the request, the sender starts to transfer the file.
->![tips](icon/tips.svg)Tips: If you need to transfer a folder, you can compress it in advance and send it through Bluetooth.
+1. En la interfaz del Gestor de archivos, haga clic derecho del ratón sobre el archivo a enviar.
+2. Seleccione **Enviar a** > **Enviar por Bluetooth**.
+3. Seleccione el dispositivo receptor desde el cuadro emergente y haga clic en **Siguiente**.
+4. Aparecerá una solicitud de recepción de archivos en el dispositivo receptor. Después de que el receptor acepte la solicitud, el emisor comenzará a transferir el archivo.
+>![tips](icon/tips.svg)Consejo: Si necesita transferir una carpeta, puede comprimirla previamente y enviarla por Bluetooth.
 
-## Add Corner Marker to Files/Folders
+## Añadir seña esquinera a archivos/carpetas
 
-You can assign an icon file to a file or folder icon through the command line and display it as a corner marker.
->![notes](icon/notes.svg)Notes: 
->   - The corner marker files support formats such as svg, jpg, png, bmp, and gif, but not bigger than 100kb.
->   - The corner marker could not be added to files in USB disks and CD-ROM disks.
+Puede asignar un icono de archivo o carpeta a través de la línea de comandos y mostrarlo como un marcador de esquina.
+>![notes](icon/notes.svg)Notas: 
+>   - Los archivos del marcador de esquina admiten formatos como svg, jpg, png, bmp y gif, pero no serán mayores que 100kb.
+>   - La seña esquinera no puede añadirse a los archivos de los discos USB y los discos CD-ROM.
 
-### Add single corner marker
+### Añadir seña esquinera simple
 
-1. Open Terminal, input **gio set xxx(file path)  -t stringv metadata::emblems "xxx(icon path)"**, which means to add a corner marker in the lower right corner of the file/folder icon by default.
->![attention](icon/attention.svg)Attention: the special corner markers defined by the system could not be replaced.
-2. You can add position codes into the above command to add a corner marker to the upper left corner(lu), lower left corner(ld), upper right corner(ru) or lower right corner(rd).
-For example, to add a corner marker to the upper left corner, you have to input:
+1. Abra el Terminal, introduzca **gio set xxx(file path)  -t stringv metadata::emblems "xxx(icon path)"**, lo que significa añadir una seña esquinera ubicada en la esquina inferior derecha del archivo/carpeta por defecto.
+>![attention](icon/attention.svg)Atención: las señas esquineras especiales definidas por el sistema no pueden ser sustituidas.
+2. Puede añadir códigos de posición en el comando anterior para añadir una seña esquinera en la esquina superior izquierda (lu), a la inferior izquierda (ld), a la superior derecha (ru) o a la inferior derecha (rd).
+Por ejemplo, para añadir una seña esquinera a la esquina superior izquierda, tiene que introducir:
 **gio set xxx(file path)  -t stringv metadata::emblems "xxx(icon path);lu"**
 ![mark](jpg/single.png)
 
-### Add multiple corner markers
-To add 2~4 corner markers to a file/folder, you can input "|" in the command to separate multiple paths of the corner marker files. Only one corner marker can be added to the same corner, but you can replace it.
+### Añadir seña esquinera múltiple
 
-For example, to add 4 corner markers to a file/folder icon, you can input:
+Para añadir 2~4 señas esquineras un archivo/carpeta, puede introducir "|" dentro del comando para separar varias rutas de los archivos de marcadores de esquina. Sólo se puede añadir un marcador de esquina a la misma esquina, pero se puede reemplazar.
+
+Por ejemplo, para añadir las cuatro señas al archivo/carpeta, puede introducir:
 **gio set xxx(file path)  -t stringv metadata::emblems "xxx(icon path);lu|xxx(icon path);ld|xxx(icon path);ru|xxx(icon path);rd"**
 
 ![mark](jpg/multi.png)
 
-### Cancel corner markers
-Open Terminal, input **gio set xxx(file path) -t stringv metadata::emblems ""** to cancel all corner markers on the file/folder icon. 
+### Anular señas esquineras
+Abra la terminal e introduzca **gio set xxx(file path) -t stringv metadata::emblems ""** para anular señas esquineras en el archivo/carpeta.
 
 
 
-## Disk Management
+## Gestión de discos
 
-On File Manager interface, you can manage local and external disks. 
+En la interfaz del Gestor de archivos, puede gestionar los discos internos y externos. 
 
-### View Disks
+### Ver discos
 
-Local disks are displayed in the left panel of File Manager. When you mount any external disks or insert other mobile storage devices, the corresponding icons will be displayed in the left panel.
+Los discos locales se muestran en el panel izquierdo del Gestor de archivos. Cuando monte algún disco externo o inserte otros dispositivos de almacenamiento móvil, se mostrarán los iconos correspondientes en el panel izquierdo.
 
 <table class="block1">
     <caption></caption>
     <tbody>
         <tr>
-            <td>Local disks</td>
-            <td>All disks of local harddisk divisions</td>
+            <td>Discos locales</td>
+            <td>Todos las particiones del disco duro local.</td>
         </tr>
         <tr>
-            <td>External disks</td>
-            <td>Including mobile hard disks, CDs/DVDs and USB flash disks.</td>
+            <td>Discos externos</td>
+            <td>Incluidos los discos duros móviles, los CD/DVD y las memorias USB.</td>
         </tr>
     	<tr>
-            <td>Mobile devices</td>
-            <td>Including mobile phone storage, storage cards, SD cards and so on.</td>
+            <td>Dispositivos móviles</td>
+            <td>Incluyendo el almacenamiento de teléfonos móviles, tarjetas de almacenamiento, tarjetas SD, etc.</td>
         </tr>
     </tbody>
 </table>
 
-> ![notes](icon/notes.svg)Notes: If disks or folders in the disk are encrypted, you will have to input password before visiting them. 
 
-### Unmount/Eject/Safely Remove Disks
+> ![notes](icon/notes.svg)Nota: Si los discos o carpetas del disco están encriptados, tendrás que introducir la contraseña antes de visitarlos. 
 
-1. In the left panel of File Manager, right-click the disk you want to remove.
+### Desmontar/Expulsar/Extraer discos de forma segura
 
-2. Select **Unmount**.
+1. En el panel izquierdo del Gestor de archivos, haga clic con el botón derecho del ratón en el disco que desea remover.
+2. Seleccione **Desmontar**.
 
-3. The disk will be removed from the disk list, and so will all partition of it .
+3. El disco será eliminado de la lista de discos, así como todas las particiones del mismo.
 
 
 ![0|disk](jpg/disk1.png)
 
-> ![tips](icon/tips.svg)Tips: you can also select **Eject** or click ![unmount](icon/unmount_normal.svg) in the left panel to unmount the disk.
+> ![tips](icon/tips.svg)Consejo: también puede seleccionar **Eject** o Clic en ![unmount](icon/unmount_normal.svg) en el panel izquierdo para desmontar el disco.
 
-### Rename Disks
-1. In the left panel or on computer interface, right-click the disk you want to rename.
-2. Select **Unmount** and then select **Rename**.
-3. Input the new name.
+### Renombrar discos
+1. En el panel izquierdo o en la interfaz del ordenador, haga clic con el botón derecho del ratón en el disco que desea renombrar.
+2. Seleccione **Desmontar** y luego seleccione **Renombrar**.
+3. Introduzca el nuevo nombre.
 
-### Format Disks
+### Formatear discos
 
-1. In the left panel of File Manager, right-click the disk to format.
+1. En el panel izquierdo del Gestor de archivos, haga clic con el botón derecho del ratón en el disco que desea formatear.
 
-2. Select **Unmount** and then select **Format**.
+2. Seleccione **Desmontar** y luego seleccione **Formatear**.
 
-3. In the pop-up window, choose the type and volume label for the disk.
+3. En la ventana emergente, elija el tipo y la etiqueta de volumen para el disco.
 
-4. Click **Format**.
+4. Haga clic en **Formato**.
 
    ![0|disk](jpg/disk2.png)
 
-> ![notes](icon/notes.svg)Notes: If you check **Quick Format**, the disk can be formated quickly in a few seconds, but the data could be restored by file recovery tools. If you don't want these data to be restored, you can uncheck this option box and format the disk.
+> ![notes](icon/notes.svg)Notas: Si marca **Formato rápido**, el disco se formatereá rápidamente en unos segundos, pero los datos podrían ser restaurados por herramientas de recuperación de archivos. Si no quiere que estos datos se restauren, puede desmarcar esta casilla de opción y formatear el disco.
 
 
-## Main Menu
+## Menú principal
 
-You can create new window, switch themes, connect to server, [set share password](#Share Local Files),make settings, view manual and version information in Main Menu.
+Puede abrir una nueva ventana, cambiar temas, conectarse al servidor, [establecer contraseña para uso compartido](#Compartir archivos locales), realizar ajustes, ver el manual y la información de versión en el Menú principal.
 
 
-### New Window
+### Nueva ventana
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
+1. Clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
 2. Select **New window** to open a new window.
 
-### Connect to Server
+### Conectar al servidor
 
-You can [visit sharing folders](#Visit Sharing Folders) by connecting to server.
+Puede [visitar las carpetas compartidas](#Visitar carpetas compartidas) tras conectarse al servidor.
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Select **Connect to Server**, input server's IP address in the editing box.
-   - Click ![+](icon/+.svg) to add the address into **My Favorites**.
-   - Select an address from **My Favorites** and click ![-](icon/-.svg) to delete in from **My Favorites**.
-3. Click **Connect**.
+1. Clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Seleccione **Conectar al servidor**, introduzca la dirección IP del servidor en el cuadro de edición.
+   - Clic en ![+](icon/+.svg) para añadir la dirección a **Marcadores**.
+   - Seleccione una dirección de **Marcadores** y haga clic en ![-](icon/-.svg) para borrarla de **Marcadores**.
+3. Clic en **Conectar**.
 
 ![connect](jpg/connecttoserver.png)
 
 
 
-### Settings
+### Ajustes
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Select **Settings**.
-3. Modify the settings according to your needs:
-   - Basic:
-      + In **Open behavior**, you can set whether to open folder in current window or new window, by one click or double click.
-      + In **New window and tab**, you can set the default path to open in a new window/tab.
-      + In **View**, you can set file icon size and default view.
-      + In **Hidden files**, you can set whether to show the hidden file, and hide file extension when rename.
-   - Advanced: 
-      + In **Index**, you can set whether to auto index internal disk and externally connected storage devices, and whether to search by file content.
-      + In **Preview**, you can set which types of files can be previewed.
-      + In **Mount**, you can set to auto mount.
-      + In **Dialog**, you can set whether to use the file chooser dialog of the File Manager.
-      + In **Other**, you can set whether to hide system disk or not.
+1. Clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Seleccione **Ajustes**.
+3. Modifique los ajustes según sus necesidades:
 
-
-
-### Theme
-
-The window theme includes Light Theme, Dark Theme and System Theme.
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Theme** to select one.
+   - Básico:
+     + En **Orden de apertura**, puede establecer si se abre la carpeta en la ventana actual o en una nueva ventana, con un solo clic o con doble clic.
+     + En **Nueva ventana y pestaña**, puede establecer la ruta por defecto para abrir en una nueva ventana/pestaña.
+     + En **Vista**, puede establecer el tamaño del icono del archivo y la vista por defecto.
+     + En **Archivos ocultos**, puede establecer si visualizar el archivo oculto, y esconder la extensión del archivo al renombrarlo.
+   - Avanzado: 
+     + En **Indexación**, se puede establecer si el disco interno y los dispositivos de almacenamiento conectados externamente se indizan automáticamente, y si se busca por contenido de archivo.
+     + En **Previsualización**, puede establecer qué tipos de archivos aplican la vista previa.
+     + En **Montado**, se puede establecer el montaje automático.
+     + En **Diálogo**, se puede establecer si se utiliza el diálogo de selección de archivos del Administrador de Archivos.
+     + En **Otro**, se puede establecer si se oculta el disco del sistema o no.
 
 
 
-### Help
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Help** to view the manual.
+### Tema
 
+El tema de la ventana incluye el tema claro, el tema oscuro y el del sistema.
 
-
-### About
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **About** to view version information and introduction about File Manager.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Clic en **Theme** para seleccionar uno.
 
 
 
-### Exit
+### Ayuda
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Exit**.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Clic en **Ayuda** para ver el manual.
+
+
+
+### Acerca de
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Clic en **Acerca de** para ver la información de la versión y la introducción sobre el Gestor de archivos.
+
+
+
+### Salir
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Clic en **Salir**.
