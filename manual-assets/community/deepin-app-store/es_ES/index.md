@@ -1,96 +1,96 @@
 # App Store|../common/deepin-appstore.svg|
 
-## Overview
-App Store is a piece of application that integrates functions such as application display, downloading, installation, uninstallation, commenting, rating, and recommendation. App Store collects different types of applications for you, each one has been installed and verified manually. You can search the popular applications with one-click download and automatic installation.           
+## Vistazo
+App Store es una aplicación que integra funciones como la visualización de aplicaciones, la descarga, la instalación, la desinstalación, los comentarios, la valoración y la recomendación. La tienda recopila diferentes tipos de aplicaciones para sus necesidades, cada una de las cuales ha sido instalada y verificada manualmente. Puede buscar las aplicaciones más populares con un solo clic de descarga e instalación automática.           
 
 ![1|maininterface](jpg/maininterface.png)
 
-## Guide
+## Guía
 
-You can run, close or create a shortcut of App Store as follows.
+Puede ejecutar, cerrar o crear un acceso directo de App Store de la siguiente manera.
 
-### Run App Store
+### Ejecutar App Store
 
-1. Click   ![deepin-launcher](icon/deepin-launcher.svg) in the lower left corner of the dock to enter launcher interface.
-2. Locate ![store-24](icon/store-24.svg) by scrolling the mouse wheel or searching "App Store" in the Launcher interface and click it to run. 
-3. Right-click  ![store-24](icon/store-24.svg)  to:
- - Select **Send to desktop** to create a shortcut on the desktop.
- - Select **Send to dock** to fix it onto the dock.
- - Select **Add to startup** to add it to startup. When the computer starts up, App Store runs automatically.
+1. Pulse ![deepin-launcher](icon/deepin-launcher.svg) en la esquina inferior izquierda del dock para entrar en la interfaz del lanzador.
+2. 2. Localice ![store-24](icon/store-24.svg) desplazando la rueda del ratón o buscando "App Store" en la interfaz del Launcher y haga clic en él para ejecutarlo. 
+3. Haga clic con el botón derecho del ratón en ![store-24](icon/store-24.svg) para que:
+ - Seleccione **Enviar al escritorio** para crear un acceso directo en el escritorio.
+ - Seleccione **Enviar al muelle** para fijarlo en el dock.
+ - Seleccione **Añadir al inicio** para añadirlo al inicio. Cuando el ordenador se inicia, App Store se ejecuta automáticamente.
 
-> ![notes](icon/notes.svg) Notes: App Store has been fixed on the dock by default. You can click  ![store-24](icon/store-24.svg) on the dock to run it.
+> ![notes](icon/notes.svg) Nota: App Store se fijó en el muelle por defecto. Haga clic en ![store-24](icon/store-24.svg) en el muelle para ejecutarlo.
 
 
-### Exit App Store
+### Salir de App Store
 
-- On App Store interface, click ![icon_close](icon/close.svg) to exit.
-- Right-click  ![store-24](icon/store-24.svg) on Dock and select  **Close All** or **Force Quit** to exit.
-- On App Store interface, click  ![icon_menu](icon/icon_menu.svg) and select  **Exit**.
+- En la interfaz de App Store, haga clic en ![icon_close](icon/close.svg) para salir.
+- Haga clic con el botón derecho en ![store-24](icon/store-24.svg) en el Dock y seleccione **Cerrar todo** o **Forzar cierre** para salir.
+- En la interfaz de la App Store, clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir**.
 
-## Main Interface
-Main interface consists of navigation bar, search box, main menu, slide show, new updates, hot apps, rankings, essential apps, hot topics, download management, updates and my apps.
+## Interfaz principal
+La interfaz principal consiste en la barra de navegación, el cuadro de búsqueda, el menú principal, la presentación de diapositivas, las nuevas actualizaciones, las aplicaciones más populares, las clasificaciones, las aplicaciones esenciales, los temas candentes, la gestión de descargas, las actualizaciones y mis aplicaciones.
 
 ![1|maininterfacedetail01](jpg/maininterfacedetail1.png)
 
 ![1|maininterfacedetail02](jpg/maininterfacedetail2.png)
 
 <table class="block1">
-    <caption>Main Interface</caption>
+    <caption>Interfaz principal</caption>
     <tbody>
         <tr>
             <td width="20px">1</td>
-            <td width="100px">Left panel</td>
-            <td>It mainly displays the home page, rankings and application categories.</td>
+            <td width="100px">Panel izquierdo</td>
+            <td>Muestra principalmente la página de inicio, las populares y las categorías de aplicaciones.</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Search box</td>
-            <td>You can quickly search applications in App Store by search box.</td>
+            <td>Cuadro de búsqueda</td>
+            <td>Encuentre rápidamente la app desde el cuadro correspondiente.</td>
         </tr>
          <tr>
             <td>3</td>
-            <td>Main menu</td>
-            <td>You can clear cache, switch themes, view contents of Help and About, and exit App Store.</td>
+            <td>Menú principal</td>
+            <td>Puede borrar la caché, cambiar de tema, ver el contenido de Ayuda y Acerca de, y salir de la App Store.</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Slide show</td>
-            <td>Images of recommended apps are played in a slide show.</td>
+            <td>Dispositivas</td>
+            <td>Las imágenes de las apps recomendadas aparece en dispositiva.</td>
         </tr>
          <tr>
             <td>5</td>
-            <td>Rankings</td>
-            <td>App downloading rankings are displayed in the homepage.</td>
+            <td>Populares</td>
+            <td>Los rankings de descarga de aplicaciones se muestran en la página de inicio.</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Hot Apps</td>
-            <td>Recommended popular apps are displayed here.</td>
+            <td>Tendencias</td>
+            <td>Aquellas recomendadas y en tendencia se muestran acá.</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Download</td>
-            <td>Currently downloading tasks, downloading and installing progress are displayed here. You can pause and delete any download task.</td>
+            <td>Descarga</td>
+            <td>Aquí se muestran las tareas que se están descargando y el progreso de la descarga y la instalación. Puede pausar y eliminar cualquier tarea de descarga.</td>
         </tr>
         <tr>
             <td>8</td>
-            <td>Updates</td>
-            <td>You can view applications to be updated here and you can choose whether to update it or not.</td>
+            <td>Actualizaciones</td>
+            <td>Aquí puede ver las aplicaciones que se van a actualizar y puede elegir si la cambia a la última versión o no.</td>
         </tr>
         <tr>
             <td>9</td>
-            <td>My Apps</td>
-            <td>You can view all apps installed and uninstall apps you don't need any more here.</td>
+            <td>Mis aplicaciones</td>
+            <td>Aquí podrá ver todas las aplicaciones instaladas y desinstalar las que ya no necesite.</td>
         </tr>
             <tr>
             <td>10</td>
-            <td>New Updates</td>
-            <td>Applications that are newly added into App Store are displayed here.</td>
+            <td>Nuevas actualizaciones</td>
+            <td>Aquí se muestran las aplicaciones recién añadidas a la App Store.</td>
         </tr>
              <tr>
             <td>11</td>
-            <td>Hot Topics</td>
-            <td>Hot app categories are displayed here.</td>
+            <td>Tópicos populares Topics</td>
+            <td>Apps solicitadas en categorías se muestran al final.</td>
         </tr>
    </tbody>
    </table>
@@ -98,35 +98,36 @@ Main interface consists of navigation bar, search box, main menu, slide show, ne
 
 
 
-## Application Management
-You can search, download and install different categories of applications, and also, you can explore more splendid applications through slide show, new updates, essential applications, popular applications, recommendations, hot topics, rankings, user comments and other ways. 
 
-### Search Applications
-1. Search function is built in App Store, you can click![search](icon/search.svg) to input keywords;
+ ## Gestión de aplicaciones
+Puede buscar, descargar e instalar diferentes categorías de aplicaciones, y también, puede explorar más aplicaciones espléndidas a través de la presentación de diapositivas, nuevas actualizaciones, aplicaciones esenciales, aplicaciones populares, recomendaciones, temas candentes, clasificaciones, comentarios de los usuarios y otras formas. 
 
-2. When you input a keyword, all applications containing that keyword will be displayed automatically below, then you can view all applications containing that keyword.
+ ### Buscar aplicaciones
+ 1. La función de búsqueda está incorporada en la App Store, puede hacer clic![buscar](icon/search.svg) para introducir palabras clave;
+
+ 2. Cuando introduzca una palabra clave, todas las aplicaciones que la contengan se mostrarán automáticamente a continuación, entonces podrá ver todas las aplicaciones que contengan esa palabra clave.
 
 
 ![1|Search](jpg/search.png)
 
-### Download/Install Applications
-App Store offers one-click downloading and installation of applications. During the downloading and installing process, you can pause and delete, as well as view the current progress.
+### Descarga/Instalación de aplicaciones
+App Store ofrece la descarga e instalación de aplicaciones con un solo clic. Durante el proceso de descarga e instalación, puede pausar y eliminar, así como ver el progreso actual.
 
-App Store supports application synchronization. After signing in, you can synchronize the applications installed on other devices with the same ID, and install the Cloud apps at one click.
+App Store admite la sincronización de aplicaciones. Después de iniciar sesión, puede sincronizar las aplicaciones instaladas en otros dispositivos con el mismo ID, e instalar las aplicaciones en la nube con un solo clic.
 
-> ![notes](icon/notes.svg)Notes: If you haven't signed in, installed applications will be displayed in local applications only.
+> ![notes](icon/notes.svg)Notas: Si no ha iniciado sesión, las aplicaciones instaladas sólo se mostrarán en las aplicaciones locales.
 
 #### Local Applications
 
-1. On App Store interface, you can directly hover the cursor over the application icon or name, then click  ![installhover](icon/installhover.svg) .
+1. En la interfaz de la App Store, puede pasar directamente el cursor sobre el icono o el nombre de la aplicación y, a continuación, hacer clic en ![installhover](icon/installhover.svg).
 
-2. Click **Download** in the left panel to view downloading/installing progress.
+2. Haga clic en **Descargar** en el panel izquierdo para ver el progreso de la descarga/instalación.
 
-   > ![tips](icon/tips.svg)Tips: you can click the application icon or name to enter the information page to view basic information and then click ![installhover](icon/installhover.svg) .
+   > ![tips](icon/tips.svg)Consejos: puede hacer clic en el icono o el nombre de la aplicación para entrar en la página de información para ver la información básica y, a continuación, hacer clic en ![installhover](icon/installhover.svg).
 
    ![1|installprocess](jpg/installprocess.png)
 
-3. After installation, installed applications are displayed in local applications only. Click **App filter** to screen applications based on categories.
+3. Tras la instalación, las aplicaciones instaladas se muestran sólo como aplicaciones locales. Haga clic en **Filtro de aplicaciones** para filtrar las aplicaciones en función de las categorías.
 
    
 
@@ -134,21 +135,21 @@ App Store supports application synchronization. After signing in, you can synchr
 
    
 
-#### Cloud applications
+#### Sincronizar aplicacioness
 
-1. Sign in your Deepin ID, select  **My Apps** to show the interface of My Apps from Personal Center.
-2. Click **Remote Apps** to view all cloud applications installed by the ID.
-3. Select the ones you want to install and click ![installhover](icon/installhover.svg) .
-4. After installation, the apps will be displayed both in local apps and remote apps synchronically.
-5. If you want to install applications in batches, you can choose  **Install All **. Check all cloud applications you want to install, click  **Start Installation**.
+1. Inicie sesión con su ID de Deepin, seleccione **Mis Aplicaciones** para mostrar la interfaz de Mis Aplicaciones desde el Centro Personal.
+2. Haga clic en **Aplicaciones remotas** para ver todas las aplicaciones en la nube instaladas por el ID.
+3. Seleccione las que quieras instalar y haz clic en ![installhover](icon/installhover.svg) .
+4. Tras la instalación, las apps se mostrarán tanto en las apps locales como en la nube de forma sincronizada.
+5. Si desea instalar las aplicaciones por lotes, puede elegir **Instalar todo**. Marque todas las aplicaciones en la nube que desee instalar y haga clic en **Iniciar la instalación**.
 
 ![1|remoteapp](jpg/remoteapp1.png)
 
 
 
-### Update Applications
+### Actualizar aplicaciones
 
-Select **Updates** on the interface to view applications to be updated here and you can choose whether to update it or not.
+Seleccione **Actualizaciones** en la interfaz para ver las aplicaciones que se van a actualizar aquí y puede elegir si desea conseguir la última versión o no.
 
 
 
@@ -156,73 +157,73 @@ Select **Updates** on the interface to view applications to be updated here and 
 
 
 
-> ![tips](icon/tips.svg)Tips: You can also update/upgrade applications in Control Center. Refer to [Update Settings](dman:///dde#Update Settings) for particular operations.
+> ![tips](icon/tips.svg)Consejo: También puede actualizar/actualizar aplicaciones en el Centro de control. Consulte [Ajustes de actualización](dman:///dde#Ajustes de actualización) para conocer las operaciones concretas.
 
-### Uninstall Applications
+### Desinstalar aplicaciones
 
-Besides uninstalling applications in Launcher (specific operations refer to [Uninstall Applications](dman:///dde#Uninstall Applications)）you can directly uninstall applications in App Store.
+Además de desinstalar aplicaciones en el Lanzador (las operaciones específicas se refieren a [Desinstalar aplicaciones](dman:///dde#Desinstalar aplicaciones)) puede desinstalar directamente las aplicaciones en App Store.
 
-On  **My Apps ** interface, click **Local Apps**, find the applications you want to uninstall, click ![uninstall](icon/uninstall.svg) .
+En la interfaz de **Mis aplicaciones**, haga clic en **Aplicaciones locales**, busque las aplicaciones que desea desinstalar, y pulse en ![desinstalar](icon/uninstall.svg) .
 
 ![1|Uninstall](jpg/uninstall.png)
 
-## Application Page
+## Página de la aplicación
 
-### Application Details
-You can open the information page of any application to view its ratings, download times, category, version, package size, updated date and information such as application tags, sources, brief introduction and comments.
+### Detalles de la aplicación
+Puede abrir la página de información de cualquier aplicación para ver sus valoraciones, tiempos de descarga, categoría, versión, tamaño del paquete, fecha de actualización e información como etiquetas de la aplicación, fuentes, breve introducción y comentarios.
 
 ![1|softwareinterface](jpg/softwareinterface.png)
 
-### Comment and Rate
+### Comentar y evaluar
 
-- After sign in your Deepin ID, you can comment on and rate the applications. Click **Report a bug** to feedback software bugs. You can also like other users' comments. 
+- Después de iniciar sesión con su ID de Deepin, puede comentar y calificar las aplicaciones. Haga clic en **Informar de un error** para comentar los errores de software. También podrá dar "me gusta" a los comentarios de otros usuarios. 
 
 ![1|commenrandrate](jpg/commentandrate.png)
 
 
 
 
-- Click the avatar on the title bar and select  **My Comments**  to view and edit all your ratings and comments. If you have not logged in, you can only view comments and ratings.
+- Haz clic en el avatar de la barra de título y selecciona **Mis comentarios** para ver y editar todas tus valoraciones y comentarios. Si no has iniciado sesión, sólo podrás ver los comentarios y las valoraciones.
 
 ![1|editcomment](jpg/editcomment.png)
 
 
 
-## Main Menu
+## Menú principal
 
-### Sign In
-1. On App Store interface, click the avatar on the title bar.
-2. In the pop-up window, input username/email/phone number and password.
+### Iniciar sesión
+1. En la interfaz de la App Store, haz clic en el avatar de la barra de título.
+2. En la ventana emergente, introduzca el nombre de usuario, correo electrónico o número de teléfono registrado y la contraseña.
 
-3. Click **Sign In**.
+3. Clic **Iniciar sesión**.
 
-> ![attention](icon/attention.svg)Attention: If you don't have a deepin ID yet, you can click **Sign Up** in the pop-up box to sign up. 
+> ![attention](icon/attention.svg)Atención: Si todavía no tiene un ID de deepin, haga clic en **Registrarse** en el cuadro emergente para crear su cuenta. 
 
 ![login](jpg/login.png)
 
-### Clear cache
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Clear cache** to clear up package caches.
+### Limpiar caché
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Borrar caché** para borrar las cachés de los paquetes.
 
-### Theme
+### Tema
 
-The window theme includes Light Theme, Dark Theme and System Theme.
+El tema de la ventana incluye el tema claro, el tema oscuro y el tema del sistema.
 
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **Theme** to choose one theme.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Tema** para elegir un tema.
 
-### Help
+### Ayuda
 
-Click Help to get the manual, which will help you further know and use App Store.
+Haga clic en Ayuda para obtener el manual, que le ayudará a conocer y utilizar mejor la App Store.
 
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Help** to view the manual of App Store.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Ayuda** para ver el manual de App Store.
 
-### About
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **About** to view version information about App Store.
+### Acerca de
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **About** para ver la información de la versión de App Store.
 
 
-### Exit
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Exit**.
+### Salir
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Salir**.
