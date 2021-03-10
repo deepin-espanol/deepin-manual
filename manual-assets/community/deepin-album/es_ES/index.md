@@ -1,6 +1,6 @@
 # Álbum|../common/deepin-album.svg|
 
-## Vistazo
+## Descripción
 
 
 Álbum es una herramienta de gestión de fotos elegante y fluida, que permite ver y gestionar las imágenes en varios formatos. Puede ordenar sus fotos por fecha o por línea de tiempo como desee, añadirlas a los favoritos o clasificarlas en diferentes álbumes para realizar una gestión ordenada.

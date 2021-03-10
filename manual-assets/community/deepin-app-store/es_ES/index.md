@@ -1,6 +1,6 @@
 # App Store|../common/deepin-appstore.svg|
 
-## Vistazo
+## Descripción
 App Store es una aplicación que integra funciones como la visualización de aplicaciones, la descarga, la instalación, la desinstalación, los comentarios, la valoración y la recomendación. La tienda recopila diferentes tipos de aplicaciones para sus necesidades, cada una de las cuales ha sido instalada y verificada manualmente. Puede buscar las aplicaciones más populares con un solo clic de descarga e instalación automática.           
 
 ![1|maininterface](jpg/maininterface.png)

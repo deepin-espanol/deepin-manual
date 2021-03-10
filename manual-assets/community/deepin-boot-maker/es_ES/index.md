@@ -1,6 +1,6 @@
 # Creador de arranque|../common/deepin-boot-maker.svg|
 
-## Vistazo
+## Descripción
 
 El creador de arranque es una herramienta fácil de usar con una interfaz sencilla que le ayudará a grabar los archivos de imagen del sistema en un medio de instalación como CDs y discos USB.
 

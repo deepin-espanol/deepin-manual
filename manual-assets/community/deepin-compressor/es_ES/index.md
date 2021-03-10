@@ -1,6 +1,6 @@
 # Compresor de archivos|../common/deepin-compressor.svg|
 
-## Resumen
+## Descripción
 
 
 Compresor de archivos es un software de compresión y descompresión fácil de usar, que soporta múltiples formatos de compresión como 7z, jar, tar, tar.bz2, tar.gz, tar.lz, tar.lzma, tar.lzo, tar.xz, tar.Z, tar.7z, zip y otros, así como ajustes de compresión cifrados.
