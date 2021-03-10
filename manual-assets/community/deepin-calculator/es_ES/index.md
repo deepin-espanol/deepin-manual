@@ -1,36 +1,36 @@
-# Calculator|../common/deepin-calculator.svg|
+# Calculadora|../common/deepin-calculator.svg|
 
-## Overview
+## Vistazo
 
-Calculator is a simple and easy-to-use desktop calculator. It supports standard mode and scientific mode, with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
+La calculadora es una sencilla y fácil de usar herramienta de escritorio. Soporta el modo estándar y el modo científico, con la entrada del teclado perfectamente adaptada, así como la computación simbólica tolerante a fallos y la vinculación de los resultados de los cálculos.
 
-## Operations
+## Operaciones
 
-Click ![icon_menu](icon/icon_menu.svg) > **Mode** to select standard mode or scientific mode. In standard mode, you can execute the four fundamental operations of arithmetic(addition, subtraction, multiplication and division). And in scientific mode, you can calculate high-level operations such as function, exponent, root, and so on. The standard mode is set by default.
+Haga clic en ![icon_menu](icon/icon_menu.svg) > **Modo** para seleccionar el modo estándar o el modo científico. En el modo estándar, puede ejecutar las cuatro operaciones fundamentales de la aritmética (suma, resta, multiplicación y división). Y en el modo científico, puede calcular operaciones de alto nivel como la función, el exponente, la raíz, etc. El modo estándar está configurado por defecto.
 
-### Standard Mode
+### Modo estándar
 
 
 ​                            ![0|calculator](jpg/standardmode.png)
 
-| Icon                                | Name                                                | Description                                                  |
+| Icon                                | Nombre                                              | Description                                                  |
 | ----------------------------------- | :-------------------------------------------------- | ------------------------------------------------------------ |
-| 0~9                                 | Number Key                                          | Basic Arabic numerals                                        |
-| ![mc](icon/MC.svg)                  | Clear Key                                           | Clear all memories                                           |
-| ![mr](icon/MR.svg)                  | Storage Key                                         | Memory recall                                                |
-| ![m+](icon/M+.svg)                  | Storage Key                                         | Memory add; click ![m+](icon/M+.svg) to add the current number accumulatively to the memory and interrupt digital input. |
-| ![m-](icon/M-.svg)                  | Storage Key                                         | Memory subtract; click ![m-](icon/M-.svg) to subtract the current number from the memory and interrupt digital input. |
-| ![ms](icon/MS.svg)                  | Storage Key                                         | Memory store；click ![ms](icon/MS.svg) to add the numeric value in the input box to the memory list. |
-| ![M](icon/M.svg)/![m^](icon/M^.svg) | Storage Key                                         | Click ![M](icon/M.svg)to expand the memory list; click ![m^](icon/M^.svg) to fold the memory list. The memory will be cleared up when Calculator is closed. |
-| C                                   | Clear                                               | Click once to clear current contents and click twice to clear all. |
-| %                                   | Percent Sign                                        | To input percent sign                                        |
-| ![delete](icon/delete.svg)          | Delete                                              | Click once to delete a character forward                     |
-| +-×÷                                | Addition, subtraction, multiplication, and division | Basic math operators for addition, subtraction, multiplication and division |
-| .                                   | Decimal Point                                       | To input decimal point                                       |
-| ()                                  | Bracket                                             | To input brackets with the left and right bracket completed automatically. |
-| =                                   | Equal Sign                                          | To get result                                                |
+| 0~9                                 | Teclado numérico                                    | Números arábigos básicos                                     |
+| ![mc](icon/MC.svg)                  | Tecla de vaciado                                    | Vacía todo lo memorizado                                     |
+| ![mr](icon/MR.svg)                  | Tecla de almacenamiento                             | Llamar a la memoria                                          |
+| ![m+](icon/M+.svg)                  | Tecla de almacenamiento                             | Añadir a la memoria; clic en ![m+](icon/M+.svg) para añadir el número actual de forma acumulativa a la memoria e interrumpir la entrada digital. |
+| ![m-](icon/M-.svg)                  | Tecla de almacenamiento                             | Quitar de la memoria; clic en ![m-](icon/M-.svg) para sustraer el número actual de la memoria e interrumpir la entrada digital. |
+| ![ms](icon/MS.svg)                  | Tecla de almacenamiento                             | Almacenamiento de la memoria; clic en ![ms](icon/MS.svg) para añadir el valor numérico del cuadro de entrada a la lista de memoria. |
+| ![M](icon/M.svg)/![m^](icon/M^.svg) | Tecla de almacenamiento                             | Haga clic en ![M](icon/M.svg)para ampliar la lista de memorias; haga clic en ![m^](icon/M^.svg) para plegar la lista de memorias. La memoria se vaciará cuando se cierre la Calculadora. |
+| C                                   | Borrar todo                                         | Pulse una vez para borrar el contenido actual y pulse dos veces para borrar todo. |
+| %                                   | Signo de porcentaje                                 | Para introducir el signo de porcentaje                       |
+| ![delete](icon/delete.svg)          | Borrar                                              | Haga clic una vez para eliminar un carácter hacia adelante   |
+| +-×÷                                | Addition, subtraction, multiplication, and division | Suma, resta, multiplicación y división                       |
+| .                                   | Punto decimal                                       | Para introducir el punto decimal                             |
+| ()                                  | Paréntesis                                          | Para introducir paréntesis izquierdo y derecho completado automáticamente. |
+| =                                   | Signo igual                                         | Para obtener el resultado                                    |
 
-### Scientific Mode
+### Modo científico
 
 ![0|scientific](jpg/scientificmode.png)
 
@@ -38,109 +38,112 @@ Click ![icon_menu](icon/icon_menu.svg) > **Mode** to select standard mode or sci
 
 | Icon                                                         | Name       | Description                                                         |
 | ------------------------------------------------------------ | :--------- | ------------------------------------------------------------ |
-| F-E                                                          | E-notation   | Click F-E to startup E-notation. Click ![icon](icon/F-E.svg) to close E-notation. |
-| ![icon](jpg/deg_normal.png)/![icon](jpg/grad_normal.png)/![icon](jpg/rad_normal.png) | Metric conversions   | Click this button to calculate the angle, gradient and radian respectively. |
-| sin, cos, tan, cot                                        | Trigonometric functions | Click these buttons to calculate the sine, cosine, tangent and cotangent of the numerical value respectively. |
-| sin<sup>-1</sup>, cos<sup>-1</sup>, tan<sup>-1</sup>, cot<sup>-1</sup> | Anti-trigonometric function | They are the second function interface buttons. Click them to calculate the anti-trigonometric functions of sin, cos, tan and cot respectively. |
-| &#124;x&#124;, Rand                                         | F functions | Click these buttons to calculate the absolute value of the value and randomly display a 31 bit number. |
-| 2<sup>nd</sup>                                               | 2<sup>nd</sup> function key | Click 2<sup>nd</sup> to switch to anti trigonometric function and open root operation interface ; click ![icon](icon/2nd.svg) to switch to trigonometric functions and power operations. |
-| x<sup>2</sup>, x<sup>3</sup> , x<sup>y</sup> | Power function | Click this button to calculate the square, cubic, y-power of numerical values. |
-|  10<sup>x</sup>, 2<sup>x</sup>, e<sup>x</sup>  | Exponential function | Click these buttons to calculate the x-power of 10, the x-power of 2 and the x-power of e respectively. 2<sup> x </sup> and e<sup> x </sup> are the second function interface buttons. |
-| ![icon](jpg/square root_normal.png), ![icon](jpg/cube root_normal.png), ![icon](jpg/y root_normal.png) | Power function | They are the second function interface buttons. Click them to calculate the square root, cube root and y-th root of X respectively. |
-| log, In, log<sub>y</sub><sup>x</sup>                      | Logarithmic function | Click these buttons to calculate the logarithms based on 10 and E, respectively. log<sub>y</sub><sup>x</sup> is the second function interface button. |
-| π                                                          | PI                                      | It approximately equals to 3.14159......, which can be accurate to 31 digits after the decimal point. |
-| e                                                            | Constant | It approximately equals to 2.71828....., which can be accurate to 31 digits after the decimal point. |
-| Mod                                                          | Remainder | Click this button to display the modulus or remainder of x / y. |
-| 1/x                                                          | Inverse proportional function | Click this button to calculate the reciprocal of the displayed value. |
-| x!                                                           | Factorial | Click this button to calculate the factorial of the displayed number. |
-| exp                                                          | Exponent | Click it to enter numbers in scientific notation. |
+| F-E                                                          | Notación E (exponencial)         | Clic en F-E para iniciar notación en E. Haga clic en ![icon](icon/F-E.svg) para cerrar la notación en E. |
+| ![icon](jpg/deg_normal.png)/![icon](jpg/grad_normal.png)/![icon](jpg/rad_normal.png) | Conversiones angulares           | Pulse este botón para calcular el ángulo, el gradiente y el radián respectivamente. |
+| sin, cos, tan, cot                                        | Funciones trigonométricas        | Haga clic en estos botones para calcular el seno, el coseno, la tangente y la cotangente del valor numérico respectivamente. |
+| sin<sup>-1</sup>, cos<sup>-1</sup>, tan<sup>-1</sup>, cot<sup>-1</sup> | Funciones arcotrigonométricas    | Son los segundos botones de la interfaz de funciones. Haga clic en ellos para calcular las funciones antitrigonométricas de sen, cos, tan y cot respectivamente. |
+| &#124;x&#124;, Rand                                         | Funciones F                      | Haga clic en estos botones para calcular el valor absoluto del valor y mostrar aleatoriamente un número de 31 bits. |
+| 2<sup>nd</sup>                                               | tecla de 2<sup>da</sup> function | Haga clic en 2<sup>nd</sup> para pasar a la función arcotrigonométrica y abrir la interfaz de operaciones de raíz; haga clic en ![icono](icon/2nd.svg) para pasar a las funciones trigonométricas y a las operaciones de potencia. |
+| x<sup>2</sup>, x<sup>3</sup> , x<sup>y</sup> | Funciones de potencia            | Haga clic en este botón para calcular el cuadrado, el cubo y la potencia de los valores numéricos. |
+|  10<sup>x</sup>, 2<sup>x</sup>, e<sup>x</sup>  | Funciones exponenciales          | Haz clic en estos botones para calcular la potencia x de 10, la potencia x de 2 y la potencia x de e respectivamente. 2<sup> x </sup> y e<sup> x </sup> son los segundos botones de la interfaz de funciones. |
+| ![icon](jpg/square root_normal.png), ![icon](jpg/cube root_normal.png), ![icon](jpg/y root_normal.png) | Funciones de raíz                | Son los segundos botones de la interfaz de funciones. Haga clic en ellos para calcular la raíz cuadrada, la raíz cúbica y la raíz y-ésima de X respectivamente. |
+| log, In, log<sub>y</sub><sup>x</sup>                      | Función logarítmica              | Haga clic en estos botones para calcular los logaritmos basados en 10 y E, respectivamente. log<sub>y</sub><sup>x</sup> es el segundo botón de la interfaz de funciones. |
+| π                                                          | PI                                      | Equivale aproximadamente a 3,14159......, que puede tener una precisión de 31 dígitos después del punto decimal. |
+| e                                                            | Constante | Equivale aproximadamente a 2,71828....., que puede tener una precisión de 31 dígitos después del punto decimal. |
+| Mod                                                          | Módulo                           | Haga clic en este botón para mostrar el módulo o resto de x / y. |
+| 1/x                                                          | Función proporcional inversa     | Haga clic en este botón para calcular el recíproco del valor mostrado. |
+| x!                                                           | Factorial | Haga clic en este botón para calcular el factorial del número mostrado. |
+| exp                                                          | Exponente | Haga clic en él para introducir números en notación científica. |
 
 
-> ![tips](icon/tips.svg)Tips: You can click ![icon_menu](icon/icon_menu.svg) > **History** to view historical expressions and memory list, and delete history, too.
+> ![tips](icon/tips.svg)Consejo: Puede hacer clic en ![icon_menu](icon/icon_menu.svg) > **Historia** para ver las expresiones históricas y la lista de memorias, y también para borrar la historia.
 
-### Symbolic Fault-tolerant Computing
+### Computación simbólica tolerante a fallos
 
-Calculator supports keyboard operation and fault-tolerant computing of special symbols besides normal numbers and operation symbols. The input of expressions will not be affected by the input status as well as the case state of the keyboard.
+Calculadora Deepin soporta operaciones en teclado y computación de simbólica tolerante a fallos, además de los números normales y símbolos de operación.
 
-- Fault-tolerance processing of multiplication: Input asterisk (*) or letter x to trigger multiplication;
-- Fault-tolerance processing of division: Input division (/)  to trigger division;
-- Fault-tolerance processing of addition: Input addition (+)  to trigger addition;
-- Fault-tolerance processing of subtraction: Input minus (-) or underline (_) to trigger subtraction;
-- Fault-tolerance processing of percent sign: Input percent sign (%)  to trigger remainder percent sign;
-- Fault-tolerance processing of decimal point: Input an English decimal point (.) or a Chinese period (。) to trigger decimal point.
-- Fault-tolerance processing of the bracket symbol: Input open and close brackets to trigger bracket;
-- Fault-tolerance processing of equal sign: Input = in English and Chinese or press the Enter key to trigger equal sign;
-- Fault-tolerance processing of the clear symbol: Press Esc to trigger clearing;
-- Fault-tolerance processing of the delete symbol: Press Backspace  to trigger deleting;
+- Procesamiento de la multiplicación con tolerancia a fallos: Introduzca un asterisco (*) o la letra x para activar la multiplicación;
+- Procesamiento de la división con tolerancia a fallos: Introduzca de la división (/) para activar la división;
+- Procesamiento de la suma con tolerancia a fallos: Introduzca de la adición (+) para activar la adición;
+- Procesamiento de la resta con tolerancia a fallos: Introduzca menos (-) o subrayado (_) para activar la sustracción;
+- Procesamiento del signo de porcentaje con tolerancia a fallos: Introduzca el signo de porcentaje (%) para activar el signo de porcentaje restante;
+- Procesamiento del punto decimal con tolerancia a fallos: Introduzca un punto decimal inglés (.) o un punto chino (。) para activar el punto decimal.
+- Procesamiento del símbolo del paréntesis con tolerancia a fallos: Introduzca corchetes abiertos y cerrados para activar el corchete;
+- Procesamiento del signo igual con tolerancia a fallos: Introduzca = en inglés y chino o pulse la tecla Enter para activar el signo igual;
+- Procesamiento del símbolo de borrado con tolerancia a fallos: Pulse Esc para activar el borrado;
+- Procesamiento del símbolo de borrado con tolerancia a fallos: Pulse la tecla Backspace para activar el borrado;
 
-### Expression
 
-- Historical Expression
 
-  - Click  =  in the current expression input area or press the **Enter** key on the keyboard to perform calculation and display the calculated result in the current input box. The expression becomes historical expression. There is no limit on the number of historical expressions.
-  - Reedit: Click a single expression to reedit. The expression is displayed in the expression input area. After editing, press the **Enter** key or = on the keyboard or click = in the expression input area to modify the result of historical expression and linkage expression.
-  - Expression error: If the expression input is incorrect, it is unavailable to perform calculation and "Expression error" is displayed.
 
-- Input Expression
+### Expresión
 
-  - Large characters show the expression currently being entered in the area.
+- Expresión histórica
 
-  - Press **Ctrl + C** on the keyboard to copy the calculation result of the current expression to the system clipboard. If there is expression error, the current expression will be copied to the system clipboard.
-  - Expressions with no actual operation symbol will not listed in the history record.
+  - Haga clic en = en el área de entrada de la expresión actual o pulse la tecla **Enter** del teclado para realizar el cálculo y mostrar el resultado calculado en el cuadro de entrada actual. La expresión se convierte en expresión histórica. No hay límite en el número de expresiones históricas.
+  - Reeditar: Haga clic en una sola expresión para reeditarla. La expresión se muestra en el área de entrada de expresiones. Después de editarla, pulse la tecla **Enter** o = en el teclado o haga clic en = en el área de entrada de expresiones para modificar el resultado de la expresión histórica y la expresión de enlace.
+  - Error de expresión: Si la expresión introducida es incorrecta, no está disponible para realizar el cálculo y se muestra "Error de expresión".
 
-- Scientific Notation
+- Expresión introducida
 
-  When the calculation result is more than 16 digits / 32 digits respectively, it will be displayed in scientific notation, that is, taking the first 16 digits / 32 digits multiplied by 10 to the power of plus or minus n.
+  - Los caracteres grandes muestran la expresión que se está introduciendo en el área.
 
-  - When the calculation result is positive and greater than 16 digits / 32 digits, it is displayed in the following format: number + numbers of 15 digits / 31 digits after the decimal point+E+number.
+  - Pulse **Ctrl + C** en el teclado para copiar el resultado del cálculo de la expresión actual en el portapapeles del sistema. Si hay un error de expresión, la expresión actual se copiará en el portapapeles del sistema.
+  - Las expresiones sin símbolo de operación real no aparecerán en el registro del historial.
 
-  - When the calculation result is decimal and greater than 16 digits / 32 digits, it is displayed in the following format: number + numbers of 15 digits / 31 digits after the decimal point+E-number.
+- Notación científica
+
+  Cuando el resultado del cálculo es superior a 16 dígitos / 32 dígitos respectivamente, se mostrará en notación científica, es decir, tomando los primeros 16 dígitos / 32 dígitos multiplicados por 10 a la potencia de más o menos n.
+
+  - Cuando el resultado del cálculo es positivo y superior a 16 dígitos / 32 dígitos, se mostrará en el siguiente formato: número + números de 15 dígitos / 31 dígitos después del punto decimal+E+número.
+
+  - Cuando el resultado del cálculo es decimal y mayor de 16 dígitos / 32 dígitos, se muestra en el siguiente formato: número + números de 15 dígitos / 31 dígitos después del punto decimal+E-número.
 
   ![0|scientificnotation](jpg/scientificnotation.png)
 
-### Digital Linkage
+### Enlazado digital
 
-- It is available to continue entering operator after an expression displays its numerical result. The first number in the expression now is the calculation result of the previous one.  Take the current expression 10 + 20 = 30 for example. The displayed result is 30.  Input + and number 9 and a new expression will be formed, 30 + 9. Press the **Enter** key and the calculation result of the new expression will be 39.
-- After the two expressions are linked, modify the numbers and operators of the previous expression. If the calculation result changes, it will affect the result of the new expression linked to it. For example, the two expressions 10 + 20 = 30 and 30 +9 = 39 are linked. If the operator +  in the first expression is changed to *, the expression will be 10 x 20 = 200. The second expression will be changed to 200 + 9 = 209 automatically. Up to 9 expression linkages are supported according to this rule.
--  In the process of re-editing an expression containing linked numbers, if the expression of linked numbers or linked numbers are modified incorrectly, the linkage can be released. 
+- Está disponible para continuar introduciendo el operador después de que una expresión muestre su resultado numérico. El primer número de la expresión es ahora el resultado del cálculo del anterior.  Tome la expresión actual 10 + 20 = 30 por ejemplo. El resultado mostrado es 30.  Introduce + y el número 9 y se formará una nueva expresión, 30 + 9. Pulse la tecla **Enter** y el resultado del cálculo de la nueva expresión será 39.
+- Una vez enlazadas las dos expresiones, modifica los números y operadores de la expresión anterior. Si el resultado del cálculo cambia, afectará al resultado de la nueva expresión enlazada. Por ejemplo, las dos expresiones 10 + 20 = 30 y 30 +9 = 39 están vinculadas. Si el operador + de la primera expresión se cambia por *, la expresión será 10 x 20 = 200. La segunda expresión se cambiará a 200 + 9 = 209 automáticamente. Se admiten hasta 9 enlaces de expresiones según esta regla.
+- En el proceso de reedición de una expresión que contenga números enlazados, si la expresión de los números enlazados o los números enlazados se modifican de forma incorrecta, se puede liberar el enlace. 
 
->![notes](icon/notes.svg)Notes: This function is only supported under Standard Mode.
+>![notes](icon/notes.svg)Notas: Esta función sólo es compatible con el modo estándar.
 
 
-## Main Menu
+## Menú principal
 
-On the main menu, you can switch window themes, view help manual and get more information about Calculator.
+En el menú principal, puede cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre la Calculadora.
 
-### History 
+### Historial 
 
-This function is available only in Scientific Mode.
-1. On the Calculator interface, click  ![main_menu](icon/main_menu.svg).
-2. Click **History** to view historical expressions and memory list.
+Esta función sólo está disponible en el modo científico.
+1. En la interfaz de la Calculadora, haga clic en ![main_menu](icon/main_menu.svg).
+2. Haga clic en **Historia** para ver las expresiones históricas y la lista de memorias.
 
->![notes](icon/notes.svg)Notes: the history will be cleared up when you close Calculator.
+>![notas](icon/notes.svg)Notas: el historial se borrará al cerrar la Calculadora.
 
-### Theme
+### Tema
 
-The window theme includes Light Theme, Dark Theme and System Theme.
+El tema de la ventana incluye Tema claro, Tema oscuro y Tema del sistema.
 
-1.  On the Calculator interface, click  ![main_menu](icon/main_menu.svg).
-2.  Click **Theme** to select a theme.
+1.  En la interfaz de la Calculadora, haga clic en ![main_menu](icon/main_menu.svg).
+2.  Haga clic en **Theme** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-View Help to get more information about Calculator.
+Vea la Ayuda para obtener más información sobre la Calculadora.
 
-1.  On the Calculator interface, click ![main_menu](icon/main_menu.svg).
-2.  Select **Help**.
-3.  View the manual.
+1.  En la interfaz de la Calculadora, haga clic en ![main_menu](icon/main_menu.svg).
+2.  Seleccione **Ayuda**.
+3.  Consulte el manual.
 
-### About
+### Acerca de
 
-1. On the Calculator interface, click ![main_menu](icon/main_menu.svg).
-2. Select **About**.
-3. View the version description.
+1. En la interfaz de la Calculadora, haga clic en ![main_menu](icon/main_menu.svg).
+2. Seleccione **Acerca de**.
+3. Vea la descripción de la versión.
 
-### Exit
+### Salir
 
-1. On the Calculator interface, click ![main_menu](icon/main_menu.svg).
-2. Click **Exit** to exit.
+1. En la interfaz de la Calculadora, haga clic en ![main_menu](icon/main_menu.svg).
+2. Haga clic en **Salir** para salir.
