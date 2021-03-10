@@ -1,154 +1,154 @@
-# Archive Manager|../common/deepin-compressor.svg|
+# Compresor de archivos|../common/deepin-compressor.svg|
 
-## Overview
+## Resumen
 
 
-Archive Manager is a user-friendly and easy-to-use compressing and decompressing software, supporting multiple compressing formats such as 7z, jar, tar, tar.bz2, tar.gz, tar.lz, tar.lzma, tar.lzo, tar.xz, tar.Z, tar.7z, zip and so on as well as encrypted compressing settings.
+Compresor de archivos es un software de compresión y descompresión fácil de usar, que soporta múltiples formatos de compresión como 7z, jar, tar, tar.bz2, tar.gz, tar.lz, tar.lzma, tar.lzo, tar.xz, tar.Z, tar.7z, zip y otros, así como ajustes de compresión cifrados.
 
 ![1|main](jpg/main.png)
 
 
 
-## Guide
+## Guía
 
-You can run, exit or create a shortcut for Archive Manager by the following ways.
+Puede ejecutar, salir o crear un acceso directo para Compresor de archivos de las siguientes maneras.
 
-### Run Archive Manager
+### Ejecutar Compresor de archivos
 
-1.  Click ![launcher](icon/deepin-launcher.svg) on dock  to enter the Launcher interface.
-2.  Locate ![deepin-compressor](icon/deepin-compressor.svg) by scrolling the mouse wheel or searching Archive Manager in the Launcher interface and click it to run.
-3.  Right-click ![deepin-compressor](icon/deepin-compressor.svg) and you can:
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix it on Dock.
- - Click **Add to startup** to add it to startup and it will auto run when the system boots.
+1.  Haga clic en ![launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2.  Localice ![deepin-compressor](icon/deepin-compressor.svg) desplazando la rueda del ratón o buscando Compresor de archivos en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3.  Haga clic con el botón derecho del ratón en ![deepin-compressor](icon/deepin-compressor.svg) y podrá:
+ - Hacer clic en **Enviar al escritorio** para crear un acceso directo en el escritorio.
+ - Hacer clic en **Enviar al muelle** para fijarlo en el muelle.
+ - Hacer clic en **Añadir al inicio** para añadirlo al inicio y que se ejecute automáticamente al arrancar el sistema.
 
-> ![tips](icon/tips.svg)Tips: You can set Archive Manager in the control center as the default compression and decompression viewer. Please refer to [Default Applications](dman:///dde#Default Application Settings) for details.
+> ![tips](icon/tips.svg)Consejos: Puede establecer Compresor de archivos en el centro de control como el visor de compresión y descompresión por defecto. Por favor, consulte [Aplicaciones por defecto](dman:///dde#Ajustes de aplicaciones predeterminadas) para más detalles.
 
-### Exit Archive Manager
+### Salir de Compresor de archivos
 
-- Click  ![close_icon](icon/close.svg) on the Archive Manager interface to exit Archive Manager.
-- Right-click ![deepin-compressor](icon/deepin-compressor.svg)on dock and select **Close All** to exit.
-- Click ![icon_menu](icon/icon_menu.svg) on the Archive Manager interface and select  **Exit** to exit.
+- Haga clic en ![close_icon](icon/close.svg) en la interfaz de Compresor de archivos para salir de Compresor de archivos.
+- Haga clic con el botón derecho del ratón en ![deepin-compressor](icon/deepin-compressor.svg)en el muelle y seleccione **Cerrar todo** para salir.
+- Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz del Compresor de archivos y seleccione **Salir** para salir.
 
-### View Shortcuts
+### Ver accesos directos
 
-On the Archive Manager interface, press **Ctrl+ Shift+?** on the keyboard to view shortcuts. Proficiency in shortcuts will greatly improve your efficiency.
+En la interfaz del Compresor de archivos, pulsa **Ctrl+Shift+?** en el teclado para ver los atajos. El dominio de los atajos mejorará enormemente su eficiencia.
 
 ![1|hotkey](jpg/hotkey.png)
 
-## Operations
+## Operaciones
 
-### Compress
+### Comprimir
 
-It is available for you to compress a single file/folder/package or a collection of multiple files/folders/packages.
+Está disponible para comprimir un solo archivo/carpeta/paquete o una colección de múltiples archivos/carpetas/paquetes.
 
-1. On the Archive Manager interface, click **Select File** to select the file to be compressed and click **Open**.
+1. En la interfaz del Compresor de archivos, haga clic en **Seleccionar archivo** para seleccionar el archivo a comprimir y haga clic en **Abrir**.
 
-   > ![tips](icon/tips.svg)Tips: You can drag one or more files directly to the Archive Manager interface for compression.
+   > ![tips](icon/tips.svg)Consejo: Puede arrastrar uno o varios archivos directamente a la interfaz del Compresor de archivos para comprimirlos.
    
-2.  Click  ![plus](icon/icon_plus.svg) or click  ![icon_menu](icon/icon_menu.svg) > **Open file** to add files to be compressed.
+2.  Haga clic en ![plus](icon/icon_plus.svg) o haga clic en ![icon_menu](icon/icon_menu.svg) > **Abrir archivo** para añadir los archivos a comprimir.
 
-   ![1|compressor](jpg/compressadd.png)
+   ![1|compresor](jpg/compressadd.png)
 
-3.  Click **Next**.
+3.  Haga clic en **Siguiente**.
 
-4.  Set the compressed file name, storage location, package format, etc.
+4.  Establezca el nombre del archivo comprimido, la ubicación de almacenamiento, el formato del paquete, etc.
 
-5.  If you enable the advanced option mode, it is available for you to set file encryption, list encryption and volume compression.
-   > ![notes](icon/notes.svg)Notes: 
-      + The default package is in .zip format.
-      + The available formats for file encryption are .7z and .zip.
-      + The available format for list encryption is .7z; the file encryption password is the same as the one for list encryption.
-      + The available format for volume compression is .7z. 
+5.  Si habilita el modo de opción avanzada, podrá configurar el cifrado de archivos, el cifrado de listas y la compresión de volúmenes.
+   > ![notes](icon/notes.svg)Notas: 
+      + El empaquetado por defecto es bajo formato .zip.
+      + Los formatos disponibles para el cifrado de archivos son .7z y .zip.
+      + El formato disponible para el cifrado de listas es .7z; la contraseña de cifrado del archivo es la misma que la de la codificación de listas.
+      + El formato disponible para la compresión de volúmenes es .7z. 
    
-   ![1|compressor](jpg/compressfile.png)
+   ![1|compresor](jpg/compressfile.png)
 
-6.  Click **Compress**.
+6.  Haga clic en **Comprimir**.
 
-7.  After compression is successfully finished, you can:
+7.  Una vez que la compresión haya finalizado con éxito, puede:
 
-   - Click **View** to view the specific storage location.
-   - Click **Back** to return to the main interface after successful compression.
+   - Hacer clic en **Ver** para ver la ubicación de almacenamiento específica.
+   - Hacer clic en **Atrás** para volver a la interfaz principal después de la compresión exitosa.
    
-   > ![tips](icon/tips.svg)Tips: You can also right-click **Compress** to compress the file.
+   > ![tips](icon/tips.svg)Consejo: También puede hacer clic derecho en **Comprimir** para comprimir el archivo.
    
    ![1|compressor](jpg/compresssuccess.png)
 
 
-### Decompression
+### Descompresión
 
-1.  On the Archive Manager interface, click **Select File** to select the file to be decompressed and click **Open**.
-2.  Click **Extract to:  /home/xxx/Desktop**  to customize the extraction path.
+1.  En la interfaz del Compresor de archivos, haga clic en **Seleccionar archivo** para seleccionar el archivo a descomprimir y haga clic en **Abrir**.
+2.  Haga clic en **Extraer a:  /home/xxx/Desktop** para personalizar la ruta de extracción.
 
-   >![notes](icon/notes.svg)Notes: "xxx" refers to your username of the system.
+  >![notes](icon/notes.svg)Nota: "xxx" se refiere a su nombre de usuario del sistema.
 
-3.  Click **Extract** to extract the files to the default path.
+3.  Haga clic en **Extraer** para extraer los archivos a la ruta predeterminada.
 
-   > ![notes](icon/notes.svg)Notes: When the file to be extracted is encrypted, you need to enter the password to complete extraction.
+  > ![notes](icon/notes.svg)Nota: Cuando el archivo a extraer está cifrado, es necesario introducir la contraseña para completar la extracción.
 
-4.  Click **View** after successful extraction to view the specific storage location for the files extracted or click **Back** to return to the main interface.
+4.  Haga clic en **Ver** después de la extracción exitosa para ver la ubicación de almacenamiento específica de los archivos extraídos o haga clic en **Atrás** para volver a la interfaz principal.
 
-   > ![tips](icon/tips.svg)Tips: You can also right-click **Extract** to decompress the file.
+  > ![tips](icon/tips.svg)Consejo: También puede hacer clic con el botón derecho del ratón en **Extraer** para descomprimir el archivo.
 
-   ![1|decompression](jpg/decompression.png)
+  ![1|descompresión](jpg/decompression.png)
 
-### Extract Files
+ ### Extraer archivos
 
-On the Archive Manager interface, select a file to be extracted, right-click and select **Extract** or **Extract to  current directory** to extract the files to the corresponding directory. 
+ En la interfaz del Compresor de archivos, seleccione un archivo a extraer, haga clic con el botón derecho y seleccione **Extraer** o **Extraer al directorio actual** para extraer los archivos al directorio correspondiente. 
 
-> ![notes](icon/notes.svg)Notes: When the file to be extracted is encrypted, you need to enter the password to open and extract the files. 
+ > ![notes](icon/notes.svg)Nota: Cuando el archivo a extraer está encriptado, es necesario introducir la contraseña para abrir y extraer los archivos. 
 
-   ![1|decompression](jpg/extract.png)
-
-
-## Main Menu
-
-In the main menu, you can open the compression interface, switch window themes, view the help manual and get more information about Archive Manager.
-
-### Open file
-1.  Click  ![icon_menu](icon/icon_menu.svg) on the Archive Manager interface.
-2.  Select **Open file** and select the file to be compressed or extracted from the file selector.
-
-### Settings
-
-1.  Click  ![icon_menu](icon/icon_menu.svg) on the Archive Manager interface.
-2.  Click **Settings**.
-   - Extraction:
-      + Set the directory where the extracted archives go to;
-      + Check or uncheck **Auto create a folder for multiple extracted files**;
-      + Check or uncheck **Show extracted files when completed**.
-   - File Management:
-      + Set whether to **Delete archives after extraction**, you have options such as **Never**, **Ask for confirmation** and **Always**.
-      + Check or uncheck **Delete files after compression**.
-   - Files Associated:
-      + Check or uncheck file types of associated files.
-3.  Click **Restore Defaults** on the interface to restore the initial setting.
+![1|decompression](jpg/extract.png)
 
 
+## Menú principal
 
-### Theme
+En el menú principal, puede abrir la interfaz de compresión, cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre Compresor de archivos.
 
-The window theme includes Light Theme, Dark Theme and System Theme.
+### Abrir archivo
+1.  Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz de Compresor de archivos.
+2.  Seleccione **Abrir archivo** y seleccione el archivo que desea comprimir o extraer en el selector de archivos.
 
-1.   On the Archive Manager interface, click![icon_menu](icon/icon_menu.svg).
-2.   Click **Theme** to select a theme.
+### Ajustes
 
-### Help
+1.  Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz del Compresor de archivos.
+2.  Haga clic en **Ajustes**.
+   - Extracción:
+      + Establezca el directorio al que van los archivos extraídos;
+      + Marcar o desmarcar **Crear automáticamente una carpeta para múltiples archivos extraidos**;
+      + Marque o desmarque **Mostrar los archivos extraídos al finalizar**.
+   - Gestión de archivos:
+      + Establecer si **Borrar archivos después de la extracción**, tiene opciones como **Nunca**, **Pedir confirmación** y **Siempre**.
+      + Marcar o desmarcar **Borrar archivos después de la compresión**.
+   - Archivos asociados:
+      + Marcar o desmarcar los tipos de archivos asociados.
+3.  Haga clic en **Restablecer valores predeterminados** en la interfaz para restaurar la configuración inicial.
 
-View Help to get more information about Archive Manager.
-
-1.  On the Archive Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Help**.
-3.  View the manual.
 
 
-### About
+### Tema
 
-1.   On the Archive Manager interface, click ![icon_menu](icon/icon_menu.svg) . 
-2.  Click **About**.
-3.   View the version description.
+El tema de la ventana incluye el tema claro, el tema oscuro y el tema del sistema.
 
-### Exit
+1.   En la interfaz del Compresor de archivos, haga clic en![icon_menu](icon/icon_menu.svg).
+2.   Haga clic en **Tema** para seleccionar un tema.
 
-1.  On the Archive Manager interface, click ![icon_menu](icon/icon_menu.svg) .
-2.  Click **Exit** to exit.
+### Ayuda
+
+Vea la Ayuda para obtener más información sobre el Compresor de archivos.
+
+1.  En la interfaz de Compresor de archivos, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Ayuda**.
+3.  Consulte el manual.
+
+
+### Acerca de
+
+1.   En la interfaz del Compresor de archivos, haga clic en ![icon_menu](icon/icon_menu.svg) . 
+2.  2. Haga clic en **Acerca de**.
+3.   Vea la descripción de la versión.
+
+### Salir
+
+1.  En la interfaz del Compresor de archivos, haga clic en ![icon_menu](icon/icon_menu.svg) .
+2.  Haga clic en **Salir** para salir.
