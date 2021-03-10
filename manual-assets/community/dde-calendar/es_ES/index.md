@@ -1,6 +1,6 @@
 # Calendario|../common/dde-calendar.svg|
 
-## Vistazo
+## Descripción
 
 El calendario es una herramienta útil para gestionar su vida personal. Al relacionar los eventos con un tiempo específico, le permite llevar un registro y hacer planes para su agenda.
 
