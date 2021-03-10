@@ -1,100 +1,100 @@
-# Package Installer |../common/deepin-deb-installer.svg|
+# Instalador de paquetes |../common/deepin-deb-installer.svg|
 
-## Overview
+## Descripción
 
-Package Installer is an easy-to-use .deb package management tool with a simple interface for users to quickly install customized applications not included in App Store supporting bulk installation, version identification and auto completion.  
+Instalador de paquetes es una herramienta de gestión de paquetes .deb fácil de usar con una interfaz sencilla para que los usuarios puedan instalar rápidamente aplicaciones personalizadas no incluidas en la App Store, con soporte para la instalación en lote, la identificación de versiones y la autocompletación.  
 
 ![0|run](jpg/run.png)
 
 
-## Operations
+## Operaciones
 
-### Run Package Installer
+### Ejecutar el Instalador de paquetes
 
-- Double click a .deb package to run.
-- Click the icon of Package Installer from Launcher to run. 
+- Haga doble clic en un paquete .deb para ejecutarlo.
+- Haga clic en el icono del Instalador de paquetes desde el Lanzador para ejecutarlo. 
 
-### Install
+### Instalar
 
-Package Installer is capable to install an individual application or multiple applications.
+El Instalador de paquetes es capaz de instalar una una o varias aplicaciones.
 
-### Singularly Install
+### Instalación individual
 
-1. On Package Installer interface, click **Select File** to add a .deb package.
-2. The application will detect the package status:
-   - Newly installed, select **Install** to continue.
-   - Other version installed, select **Reinstall** to continue or **Remove** to uninstall.
-3. Password required to continue when clicking **Install** or **Reinstall**.
-4. Click ![arrow_up](icon/arrow_up.svg) or ![arrow_down](icon/arrow_down.svg) to display or collapse the installing process.
-5. Click **Back** to newly add or click **OK** to exit.
+1. En la interfaz del Instalador de paquetes, haga clic en **Seleccionar archivo** para añadir un paquete .deb.
+2. La aplicación detectará el estado del paquete:
+   - Recién instalado, seleccione **Instalar** para continuar.
+   - Otra versión instalada, seleccione **Reinstalar** para continuar o **Quitar** para desinstalar.
+3. Se requiere una contraseña para continuar al hacer clic en **Instalar** o **Reinstalar**.
+4. Haga clic en ![flecha_arriba](icon/arrow_up.svg) o ![flecha_abajo](icon/arrow_down.svg) para mostrar o colapsar el proceso de instalación.
+5. Haga clic en **Atrás** para volver a añadir o haga clic en **Aceptar** para salir.
 
 
-> ![notes](icon/notes.svg)Notes: You can also drag and drop file to Package Installer to add.
+> ![notes](icon/notes.svg)Nota: También puede arrastrar y soltar el archivo al Instalador de paquetes para añadirlo.
 
 ![1|singleinstall](jpg/singleinstall.png)
 
-### Bulk Install
+### Instalación en lote
 
-To install multiple .deb packages at a time, you can click **Select File** or drag files into Package Installer. Please refer to [Singularly Install](Singularly Install) for operation steps. Pay attention to the following:
+Para instalar varios paquetes .deb a la vez, puede hacer clic en **Seleccionar archivo** o arrastrar los archivos al Instalador de paquetes. Por favor, consulte [Instalación individual](#Instalación individual) para conocer los pasos de la operación. Preste atención a lo siguiente:
 
-- You can view installing process when multiply installing.
-- Only **Install** button is displayed in the window. Installation would be done for packages of those other versions have been installed locally before. Re-installation would be done for packages of those the same versions have been installed locally before.
-- To remove a package from the list, right-click it and select **Delete**. 
+- Puede ver el proceso de instalación cuando se realiza una instalación múltiple.
+- Sólo se muestra el botón **Instalar** en la ventana. La instalación se realizará para los paquetes de las otras versiones que se hayan instalado localmente con anterioridad. La reinstalación se hará para los paquetes de las mismas versiones que se han instalado localmente antes.
+- Para eliminar un paquete de la lista, haga clic con el botón derecho del ratón y seleccione **Borrar**. 
 
 ![1|bulkinstall](jpg/bulkinstall.png)
 
-### Unable to Install
+### No disponible para instalar
 
-Package Installer is able to identify the packages could not be installed automatically.
+El Instalador de paquetes es capaz de identificar los paquetes que no se han podido instalar automáticamente.
 
-Please read the prompt carefully, common causes include: 
+Por favor, lea atentamente el aviso, las causas más comunes son: 
 
-- Broken dependencies.
-- Unmatched package architecture.
+- Dependencias rotas.
+- Arquitectura de paquetes no coincidente.
 
 ![1|unable](jpg/unable.png)
 
-### Uninstall
+### Desinstalación
 
-Package Installer is used to uninstall .deb packages of those the same or different versions have been installed already. 
+Instalador de paquetes se utiliza para desinstalar paquetes .deb de los que ya se han instalado versiones iguales o diferentes. 
 
-1. On Package Installer interface, click **Select File** to add a .deb package.
-2. The application will detect the package status:
-   - Newly installed, select **Install** to continue.
-   - Other version installed, select **Reinstall** to continue or **Remove** to uninstall.
-3. Click **Remove**, then there will be a prompt and click **Confirm** to uninstall.
-4. Click **OK** to exit.
+1. En la interfaz del Instalador de paquetes, haga clic en **Seleccionar archivo** para añadir un paquete .deb.
+2. La aplicación detectará el estado del paquete:
+   - Recién instalado, seleccione **Instalar** para continuar.
+   - Otra versión instalada, seleccione **Reinstalar** para continuar o **Quitar** para desinstalar.
+3. Haga clic en **Desinstalar**, luego habrá un aviso y haga clic en **Confirmar** para desinstalar.
+4. Haga clic en **Aceptar** para salir.
 
 ![1|remove](jpg/remove.png)
 
-> ![attention](icon/attention.svg)Attention: The system or other applications would be affected if you have uninstalled some applications. Please operate carefully. 
+> ![atención](icon/attention.svg)Atención: El sistema u otras aplicaciones se verán afectadas si ha desinstalado algunas aplicaciones. Por favor, actúe con cuidado. 
 
-## Main Menu
+## Menú principal
 
-On the main menu, you can switch window themes, view manual and get more information about Package Installer.
+En el menú principal, puede cambiar los temas de las ventanas, ver el manual y obtener más información sobre el Instalador de paquetes.
 
-### Theme
+### Tema
 
-The window theme includes Light Theme, Dark Theme and System Theme.
+El tema de la ventana incluye el tema claro, el tema oscuro y el tema del sistema.
 
-1.   Click![icon_menu](icon/icon_menu.svg) on the interface.
-2.   Click **Theme** to select a theme.
+1.   Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz.
+2.   Haga clic en **Tema** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-You can click to view the manual, which will help you further know and use Package Installer.
+Puede hacer clic para ver el manual, que le ayudará a conocer y utilizar el Instalador de paquetes.
 
-1. Click![icon_menu](icon/icon_menu.svg) on the interface.
-2. Click **Help**.
-3. View the manual.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz.
+2. Haga clic en **Ayuda**.
+3. Consulte el manual.
 
-### About
+### Acerca de
 
-1. Click![icon_menu](icon/icon_menu.svg) on the interface.
-2. Click **About**.
-3. View the version description.
+1. Haga clic en![icon_menu](icon/icon_menu.svg) en la interfaz.
+2. Haga clic en **Acerca de**.
+3. Vea la descripción de la versión.
 
-### Exit
+### Salir
 
-1. Click![icon_menu](icon/icon_menu.svg) on the interface.
-2. Click **Exit**.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz.
+2. Haga clic en **Salir**.
