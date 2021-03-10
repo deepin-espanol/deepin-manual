@@ -1,93 +1,93 @@
-# Camera|../common/camera.svg|
+# Cámara|../common/camera.svg|
 
-## Overview
+## Vistazo
 
-Camera is an easy-to-use camera application that supports multiple functions such as taking pictures, recording videos, and switching between multiple camera devices.
+Camera es una aplicación de cámara fácil de usar que soporta múltiples funciones como tomar fotos, grabar vídeos y cambiar entre varios dispositivos de cámara.
 
-## Guide
+## Guía
 
-You can run, close or create shortcuts for Camera in the following ways.
+Puede ejecutar, cerrar o crear accesos directos para Cámara de las siguientes maneras.
 
-### Run Camera
+### Ejecutar Cámara
 
-1. Click ![launcher](icon/deepin-launcher.svg) in the Dock and enter the Launcher interface.
-2. Locate ![camera](icon/camera.svg) by scrolling the mouse wheel or searching "camera" in the Launcher interface and click it to run.
-3. Right-click ![camera](icon/camera.svg) and you can:
+1. Haga clic en ![launcher](icon/deepin-launcher.svg) en el Muelle y entre en la interfaz del Lanzador.
+2. Localice ![camera](icon/camera.svg) desplazando la rueda del ratón o buscando "camera" en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3. Haga clic con el botón derecho del ratón en ![camera](icon/camera.svg) y podrá:
 
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix the application in the dock.
- - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+ - Hacer clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+ - Hacer clic en **Enviar al muelle** para fijar la aplicación en el muelle.
+ - Hacer clic en **Añadir al inicio** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
-### Exit Camera
+### Salir de la Cámara
 
-- On the Camera interface, click![close_icon](icon/close.svg)to exit Camera.
-- Right-click ![camera](icon/camera.svg) in the dock and select **Close All** to exit Camera.
-- On the Camera interface, click ![icon_menu](icon/icon_menu.svg) and select **Exit** to exit Camera.
+- En la interfaz de la Cámara, haga clic en ![close_icon](icon/close.svg)para salir de la Cámara.
+- Haga clic con el botón derecho del ratón en ![camera](icon/camera.svg) en el muelle y seleccione **Cerrar todo** para salir de la cámara.
+- En la interfaz de la cámara, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir** para salir de la cámara.
 
-## Operations
+## Operaciones
 
-You can use the Camera application if your computer comes with a camera or is connected to a camera. Select photo or video mode on the Camera interface after running it.
+Puede utilizar la aplicación Cámara si su ordenador viene con una cámara o está conectado a una videocámara. Seleccione el modo de foto o vídeo en la interfaz de la Cámara después de ejecutarla.
 
-### Take Photos
+### Tomar fotos
 
-Photo mode is defaulted when Camera starts up. Click ![photograph](icon/photograph.svg) icon to take photos, and the photos will be displayed on the interface.
+El modo foto está predeterminado cuando se inicia la Cámara. Haga clic en el icono ![photograph](icon/photograph.svg) para tomar fotos, y las fotos se mostrarán en la interfaz.
 
-![image](jpg/image.png)
+![imagen](jpg/image.png)
 
-### Record Videos
+### Grabar vídeos
 
-On the Camera interface, click ![transcribe-bottom](icon/transcribe-bottom.svg) icon to to enter video mode. Click ![transcribe](icon/transcribe.svg) icon to start recording, and click ![stop](icon/stop.svg) icon to stop recording after video recording is completed. Video files will be displayed on the interface, and will also be saved in the default path.
+En la interfaz de la cámara, haga clic en el icono ![transcribe-bottom](icon/transcribe-bottom.svg) para entrar en el modo de vídeo. Haga clic en el icono ![transcribe](icon/transcribe.svg) para iniciar la grabación, y haga clic en el icono ![stop](icon/stop.svg) para detener la grabación una vez finalizada la misma. Los archivos de vídeo se mostrarán en la interfaz, y también se guardarán en la ruta predeterminada.
 
 ![video](jpg/video.png)
 
-### Process Photos and Videos
+### Procesar fotos y vídeos
 
-On the Camera interface, right-click the photos or video files to select copy, delete, and open folder.
+En la interfaz de la cámara, haga clic con el botón derecho en las fotos o los archivos de vídeo para seleccionar copiar, eliminar y abrir carpeta.
 
-Copy: copy the selected photo to another path.
+* Copiar: copia la foto seleccionada a otra ruta.
 
-Delete: delete the selected photo.
+* Eliminar: borra la foto seleccionada.
 
-Open folder: open the folder where photos and videos are located.
+* Abrir carpeta: abre la carpeta donde se encuentran las fotos y los vídeos.
 
 ![right-menu](jpg/right-menu.png)
 
-## Main Menu
+## Menú principal
 
-On the main menu, you can change settings for Camera, switch window themes, view help manual, and get more information about Camera.
+En el menú principal, puede cambiar la configuración de la cámara, cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre la cámara.
 
-### Settings
+### Ajustes
 
-1. On the Camera interface, click ![界面按钮图标](icon/icon_menu.svg).
-2. Click **Settings** to adjust **Basic**, **Shoot** and **Output** settings.
+1. En la interfaz de la Cámara, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Ajustes** para ajustar las configuraciones **Básica**, **Disparo** y **Salida**.
 
-   - **Basic** setting: set up the **File location** for photos and videos.
-   - **Shoot** setting: set up the **Burst mode** and **Self-timer delay** options.
+   - Ajustes **básicos**: establece la **ubicación del archivo** para las fotos y los vídeos.
+   - Ajuste de **disparo**: configura las opciones de **Modo de ráfaga** y **Temporizador**.
 
      ![settings](jpg/settings.png)
 
-   - **Output** setting: set up the **Output format** and **Resolution settings** for photos and videos.
+   - Ajuste de **salida**: configura el **formato de salida** y los **ajustes de resolución** para las fotos y los vídeos.
    
      ![output-settings](jpg/output-settings.png)
 
-#### Theme
+#### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme, and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, Tema claro, Tema oscuro y Tema del sistema.
 
-1.  On the Camera interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Theme** to select a theme.
+1.  En la interfaz de la cámara, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Tema** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-1.  On the Camera interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Help** to view the manual of Camera.
+1.  En la interfaz de la Cámara, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Ayuda** para ver el manual de Cámara.
 
-### About
+### Acerca de
 
-1.  On the Camera interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **About** to view the version and introduction of Camera. 
+1.  En la interfaz de la Cámara, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Acerca de** para ver la versión y la introducción de la cámara. 
 
-### Exit
+### Salir
 
-1.   On the Camera interface, click ![icon_menu](icon/icon_menu.svg). 
-2.  Click **Exit** to exit Camera.
+1.   En la interfaz de la Cámara, haga clic en ![icon_menu](icon/icon_menu.svg). 
+2.  Haga clic en **Salir** para salir de la aplicación.
