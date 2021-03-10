@@ -1,6 +1,6 @@
 # Desktop Environment|../common/dde.svg|
 
-## Vistazo
+## Descripción
 Deepin es un sistema operativo de escritorio Linux de elaboración propia, fácil de usar y fiable, con agradables experiencias visuales. Está equipado con una serie de aplicaciones originales, como el gestor de archivos, la tienda de aplicaciones, el visor de imágenes, las películas y muchas otras aplicaciones originales, que no sólo le permiten disfrutar de entretenimiento enriquecido, sino que también le sirven para su trabajo y su vida diaria. Con continuas mejoras y actualizaciones, se está convirtiendo en uno de los sistemas operativos de código abierto más populares de China.
 
 ![1|desk](jpg/desk.jpg)

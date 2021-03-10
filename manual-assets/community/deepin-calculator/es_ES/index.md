@@ -1,6 +1,6 @@
 # Calculadora|../common/deepin-calculator.svg|
 
-## Vistazo
+## Descripción
 
 La calculadora es una sencilla y fácil de usar herramienta de escritorio. Soporta el modo estándar y el modo científico, con la entrada del teclado perfectamente adaptada, así como la computación simbólica tolerante a fallos y la vinculación de los resultados de los cálculos.
 

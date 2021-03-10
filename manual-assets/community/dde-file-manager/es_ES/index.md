@@ -1,6 +1,6 @@
 # Gestor de archivos|../common/deepin-file-manager.svg|
 
-## Vistazo
+## Descripción
 
 El Gestor de archivos es una herramienta de gestión de archivos potente, sencilla y fácil de usar. Siga la funcionalidades y diseños característicios de un gestor de archivos tradicional, y simplifique la usuabilidad sin perder otras mejoras. Ofrece una barra de navegación que se abre sola, un cuadro de búsqueda con reconocimiento inteligente, múltiples vistas y un filtrador de resultados para revisar los archivos fácilmente. Más allá de lo clásico, ¡le ofrece una mejor experiencia!
 ![1|overview](jpg/overview.png)

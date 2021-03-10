@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Imptresoras es una herramienta basada en CUPS fácil de usar que gestiona varias impresoras a la vez con una interfaz sencilla que proporciona a los usuarios una gran comodidad para añadir impresoras e instalar controladores rápidamente.
+Impresoras es una herramienta basada en CUPS fácil de usar que gestiona varias impresoras a la vez con una interfaz sencilla que proporciona a los usuarios una gran comodidad para añadir impresoras e instalar controladores rápidamente.
 
 ![0|homepage](jpg/homepage.png)
 

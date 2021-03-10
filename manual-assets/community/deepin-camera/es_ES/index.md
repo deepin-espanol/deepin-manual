@@ -1,6 +1,6 @@
 # Cámara|../common/camera.svg|
 
-## Vistazo
+## Descripción
 
 Camera es una aplicación de cámara fácil de usar que soporta múltiples funciones como tomar fotos, grabar vídeos y cambiar entre varios dispositivos de cámara.
 
