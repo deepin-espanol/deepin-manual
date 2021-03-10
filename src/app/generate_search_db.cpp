@@ -54,11 +54,12 @@ int main(int argc, char **argv)
 
 //        dman::SearchDb db;
         SearchDb db;
-        db.initDb(strCreateDbPath);
+        db.initDb();
         db.initSearchTable();
 
-        QStringList list = {"zh_CN","en_US"};
+        QStringList list = {"zh_CN", "es", "en_US"};
 //        list << "zh_CN"
+//             << "es"
 //             << "en_US";
         for (QString &locale : list) {
             QString strManualDir = DMAN_ORIG_MANUAL_DIR;
@@ -91,6 +92,7 @@ int main(int argc, char **argv)
                     continue;
                 }
 
+                qDebug() << "====>" << out;
                 // Parse json
                 QJsonDocument document = QJsonDocument::fromJson(out.toLocal8Bit());
                 if (!document.isArray()) {
@@ -149,7 +151,7 @@ int main(int argc, char **argv)
 
                 if (!invalid_entry) {
                     qDebug() << "add search entry" << app_name << locale << anchors << endl;
-                    db.addSearchEntry(dbType, app_name, locale, anchors, anchorInitialList, anchorSpellList, anchorIdList, contents);
+                    db.addSearchEntry(app_name, locale, anchors, anchorInitialList, anchorSpellList, anchorIdList, contents);
                 }
             }
         }
