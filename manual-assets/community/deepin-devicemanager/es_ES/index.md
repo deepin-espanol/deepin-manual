@@ -1,166 +1,166 @@
-# Device Manager|../common/deepin-devicemanager.svg|
+# Gestor de dispositivos|../common/deepin-devicemanager.svg|
 
-## Overview 
+## Descripción 
 
-Device Manager is a tool to view and manage hardware devices, through which you can view all kinds of parameters and export data of all hardware devices running in the operating system, you can also disable/enable some hardware drives. 
+Gestor de dispositivos es una herramienta para ver y gestionar los dispositivos de hardware, a través de la cual puede ver todo tipo de parámetros y exportar datos de todos los dispositivos de hardware que se ejecutan en el sistema operativo, también puede desactivar / activar algunas unidades de hardware. 
 
 ![0|overview](jpg/overview.png)
 
-## Guide
+## Guía
 
-You can run, close or create a shortcut for Device Manager as follows.
+Puede ejecutar, cerrar o crear un acceso directo para el Gestor de dispositivos de la siguiente manera.
 
-### Run Device Manager
+### Ejecutar el Gestor de dispositivos
 
-1. Click ![deepin-launcher](icon/deepin-launcher.svg) on the Dock to enter the interface of launcher.
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el Muelle para entrar en la interfaz del Lanzador.
 
-2. Locate ![deepin-devicemanager](icon/deepin-devicemanager.svg) by scrolling the mouse wheel or searching "Device Manager" in the Launcher interface and click it to run. 
+2. Localice ![deepin-devicemanager](icon/deepin-devicemanager.svg) desplazando la rueda del ratón o buscando "Gestor de dispositivos" en la interfaz del Lanzador y haga clic en él para ejecutarlo. 
 
-3. Right-click![deepin-devicemanager](icon/deepin-devicemanager.svg) to:
+3. Haga clic con el botón derecho del ratón en ![deepin-devicemanager](icon/deepin-devicemanager.svg) para:
 
-   - Select **Send to desktop** to create a shortcut on the desktop.
+   - Seleccionar **Enviar al escritorio** para crear un acceso directo en el escritorio.
 
-   - Select  **Send to dock** to fix it onto the dock.
+   - Selecciona **Enviar al muelle** para fijarlo en el muelle.
 
-   - Select **Add to startup** to run it automatically when the computer is turned on.
+   - Seleccionar **Añadir al inicio** para que se ejecute automáticamente al encender el ordenador.
 
    
 
-### Exit Device Manager
+### Salir del Gestor de dispositivos
 
-- On the main interface, click![close_icon](icon/close.svg) to exit.
-- Right-click ![deepin-devicemanager](icon/deepin-devicemanager.svg)  on the Dock, select **Close all** or **Force Quit** to exit.
-- On interface of Device Manager, click ![icon_menu](icon/icon_menu.svg)  and select **Exit** to exit.
+- En la interfaz principal, haga clic en ![close_icon](icon/close.svg) para salir.
+- Haga clic con el botón derecho del ratón en ![deepin-devicemanager](icon/deepin-devicemanager.svg) en el muelle, seleccione **Cerrar todo** o **Forzar cierre** para salir.
+- En la interfaz del Gestor de dispositivos, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir** para salir.
 
-## Operations
+## Operaciones
 
-The following hardware device information is for reference only. If there is no mouse, keyboard, and other devices inserted into your computer, the corresponding hardware information will not be displayed in the device manager.
+La siguiente información sobre el dispositivo de hardware es sólo de referencia. Si no hay ratón, teclado y otros dispositivos insertados en su ordenador, la información de hardware correspondiente no se mostrará en el gestor de dispositivos.
 
-### Overview
+### Resumen
 
-1. On the main interface, click **Overview**.
-2. You can see a list containing **CPU**, **Motherboard**, **Memory** and so on in this interface, and particular info such as brands, names, models and specifications in it as well. 
+1. En la interfaz principal, haga clic en **Resumen**.
+2. Puede ver una lista que contiene **CPU**, **Tarjeta madre**, **Memoria** y demás en esta interfaz, así como información particular como marcas, nombres, modelos y especificaciones. 
 
 ![0|overview](jpg/overview.png)
 
 ### CPU
 
-1. On the main interface, click **CPU**.
-2. You can view a CPU list and particular info such as name, vendor, architecture, model and so on. 
+1. En la interfaz principal, haga clic en **CPU**.
+2. Puede ver una lista de CPUs e información detallada como nombre, proveedor, arquitectura, modelo, etc. 
 
 ![0|cpu](jpg/cpu.png)
 
-### Motherboard 
+### Tarjeta madre 
 
-1. On the main interface, click **Motherboard**. 
-2. You can view info about motherboard, memory bank, system, BIOS, chassis, and so on.
+1. En la interfaz principal, haga clic en **Tarjeta madre **. 
+2. Puede ver información sobre la placa base, el banco de memoria, el sistema, la BIOS, el chasis, etc.
 
 ![0|board](jpg/board.png)
 
-### Memory
+### Memoria
 
-1. On the main interface, click **Memory**.
-2. You can view a memory list and particular info such as name, vendor, size, type, speed and so on.
+1. En la interfaz principal, haga clic en **Memoria**.
+2. Puede ver una lista de memorias e información particular como el nombre, el proveedor, el tamaño, el tipo, la velocidad, etc.
 
 ![0|RAM](jpg/RAM.png)
 
-### Display Adapter
+### Adaptador de pantalla
 
-1. On the main interface, click **Display Adapter**.
-2. You can view info about Display Adapter such as name, vendor, model and so on.
+1. En la interfaz principal, haga clic en **Adaptador de pantalla**.
+2. Puede ver información sobre el adaptador de pantalla, como el nombre, el proveedor, el modelo, etc.
 
 ![0|displayadapter](jpg/displayadapter.png)
 
-### Sound Adapter
+### Adaptador de sonido
 
-1. On the main interface, click **Sound Adapter **.
-2. You can view a list of audio adapters and info such as name, vendor, model and so on.
+1. En la interfaz principal, haga clic en **Adaptador de sonido**.
+2. Puede ver una lista de adaptadores de audio e información como el nombre, el proveedor, el modelo, etc.
 
 ![0|audioadapter](jpg/audioadapter.png)
 
-### Storage
+### Almacenamiento
 
-1. On the main interface, click **Storage**.
-2. You can view a storage device list and particular info such as model, vendor, media type, size, and so on.
+1. En la interfaz principal, haga clic en **Almacenamiento**.
+2. Puede ver una lista de dispositivos de almacenamiento e información particular como el modelo, el proveedor, el tipo de soporte, el tamaño, etc.
 
 ![0|storagedevice](jpg/storagedevice.png)
 
-### Network Adapter
+### Adaptador de red
 
-1. On the main interface, click **Network Adapter**.
-2. You can view info about Network Adapter such as name, vendor, type, driver and so on.!
+1. En la interfaz principal, haga clic en **Adaptador de red**.
+2. Puede ver información sobre el adaptador de red, como el nombre, el proveedor, el tipo, el controlador, etc.
 
 ![0|networkadapter](jpg/networkadapter.png)
 
-### Mouse
+### Ratón
 
-1. On the main interface, click **Mouse**.
-2. You can view info such as name, vendor, bus info, driver, speed and so on.
+1. En la interfaz principal, haga clic en **Ratón**.
+2. Puede ver información como el nombre, el proveedor, la información del bus, el controlador, la velocidad, etc.
 
 ![0|mouse](jpg/mouse.png)
 
-### Keyboard
+### Teclado
 
-1. On the main interface, click **Keyboard **.
-2. You can view info such as name, vendor, model, bus info, driver and so on.
+1. En la interfaz principal, haga clic en **Teclado**.
+2. Puede ver información como el nombre, el proveedor, el modelo, la información del bus, el controlador, etc.
 
 ![0|keyboard](jpg/keyboard.png)
 
 ### Monitor
 
-1. On the main interface, click **Monitor **.
-2. You can view info about Monitor such as name, vendor, type and so on.
+1. En la interfaz principal, haga clic en **Monitor **.
+2. Puede ver información sobre el monitor, como el nombre, el proveedor, el tipo, etc.
 
 ![0|displaydevice](jpg/displaydevice.png)
 
-### Printer
+### Impresora
 
-1. On the main interface, click **Printer**.
-2. You can view a list of printers connected and info such as name, model, vendor, URI and so on.
+1. En la interfaz principal, haga clic en **Impresora**.
+2. Puede ver una lista de impresoras conectadas e información como el nombre, el modelo, el proveedor, el URI, etc.
 
 ![0|printer](jpg/printer.png)
 
 
 
-### Right-click Operations 
+### Operaciones con el botón derecho del ratón 
 
-**Copy**: To copy contents selected by cursor, right-click to select  **Copy**.
+**Copiar**: Para copiar el contenido seleccionado por el cursor, haga clic con el botón derecho para seleccionar **Copiar**.
 
-**Disable/Enable**: You can disable some hardware drives. You can judge whether the hardware device supports the disable function according to the right-click menu options. 
+**Desactivar/Habilitar**: Puede desactivar algunas unidades de hardware. Puede juzgar si el dispositivo de hardware soporta la función de desactivación según las opciones del menú del botón derecho. 
 
-**Refresh**: Right-click and select  **Refresh** to reload info of all devices of the operating system. You can also use shortcut key F5 to realize this function.
+**Actualizar**: Haga clic con el botón derecho y seleccione **Refrescar** para recargar la información de todos los dispositivos del sistema operativo. También puede utilizar el atajo de teclado F5 para realizar esta función.
 
-**Export**: You can export the device information to the specified folder,formats such as txt/docx/xls/html are supported. 
-
-
-
-## Main Menu
-
-In the main menu, you can switch themes, view manual, and so on.
-
-### Theme
-
-The window theme includes Light Theme, Dark Theme and System Theme.
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click  **Theme** to select one.
+**Exportar**: Puede exportar la información de los dispositivos a la carpeta especificada, se admiten formatos como txt/docx/xls/html. 
 
 
-### Help
 
-Click Help to get the manual, which will help you further know and use Device Manager.
+## Menú principal
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Help** to view the manual.
+En el menú principal, puede cambiar de tema, ver el manual, entre otros.
+
+### Tema
+
+El tema de la ventana incluye el tema claro, el tema oscuro y el tema del sistema.
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Tema** para seleccionar uno.
 
 
-### About
+### Ayuda
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **About** to view version and introduction about Device Manager.
+Haga clic en Ayuda para obtener el manual, que le ayudará a conocer y utilizar mejor el Gestor de dispositivos.
 
-### Exit
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Ayuda** para ver el manual.
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click  **Exit**.
+
+### Acerca de
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Acerca de** para ver la versión y la introducción sobre el Gestor de dispositivos.
+
+### Salir
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Salir**.
 
