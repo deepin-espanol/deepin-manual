@@ -1,207 +1,207 @@
-# Security Center|../common/deepin-defender.svg|
+# Centro de seguridad|../common/deepin-defender.svg|
 
-## Overview 
+## Descripción 
 
-Security Center is a pre-installed security software featured functions such as system examination, firewall, startup programs management and system security, which helps you improve overall system security.
+El Centro de seguridad es un software de seguridad preinstalado con funciones como el examen del sistema, el cortafuegos, la gestión de los programas de inicio y la seguridad del sistema, que le ayuda a mejorar la seguridad general del sistema.
 
 
 
 ![0|homepage](jpg/homepage.png)
 
-## Guide
+## Guía
 
-You can run, close and create a shortcut for Security Center by the following ways.
+Puede ejecutar, cerrar y crear un acceso directo para el Centro de seguridad de las siguientes maneras.
 
-### Run Security Center
+### Ejecutar el Centro de seguridad
 
-1. Click ![Launcher](icon/deepin-launcher.svg) on dock to enter Launcher interface.
-2. Locate ![deepin-defender](icon/deepin-defender.svg) by scrolling mouse wheel or searching by "Security Center" in Launcher interface.
-3. Right-click ![deepin-defender](icon/deepin-defender.svg), you can
+1. Haga clic en ![Lanzador](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2. Localice ![deepin-defender](icon/deepin-defender.svg) desplazando la rueda del ratón o buscando por "Centro de seguridad" en la interfaz del Lanzador.
+3. Haga clic con el botón derecho del ratón en ![deepin-defender](icon/deepin-defender.svg), puede que:
 
-   - Click **Send to desktop** to create a desktop shortcut.
-   - Click **Send to dock** to fix the application on dock.
-   - Click **Add to startup** to add the application to startup, it will automatically run when the system starts up.
+   - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+   - Haga clic en **Enviar al muelle** para fijar la aplicación en el muelle.
+   - Haga clic en **Añadir al inicio** para añadir la aplicación al inicio, se ejecutará automáticamente cuando se inicie el sistema.
 
 
 
-### Exit Security Center
+### Salir del Centro de seguridad
 
-- On Security Center interface, click ![close](icon/close.svg) to exit.
-- Right-click ![deepin-defender](icon/deepin-defender.svg) on Dock, select **Close All** to exit.
-- Click ![Settings](icon/icon_menu.svg) and select **Exit**.
+- En la interfaz del Centro de seguridad, haga clic en ![cerrar](icon/close.svg) para salir.
+- Haga clic con el botón derecho del ratón en ![deepin-defender](icon/deepin-defender.svg) en el muelle, seleccione **Cerrar todo** para salir.
+- Haga clic en ![Ajustes](icon/icon_menu.svg) y seleccione **Salir**.
 
-## Operations
+## Operaciones
 
-### Homepage
+### Página de inicio
 
-Open Security Center, click **Home** in the left panel, you can click **Check Now** to examine the system. 
+Abra el Centro de seguridad, haga clic en **Inicio** en el panel izquierdo, puede hacer clic en **Comprobar ahora** para examinar el sistema. 
 
 ![0|examination](jpg/examination.png)
 
 
 
-When system examination is finished, you can choose whether to improve system security level according to the prompts, such as "your system is not up to date". Or, you can click **Go to Settings** to redo the settings.
+Una vez finalizado el examen del sistema, puede elegir si desea mejorar el nivel de seguridad del sistema de acuerdo con las indicaciones, tales como "su sistema no está actualizado". O bien, puede hacer clic en **Ir a Ajustes** para rehacer los ajustes.
 
 ![0|result](jpg/result.png)
 
-### Firewall
+### Cortafuegos
 
-Open Security Center, click **Firewall** in the left panel, you can set Internet access, remote connection and view data usage. 
+Abra el Centro de seguridad, haga clic en **Cortafuegos** en el panel de la izquierda, puede configurar el acceso a Internet, la conexión remota y ver el uso de datos. 
 
-#### Global Settings
+#### Ajustes globales
 
-On the interface of Firewall, you can set  Internet access and remote connection for all applications and services. You can also reset the firewall, which will restore **Internet Access** and **Remote Connection** to **Ask me always**. 
+En la interfaz del Cortafuegos, puede configurar el acceso a Internet y la conexión remota para todas las aplicaciones y servicios. También puede restablecer el cortafuegos, lo que restaurará el **acceso a Internet** y la **conexión remota** a **preguntarme siempre**. 
 
 ![0|globalsetting](jpg/globalsetting.png)
 
-**Switch on/off Firewall**
+**Activar/desactivar el cortafuegos**
 
-This switch controls whether to enable **Internet Access ** and **Remote Connection**; however, **Data Usage** is not affected by it. Firewall is switched off here by default.
+Este interruptor controla cuando se activa el **Acceso a Internet** y la **Conexión remota**; sin embargo, el **Uso de datos** no se ve afectado por él. El cortafuegos está desactivado aquí por defecto.
 
-Off: **Internet Access ** and **Remote Connection** are disabled.
+Desactivado: El **Acceso a Internet** y la **Conexión Remota** están desactivados.
 
-On: **Internet Access ** and **Remote Connection** are enabled. You can go to set them further as follows.
+Activado: **Acceso a Internet** y **Conexión remota** están activados. Puede seguir configurándolos de la siguiente manera.
 
-**Internet Access **
+**Acceso a Internet**
 
-This item controls the default Internet access settings of all applications and services. There are three options in the drop-down box.
+Este elemento controla la configuración por defecto del acceso a Internet de todas las aplicaciones y servicios. Hay tres opciones en el cuadro desplegable.
 
-1. Ask me always(default): when an application connects to the Internet, a prompt saying **xxx wants to connect to the Internet** pops up. And you can select **Allow Once**, **Allow always** or **Disable**. 
+1. Preguntarme siempre (por defecto): cuando una aplicación se conecta a Internet, aparece un aviso que dice **xxx quiere conectarse a Internet**. Y puede seleccionar **Permitir una vez**, **Permitir siempre** o **Desactivar**. 
    
-   - Allow once: connection to the Internet is allowed this time without modifying its Internet access setting.
-   - Allow always: the application's Internet access setting is modified into **Allow**, and its connection to the Internet is allowed this time. No prompt will pop up when it connects to the Internet after this time. 
-   - Disable: the application's connection to the Internet is disabled this time. No modification is done to the application's Internet access setting. 
+   - Permitir una vez: se permite la conexión a Internet esta vez sin modificar su configuración de acceso a Internet.
+   - Permitir siempre: la configuración de acceso a Internet de la aplicación se modifica a **Permitir**, y se autoriza su conexión a Internet esta vez. No aparecerá ningún aviso cuando se conecte a Internet después de este tiempo. 
+   - Desactivar: la conexión de la aplicación a Internet se desactiva esta vez. No se modifica la configuración de acceso a Internet de la aplicación. 
    
-2. Disable always: when an application connects to the Internet, a prompt saying **The firewall has blocked xxx from connecting to the Internet**, you can select **Go to Settings** or **OK**.
+2. Desactivar siempre: cuando una aplicación se conecta a Internet, aparece un aviso que dice **El cortafuegos ha bloqueado la conexión de xxx a Internet**, puede seleccionar **Ir a Ajustes** o **Aceptar**.
 
-3. Allow always: the application is always allowed to connect to the Internet, and no prompt will pop up. 
+3. Permitir siempre: la aplicación siempre tiene permiso para conectarse a Internet, y no aparecerá ningún aviso. 
 
    ![0|connetnetwork](jpg/connectnetwork.png)
 
-**Remote Connection **
+**Conexión remota**
 
-This item specifies whether remote access to your system through applications and services is permitted or not. There are three options in the drop-down box.
+Este elemento especifica si el acceso remoto a su sistema a través de aplicaciones y servicios está permitido o no. Hay tres opciones en el cuadro desplegable.
 
-1. Ask me always(default): when an application starts up port listening, a prompt saying **xxx wants to start remote connection** pops up. And you can select **Allow Once**, **Allow always** or **Disable**. 
+1. Preguntarme siempre (por defecto): cuando una aplicación inicia la escucha del puerto, aparece un aviso que dice **xxx quiere iniciar la conexión remota**. Y puedes seleccionar **Permitir una vez**, **Permitir siempre** o **Desactivar**. 
 
-   - Allow once: remote access to your system is allowed this time without modifying its remote connection setting.
-   - Allow always: the application's remote connection setting is modified into **Allow**, and remote access to your system is allowed this time. No prompt will pop up when the application starts up remote connection after this time. 
-   - Disable: remote access to your system is disabled this time. No modification is done to the application's remote connection setting. 
-2. Disable always: when an application starts up port listening, a prompt saying **The firewall has blocked xxx from remote connection** pops up. And you can select **Go to Settings** or **OK**. 
-3. Allow always: when an application starts up remote connection every time, it is allowed by default. No prompt will pop up. 
-
-
-
-**Restore Defaults **
-
-Click  **Restore Defaults**, all settings of Internet access and remote connection will restore to **Ask me always**.
+   - Permitir una vez: el acceso remoto a su sistema se permite esta vez sin modificar su configuración de conexión remota.
+   - Permitir siempre: la configuración de la conexión remota de la aplicación se modifica a **Permitir**, y el acceso remoto a su sistema se permite esta vez. No aparecerá ningún aviso cuando la aplicación inicie la conexión remota después de este tiempo. 
+   - Desactivar: el acceso remoto a su sistema se desactiva esta vez. No se modifica la configuración de la conexión remota de la aplicación. 
+2. Desactivar siempre: cuando una aplicación inicia la escucha de puertos, aparece un mensaje que dice **El cortafuegos ha bloqueado la conexión remota de xxx**. Y puede seleccionar **Ir a Ajustes** o **Aceptar**. 
+3. Permitir siempre: cuando una aplicación inicia la conexión remota cada vez, se permite por defecto. No aparecerá ningún aviso. 
 
 
 
-#### Internet Control
+**Restablecer valores predeterminados.**
 
-On the homepage of Firewall, click **Internet Control** at the bottom.  Its function is to set the Internet connection status  of all applications in the Launcher. There are 4 options in the drop-down box of each application. 
+Haga clic en **Restablecer valores predeterminados**, todos los ajustes de acceso a Internet y conexión remota se restablecerán a **Preguntar siempre**.
 
-- Ask:  If you choose this option, when an application connects to the Internet, a prompt pops up to ask for your permission always.  
 
-- Allow: If you choose this option, the application's connection to the Internet is always allowed, no prompt pops up.
 
-- Disable:  If you choose this option, the application's connection to the Internet is disabled always, and a prompt pops up.  
+#### Control de Internet
 
-- Default(xxx): it means the application's default Internet access setting. 
+En la página principal del Cortafuegos, haga clic en **Control de Internet** en la parte inferior.  Su función es establecer el estado de la conexión a Internet de todas las aplicaciones en el Lanzador. Hay 4 opciones en el cuadro desplegable de cada aplicación. 
 
-   > ![tips](icon/tips.svg)Tips: You can sort "Name" and "Status" by one click, from low to high: allow, ask, disable, default(xx); from high to low: disable, ask, allow and default(xx).  
+- Preguntar:  Si elige esta opción, cuando una aplicación se conecte a Internet, aparecerá un aviso para pedirle permiso siempre.  
+
+- Permitir: Si elige esta opción, la conexión de la aplicación a Internet está siempre permitida, no aparece ningún aviso.
+
+- Desactivar:  Si elige esta opción, la conexión de la aplicación a Internet se desactiva siempre, y aparece un aviso.  
+
+- Predeterminado(xxx): significa la configuración de acceso a Internet por defecto de la aplicación. 
+
+   > ![tips](icon/tips.svg)Consejo: Puede ordenar el "Nombre" y el "Estado" con un solo clic, de menor a mayor: permitir, preguntar, deshabilitar, por defecto(xx); de mayor a menor: deshabilitar, preguntar, permitir y por defecto(xx).  
 
 ![0|networkcontrol](jpg/networkcontrol.png)
 
-#### Data Usage
+#### Uso de datos
 
-On the homepage of Firewall, click **Data Usage** at the bottom. You can see details of **Apps and Services** and **Rankings**. 
+En la página de inicio de Cortafuegos, haz clic en **Uso de datos** en la parte inferior. Puede ver los detalles de **Aplicaciones y Servicios** y **Clasificaciones**. 
 
-- In **Apps and Services** page, you can see all running applications with their downloading/uploading speed and settings. Click the setting icon ![setting](icon/setting.svg) on each line to jump to "Internet Access" page. 
+- En la página de **Aplicaciones y servicios**, puede ver todas las aplicaciones en ejecución con su velocidad de descarga/carga y sus ajustes. Haga clic en el icono de ajustes ![setting](icon/setting.svg) en cada línea para saltar a la página de "Acceso a Internet". 
 
 ![0|currentnetwork](jpg/currentnetwork.png)
 
-- In **Rankings** page, you can see all running applications are ranked by "Downloaded", "Uploaded", and "Data Used".  There are four options in the upper right corner: today, yesterday, this month, and last month. 
+- En la página de **Clasificaciones**, puede ver que todas las aplicaciones en ejecución están clasificadas por "Descargado", "Cargado" y "Datos utilizados".  Hay cuatro opciones en la esquina superior derecha: hoy, ayer, este mes y el mes pasado. 
 
-   > ![tips](icon/tips.svg)Tips: You can click "Name", "Downloaded", "Uploaded" and "Data Used" to sort. 
+   > ![tips](icon/tips.svg)Consejo: Puedes hacer clic en "Nombre", "Descargado", "Subido" y "Datos utilizados" para ordenar. 
 
 ![0|trafficranking](jpg/trafficranking.png) 
 
  
 
-### Startup Programs
+### Programas de inicio
 
-In the Security Center interface, click **Startup Programs** in the left panel. Only applications in the Launcher are displayed and detailed by "Name", "Auto Startup" and "Action". You can choose "Allow" or "Remove" for each application. 
+En la interfaz del Centro de seguridad, haga clic en **Programas de inicio** en el panel izquierdo. Sólo se muestran las aplicaciones del Lanzador y se detallan por "Nombre", "Inicio automático" y "Acción". Puede elegir "Permitir" o "Eliminar" para cada aplicación. 
 ![0|selflaunchmanagement](jpg/startup.png) 
 
-### System Security
-In the Security Center interface, click **System Security** in the left panel. You can do settings for password security levels, screen protection and update policy. 
+### Seguridad del sistema
+En la interfaz del Centro de seguridad, haga clic en **Seguridad del sistema** en el panel izquierdo. Puede realizar ajustes para los niveles de seguridad de las contraseñas, la protección de la pantalla y la política de actualización. 
 
-#### Login Safety
-On System Security interface, click **Login Safety**. You can set password security levels and notifying period before password expired and change password regularly. 
-- **High** or **Medium**: If you have chosen either one of them, when you modify password in Control Center or setup password when creating new ID, the password you set will not be saved successfully if it doesn't comply with the requirement of the corresponding level. You can go to Control Center to reset your password or modify security level in Security Center. 
-- **Low**:  If you have chosen this option, when you modify password in Control Center or setup password when creating new ID, the new password will be saved directly. 
+#### Seguridad de inicio de sesión
+En la interfaz de Seguridad del sistema, haga clic en **Seguridad de inicio de sesión**. Puede configurar los niveles de seguridad de las contraseñas y el periodo de notificación antes de que la contraseña caduque y cambiar la contraseña regularmente. 
+- **Alto** o **Medio**: Si ha elegido uno de ellos, cuando modifique la contraseña en el Centro de Control o configure la contraseña al crear un nuevo ID, la contraseña que establezca no se guardará correctamente si no cumple con los requisitos del nivel correspondiente. Puede ir al Centro de control para restablecer la contraseña o modificar el nivel de seguridad en el Centro de seguridad. 
+- **Bajo**:  Si ha elegido esta opción, cuando modifique la contraseña en el Centro de Control o configure la contraseña al crear un nuevo ID, la nueva contraseña se guardará directamente. 
 
 ![0|loginsecurity](jpg/loginsecurity.png)
 
-#### Screen Protection
+#### Protección de pantalla
 
-On System Security interface, click **Screen Protection**. You can do settings such as auto screen locking period, lockscreen wallpaper, power settings and screensaver. 
+En la interfaz de Seguridad del sistema, haga clic en **Protección de pantalla**. Puede realizar ajustes como el periodo de bloqueo automático de la pantalla, el fondo de pantalla de bloqueo, los ajustes de energía y el protector de pantalla. 
 
 ![0|screensecurity](jpg/screensecurity.png)
 
-Click **Settings** after "Turn off monitor", you will jump to "Plugged In" page of Control Center. 
+Haga clic en **Ajustes** después de "Apagar el monitor", saltará a la página "Conectado" del Centro de Control. 
 
-#### Update Policy
+#### Política de actualización
 
-On System Security interface, click **Update Policy** to view if the system is up to date, you can choose whether to update the system, and you can also switch on "Updates Notification" and "Auto Download Updates". 
+En la interfaz de seguridad del sistema, haga clic en **Política de actualización** para ver si el sistema está actualizado, puede elegir si desea actualizar el sistema y también puede activar la "Notificación de actualizaciones" y la "Descarga automática de actualizaciones". 
 
 ![0|updatestrategy](jpg/updatestrategy.png)
 
-#### USB Connection
+#### Conexión USB
 
-On System Security interface, click **USB Connection**. You can switch on **Save connection record of USB devices** to view all history about USB devices with storage function connecting to your computer.
+En la interfaz de Seguridad del Sistema, haga clic en **Conexión USB**. Puede activar **Guardar registro de conexión de dispositivos USB** para ver todo el historial de dispositivos USB con función de almacenamiento que se conectan a su ordenador.
 
 ![0|usbconneting](jpg/usbconnecting.png)
 
-You can also add the USB device used very often into whitelist, and select **Only Whitelist** in **Connection limitation** to avoid data breach.
+También puede añadir el dispositivo USB utilizado muy a menudo en la lista blanca, y seleccionar **Sólo lista blanca** en **Limitación de la conexión** para evitar la violación de datos.
 
 ![0|usbwhitelist](jpg/usbwhitelist.png)
 
-## Main Menu
+## Menú principal
 
-You can switch themes, view manual and version information in Main Menu.
-
-
-
-### Theme
-
-The window theme includes Light Theme, Dark Theme and System Theme.
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click  **Theme** to select one.
+Puede cambiar de tema, ver el manual y la información de la versión en el menú principal.
 
 
 
-### Help
+### Tema
 
-View the manual to help you further know and use Security Center.
+El tema de la ventana incluye el claro, el oscuro y el del sistema.
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Help** to view the manual.
-
-
-
-### About
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **About** to view version information and introduction about Security Center.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Tema** para seleccionar uno.
 
 
 
-### Exit
+### Ayuda
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Exit**.
+Consulte el manual que le ayudará a conocer y utilizar mejor el Centro de seguridad.
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Ayuda** para ver el manual.
+
+
+
+### Acerca de
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Acerca de** para ver la información de la versión y la introducción sobre el Centro de seguridad.
+
+
+
+### Salir
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Salir**.
 
