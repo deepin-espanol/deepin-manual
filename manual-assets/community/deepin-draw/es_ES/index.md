@@ -1,116 +1,116 @@
-# Draw|../common/deepin-draw.svg|
+# Dibujo|../common/deepin-draw.svg|
 
-## Overview
+## Descripción
 
-Draw is a simple drawing tool, supporting rotation, cropping, flipping and adding texts and shapes among other functions. You can edit local pictures or draw pictures freely.
+Dibujo es una herramienta de dibujo simple, que soporta la rotación, el recorte, el volteo y la adición de textos y formas entre otras funciones. Puedes editar imágenes locales o dibujar libremente.
 
-![1|mian](jpg/main.png)
+![1|main](jpg/main.png)
 
-## Guide
+## Guía
 
-You can run, close and create shortcuts for Draw by the following ways.
+Puede ejecutar, cerrar y crear accesos directos para Dibujo de las siguientes maneras.
 
-### Run Draw
+### Ejecutar Dibujo
 
-1.   Click ![deepin-launcher](icon/deepin-launcher.svg) in Dock to enter the Launcher interface.
-2.   Locate ![draw](icon/deepin-draw.svg) by scrolling the mouse wheel or searching "draw" in the Launcher interface.
-3.   Right-click ![draw](icon/deepin-draw.svg) and the user can:
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix the application in Dock.
- - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+1.   Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el Muelle para entrar en la interfaz del Lanzador.
+2.   Localice ![draw](icon/deepin-draw.svg) desplazando la rueda del ratón o buscando "dibujo" en la interfaz del Lanzador.
+3.   Haga clic con el botón derecho del ratón en ![draw](icon/deepin-draw.svg) y el usuario podrá:
+ - Hacer clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+ - Hacer clic en **Enviar al muelle** para fijar la aplicación en el muelle.
+ - Hacer clic en **Añadir al inicio** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
-![tips](icon/tips.svg)Tips: In Control Center, you can set Draw as the defaulted picture viewer. Please refer to [Default Applications](dman:///dde#Default Application Settings) for specific operations.
+![tips](icon/tips.svg)Consejo: En el Centro de control, puede indicar a Dibujo como el visor de imágenes predeterminado. Por favor, consulte [Aplicaciones por defecto](dman:///dde#Ajustes de aplicaciones predeterminadas) para operaciones específicas.
 
-### Exit Draw
+### Salir de Dibujo
 
-- On the Draw interface, click ![close_icon](icon/close.svg) to exit Draw.
-- Right-click ![draw](icon/deepin-draw.svg) in Dock and select **Close All** to exit Draw.
-- Click ![icon_menu](icon/icon_menu.svg) on the Draw interface and select **Exit** to exit Draw.
+- En la interfaz de Dibujo, haga clic en ![close_icon](icon/close.svg) para salir de Dibujo.
+- Haga clic con el botón derecho del ratón en ![dibujar](icono/cerrar.svg) en el muelle y seleccione **Cerrar todo** para salir de Dibujo.
+- Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz de Dibujo y seleccione **Salir** para salir de Dibujo.
 
-### View Shortcuts
+### Ver atajos de teclado
 
-On the Draw interface, press **Ctrl** + **Shift** + **?** on the keyboard to view shortcuts. Proficiency in shortcuts will greatly improve your efficiency.
+En la interfaz de Dibujo, presione **Ctrl** + **Mayús** + **?** en el teclado para ver los atajos. El dominio de los atajos mejorará enormemente su eficiencia.
 
 ![1|hotkey](jpg/hotkey.png)
 
 
-## Basic Functions
+## Funciones básicas
 
-With Draw, you are able to process imported pictures and draw pictures freely. You can also save pictures in multiple formats.
+Con Dibujo, podrá procesar imágenes importadas y dibujar imágenes libremente. También puede guardar las imágenes en múltiples formatos.
 
-### Create tabs
+### Crear pestañas
 
-![1|mian](jpg/new.png)
+![1|main](jpg/new.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-- On the Draw interface, click ![menu](icon/icon_menu.svg) > **New** to create a new tab.
-- You can also click ![add](jpg/add.png) to create a new tab when there are two or more tabs in the window.
+- En la interfaz de Dibujo, haga clic en ![menú](icon/icon_menu.svg) > **Nuevo** para crear una nueva pestaña.
+- También puede hacer clic en ![add](jpg/add.png) para crear una nueva pestaña cuando haya dos o más pestañas en la ventana.
 
-When there are multiple tabs, you can adjust the order of tabs by dragging the tab or clicking ![previous](jpg/previous.png) or ![next](jpg/next.png) icons.
+Cuando hay varias pestañas, puede ajustar el orden de las mismas arrastrando la pestaña o haciendo clic en los iconos ![anterior](jpg/previous.png) o ![siguiente](jpg/next.png).
 
-### Close tabs
+### Cerrar pestañas
 
-- Click a tab. Click ![close_icon](icon/close.svg) to close the current tab.
-- Right-click a tab. Select **Close tab** or **Close other tabs**. 
+- Haga clic en una pestaña. Haga clic en ![close_icon](icon/close.svg) para cerrar la pestaña actual.
+- Haga clic con el botón derecho en una pestaña. Seleccione **Cerrar pestaña** o **Cerrar otras pestañas**. 
 
-### Open Pictures
+### Abrir imágenes
 
-1.   On the Draw interface, click ![import](icon/Import_normal.svg)or  ![menu](icon/icon_menu.svg) > **Open**.
-2.   Select the picture to be imported and click **Open**.
+1.   En la interfaz de Dibujo, haga clic en ![importar](icon/Import_normal.svg)o ![menú](icon/icon_menu.svg) > **Abrir**.
+2.   Seleccione la imagen que desea importar y haga clic en **Abrir**.
 
-Currently, a maximum of 30 pictures could be exported. Formats including JPG, PNG, TIF, BMP and DDF are supported.
+Actualmente, se pueden exportar un máximo de 30 imágenes. Se admiten formatos como JPG, PNG, TIF, BMP y DDF.
 
-### Export Pictures
+### Exportar imágenes
 
-1.  On the Draw interface, click ![menu](icon/icon_menu.svg)> **Export**.
-2.  Set the parameters including file name, path, format and picture quality. 
-3.  Click **Save**. 
+1.  En la interfaz de Dibujo, haga clic en ![menú](icon/icon_menu.svg)> **Exportar**.
+2.  Establezca los parámetros, incluyendo el nombre del archivo, la ruta, el formato y la calidad de la imagen. 
+3.  Haga clic en **Guardar**. 
 
-### Save Pictures
+### Guardar imágenes
 
-1.   On the Draw interface, click ![menu](icon/icon_menu.svg)> **Save** or ![menu](icon/icon_menu.svg)> **Save as**.
-2.   Set the file name and format to be saved and click **Save**.
+1.   En la interfaz de Dibujo, haga clic en ![menú](icon/icon_menu.svg)> **Guardar** o ![menú](icon/icon_menu.svg)> **Guardar como**.
+2.   Establezca el nombre y el formato del archivo que se va a guardar y haga clic en **Guardar**.
 
-> ![notes](icon/notes.svg)Notes: The suffix of the file name can be omitted and it can be saved as the selected format automatically. 
+> ![notes](icon/notes.svg)Nota: Cuando se omita el sufijo en el nombre del archivo se puede omitir se guardará bajo el formato seleccionado automáticamente. 
 
-### Print Pictures
+### Imprimir imágenes
 
-1.  On the Draw interface, click ![menu](icon/icon_menu.svg)> **Print**.
-2.  Select the printer and set the printing parameters.
-3.  Click **Print**.
+1.  En la interfaz de Dibujo, haga clic en ![menú](icon/icon_menu.svg)> **Imprimir**.
+2.  Seleccione la impresora y configure los parámetros de impresión.
+3.  Haga clic en **Imprimir**.
 
-> ![notes](icon/notes.svg)Notes: Click **Advanced** to customize your printing parameters.
+> ![notes](icon/notes.svg)Nota: Haga clic en **Avanzado** para personalizar los parámetros de impresión.
 
 
 
-## Drawing Tools
+## Herramientas de dibujo
 
-With the drawing tools of Draw, you can give full play to your imagination and creativity for free graphic drawings. 
+Con las herramientas de dibujado de la aplicación Dibujo, puede dar rienda suelta a su imaginación y creatividad para realizar dibujos gráficos gratis. 
 
-### Selection Tool
+### Herramienta de selección
 
-After drawing entities with the graphics drawing tool, you can perform the following operations:
+Después de dibujar entidades con la herramienta de dibujo de gráficos, puede realizar las siguientes operaciones:
 
-- Select drawn graphics, texts or blurred areas.
-- Perform marquee selection and all graphics within the marquee selection area are put under selected status.
-- Drag to adjust the size of the graphic within the selected area.
-- Hold down the **Shift** key and click to select multiple graphics.
+- Seleccione los gráficos dibujados, los textos o las áreas borrosas.
+- Realice la selección de la marquesina y todos los gráficos dentro del área de selección de la marquesina se pondrán en estado seleccionado.
+- Arrastre para ajustar el tamaño del gráfico dentro del área seleccionada.
+- Mantenga pulsada la tecla **Mayúsculas** y haga clic para seleccionar varios gráficos.
 
-> ![notes](icon/notes.svg)Notes: Click the blank area in the Draw to cancel the graphics selected.
+> ![notes](icon/notes.svg)Nota: Haga clic en el área en blanco del Dibujo para cancelar los gráficos seleccionados.
 
-### Shape Tool
+### Herramienta de forma
 
-1.   On the Draw interface, click  ![rectangle](icon/rectangle_normal.svg), ![oval](icon/oval_normal.svg) ,![triangle](icon/triangle_tool_normal.svg),![star](icon/draw-star.svg) or ![hexagon](icon/hexagon_tool_normal.svg).
-2.   You can set the parameters for graphics as follows:
- - Click **Fill** to set the fill color and transparency for graphics.
- - Click **Stroke** to set the stroke color and transparency for graphics.
- - Choose and set the width of Stroke from the drop-down list right to the **Stroke** button.
- - Click **Points** (from 3 to 50) and **Radius** (from 0% to 100%) to set the points and radius for star graphics only.
- - Click **Sides** to set sides for polygon graphics only. The number of sides ranges from 4 to 10, which can be adjusted by clicking the up and down adjustment icon or entering the value manually.
-3.   Drag the mouse to draw graphics in the Draw area. 
+1.   En la interfaz de Dibujo, haga clic en ![rectángulo](icon/rectangle_normal.svg), ![óvalo](icon/oval_normal.svg) , ![triángulo](icon/triangle_tool_normal.svg), ![estrella](icon/draw-star.svg) o ![hexágono](icon/hexagon_tool_normal.svg).
+2.   Puede configurar los parámetros de los gráficos de la siguiente manera:
+ - Haga clic en **Rellenar** para establecer el color de relleno y la transparencia de los gráficos.
+ - Haga clic en **Trazo** para establecer el color de trazo y la transparencia de los gráficos.
+ - Elija y defina la anchura del trazo en la lista desplegable situada a la derecha del botón **Trazo**.
+ - Haga clic en **Puntas** (de 3 a 50) y **Radio** (de 0% a 100%) para establecer los puntos y el radio sólo para los gráficos de estrellas.
+ - Haga clic en **Lados** para establecer los lados sólo para los gráficos de polígonos. El número de lados oscila entre 4 y 10, que puede ajustarse haciendo clic en el icono de ajuste hacia arriba y hacia abajo o introduciendo el valor manualmente.
+3.   Arrastre el ratón para dibujar los gráficos en el área de Dibujo. 
 
->![tips](icon/tips.svg)Tips: Facilitated by the **Shift** or **Shift + Alt** keys on the keyboard, you can draw a square, perfect circle, equilateral triangle, regular pentagram and regular pentagon when drawing graphics with ![rectangle](icon/rectangle_normal.svg), ![oval](icon/oval_normal.svg), ![triangle](icon/triangle_tool_normal.svg), ![star](icon/draw-star.svg) and ![hexagon](icon/hexagon_tool_normal.svg).
+>![tips](icon/tips.svg)Consejo: ¡Con la ayuda de las teclas **Mayúsculas** o **Mayúsculas + Alt** del teclado, puede dibujar un cuadrado, un círculo perfecto, un triángulo equilátero, un pentagrama regular y un pentágono regular al dibujar gráficos con ![rectángulo](icon/rectangle_normal.svg), ![óvalo](icon/oval_normal.svg) , ![triángulo](icon/triangle_tool_normal.svg), ![estrella](icon/draw-star.svg) y ![hexágono](icon/hexagon_tool_normal.svg).
 
 ![1|shape](jpg/shape1.png)
 
@@ -118,163 +118,163 @@ After drawing entities with the graphics drawing tool, you can perform the follo
 
 ![1|shape](jpg/shape3.png)
 
-### Line/Pencil Tool
+### Herramienta de línea/lápiz
 
 
-1.   On the Draw interface, click ![line](icon/line_normal.svg) or ![line](icon/pencil_normal.svg).
-2.   You can set parameters for your pencil as follows:
+1.   En la interfaz de Dibujo, haga clic en ![línea](icon/line_normal.svg) o ![línea](icon/pencil_normal.svg).
+2.   Intente configurar los parámetros de su lápiz de la siguiente manera:
 
-   - Click **Color** to set the color and transparency of the pencil.
-   -  Select the weight of pencil from the drop-down list. 
-   - Click **Start** and **End** to choose the style of starting point and ending point of the graphics including different arrow and circle types.
-3. Drag the mouse in the Draw area to draw lines.
+   - Haga clic en **Color** para establecer el color y la transparencia del lápiz.
+   - Seleccione el peso del lápiz en la lista desplegable. 
+   - Haga clic en **Inicio** y **Fin** para elegir el estilo del punto inicial y del punto final de los gráficos, incluyendo diferentes tipos de flechas y círculos.
+3. Arrastre el ratón en el área de dibujo para dibujar líneas.
 
 ![1|pencil](jpg/line-pencil.png)
 
-### Text Tool
+### Herramienta de texto
 
-1. On the Draw interface, click ![text](icon/text_normal.svg).
+1. En la interfaz de Dibujo, haga clic en ![texto](icon/text_normal.svg).
 
-2.   You can set text styles as follows:
-   - Click **Color** to set the fill color and transparency of texts.
-   - Select the font style in the **Font** drop-down list.
-   - Select regular font or bold font in the drop-down list.
-   - Adjust the **Size** by entering a value manually or selecting a size in the drop-down list.
+2.   Puede configurar los estilos de texto de la siguiente manera:
+   - Haga clic en **Color** para establecer el color de relleno y la transparencia de los textos.
+   - Seleccione el estilo de fuente en la lista desplegable **Fuente**.
+   - Seleccione la fuente normal o la negrita en la lista desplegable.
+   - Ajuste el **Tamaño** introduciendo un valor manualmente o seleccionando un tamaño en la lista desplegable.
    
-3. Click in the Draw area to enter texts in the text box.
+3. Haga clic en el área de dibujo para introducir textos en el cuadro de texto.
 
-![1|text](jpg/text.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![1|texto](jpg/text.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;
 
->![tips](icon/tips.svg)Tips: You can use shortcuts to adjust the font size. When font is under editing, select or click font **Size** and click ![up](icon/Up.svg) key on the keyboard to enlarge the size for one scale; you can also select or click font **Size** and click ![up](icon/Down.svg) key on the keyboard to reduce the size for one scale.
+>![tips](icon/tips.svg)Consejo: Puede utilizar los accesos directos para ajustar el tamaño de la fuente. Cuando la fuente está en edición, seleccione o haga clic en la fuente **Tamaño** y haga clic en la tecla ![arriba](icon/Up.svg) del teclado para ampliar el tamaño de una escala; también puede seleccionar o hacer clic en la fuente **Tamaño** y hacer clic en la tecla ![arriba](icon/Down.svg) del teclado para reducir el tamaño de una escala.
 
 
 
-### Blur Tool
+### Herramienta de desenfoque
 
-1.   On the Draw interface, click ![blur](icon/blur_normal.svg).
-2.   Select the blur **Type**.
-3.   Change the blur area width by clicking the up or down arrow in **Width** dropdown list.
-4.   Drag the mouse in the Draw area to blur the area as needed.
+1.   En la interfaz de Dibujo, haga clic en ![blur](icon/blur_normal.svg).
+2.   Seleccione el **Tipo** de desenfoque.
+3.   Cambie el ancho del área de desenfoque haciendo clic en la flecha hacia arriba o hacia abajo en la lista desplegable **Ancho**.
+4.   Arrastre el ratón en el área de dibujo para desenfocar el área según sea necesario.
 
 ![1|blur](jpg/blur.png)
 
 ![1|mosaic](jpg/mosaic.png)
 
-## Edit Functions
+## Funciones de edición
 
-You can copy, crop and rotate graphics with the editing functions, and also adjust layer and texts.
+Puede copiar, recortar y girar los gráficos con las funciones de edición, y también ajustar la capa y los textos.
 
-### Copy and Paste
+### Copiar y pegar
 
-1.  On the Draw interface, select the graphics to be copied.
-2.  Right-click to select **Copy** or use the shortcuts **Ctrl + C** to copy the graphics to the clipboard.
-3.  Right-click to select **Paste** or use the shortcuts **Ctrl + V** to paste the graphics to Draw.
+1.  En la interfaz de dibujo, seleccione los gráficos que desea copiar.
+2.  Haga clic con el botón derecho del ratón para seleccionar **Copiar** o utilice los accesos directos **Ctrl + C** para copiar los gráficos en el portapapeles.
+3.  Haga clic derecho para seleccionar **Pegar** o utilice los accesos directos **Ctrl + V** para pegar los gráficos en Dibujo.
 
 ![1|copy](jpg/copy.png)
 
-### Crop
+### Recortar
 
-1.  On the Draw interface, select an imported picture.
-2.  Click ![cut](icon/cut_normal.svg) to enter the cropping mode.
-  - Free: enter the dimension manually or adjust the area to be cropped by dragging the cropping border to realize customized cropping.
-  - Original: crop in proportion to the original picture by a ratio of 1:1, 2:3, 8:5 and 16:9 respectively.
+1.  En la interfaz de Dibujo, seleccione una imagen importada.
+2.  Haga clic en ![cortar](icon/cut_normal.svg) para entrar en el modo de recorte.
+  - Libre: introduzca la dimensión manualmente o ajuste el área a recortar arrastrando el borde de recorte para realizar un recorte personalizado.
+  - Original: recorta en proporción a la imagen original con una relación de 1:1, 2:3, 8:5 y 16:9 respectivamente.
 
-3.  Select the cropping mode and select the area to be cropped.
-4.  Press the **Enter** key to crop the graphics from the selected area.
+3.  Seleccione el modo de recorte y seleccione el área a recortar.
+4.  Pulse la tecla **Intro** para recortar los gráficos del área seleccionada.
 
 ![1|cut](jpg/cut.png)
 
 
-### Flip
+### Voltear
 
-1. On the Draw interface, select an imported picture.
-2.  Click ![flip](icon/filp_Vertical_normal.svg) or ![flip](icon/flip_Horizontal_normal.svg) to flip the picture vertically or horizontally.
+1. En la interfaz de Dibujo, seleccione una imagen importada.
+2.  Haga clic en ![flip](icon/filp_Vertical_normal.svg) o ![flip](icon/flip_Horizontal_normal.svg) para voltear la imagen vertical u horizontalmente.
 
 
-### Rotate
+### Rotar
 
-1.  On the Draw interface, select an imported picture.
-2.  Click ![rotate](icon/rotate_right_normal.svg) or ![rotate](icon/rotate_left_normal.svg) to rotate the picture for 90 degrees clockwise or counterclockwise. Or rotate the picture by clicking the![icon](icon/icon_rotate.svg) on the picture.
+1.  En la interfaz de dibujo, seleccione una imagen importada.
+2.  Haga clic en ![rotar](icon/rotate_right_normal.svg) o ![rotar](icon/rotate_left_normal.svg) para girar la imagen 90 grados en el sentido de las agujas del reloj o en sentido contrario. O gire la imagen haciendo clic en el ![icono](icon/icon_rotate.svg) de la imagen.
 
 ![1|roll-over](jpg/rotate.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
->   ![notes](C:/Users/Admin/Documents/aiwa/personal/1125/draw/en_US/icon/notes.svg) Notes: If you are using a computer equipped with a touchscreen, you can use touchscreen gestures to operate instead of the mouse. Click to select the picture with one finger and hold down ![icon](icon/icon_rotate.svg) to rotate the picture freely.
+>   ![notes](icon/notes.svg) Nota: Si utiliza un ordenador equipado con una pantalla táctil, puede utilizar los gestos de la pantalla táctil para operar en lugar del ratón. Haga clic para seleccionar la imagen con un dedo y mantenga pulsado ![icono](icon/icon_rotate.svg) para girar la imagen libremente.
 
-### Auto Fit
+### Autoajustar
 
-1.  On the Draw interface, select an imported picture.
-2.  Click ![auto fit](icon/auto fit.svg) to adjust canvas size based on the picture.
-    - If you choose one picture, the canvas size is adjusted according to the width and height of that picture.
-    - If you choose multiple pictures at a time, the canvas size is adjusted according to the biggest range of edges.
+1.  En la interfaz de Dibujo, seleccione una imagen importada.
+2.  Haga clic en ![auto fit](icon/auto fit.svg) para ajustar el tamaño del lienzo en función de la imagen.
+    - Si elige una imagen, el tamaño del lienzo se ajusta según la anchura y la altura de esa imagen.
+    - Si elige varias imágenes a la vez, el tamaño del lienzo se ajusta según el mayor rango de bordes.
 
 
-### Delete
+### Borrar
 
-1.  On the Draw interface, select an imported picture.
-2.  Right-click to select **Delete** or use the ![Delete](icon/delete.svg) key on the keyboard to delete the selected picture.
+1.  En la interfaz de Dibujo, seleccione una imagen importada.
+2.  Haga clic con el botón derecho para seleccionar **Borrar** o utilice la tecla ![Borrar](icon/delete.svg) del teclado para borrar la imagen seleccionada.
 
-![1|delete](jpg/delete.png)
+![1|borrar](jpg/delete.png)
 
-### Adjust Layers
+### Ajustar capas
 
-1.  On the Draw interface, select an imported picture.
-2.  Right-click **Layer** to select **Raise Layer**, **Lower Layer**, **Layer to Top** or **Layer to Bottom** to adjust the layer order.
+1.  En la interfaz de Dibujo, seleccione una imagen importada.
+2.  Haga clic con el botón derecho del ratón en **Capa** para seleccionar **Subir capa**, **Bajar capa**, **Capa al frente** o **Capa al fondo** para ajustar el orden de las capas.
 
 ![1|layer](jpg/layer.png)
 
-### Align Layers
+### Alinear capas
 
-1. On the Draw interface, select one or several graphics.
+1. En la interfaz de Dibujo, seleccione uno o varios gráficos.
 
-2. Right-click and select **Align**. Now you can choose **Align left**, **Horizontal centers**, **Align right**, **Align top**, **Vertical centers**, **Align bottom**, **Flip horizontally** or **Distribute vertical space**. 
+2. Haga clic con el botón derecho del ratón y seleccione **Alinear**. Ahora tiene que elegir **Alinear a la izquierda**, **Centrar horizontalmente**, **Alinear a la derecha**, **Alinear arriba**, **Centrar verticalmente**, **Alinear abajo**, **Voltear horizontalmente** o **Distribuir espacios verticalmente**. 
 
->![notes](icon/notes.svg)Notes: 
-   - When you select one graphic, the layer will be aligned with the canvas.
-   - When you select 3 or more graphics, **Flip horizontally** and **Distribute vertical space** are available.
+>![notes](icon/notes.svg)Notas: 
+   - Si selecciona un gráfico, la capa se alineará con el lienzo.
+   - Cuando se seleccionan 3 o más gráficos, **Voltear horizontalmente** y **Distribuir espacios verticalmente** están disponibles.
 
 ![1|align1](jpg/align1.png)
 
-### Align Texts
+### Alinear textos
 
-1.  On the Draw interface, click ![text](icon/text_normal.svg) and adjust the size of the text box.
-2.  Select target text. Right-click and select **Text Alight Left**, **Text  Align Right** or **Text Align Center** to align texts as needed.
+1.  En la interfaz de Dibujo, haga clic en ![texto](icon/text_normal.svg) y ajuste el tamaño del cuadro de texto.
+2.  Seleccione el texto de destino. 3. Haga clic con el botón derecho del ratón y seleccione **Alinear texto a la izquierda**, **Alinear texto a la derecha** o **Alinear texto al centro** para alinear los textos según sea necesario.
 
 ![1|layer](jpg/align.png)
 
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can create a new drawing, [Open Pictures](#Open Pictures), [Export Pictures](#Export Pictures), [Save Pictures](#Save Pictures), [Print Pictures](#Print Pictures), switch window themes, view help and get more information about Draw.
+En el menú principal, puede crear un nuevo dibujo, [Abrir imágenes](#Abrir imágenes), [Exportar imágenes](#Exportar imágenes), [Guardar imágenes](#Guardar imágenes), [Imprimir imágenes](#Imprimir imágenes), cambiar los temas de las ventanas, ver la ayuda y obtener más información sobre Dibujo.
 
-### New
+### Nuevo
 
-You can create a new drawing.
+Puede crear un nuevo dibujo.
 
-1.  On the Draw interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **New** to add a new drawing.
+1.  En la interfaz de Dibujo, haga clic en ![icono_menú](icon/icon_menu.svg).
+2.  Haga clic en **Nuevo** para añadir un nuevo dibujo.
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, Tema claro, Tema oscuro y Tema del sistema.
 
-1. On the Draw interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Theme** to select one theme.
+1. En la interfaz de Dibujo, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Tema** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-1.  On the Draw interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Help** to view the manual of Draw.
+1.  En la interfaz de Dibujo, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Ayuda** para ver el manual de Dibujo.
 
 
-### About
+### Acerca de
 
-1.   On the Draw interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **About** to view the version and introduction of Draw.
+1.   En la interfaz de Dibujo, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Acerca de** para ver la versión y la introducción de Dibujo.
 
-### Exit
+### Salir
 
-1.  On the Draw interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Exit** to exit Draw.
+1.  En la interfaz de Dibujo, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Salir** para salir de Dibujo.
 
