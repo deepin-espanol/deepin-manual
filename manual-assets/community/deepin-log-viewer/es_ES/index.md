@@ -1,187 +1,187 @@
-# Log Viewer|../common/deepin-log-viewer.svg|
+# Visor de registros|../common/deepin-log-viewer.svg|
 
-## Overview 
+## Descripción 
 
-Log viewer is a tool that collects logs generated when an application is running, for example, logs generated when operating system and applications start up and run. You can do trouble-shooting and solve problems quickly by analyzing logs. 
+Visor de registros es una herramienta que recoge los registros generados cuando una aplicación se está ejecutando, por ejemplo, los registros generados cuando el sistema operativo y las aplicaciones se inician y ejecutan. Puede realizar la localización de problemas y resolverlos rápidamente analizando los registros. 
 
 ![0|homepage](jpg/homepage.png)
 
-## Guide
+## Guía
 
-You can run, close or create a shortcut for Log Viewer.
+Puede ejecutar, cerrar o crear un acceso directo para el Visor de registros.
 
-### Run Log Viewer 
+### Ejecutar el Visor de registros 
 
-1. Click ![deepin-launcher](icon/deepin-launcher.svg)on the Dock to enter the interface of launcher.
-2. Locate ![deepin-log-viewer](icon/deepin-log-viewer.svg) by scrolling the mouse wheel or searching "Log Viewer" in the Launcher interface and click it to run.
-3. Right-click![deepin-log-viewer](icon/deepin-log-viewer.svg) to:
-   - Select **Send to desktop** to create a shortcut on the desktop.
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg)en el Muelle para entrar en la interfaz del Lanzador.
+2. Localice ![deepin-log-viewer](icon/deepin-log-viewer.svg) desplazando la rueda del ratón o buscando "Visor de registros" en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3. Haga clic con el botón derecho del ratón en ![deepin-log-viewer](icon/deepin-log-viewer.svg) para que:
+   - Seleccione **Enviar al escritorio** para crear un acceso directo en el escritorio.
 
-   - Select  **Send to dock** to fix it onto the dock.
+   - Seleccione **Enviar al muelle** para fijarlo en el muelle.
 
-   - Select **Add to startup** to run it automatically when the computer is turned on.
+   - Seleccione **Añadir al inicio** para que se ejecute automáticamente al encender el ordenador.
 
-### Exit Log Viewer 
+### Salir del Visor de registros 
 
-- On the main interface, click  ![close_icon](icon/close_icon.svg) to exit.
-- Right-click ![deepin-log-viewer](icon/deepin-log-viewer.svg) on the Dock, select **Close all** or **Force Quit** to exit.
-- On interface of Log Viewer, click ![icon_menu](icon/icon_menu.svg) and select **Exit** to exit.
+- En la interfaz principal, haga clic en ![close_icon](icon/close_icon.svg) para salir.
+- Haga clic con el botón derecho del ratón en ![deepin-log-viewer](icon/deepin-log-viewer.svg) en el muelle, seleccione **Cerrar todo** o **Forzar salida** para salir.
+- En la interfaz del Visor de registros, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir** para salir.
 
-## Operations
+## Operaciones
 
-### Search
+### Búsqueda
 
-1. Log Viewer supports searching by keywords.
-   - Click![search](icon/search.svg)to input keywords.
-2. Results are displayed after input. If no matched service is found, you will see a hint **No search results**.
-3. Click ![close_icon](icon/close_icon.svg) to close current searching.
+1. Visor de registros admite la búsqueda por palabras clave.
+   - Haga clic en ![search](icon/search.svg)para introducir las palabras clave.
+2. Los resultados se muestran después de la entrada. Si no se encuentra ningún servicio que coincida, aparecerá una pista **Sin resultados de búsqueda**.
+3. Haga clic en ![close_icon](icon/close_icon.svg) para cerrar la búsqueda actual.
 
 ![0|search](jpg/search.png)
 
-### Filter
+### Filtro
 
- Filtering parameters include **period**, **level**, **status**, **application list** and **event type**.
+ Los parámetros de filtrado incluyen **periodo**, **nivel**, **estado**, **lista de aplicaciones** y **tipo de evento**.
 
-  - Filtering by period: Filtering in the order of log generating date
+  - Filtrado por periodo: Filtrado en el orden de la fecha de generación del registro.
 
-    Options include: "All", "Today", "3 days", "1 week", "1 month", and "3 months". Default option is "All".
+    Las opciones son: "Todos", "Hoy", "3 días", "1 semana", "1 mes" y "3 meses". La opción por defecto es "Todos".
 
-    Applicable for: "period" is not displayed only for boot logs, other kinds of logs support filtering by period.
+    Aplicable para: "período" no se muestra sólo para los registros de arranque, otros tipos de registros admiten el filtrado por período.
 
-  - Filtering by level: filtering by seriousness levels of events
+  - Filtrado por nivel: filtrado por niveles de gravedad de los eventos.
 
-    Options include: "All", "Emergency", "Allert", "Critical", "Error", "Warning", "Notice", "Info"and "Debug". Default option is "Info".
+    Las opciones son: "Todos", "Emergencia", "Alerta", "Crítico", "Error", "Advertencia", "Aviso", "Info "y "Depuración". La opción por defecto es "Info".
 
-    Applicable for: system logs and application logs
+    Aplicable a: registros del sistema y registros de la aplicación
 
-  - Filtering by status: 
+  - Filtrado por estado: 
 
-    only applicable for boot logs, options include "All", "OK", and "Failed". Default option is "All".
+    sólo aplicable a los registros de arranque, las opciones son "Todos", "Aceptar" y "Fallido". La opción por defecto es "Todos".
 
-  - Filtering by application list: 
+  - Filtrado por lista de aplicaciones: 
 
-    only applicable for application logs, it's used to filter log files of applications, default option is the first one. 
+    sólo aplicable para los registros de aplicaciones, se utiliza para filtrar los archivos de registro de las aplicaciones, la opción por defecto es la primera. 
 
-  - Filtering by event type: 
+  - Filtrado por tipo de evento: 
 
-    only applicable for boot-shutdown events, options include:  "All", "Login", "Reboot", and "Shutdown", the default option is "all".  
+    sólo aplicable para eventos de arranque-apagado, las opciones son:  "All", "Login", "Reboot" y "Shutdown", la opción por defecto es "all".  
 
     
 
 
-### System Log
+### Registro del sistema
 
-1. On the main interface, click **System Log **. 
-2. You can see a list of system logs which are detailed by "Level", "Process", "Date and Time", and "Info".
-3. Click a log, you can see its particular info below the list, including process, user, PID, time and info.
+1. En la interfaz principal, haga clic en **Registro del sistema**. 
+2. Puede ver una lista de registros del sistema que se detallan por "Nivel", "Proceso", "Fecha y hora", e "Información".
+3. Haga clic en un registro, puede ver su información particular debajo de la lista, incluyendo el proceso, el usuario, el PID, la hora y la información.
 
 ![0|rsyslog](jpg/rsyslog.png)
 
-### Kernel Log
+### Registro del kernel
 
-1. On the main interface, click  **Kernel Log **.
-2. You can see a list of kernel logs which are detailed by "Date and time", "User", "Process" and "Info".
-3. Click a log, you can see its particular info below the list, including time, user, process, and info.
-> ![notes](icon/notes.svg)Notes: To view kernel log, a prompt appears saying **Authentication is required to view the log**, you can input login password to continue viewing.
+1. En la interfaz principal, haga clic en **Registro del kernel**.
+2. Puede ver una lista de registros del kernel que están detallados por "Fecha y hora", "Usuario", "Proceso" e "Información".
+3. Haga clic en un registro, puede ver su información particular debajo de la lista, incluyendo la hora, el usuario, el proceso y la información.
+> ![notes](icon/notes.svg)Nota: Para ver el registro del kernel, aparece un aviso diciendo **Se requiere autenticación para ver el registro**, puede introducir la contraseña de acceso para continuar viendo.
 
 ![0|kernlog](jpg/kernlog.png)
 
-### Boot Log
+### Registro de arranque
 
-1. On the main interface, click **Boot Log**.
-2. You can see a list of boot logs which are detailed by "Status" and "Info".
-3. Click a log, you can see its particular info below the list, including process, user, status and info.
-> ![notes](icon/notes.svg)Notes: To view boot log, a prompt appears saying **Authentication is required to view the log**, you can input login password to continue viewing.
+1. En la interfaz principal, haga clic en **Registro de arranque**.
+2. Puede ver una lista de registros de arranque que se detallan por "Estado" e "Información".
+3. Haga clic en un registro y podrá ver su información particular debajo de la lista, incluyendo el proceso, el usuario, el estado y la información.
+> ![notes](icon/notes.svg)Nota: Para ver el registro de arranque, aparece un aviso diciendo **Se requiere autenticación para ver el registro**, puede introducir la contraseña de inicio de sesión para continuar viendo.
 
 ![0|bootlog](jpg/bootlog.png)
 
-### dpkg Log
+### Registro de dpkg
 
-1. On the main interface, click **dpkg Log**. 
-2. You can see a list of dpkg logs which are detailed by "Date and time" and "Info".
-3. Click a log, you can see its particular info below the list, including process, user, action, time and info.
+1. En la interfaz principal, haga clic en **Registro de dpkg**. 
+2. Puede ver una lista de registros de la herramienta dpkg que están detallados por "Fecha y hora" e "Información".
+3. Haga clic en un registro y podrá ver su información particular debajo de la lista, incluyendo el proceso, el usuario, la acción, la hora y la información.
 
 ![0|dpkglog](jpg/dpkglog.png)
 
-### Xorg Log
+### Registro Xorg
 
-1. On the main interface, click **Ｘorg Log**.
-2. You can see a list of Xorg logs which are detailed by "Date and time" and "Info".
-3. Click a log, you can see its particular info below the list, including process, user, time and info.
+1. En la interfaz principal, haz clic en **Registro Xorg**.
+2. Puedes ver una lista de los registros del utilitario Xorg que están detallados por "Fecha y hora" e "Información".
+3. Haga clic en un registro, puede ver su información particular debajo de la lista, incluyendo el proceso, el usuario, la hora y la información.
 
 ![0|xorglog](jpg/xorglog.png)
 
-### Application Log
+### Registro de aplicaciones
 
-1. On the main interface, click  **Application Log **.
-2. You can see a list of application logs which are detailed by "Level", "Date and Time", "Source" and "Info".
-3. Click a log, you can see its particular info below the list, including source, user, time, level and info.
+1. En la interfaz principal, haga clic en **Registro de aplicaciones**.
+2. Puede ver una lista de registros de aplicaciones que se detallan por "Nivel", "Fecha y hora", "Fuente" e "Información".
+3. Haga clic en un registro y podrá ver su información particular debajo de la lista, incluyendo la fuente, el usuario, la hora, el nivel y la información.
 
 ![0|applog](jpg/applog.png)
 
 
-### Boot-Shutdown Event
+### Evento arranque-apagado
 
-1. On the main interface, click  **Boot-Shutdown Event**.
-2. You can see a list of boot-shutdown events which are detailed by "Event Type", "Username", "Date and Time", and "Info".
-3. Click a log, you can see its particular info below the list, including user, event type, username, and detailed info.
+1. En la interfaz principal, haga clic en **Evento de apagado de arranque**.
+2. Puede ver una lista de eventos de apagado de arranque que se detallan por "Tipo de evento", "Nombre de usuario", "Fecha y hora" e "Información".
+3. Haga clic en un registro, puede ver su información particular debajo de la lista, incluyendo el usuario, el tipo de evento, el nombre de usuario y la información detallada.
 ![0|powerevent](jpg/powerevent.png)
 
-### Export
+### Exportar
 
-You can export logs and save them in format of  txt/doc/xls/html.
+Puede exportar los registros y guardarlos en formato txt/doc/xls/html.
 
-1. On the main interface, click **Export**. 
-2. An interface of file manager pops up. Input a file name and select a format. 
-3. Click **Save**. 
+1. En la interfaz principal, haga clic en **Exportar**. 
+2. Aparece una interfaz del Administrador de archivos. Introduzca un nombre de archivo y seleccione un formato. 
+3. Haga clic en **Guardar**. 
 
-### Display in File Manager
+### Mostrar en el Administrador de archivos
 
-1. On the interface of File Manager, select a log type in the left panel and right-click.
-2. Select **Display in file manager**, the folder path of the current log will be opened. 
+1. En la interfaz del Administrador de archivos, seleccione un tipo de registro en el panel izquierdo y haga clic con el botón derecho.
+2. Seleccione **Mostrar en el administrador de archivos**, se abrirá la ruta de la carpeta del registro actual. 
 
-> ![notes](icon/notes.svg)Notes: **Display in file manager** is only applicable for kernel log, boot log, dpkg log, Xorg log and application log.
+> ![notes](icon/notes.svg)Nota: **Mostrar en el Administrador de archivos** sólo es aplicable para el registro del kernel, el registro de arranque, el registro de dpkg, el registro Xorg y el registro de aplicaciones.
 
 ![display](jpg/displayinfm.png)
 
-### Clear Log
+### Limpiar registro
 
-1. On the interface of File Manager, select a log type in the left panel and right-click.
-2. Select **Clear log**, click **Confirm** button in the pop-up window to clear current logs.
-3. If authentication window pops up, please input password to finish the operation.
-> ![notes](icon/notes.svg)Notes: **Clear log** is only applicable for kernel log, boot log, dpkg log, Xorg log and application log.
+1. En la interfaz del Administrador de archivos, seleccione un tipo de registro en el panel izquierdo y haga clic con el botón derecho.
+2. Seleccione **Limpiar registro**, haga clic en el botón **Confirmar** en la ventana emergente para borrar los registros actuales.
+3. Si aparece la ventana de autenticación, introduzca la contraseña para finalizar la operación.
+> Notas: **Limpiar registro** sólo es aplicable al registro del kernel, al registro de arranque, al registro de dpkg, al registro de Xorg y al registro de aplicaciones.
 
-### Refresh
-1. On the interface of File Manager, select a log type in the left panel and right-click.
-2. Select **Refresh** to reload the log and update log list.
+### Actualizar
+1. En la interfaz del Administrador de archivos, seleccione un tipo de registro en el panel izquierdo y haga clic con el botón derecho.
+2. Seleccione **Actualizar** para recargar el registro y actualizar la lista de registros.
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can switch themes, view help manual, and so on.
+En el menú principal, puede cambiar de tema, ver el manual de ayuda, etc.
 
-### Theme
+### Tema
 
-The window theme includes Light Theme, Dark Theme and System Theme.
+El tema de la ventana incluye el tema claro, el tema oscuro y el tema del sistema.
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Theme** to select one.
-
-
-### Help
-
-Click Help to get the manual, which will help you further know and use Log Viewer.
-
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **Help** to view the manual.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Theme** para seleccionar uno.
 
 
-### About
+### Ayuda
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click **About** to view version information and introduction about Log Viewer.
+Haga clic en Ayuda para obtener el manual, que le ayudará a conocer y utilizar Visor de registros.
 
-### Exit
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Ayuda** para ver el manual.
 
-1. Click ![icon_menu](icon/icon_menu.svg)on the interface.
-2. Click  **Exit**.
+
+### Acerca de
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Acerca de** para ver la información de la versión y la introducción sobre Visor de registros.
+
+### Salir
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)en la interfaz.
+2. Haga clic en **Salir**.
 
