@@ -1,195 +1,195 @@
-# Font Manager|../common/deepin-font-manager.svg|
+# Administrador de fuentes|../common/deepin-font-manager.svg|
 
-## Overview
+## Descripción
 
-Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size.  
+El Administrador de fuentes es una potente herramienta de gestión de fuentes. Con el Administrador de fuentes, no sólo puede buscar, instalar, activar, desactivar y eliminar fuentes, entre otras cosas, sino también previsualizar las fuentes introduciendo textos y ajustando el tamaño del texto.  
 
-It supports fonts in ttf, ttc and otf formats.
+Admite fuentes en formatos ttf, ttc y otf.
 
 ![0|main](jpg/main.png)
 
-## Guide
+## Guía
 
-You can run, exit or create a shortcut for Font Manager by the following ways.
+Puede ejecutar, salir o crear un acceso directo para el Administrador de Fuentes de las siguientes maneras.
 
-### Run Font Manager
+### Ejecutar el Administrador de Fuentes
 
-1.   Click ![launcher](icon/deepin-launcher.svg) in the dock to enter the Launcher interface.
-2.   Locate ![deepin-font-manager](icon/deepin-font-manager.svg) by by scrolling the mouse wheel or searching "font manager" in the Launcher interface and click it to run.
-3.   Right-click ![deepin-font-manager](icon/deepin-font-manager.svg) and you can:
+1.   Haga clic en ![launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2.   Localice ![deepin-font-manager](icon/deepin-font-manager.svg) desplazando la rueda del ratón o buscando "administrador de fuentes" en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3.   Haga clic con el botón derecho del ratón en ![deepin-font-manager](icon/deepin-font-manager.svg) y puede que:
 
-   - Click **Send to desktop** to create a desktop shortcut
-   - Click **Send to dock** to fix it in the  Dock.
-   - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+   - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio
+   - Haga clic en **Enviar al muelle** para fijarlo en el Muelle.
+   - Haga clic en **Añadir al inicio** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
 
-### Exit Font Manager
+### Salir del Administrador de Fuentes
 
-- Click ![close](icon/close.svg) on the Font Manager interface to exit Font Manager.
--  Right-click ![deepin-font-manager](icon/deepin-font-manager.svg) in the dock and select **Close All** to exit.
-- Click ![icon_menu](icon/icon_menu.svg) on the Font Manager interface and select **Exit** to exit.
+- Haga clic en ![cerrar](icon/close.svg) en la interfaz del Administrador de fuentes para salir del Administrador de fuentes.
+- Haga clic con el botón derecho del ratón en ![deepin-font-manager](icon/deepin-font-manager.svg) en el muelle y seleccione **Cerrar todo** para salir.
+- Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz del Administrador de fuentes y seleccione **Salir** para salir.
 
-## Operation
+## Operación
 
-### Introduce Interface
+### Interfaz introductiva
 
 | Name       | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
-| All fonts  | A collection of system fonts and user fonts, with all fonts displayed by default. |
-| System     | Font lists that come with the system. The fonts in this font set cannot be deleted. |
-| User       | Font lists installed by the user.                            |
-| Favorites  | The user's favorite font lists, i.e. the collection of fonts selected from other font sets. |
-| Active     | All font collections under the startup status                |
-| Chinese    | Chinese characters in all font sets, displaying names in Chinese |
-| Monospaced | All fonts with the same character width                      |
+| Todas las fuentes | Una colección de fuentes del sistema y de usuario, con todas las fuentes mostradas por defecto. |
+| Sistema | Listas de fuentes que vienen con el sistema. Las fuentes de este conjunto de fuentes no se pueden eliminar. |
+| Usuario | Listas de fuentes instaladas por el usuario.                            |
+| Favoritos | Las listas de fuentes favoritas del usuario, es decir, la colección de fuentes seleccionadas de otros conjuntos de fuentes. |
+| Activo | Todas las colecciones de fuentes bajo el estado de inicio |
+| Chino | Los caracteres chinos en todos los conjuntos de fuentes, mostrando los nombres en chino |
+| Monospaced | Todas las fuentes con la misma anchura de caracteres |
 
 
 
-### Install Fonts
+### Instalar fuentes
 
-With Font Manager, you can not only install a single font but also install multiple fonts in a batch.
+Con el Administrador de fuentes, no sólo puede instalar una sola fuente, sino también instalar varias fuentes en un lote.
 
-#### Single Font Installation
+#### Instalación de una fuente
 
-1.  On the Font Manager interface, click ![add](icon/icon_plus.svg) or select ![icon_menu](icon/icon_menu.svg)> **Add font**.
-2. Select the font file to be installed, right-click and select **Open**, or double-click the font file to open Font Manager for installation.
-3.  Please enter the authorization password in the pop-up authorization window (if any).
-4.  Right-click the font file after successful installation and select **Display in file manager** to view the specific installation location.
+1.  En la interfaz del Administrador de fuentes, haga clic en ![añadir](icon/icon_plus.svg) o seleccione ![icono_menú](icon/icon_menu.svg)> **Añadir fuente**.
+2. Seleccione el archivo de fuentes que desea instalar, haga clic con el botón derecho y seleccione **Abrir**, o haga doble clic en el archivo de fuentes para abrir el Administrador de fuentes para su instalación.
+3.  Introduzca la contraseña de autorización en la ventana emergente de autorización (si la hay).
+4.  Haga clic con el botón derecho del ratón en el archivo de fuentes después de la instalación correcta y seleccione **Mostrar en el Administrador de archivos** para ver la ubicación específica de la instalación.
 
-> ![tips](icon/tips.svg)Tips: You can also right-click the font file, and select **Open with** > ![deepin-font-manager](icon/deepin-font-manager.svg) **Font Manager** to enter the Font Manager interface and install the font.
+> ![tips](icon/tips.svg)Consejo: También puede hacer clic con el botón derecho del ratón en el archivo de fuentes y seleccionar **Abrir con** > ![deepin-font-manager](icon/deepin-font-manager.svg) **Administrador de fuentes** para entrar en la interfaz del Administrador de fuentes e instalar la fuente.
 
-> ![notes](icon/notes.svg)Notes: Font Manager will detect your fonts automatically. If the font has been installed locally, a prompt message will pop up to advise you that an identical version has already been installed. You can select **Exit** or **Continue** to exit or continue the installation.
+> ![notes](icon/notes.svg)Nota: El Administrador de fuentes detectará sus fuentes automáticamente. Si la fuente ha sido instalada localmente, aparecerá un mensaje para avisarle de que ya se ha instalado una versión idéntica. Puede seleccionar **Salir** o **Continuar** para salir o continuar la instalación.
 
 ![0|single](jpg/single.png)
 
-#### Batch Installation
+#### Instalación en lote
 
-You can add multiple fonts in a batch at one time by dragging or selecting files in the Font Manager. Please refer to [Single Font Installation](#Single Font Installation) for the installation steps. Pay attention to the following points during batch installation:
+Puede añadir varias fuentes en un lote a la vez arrastrando o seleccionando archivos en el Administrador de fuentes. Consulte los pasos de instalación en [Instalación de una fuente](#Instalación de una fuente). Preste atención a los siguientes puntos durante la instalación por lotes:
 
-- You can install a single font or batch fonts after successful batch installation.
-- Re-installation can be performed for fonts which are already installed locally during batch installation.
+- Puede instalar una sola fuente o fuentes por lotes después de una instalación por lotes exitosa.
+- La reinstalación puede realizarse para las fuentes que ya están instaladas localmente durante la instalación por lotes.
 
-> ![notes](icon/notes.svg)Notes: If you want to use the installed font as your system font, you can open the **Control Center**, click **Font** in **Personalization**, and set the font as **Standard Font**.
+> ![notes](icon/notes.svg)Nota: Si desea utilizar la fuente instalada como fuente del sistema, puede abrir el **Centro de control**, hacer clic en **Fuente** en **Personalización** y establecer la fuente como **Fuente estándar**.
 
 ![0|mult](jpg/mult.png)
 
-### Search Fonts
+### Buscar fuentes
 
-1.   In the search box on top of the Font Manager interface, you can click![search](icon/search.svg) to enter keywords.
+1.   En el cuadro de búsqueda de la parte superior de la interfaz del Administrador de fuentes, puede hacer clic en ![search](icon/search.svg) para introducir palabras clave.
 
-2.   Press the Enter key on the keyboard to conduct searching.
-   - When there is matched information, the search result lists will be displayed on the interface. 
-   - When there is no matched information, **No search results** will be displayed on the interface.
-3.   When there are matched fonts, you can preview the contents matching with the search criteria by entering texts in the bottom text preview box and dragging the control bar horizontally to adjust the font size.
-4.   Click ![0|close](icon/close.svg) or delete the entered information in the search box to clear the current search criteria or cancel the search.
+2.  Pulse la tecla Intro del teclado para realizar la búsqueda.
+   - Cuando haya información coincidente, se mostrarán las listas de resultados de la búsqueda en la interfaz. 
+   - Cuando no haya información coincidente, se mostrará **Sin resultados de búsqueda** en la interfaz.
+3.   Cuando hay fuentes coincidentes, puede previsualizar los contenidos que coinciden con los criterios de búsqueda introduciendo textos en el cuadro de previsualización de texto inferior y arrastrando la barra de control horizontalmente para ajustar el tamaño de la fuente.
+4.   Haga clic en ![0|cerrar](icon/close.svg) o borre la información introducida en el cuadro de búsqueda para borrar los criterios de búsqueda actuales o cancelar la búsqueda.
 
-### Export Fonts
+### Exportar fuentes
 
-1. On the Font Manager interface, right-click the font and select **Export**.
-2. A prompt message **The font exported to your desktop** pops up and disappears several seconds later.
+1. En la interfaz del Administrador de fuentes, haga clic con el botón derecho en la fuente y seleccione **Exportar**.
+2. Aparece un mensaje de aviso **La fuente exportada a su escritorio** y desaparece varios segundos después.
 
-The exported font is saved in the desk folder by default, with Font as its default folder name.
+La fuente exportada se guarda por defecto en la carpeta del escritorio, con el nombre de carpeta Font por defecto.
 
-> ![notes](icon/notes.svg)Notes: Single and batch font(s) export are supported. Only the latest version of the same font is exported. No copy will be exported. System font cannot be exported.
+> ![notes](icon/notes.svg)Nota: Se admite la exportación de fuentes individuales y por lotes. Sólo se exporta la última versión de la misma fuente. No se exportará ninguna copia. La fuente del sistema no se puede exportar.
 
-### View Basic Font Information
+### Ver la información básica de las fuentes
 
-You can view the basic font information via Font Manager.
+Puede ver la información básica de las fuentes a través del Administrador de fuentes.
 
-1. Right-click to select **Details** in the font sets list on the Font Manager interface.
-2. You can view the font icon, name, style, type, version and description information.
+1. Haga clic con el botón derecho para seleccionar **Detalles** en la lista de conjuntos de fuentes de la interfaz del Administrador de fuentes.
+2. Puede ver el icono de la fuente, el nombre, el estilo, el tipo, la versión y la información de la descripción.
 
 ![0|info](jpg/info.png)
 
-### View Font Installation Location
+### Ver la ubicación de la instalación de la fuente
 
-When the font is installed successfully, you can view its installation location via File Manager.
+Cuando la fuente se ha instalado correctamente, puede ver su ubicación de instalación a través del Administrador de archivos.
 
-Right-click a font in the font sets list and select **Display in file manager** on the Font Manager interface to view the specific installation location.
+Haga clic con el botón derecho en una fuente de la lista de conjuntos de fuentes y seleccione **Mostrar en el administrador de archivos** en la interfaz del Administrador de fuentes para ver la ubicación de instalación específica.
 
-### Preview Fonts
+### Vista previa de las fuentes
 
-Each text block of the font in the font sets presents the corresponding font style and you can view the display effect by previewing fonts.
+Cada bloque de texto de la fuente en los conjuntos de fuentes presenta el estilo de fuente correspondiente y puede ver el efecto de visualización mediante la vista previa de las fuentes.
 
-The default preview copy is **Don't let your dreams be dreams** and displayed in English.
+La copia de vista previa por defecto es **Don't let your dreams be dreams** (***No dejes que tus sueños sean sueños***) y se muestra en inglés.
 
-1.   Enter texts in the font preview input box at the bottom on the Font Manager interface.
+1.   Introduzca los textos en el cuadro de entrada de la vista previa de la fuente en la parte inferior en la interfaz del Administrador de fuentes.
 
-2.   Set the font size by dragging the control bar horizontally.
+2.   Ajuste el tamaño de la fuente arrastrando la barra de control horizontalmente.
 
-3. View the display effect in the font set list.
+3. Vea el efecto de visualización en la lista de conjuntos de fuentes.
 
-   > ![notes](icon/notes.svg)Notes: Drag the scroll bar to the left to reduce the font size and drag it to the right to enlarge the font size. The font size ranges from 6px to 60px.
+   > ![notes](icon/notes.svg)Nota: Arrastre la barra de control hacia la izquierda para reducir el tamaño de la fuente y arrástrela hacia la derecha para ampliarlo. El tamaño de la fuente va de 6px a 60px.
 
-### Favorite/Unfavorite Fonts
+### Añadir/quitar fuentes a favoritos
 
-You can favorite or unfavorite a font via Font Manager.
-1.   Click **All Fonts** on the Font Manager interface.
+Puede marcar como favorita o desfavorable una fuente a través del Administrador de fuentes.
+1.   Haga clic en **Todas las fuentes** en la interfaz del Administrador de fuentes.
 
-2.   Click the ![uncollect](icon/uncollection_normal.svg) icon to the right of a row in the list.
+2.   Haga clic en el icono ![uncollect](icon/uncollection_normal.svg) a la derecha de una fila de la lista.
 
-3.  View the font in the **Favorites** List. The status is changed to **Favorite** ![collect](icon/collection_normal.svg).
+3.  Vea la fuente en la lista de **Favoritas**. El estado cambia a **Añadir a favoritas** ![colección](icon/collection_normal.svg).
 
-4.   Click the ![collect](icon/collection_normal.svg) icon in the **All Fonts** lists. The unfavorite font will not be displayed in the **Favorites** list and the status displayed in other font set lists is changed to **Unfavorite** ![uncollect](icon/uncollection_normal.svg).
+4.   Haga clic en el icono ![collect](icon/collection_normal.svg) en la lista **Todas las fuentes**. La fuente no favorita no se mostrará en la lista **Favoritas** y el estado mostrado en otras listas de conjuntos de fuentes se cambia a **Quitar de favoritas** ![uncollect](icon/uncollection_normal.svg).
 
-5.   In the **All Fonts** list,  you can also right-click to select **Favorite** or **Unfavorite**.
+5.   En la lista **Todas las fuentes**, también puede hacer clic con el botón derecho para seleccionar **Añadir a favoritas** o **Quitar de favoritas**.
 
-> ![notes](icon/notes.svg)Notes: Favorite/Unfavorite are available for a single font and a batch of fonts.
+> ![notes](icon/notes.svg)Nota: Añadir/Quitar están disponibles para una sola fuente y para un lote de fuentes.
 
-### Enable/Disable Fonts
+### Activar/Desactivar fuentes
 
-You can enable or disable a font via Font Manager.
+Puede activar o desactivar una fuente a través del Administrador de fuentes.
 
-1.   Select the font with **Disabled** status in the **User** list on the Font Manager interface.
+1.   Seleccione la fuente con estado **Desactivado** en la lista **Usuario** de la interfaz del Administrador de fuentes.
 
-2.   Check the font. The font will be enabled and displayed in the **Active** list. 
+2.   Marque la fuente. La fuente se habilitará y se mostrará en la lista **Activa**. 
 
-3.   Click the checked font in the **Active** list to disable the font.
+3.   Haga clic en la fuente marcada en la lista **Activa** para desactivar la fuente.
 
-   The disabled font will not be displayed in the **Active** list and is grayed out in other font set lists with a **Disabled** status.
+   La fuente desactivada no se mostrará en la lista **Activa** y aparecerá en gris en otras listas de conjuntos de fuentes con un estado **Desactivada**.
 
-4.   You can also right-click to **Enable** or **Disable** in the **User** list to complete the corresponding operation. 
+4.   También puede hacer clic con el botón derecho del ratón en **Activar** o **Desactivar** en la lista **Usuario** para realizar la operación correspondiente. 
 
-> ![notes](icon/notes.svg)Notes: Enable/Disable are available for a single font and a batch of fonts. System font and font currently being used can not be disabled.
+> ![notes](icon/notes.svg)Nota: Activar/Desactivar están disponibles para una sola fuente y para un lote de fuentes. La fuente del sistema y la que se está utilizando actualmente no se pueden desactivar.
 
-### Delete Fonts
+### Eliminar fuentes
 
-You can delete a font through Font Manager.
+Puede eliminar una fuente a través del Administrador de fuentes.
 
-> ![notes](icon/notes.svg)Notes: Delete is available for a single font and a batch of fonts. System font and font currently being used can not be deleted.
+> ![notes](icon/notes.svg)Nota: La eliminación está disponible para una sola fuente y para un lote de fuentes. La fuente del sistema y la fuente que se está utilizando actualmente no se pueden eliminar.
 
-1. Select a font in the **User** list on the Font Manager interface and right-click **Delete**.
-2.  Click **Delete** in the pop-up box.
-3.  Please enter the authorization password in the pop-up authorization dialogue (if any) to delete the font.
+1. Seleccione una fuente en la lista **Usuario** de la interfaz del Administrador de fuentes y haga clic con el botón derecho del ratón en **Eliminar**.
+2.  Haga clic en **Borrar** en el cuadro emergente.
+3.  Introduzca la contraseña de autorización en el cuadro de diálogo de autorización emergente (si existe) para eliminar la fuente.
 
 ![0|font-delete](jpg/font-delete.png)
 
 
 
-## Main Menu
+## Menú principal
 
-On the main menu, you can switch window themes, view help manual and get more information about Font Manager.
+En el menú principal, puede cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre el Administrador de fuentes.
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, claro, oscuro y sistema.
 
-1.   On the Font Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.   Click **Theme** to select a theme.
+1.   En la interfaz del Administrador de fuentes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.   Haga clic en **Tema** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-1.   On the Font Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.   Click **Help** to view the manual of Font Manager.
+1.   En la interfaz del Administrador de fuentes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.   Haga clic en **Ayuda** para ver el manual del Administrador de fuentes.
 
 
-### About
+### Acerca de
 
-1.   On the Font Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.   Click **About** to view the version and introduction of Font Manager.
+1.   En la interfaz del Administrador de fuentes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.   Haga clic en **Acerca de** para ver la versión y la introducción del Administrador de fuentes.
 
-### Exit
+### Salir
 
-1.   On the Font Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.   Click **Exit** to exit Font Manager.
+1.   En la interfaz del Administrador de fuentes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.   Haga clic en **Salir** para salir del Administrador de fuentes.
 
