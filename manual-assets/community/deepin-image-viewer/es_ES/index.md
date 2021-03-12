@@ -1,174 +1,174 @@
-# Image Viewer|../common/deepin-image-viewer.svg|
+# Visor de imágenes|../common/deepin-image-viewer.svg|
 
-## Overview
+## Descripción
 
-Image Viewer is a lightweight image viewer with a trendy look and smooth performance. Supporting a wide range of image formats, it's more than just easy to use. 
+El Visor de imágenes es un visualizador de gráficos ligero con un aspecto moderno y un rendimiento fluido. Soporta una amplia gama de formatos de imagen, es más que fácil de usar. 
 
 
 ![1|maininterface](jpg/main.png)
 
-## Guide
+## Guía
 
-You can run, close and create shortcuts for Image Viewer by the following ways.
+Puede ejecutar, cerrar y crear accesos directos para el Visor de imágenes de las siguientes maneras.
 
-### Run Image Viewer
+### Ejecutar el Visor de imágenes
 
-1. Click ![deepin-launcher](icon/deepin-launcher.svg) in the dock to enter the Launcher interface.
-2. Locate ![viewer](icon/deepin-image-viewer.svg) by scrolling the mouse wheel or searching "image viewer" in the Launcher interface.
-3. Right-click ![viewer](icon/deepin-image-viewer.svg) and the user can:
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix the application in the dock.
- - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2. Localice ![viewer](icon/deepin-image-viewer.svg) desplazando la rueda del ratón o buscando "Visor de imágenes" en la interfaz del Lanzador.
+3. Haga clic con el botón derecho del ratón en ![viewer](icon/deepin-image-viewer.svg) y el usuario podrá:
+ - Hacer clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+ - Hacer clic en **Enviar al muelle** para fijar la aplicación en el muelle.
+ - Hacer clic en **Añadir al arranque** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
 
-### Exit Image Viewer
+### Salir del Visor de imágenes
 
-1. On the Image Viewer interface, click ![close](icon/close.svg) to exit Image Viewer.
-2. Right-click ![viewer](icon/deepin-image-viewer.svg) in the dock and select **Close All** to exit Image Viewer.
-3. Click ![Settings](icon/icon_menu.svg) on the Image Viewer interface and select **Exit** to exit Image Viewer.
+1. En la interfaz del Visor de imágenes, haga clic en ![cerrar](icon/close.svg) para salir del Visor de imágenes.
+2. Haga clic con el botón derecho del ratón en ![visor](icon/deepin-image-viewer.svg) en el muelle y seleccione **Cerrar todo** para salir del Visor de imágenes.
+3. Haga clic en ![Ajustes](icon/icon_menu.svg) en la interfaz del Visor de imágenes y seleccione **Salir** para salir del Visor de imágenes.
 
-### View Shortcuts 
+### Ver atajos de teclado
 
-On the Image Viewer interface, press **Ctrl + Shift + ?** on the keyboard to view shortcuts. 
+En la interfaz del Visor de imágenes, pulse **Ctrl + Shift + ?** en el teclado para ver los atajos de teclado. 
 
 ![1|hotkey](jpg/hotkey.png)
 
-## Image Viewing
+## Visualización de imágenes
 
-### Open Images
-You can use one of the following ways to open image files:
+### Abrir imágenes
+Puede utilizar una de las siguientes formas para abrir archivos de imagen:
 
-- Right-click an image and select **Open with** > **Image Viewer**. 
-- Double click an image to open if Image Viewer has been set as the default application for image viewing.
-- Open Image Viewer. Click **Open Image** and select the image file to open it.
-- Open Image Viewer and drag the image to the interface to open it.
-- Drag the image to the Image Viewer icon on desktop or dock to open it.
+- Haga clic con el botón derecho en una imagen y seleccione **Abrir con** > **Visor de imágenes**. 
+- Haga doble clic en una imagen para abrirla si el Visor de imágenes ha sido configurado como la aplicación predeterminada para la visualización de imágenes.
+- Abrir el Visor de imágenes. Haga clic en **Abrir imagen** y seleccione el archivo de imagen para abrirlo.
+- Abra el Visor de imágenes y arrastre la imagen a la interfaz para abrirla.
+- Arrastre la imagen al icono del Visor de imágenes en el escritorio o muelle para abrirla.
 
-> ![tips](icon/tips.svg)Tips:
+> ![tips](icon/tips.svg)Consejos:
 >
->  In Control Center, you can set Image Viewer as the default image viewer. Please refer to [Default Applications](dman:///dde#Default Application Settings) for specific operations.
+> En el Centro de control, puede establecer el Visor de imágenes como el visor de imágenes predeterminado. Consulte [Aplicaciones predeterminadas](dman:///dde#Ajustes de aplicaciones predeterminadas) para conocer las operaciones específicas.
 >
-> Following Image formats are supported: BMP, ICO, JPG/JPE/JPEG, PNG, TGA, TIF/TIFF, XPM, GIF, SGI, RAW, WEBP, CR2, NEF, DNG, RAF, MEF, MRW, XBM, SVG, ORF and MNG.
+> Se admiten los siguientes formatos de imagen: BMP, ICO, JPG/JPE/JPEG, PNG, TGA, TIF/TIFF, XPM, GIF, SGI, RAW, WEBP, CR2, NEF, DNG, RAF, MEF, MRW, XBM, SVG, ORF y MNG.
 
->![notes](icon/notes.svg) Notes: If you are using a  computer equipped with touch-screen or touchpad, you can use gestures instead of the mouse to zoom in on or zoom out of the images being viewed:
+>![notes](icon/notes.svg)Notas: Si utiliza un equipo provisto de pantalla táctil o touchpad, puede utilizar gestos en lugar del ratón para acercar o alejar las imágenes que se están visualizando:
 >
->-  On the touchscreen, open your two fingers to zoom in and pinch them to zoom out.
->-  On the touchpad that supports multiple-point touch, open your two fingers to zoom in on the picture and pinch them to zoom out.
+>- En la pantalla táctil, abre los dos dedos para acercarte y pellízcalos para alejarte.
+>- En el panel táctil que admite el toque de varios puntos, abre los dos dedos para acercar la imagen y pellízcalos para alejarla.
 
-### Main Interface
+### Interfaz principal
 
 ![1|main](jpg/main.png)
 
-| Icon                                               | Name                    | Description                                                  |
+| Icono                                                | Nombre                    | Descripción                      |
 | -------------------------------------------------- | ----------------------- | ------------------------------------------------------------ |
-| ![previous](icon/previous.svg)                     | Previous                | Switch to the previous image.                                |
-| ![next](icon/next.svg)                             | Next                    | Switch to the next image.                                    |
-| ![adapt-image](icon/adapt-image.svg)               | 1:1 Size                | The image will show in 1:1 size without changing the size of the window. |
-| ![fit_hover](icon/fit_hover.svg)                   | Fit to window           | The image will be resized to adapt to the current window.    |
-| ![clockwise-rotation](icon/clockwise-rotation.svg) | Rotate clockwise        | Rotate the image 90 degrees clockwise.                       |
-| ![contrarotate](icon/contrarotate.svg)             | Rotate counterclockwise | Rotate the image 90 degrees counterclockwise.                |
-| ![delete](icon/delete.svg)                         | Delete                  | Delete the current image.                                    |
+| ![previous](icon/previous.svg)                     | Anterior | Retrocede a la imagen anterior.                                |
+| ![next](icon/next.svg)                            | Siguiente | Pasa a la siguiente imagen.                                    |
+| ![adapt-image](icon/adapt-image.svg) | Tamaño 1:1 | La imagen se mostrará en tamaño 1:1 sin cambiar el tamaño de la ventana. |
+| ![fit_hover](icon/fit_hover.svg) | Ajustar a la ventana | La imagen se redimensionará para adaptarse a la ventana actual.    |
+| ![clockwise-rotation](icon/clockwise-rotation.svg) | Girar a la derecha | Gira la imagen 90 grados en el sentido de las agujas del reloj.                    |
+| ![contrarotate](icon/contrarotate.svg)             |  Girar a la izquierda | Gira la imagen 90 grados en sentido contrario a las agujas del reloj.                |
+| ![borrar](icon/delete.svg) | Borrar | Borra la imagen actual.                                    |
 
 
 
-> ![tips](icon/tips.svg)Tips: If the image size exceeds the window, a navigation window will appear at the lower left corner of the interface, which helps you to fast locate image areas. If you don't want to show the navigation window automatically, you can close it by clicking **X** at the top right corner of the window. You can right-click to select **Hide/Show navigation window** on the Image Viewer interface.
+> ![tips](icon/tips.svg)Consejo: Si el tamaño de la imagen excede la ventana, aparecerá una ventana de navegación en la esquina inferior izquierda de la interfaz, que le ayudará a movilizar rápidamente en las áreas de la imagen. Si no desea que se muestre la ventana de navegación automáticamente, puede cerrarla haciendo clic en **X** en la esquina superior derecha de la ventana. Puede hacer clic con el botón derecho para seleccionar **Ocultar/Mostrar ventana de navegación** en la interfaz del Visor de imágenes.
 
-> ![notess](icon/notes.svg)Notes: The Rotate and Delete icons are grayed out and disabled for system images.
+> ![notes](icon/notes.svg)Nota: Los iconos de Girar y Borrar aparecerán desactivados y en gris para las imágenes del sistema.
 
-### Print Images
+### Imprimir imágenes
 
-You can print images in Image Viewer.
+Puede imprimir imágenes en el Visor de imágenes.
 
-1. Right-click the image on the Image Viewer interface and select **Print**.
-2. Select the printer and set the printing parameters.
-3. Click **Print **to send the picture to the printer.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Imprimir**.
+2. Seleccione la impresora y configure los parámetros de impresión.
+3. Haga clic en **Imprimir** para enviar la imagen a la impresora.
 
-### Rename Images
+### Cambiar el nombre de las imágenes
 
-1. Right-click the image on the Image Viewer interface and select **Rename**.
-2. Input a new name in the pop-up window.
-3. Click **Confirm** to rename.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Renombrar**.
+2. Introduzca un nuevo nombre en la ventana emergente.
+3. Haga clic en **Confirmar** para cambiar el nombre.
 
-> ![notess](icon/notes.svg)Notes: System images can not be renamed.
+> ![notes](icon/notes.svg)Nota: Las imágenes del sistema no pueden ser renombradas.
 
-### Show in slides
+### Mostrar en diapositivas
 
-1. Right-click the image on the Image Viewer interface.
-2. Select **Slide show** and all images will be played as slides in full screen. 
-3. Press **Esc** key to exit slide show.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes.
+2. Seleccione **Presentación** y todas las imágenes se reproducirán como diapositivas en pantalla completa. 
+3. Pulse la tecla **Esc** para salir de la presentación de diapositivas.
 
-### Copy Images
+### Copiar imágenes
 
-You can copy images in Image Viewer.
+Puede copiar imágenes en el Visor de imágenes.
 
-1. Right-click the image on the Image Viewer interface and select **Copy**.
-2. On the desktop or in the target place, right-click the blank area and select **Paste** to copy the image to that location.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Copiar**.
+2. En el escritorio o en el lugar de destino, haga clic con el botón derecho del ratón en el área en blanco y seleccione **Pegar** para copiar la imagen en ese lugar.
 
-> ![tips](icon/tips.svg)Tips: Both the path and content of picture are copied.
+> ![tips](icon/tips.svg)Consejo: Tanto la ruta como el contenido de la imagen se duplican.
 
-![0|copy](jpg/copy.png)
+![0|copiar](jpg/copy.png)
 
-### Delete Images
+### Borrar Imágenes
 
-You can delete images from Image Viewer by the following ways.
+Puede eliminar imágenes del Visor de imágenes de las siguientes maneras.
 
-- Click the ![delete_press](icon/delete.svg) icon on the Image Viewer interface. 
-- Right-click the image and select **Delete**.
-- Press the **Delete** key on the keyboard.
+- Haga clic en el icono ![delete_press](icon/delete.svg) de la interfaz del Visor de imágenes. 
+- Haga clic con el botón derecho en la imagen y seleccione **Borrar**.
+- Pulse la tecla **Borrar** del teclado.
 
-### Rotate Images
+### Girar imágenes
 
-1. Right-click the image on the Image Viewer interface and select **Rotate clockwise** or **Rotate counterclockwise**.
-2. The image will rotate clockwise or counterclockwise for 90 degrees.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Girar hacia la derecha** o **Girar hacia la izquierda**.
+2. La imagen girará 90 grados en el sentido de las agujas del reloj o en sentido contrario.
 
 ![0|rotate](jpg/rotate.png)
 
-> ![notess](icon/notes.svg) Notes:  If you are using a computer equipped with touch-screen or touchpad, you can use gestures instead of the mouse: 
+> ![notes](icon/notes.svg)Nota: Si utiliza un ordenador equipado con pantalla o panel táctil, puede recurrir a gestos en lugar del ratón: 
 >
-> - On the touchscreen, place two fingers on the photo and keep a certain distance, and rotate the two fingers at the same time to rotate the photo.
-> - On the touchpad that supports multiple-point touch,  place two fingers on the photo and keep a certain distance, and rotate the two fingers at the same time to rotate the photo.
+> - En la pantalla táctil, coloque dos dedos sobre la foto y mantenga una cierta distancia, y gire los dos dedos al mismo tiempo para girar la foto.
+> - En el panel táctil que admite el toque de varios puntos, coloque dos dedos sobre la foto y mantenga una cierta distancia, y gire los dos dedos al mismo tiempo para girar la foto.
 
-### Set as Wallpaper
+### Establecer como fondo de pantalla
 
-You can set an image as desktop wallpaper. Right-click the image on the Image Viewer interface and select **Set as wallpaper**.
+Puede establecer una imagen como fondo de pantalla. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Establecer como fondo de pantalla**.
 
 ![0|wallpaper](jpg/wallpaper.png)
 
-### Display in File Manager
+### Visualización en el Administrador de Archivos
 
-1. Right-click the image in the Image Viewer interface and select **Display in file manager**.
-2. The folder contained the image will be opened and displayed.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Mostrar en el Administrador de archivos**.
+2. La carpeta que contiene la imagen se abrirá y se mostrará.
 
-### View Image Information
+### Ver información de la imagen
 
-You can view detailed information of the image.
-1. Right-click the image in the Image Viewer interface and select **Image info**.
-2. The Image info window will pop up displaying the detailed information of the Image.
+Puede ver información detallada de la imagen.
+1. Haga clic con el botón derecho del ratón sobre la imagen en la interfaz del Visor de imágenes y seleccione **Información de la imagen**.
+2. La ventana de información de la imagen aparecerá mostrando la información detallada de la imagen.
 
 ![1|view info](jpg/info.png)
 
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can switch window themes, view help manual, and get more information about Image Viewer.
+En el menú principal, puede cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre el Visor de imágenes.
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, claro, oscuro y sistema.
 
-1. On the Image Viewer interface, click ![main_menu](icon/icon_menu.svg).
-2. Click **Theme** to select one theme.
+1. En la interfaz del Visor de imágenes, haga clic en ![main_menu](icon/icon_menu.svg).
+2. Haga clic en **Tema** para seleccionar un tema.
 
-### Help
-1. On the Image Viewer interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Help** to view the manual of Image Viewer.
+### Ayuda
+1. En la interfaz del Visor de imágenes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Ayuda** para ver el manual del Visor de imágenes.
 
-### About
+### Acerca de
 
-1. On the Image Viewer interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **About** to view the version and introduction of Image Viewer.
+1. En la interfaz del Visor de imágenes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Acerca de** para ver la versión y la introducción del Visor de imágenes.
 
-### Exit
+### Salir
 
-1. On the Image Viewer interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Exit** to exit Image Viewer.
+1. En la interfaz del Visor de imágenes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Salir** para salir del Visor de imágenes.
