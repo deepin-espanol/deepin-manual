@@ -1,262 +1,263 @@
-# Mail|../common/deepin-mail.svg|
+# Correo|../common/deepin-mail.svg|
 
-## Overview
+## Descripción
 
-Mail is an easy-to-use desktop e-mail client pre-installed in the system, which can manage multiple mailbox accounts at the same time.
+Correo es un cliente de correo electrónico de escritorio fácil de usar, preinstalado en el sistema, que puede gestionar varias cuentas de correo al mismo tiempo.
 
-## Guide
+## Guía
 
-You can run, close or create a shortcut of Mail as follows.
+Puede ejecutar, cerrar o crear un acceso directo a Correo de la siguiente manera.
 
-### Run Mail
+### Ejecutar Correo
 
-1. Click   ![deepin-launcher](icon/deepin-launcher.svg) in the lower left corner of the dock to enter launcher interface.
-2. Locate![deepin-mail](icon/deepin-mail.svg) by scrolling the mouse wheel or searching "Mail" in the Launcher interface and click it to run. 
-3. Right-click![deepin-mail](icon/deepin-mail.svg)to:
-   - Select **Send to desktop** to create a shortcut on the desktop.
-   - Select **Send to dock** to fix it onto the dock.
-   - Select **Add to startup** to add it to startup. When the computer starts up, Mail runs automatically.
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en la esquina inferior izquierda del muelle para entrar en la interfaz del lanzador.
+2. Localice ![deepin-mail](icon/deepin-mail.svg) desplazando la rueda del ratón o buscando "Correo" en la interfaz del Lanzador y haga clic en él para ejecutarlo. 
+3. Haga clic derecho en ![deepin-mail](icon/deepin-mail.svg)para que:
+   - Seleccione **Enviar al escritorio** para crear un acceso directo en el escritorio.
+   - Seleccionar **Enviar al muelle** para fijarlo en el muelle.
+   - Seleccione **Añadir al arranque** para añadirlo al inicio. Cuando el ordenador se inicia, Correo se ejecuta automáticamente.
 
-### Exit Mail
+### Salir de Correo
 
-- On Mail interface, click ![icon_close](icon/close.svg) to exit.
-- Right-click![deepin-mail](icon/deepin-mail.svg)on Dock and select  **Close All** or **Force Quit** to exit.
-- On Mail interface, click  ![icon_menu](icon/icon_menu.svg) and select  **Exit**.
+- En la interfaz de Correo, haga clic en ![icon_close](icon/close.svg) para salir.
+- Haga clic con el botón derecho del ratón ![deepin-mail](icon/deepin-mail.svg) en el muelle y seleccione **Cerrar todo** o **Forzar cierre** para salir.
+- En la interfaz de Correo, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir**.
 
-## Sign in
+## Iniciar sesión
 
-1. Open Mail, enter your Email address and password and click **Sign In**. 
+1. Abra el Correo, introduzca su dirección de correo electrónico y su contraseña y haga clic en **Iniciar sesión**. 
 
    ![logininterface](jpg/logininterface.png)
 
-2. The program will automatically detect whether the entered Email address suffix is in the server database: 
+2. El programa detectará automáticamente si el sufijo de la dirección de correo electrónico introducido está en la base de datos del servidor: 
 
-   - If it is, you can sign in directly;
+   - Si lo está, puede iniciar la sesión directamente;
 
-   - If it's not, you can click **Configure** to add it.
+   - Si no lo está, puede hacer clic en **Configurar** para añadirlo.
 
      ![emailconfig](jpg/emailconfig.png)
-> ![notes](icon/notes.svg)Notes: Mailboxes such as QQ mailbox, Netease mailbox (163.com and 126.com), Sina mailbox and so on can be used in Mail only after POP3 / IMAP / exchange and other services are enabled. After enabling the service, the server will generate an authorization code. Enter the email address and authorization code in the sign-in interface to sign in to Mail. If it fails, click **Help** to view more information.
+> ![notes](icon/notes.svg)Nota: Los buzones de correo como el de QQ, el de Netease (163.com y 126.com), el de Sina, y otros más, sólo pueden utilizarse en el Correo una vez que se hayan habilitado los servicios POP3 / IMAP / exchange y otros. Después de habilitar el servicio, el servidor generará un código de autorización. Introduzca la dirección de correo electrónico y el código de autorización en la interfaz de inicio de sesión para acceder al Correo. Si falla, haga clic en **Ayuda** para ver más información.
 >
 > ![helpinfo](jpg/helpinfo.png)
 
-## Main Interface
+## Interfaz principal
 
-The main interface of Mail is composed of items and functions such as account, mailbox directory, mail list, mail body, compose, get new mails, and search. 
+La interfaz principal de Correo se compone de elementos y funciones como la cuenta, el directorio del buzón, la lista de correo, el cuerpo del correo, la composición, la obtención de nuevos correos y la búsqueda. 
 
 ![maininterface](jpg/maininterface.png)
 
 <table class="block1">
-    <caption>Main Interface</caption>
+    <caption>Interfaz principal</caption>
     <tbody>
         <tr>
             <td width="20px">1</td>
-            <td width="100px">Compose</td>
-            <td>You can write a mail quickly.</td>
+            <td width="100px">Redactar</td>
+            <td>Puede escribir un correo rápidamente.</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Contacts</td>
-            <td>A list of contacts is displayed here. You can also add information such as the contact's telephone number and address.</td>
+            <td>Contactos</td>
+            <td>Aquí se muestra una lista de contactos. También puede añadir información como el número de teléfono y la dirección del contacto.</td>
         </tr>
          <tr>
             <td>3</td>
-            <td>Get new mails</td>
-            <td>To synchronize mailbox data from server, including mails, address book, calendar, etc.</td>
+            <td>Obtener nuevos correos</td>
+            <td>Sincroniza los datos del buzón desde el servidor, incluyendo correos, libreta de direcciones, calendario, etc.</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Search</td>
-            <td>To quickly find all messages with this keyword.</td>
+            <td>Búsqueda</td>
+            <td>Para encontrar rápidamente todos los mensajes con esta palabra clave.</td>
         </tr>
          <tr>
             <td>5</td>
-            <td>Account</td>
-            <td>It displays a list of all mailbox accounts added.</td>
+            <td>Cuenta</td>
+            <td>Muestra una lista de todas las cuentas de correo añadidas.</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Mailbox directory</td>
-            <td>The mailbox directory is used to sort out mail data. Different categories of mailbox directories may be different. In addition to the general fixed directory, the others are created by users.</td>
+            <td>Directorio del buzón</td>
+            <td>El directorio del buzón se utiliza para clasificar los datos de correo. Las distintas categorías de directorios de buzones pueden ser diferentes. Además del directorio fijo general, los demás son creados por los usuarios.</td>
         </tr>
          <tr>
             <td>7</td>
-            <td>Mail list</td>
-            <td>It displays all mails in the mailbox directory, including the sender, subject, abstract, sending time and star status.</td>
+            <td>Lista de correo</td>
+            <td>Muestra todos los correos del directorio del buzón, incluyendo el remitente, el asunto, el resumen, la hora de envío y el estado de la estrella.</td>
         </tr> 
           <tr>
             <td>8</td>
-            <td>Mail body</td>
-            <td>It displays the email title, sender and receiver information, time and content.</td>
+            <td>Cuerpo del correo</td>
+            <td>Muestra el título del correo electrónico, la información del remitente y del destinatario, la hora y el contenido.</td>
         </tr> 
    </tbody>
-   </table>
+   </tabla>
 
 
 
 
-## Compose
 
-1. On the main interface, click![email-button](icon/email-button.svg) to enter mail composing page.
-2. Enter the receiver's mailbox account or click  ![1](jpg/1.png) to add a receiver, you can also choose whether to "CC" or "BCC" or not. 
-3. The e-mail body supports rich text editing, including inserting pictures, links and @ functions, and can be diversified to edit the text.
-4. After editing is finished, click **Send**. 
+## Componer
+
+1. En la interfaz principal, haga clic en![email-button](icon/email-button.svg) para entrar en la página de composición del correo.
+2. Introduzca la cuenta de correo del receptor o haga clic en ![1](jpg/1.png) para añadir un receptor, también puede elegir si aparece como "CC" o "BCC". 
+3. El cuerpo del correo electrónico admite la edición de texto enriquecido, incluyendo la inserción de imágenes, enlaces y funciones @, y se puede diversificar para editar el texto.
+4. Una vez terminada la edición, haga clic en **Enviar**. 
 
 ![writeemail](jpg/writeemail.png)
 
-## Get new mails
+## Obtener nuevos correos
 
-"Get new mails" is to synchronize mailbox data from the server, including mail, address book, calendar and other information. The system synchronizes mailbox data every 15 minutes by default. Here are two ways to receive email:
+"Obtener nuevos correos" sirve para sincronizar los datos del buzón desde el servidor, incluyendo el correo, la libreta de direcciones, el calendario y otra información. El sistema sincroniza los datos del buzón cada 15 minutos por defecto. Hay dos maneras de recibir el correo electrónico:
 
-- Select an account, click![refresh-button](icon/refresh-button.svg).
-- Select an account and right-click, select **Get new mails**.
+- Seleccione una cuenta y haga clic en el botón de actualización ![refresh-button](icon/refresh-button.svg).
+- Seleccione una cuenta y haga clic con el botón derecho, seleccione **Obtener nuevos correos**.
 
-## View mails
+## Ver correos
 
-1. After a mail is selected in the mail list, the mail body area displays its relevant information, including the message subject, receiving and sending information, time and content.
+1. Después de seleccionar un correo en la lista de correos, el área del cuerpo del correo muestra su información relevante, incluyendo el asunto del mensaje, la información de recepción y envío, la hora y el contenido.
 
-2. Click the sender or recipient's mailbox to view the sender's details and correspondence, and add them to the Contacts.
+2. Haga clic en el buzón del remitente o del destinatario para ver los detalles del remitente y la correspondencia, y añadirlos a los contactos.
 
    ![contactinfo](jpg/contactinfo.png)
 
-3. In the mail body area, you can edit, forward, star, move, delete, print the mail.  
+3. En el área del cuerpo del correo, puede editar, reenviar, marcar con una estrella, mover, eliminar e imprimir el correo.  
 
 ![emailtext](jpg/emailtext.png)
 
-## Mail Filtering
+## Filtrado del correo
 
-The filtering functions helps you to find the mail you need quickly. 
+Las funciones de filtrado le ayudan a encontrar rápidamente el correo que necesita. 
 
-1. Click **All**, you can see options such as "All", "Unread", "Starred", "Attachments" and "@me". 
+1. Haga clic en **Todos**, puede ver opciones como "Todos", "No leídos", "Con estrellas", "Adjuntos" y "@yo". 
 
    ![emailfilter](jpg/emailfilter.png)
 
-2. When a filter element is selected, the mail list displays only those that meet the criteria. 
+2. Cuando se selecciona un elemento de filtro, la lista de correos muestra sólo los que cumplen los criterios. 
 
-> ![notes](icon/notes.svg)Notes: If you need more precise search, click![search](icon/search.svg)to input keywords.  
+> ![notes](icon/notes.svg)Notas: Si necesita una búsqueda más precisa, haga clic en ![search](icon/search.svg)para introducir palabras clave.  
 
-3. In the mail list, you can select single or multiple mails.
+3. En la lista de correo, puede seleccionar uno o varios correos.
 
-   - To select single mail: click one mail;
+   - Para seleccionar un solo correo: haga clic en un solo correo;
 
-   - To select multiple mails:
+   - Para seleccionar varios correos:
 
-      - Press **Ctrl** key, click the mails you need one by one at the same time.
+      - Pulse la tecla **Ctrl**, haga clic en los correos que necesite uno por uno al mismo tiempo.
 
-      - Click mail A, and then press **shift** key, and then click mail B, you can select all mails between A and B. 
+      - Haga clic en el correo A, y luego presione la tecla **shift**, y luego haga clic en el correo B, puede seleccionar todos los correos entre A y B. 
 
-## Delete mails
+## Borrar correos
 
-Delete messages can be individually or in batches. Generally, deleted messages will be stored in **Trash**. You can also choose to delete them permanently.
+La eliminación de mensajes puede ser individual o por lotes. Generalmente, los mensajes borrados se almacenarán en la **Papelera**. También puede optar por eliminarlos permanentemente.
 
-### Delete one mail
+### Borrar un correo
 
-There are two ways to delete one mail. And deleted messages will be stored in **Trash**.
+Hay dos formas de eliminar un correo. Los mensajes borrados se almacenarán en la **Papelera**.
 
-- Select a mail in the mail list and right-click, select **Delete**. 
-- In the mail body area, click![trash](icon/trash.svg).
+- Seleccione un correo en la lista de correos y haga clic con el botón derecho, seleccione **Borrar**. 
+- En el área del cuerpo del correo, haga clic en ![trash](icon/trash.svg).
 
-After that, you can delete it permanently in **Trash**. 
+Después de eso, puede borrarlo permanentemente en la **Papelera**. 
 
-### Delete in batches
+### Borrar por lotes
 
-Select the specified directory to be deleted and right-click, and select **Mass delete**. You can delete the email according to the time range, for example, one week ago or a month ago.
+Seleccione el directorio especificado para ser borrado y haga clic con el botón derecho, y seleccione **Borrado en masa**. Puede eliminar el correo según el rango de tiempo, por ejemplo, hace una semana o un mes.
 
-## Import mails
+## Importar correos
 
-In the mailbox directory list, select one directory and right-click to select **Import mails**. The interface of File Manager pops up, select the mails to be imported, and click **Open** to import the specified directory.
+En la lista de directorios del buzón, seleccione un directorio y haga clic con el botón derecho para seleccionar **Importar correos**. Aparece la interfaz del Administrador de archivos, seleccione los correos que desea importar y haga clic en **Abrir** para importar el directorio especificado.
 
-## Export mails
+## Exportar correos
 
-Mails can be exported separately or in batch.
+Los correos se pueden exportar por separado o por lotes.
 
-### Export one mail
+### Exportar un correo
 
-There are two ways to export one mail: 
+Hay dos maneras de exportar un correo: 
 
-- Select a mail in the mail list and right-click, select **Export**. 
+- Seleccione un correo en la lista de correos y haga clic con el botón derecho, seleccione **Exportar**. 
 
-- In the mail body area, click ![2](jpg/2.png), and then select **Export**.
+- En el área del cuerpo del correo, haga clic en ![2](jpg/2.png), y luego seleccione **Exportar**.
 
-Select a storing path in File Manager and then click **Save**. 
+Seleccione una ruta de almacenamiento en el Administrador de archivos y luego haga clic en **Guardar**. 
 
-### Export in batches
+### Exportar por lotes
 
-Select the specified directory and right-click, and select **Export mails**. The interface of File Manager pops up, select a storing path and then click **Save**. 
+Seleccione el directorio especificado y haga clic con el botón derecho, y seleccione **Exportar correos**. Aparece la interfaz del Administrador de archivos, seleccione una ruta de almacenamiento y haga clic en **Guardar**. 
 
-## Contacts
+## Contactos
 
-On the main interface, click![contact-button](icon/contact-button.svg) to enter Contacts. You can view the contacts list and information, and supplement the contact phone number, address and other information. Click ![add-normal](icon/add-normal.svg)to add new contact. 
+En la interfaz principal, haga clic en el botón de contacto ![contact-button](icon/contact-button.svg) para acceder a los contactos. Puede ver la lista de contactos y la información, y complementar el número de teléfono del contacto, la dirección y otra información. Haga clic en ![add-normal](icon/add-normal.svg)para añadir un nuevo contacto. 
 
-![contact](jpg/contact.png)
+![contacto](jpg/contact.png)
 
-## Main Menu
+## Menú principal
 
-In main menu, you can set the mailbox, switch the window themes, and view the help manual. 
+En el menú principal, puede configurar el buzón, cambiar los temas de las ventanas y ver el manual de ayuda. 
 
-### Settings
+### Ajustes
 
-Click  ![icon_menu](icon/icon_menu.svg) on the main interface and click **Setting**. You can set the accounts, basic settings, anti-spam and advanced settings. 
+Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal y haga clic en **Ajustes**. Puede configurar las cuentas, los ajustes básicos, el antispam y los ajustes avanzados. 
 
-#### Accounts
+#### Cuentas
 
-- Email Accounts: you can add or delete accounts. Click **Add account** to add more accounts. Click **Edit** to delete accounts. 
+- Cuentas de correo electrónico: puede añadir o eliminar cuentas. Haga clic en **Añadir cuenta** para añadir más cuentas. Haga clic en **Editar** para eliminar cuentas. 
 
-- Account Info: you can view the avatar, name and protocol, you can also change the avatar and server settings. 
+- Información de la cuenta: puedes ver el avatar, el nombre y el protocolo, también puedes cambiar el avatar y los ajustes del servidor. 
 
-- Signature: It is mainly used to provide the recipient with more contacting information and additional brand information. You can choose company signature, personal signature or custom signature according to your needs.
+- Firma: Se utiliza principalmente para proporcionar al destinatario más información de contacto e información adicional de la marca. Puede elegir la firma de la empresa, la firma personal o la firma personalizada según sus necesidades.
 
 ![IDsetting](jpg/IDsetting.png)
 
-#### Basic
+#### Básico
 
-- Shortcuts: the shortcut keys for common operations.
+- Atajos de teclado: las teclas de acceso rápido para operaciones comunes.
 
-- General: settings for launching or receiving of Mail. 
+- General: Ajustes para iniciar o recibir el correo. 
 
 ![basicsetting](jpg/basicsetting.png)
 
 #### Anti-Spam
 
-- Blacklist: All mails sent from the mailboxes listed in blacklist are rejected. You can add, export and import the blacklist.
+- Lista negra: Todos los correos enviados desde los buzones listados en la lista negra son rechazados. Puede añadir, exportar e importar la lista negra.
 
-- Whitelist: All mails sent from the mailboxes listed in whitelist are received. You can add, export and import the whitelist.
+- Lista blanca: Se reciben todos los correos enviados desde los buzones listados en la lista blanca. Puede añadir, exportar e importar la lista blanca.
 
 ![blackandwhitelistsetting](jpg/blackandwhitelistsetting.png)
 
-#### Advanced
+#### Avanzado
 
-You can enable security password. When there are no activities in 15 minutes, Mail will be locked automatically, and you should enter the password to unlock it. 
+Puede activar la contraseña de seguridad. Si no hay actividad en 15 minutos, el Correo se bloqueará automáticamente y deberá introducir la contraseña para desbloquearlo. 
 
 ![advancedsetting](jpg/advancedsetting.png)
 
-#### Restore Defaults
+#### Restablecer los valores predeterminados
 
-Click **Restore Defaults** to restore all your settings to defaults.
-
-
-### Theme
-
-The window theme includes Light Theme, Dark Theme and System Theme (default).
-
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **Theme** to choose one theme.
-
-### Help
-
-Click Help to get the manual, which will help you further know and use Mail.
-
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Help** to view the manual of Mail.
-
-### About
-
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **About** to view version information about Mail.
+Haga clic en **Restablecer los valores predeterminados** para restablecer todos sus ajustes a los valores predeterminados.
 
 
-### Exit
+### Tema
 
-1. Click  ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Exit**.
+El tema de la ventana incluye el Claro, el Oscuro y el del Sistema (por defecto).
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Tema** para elegir un tema.
+
+### Ayuda
+
+Haga clic en Ayuda para obtener el manual, que le ayudará a conocer y utilizar mejor el Correo.
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Ayuda** para ver el manual de Correo.
+
+### Acerca de
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Acerca de** para ver la información de la versión de Correo.
+
+
+### Salir
+
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Salir**.
 
