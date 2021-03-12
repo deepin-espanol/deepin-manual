@@ -1,317 +1,318 @@
-# Text Editor|../common/deepin-editor.svg|
+# Editor de texto|../common/deepin-editor.svg|
 
-## Overview
+## Descripción
 
-Text Editor is a simple text editing tool. You can use it to write a simple text document, or make it a code editing tool with its advanced features which support code syntax highlighting.
+Editor de texto es una sencilla herramienta de edición de texto. Puede usarlo para escribir un simple documento de texto, o convertirlo en una herramienta de edición de código con sus características avanzadas que soportan el resaltado de sintaxis de código.
 
 ![overview](jpg/overview.png)
 
-## Guide
+## Guía
 
-### Run Text Editor
+### Ejecutar Editor de texto
 
-1. Click ![deepin-launcher](icon/deepin-launcher.svg) on dock to enter the Launcher interface. 
-2. Locate Text Editor ![deepin-editor](icon/deepin-editor.svg)by  scrolling the mouse wheel or searching "text editor" in the Launcher interface and click it to run.
-3. In Launcher, right-click Text Editor and you can:
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador. 
+2. Localice el Editor de texto ![deepin-editor](icon/deepin-editor.svg)desplazando la rueda del ratón o buscando "editor de texto" en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3. En el Lanzador, haga clic con el botón derecho en Editor de texto y podrá que:
 
-  - Click **Send to desktop** to create a desktop shortcut.
-  - Click **Send to dock** to fix it on Dock.
-  - Click **Add to startup** to add it to startup and it will automatically run when system boots.
+  - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+  - Haga clic en **Enviar al muelle** para fijarlo en el muelle.
+  - Haga clic en **Añadir al arranque** para añadirlo al inicio y que se ejecute automáticamente al arrancar el sistema.
 
-### Exit Text Editor
+### Salir del Editor de texto
 
-- On the Text Editor interface, click ![close](icon/close.svg) to exit.
-- On the Text Editor interface, click ![icon_menu](icon/icon_menu.svg) > **Exit** to exit.
-- Right-click ![deepin-editor](icon/deepin-editor.svg) on Dock and select **Close All** to exit.
+- En la interfaz del Editor de texto, haga clic en ![cerrar](icon/close.svg) para salir.
+- En la interfaz del Editor de texto, haga clic en ![icon_menu](icon/icon_menu.svg) > **Salir** para cerrar.
+- Haga clic con el botón derecho del ratón en ![deepin-editor](icon/deepin-editor.svg) en el muelle y seleccione **Cerrar todo** para salir.
 
-### View Shortcuts
+### Ver atajos de teclado
 
-On the Text Editor Interface, press **Ctrl + Shift + ? ** to view all the shortcuts. You can also check shortcuts in Settings. Proficiency in shortcuts will greatly improve your efficiency.
+En la interfaz del Editor de texto, pulse **Ctrl + Shift + ? ** para ver todos los atajos. También puede ver los atajos en Ajustes. El dominio de los atajos mejorará enormemente su eficiencia.
 
 ![1|hotkey](jpg/hotkey.png)
 
-## Basic Operations
+## Operaciones básicas
 
-### Create Files
+### Crear archivos
 
-Click ![plus_icon](icon/+.svg) on the title bar, or press **Ctrl + N**, or click ![icon_menu](icon/icon_menu.svg)> **New window** or **New tab** to create a blank document in Text Editor.
+Haga clic en ![plus_icon](icon/+.svg) en la barra de título, o pulse **Ctrl + N**, o haga clic en ![icon_menu](icon/icon_menu.svg)> **Nueva ventana** o **Nueva pestaña** para crear un documento en blanco en el Editor de texto.
 
-### Open Files
+### Abrir archivos
 
-You can open one or multiple text files at one time in the following ways, and the selected file will open in the new tab:
+Puede abrir uno o varios archivos de texto a la vez de las siguientes maneras, y el archivo seleccionado se abrirá en la nueva pestaña:
 
-- Drag the file directly to the Text Editor interface or its icon.
-- Right-click the file and open it with Text Editor. After selecting Text Editor as the default application for text files in Control Center, you can double-click the file to open it directly.
-- On the Text Editor interface, click ![icon_menu](icon/icon_menu.svg)> **Open file** and select the file.
-- On the Text Editor interface, use **Ctrl + O** to open the file.
+- Arrastre el archivo directamente a la interfaz del Editor de texto o a su icono.
+- Haga clic derecho en el archivo y ábralo con el Editor de texto. Después de seleccionar Editor de texto como aplicación predeterminada para los archivos de texto en el Centro de control, puede hacer doble clic en el archivo para abrirlo directamente.
+- En la interfaz del Editor de texto, haga clic en **Abrir archivo** y seleccione el archivo.
+- En la interfaz del Editor de texto, utilice **Ctrl + O** para abrir el archivo.
 
-### Save Files
+### Guardar archivos
 
-- Press **Ctrl + S** to save the current document.
-- Click ![icon_menu](icon/icon_menu.svg)> **Save** to save the file.
+- Pulse **Ctrl + S** para guardar el documento actual.
+- Clic en ![icon_menu](icon/icon_menu.svg)> **Guardar** para guardar el archivo.
 
--  Press **Ctrl + Shift + S** to save the file as  a new one.
+- Pulse **Ctrl + Shift + S** para guardar el archivo como uno nuevo.
 
 
-### Close Files
+### Cerrar archivos
 
-- Press **Ctrl + W** to close the file.
-- Move the cursor to the title and click the ![close](icon/close.svg) button there or the mouse middle button to close the file.
-- Right-click the title and select **Close tab** or **Close other tabs**.
-- Right-click the title and select **More options**.
-   - Select **Close tabs to the left** to close all the tabs on the left of the current tab.
-   - Select **Close tabs to the right** to close all the tabs on the right of the current tab.
-   - Select **Close unmodified tabs** to close all the unmodified tabs.
+- Pulse **Ctrl + W** para cerrar el archivo.
+- Mueva el cursor hasta el título y haga clic en el botón ![cerrar](icon/close.svg) allí o bien en el botón central del ratón para cerrar el archivo.
+- Haga clic con el botón derecho en el título y seleccione **Cerrar pestaña** o **Cerrar otras pestañas**.
+- Haga clic con el botón derecho del ratón en el título y seleccione **Más opciones**.
+   - Seleccione **Cerrar pestañas a la izquierda** para cerrar todas las pestañas a la izquierda de la pestaña actual.
+   - Seleccione **Cerrar pestañas a la derecha** para cerrar todas las pestañas a la derecha de la pestaña actual.
+   - Seleccione **Cerrar pestañas sin modificar** para cerrar todas las pestañas no modificadas.
 
-> ![notes](icon/notes.svg)Notes: If you make changes to the file but does not save it, you will be prompted by Text Editor to save before closing the file.
+> ![notes](icon/notes.svg)Nota: Si realiza cambios en el archivo pero no los guarda, el Editor de texto le pedirá que los guarde antes de cerrar el archivo.
 
-### Print Files
+### Imprimir archivos
 
-To print a file in Text Editor, you should connect and set up the printer first.
+Para imprimir un archivo en el Editor de texto, primero debe conectar y configurar la impresora.
 
-1. Click ![icon_menu](icon/icon_menu.svg)> **Print**, or press **Ctrl + P** to open the print preview interface.
-2. On the preview interface, preview the document，select a printer and set the printing page. 
-3. Click **Advanced** option on the preview interface to select parameters including paper size and layout.  
-4. Click **Print** to start printing.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)> **Imprimir**, o pulse **Ctrl + P** para abrir la interfaz de vista previa de impresión.
+2. En la interfaz de vista previa, previsualice el documento，seleccione una impresora y configure la página de impresión. 
+3. Haga clic en la opción **Avanzado** en la interfaz de vista previa para seleccionar los parámetros, incluidos el tamaño del papel y el diseño.  
+4. Haga clic en **Imprimir** para iniciar la impresión.
 
 ![preview](jpg/preview.png)
 
 ![pagesetup](jpg/advanced-preview.png)
 
-### Manage Tabs
+### Gestionar pestañas
 
-In Text Editor, you can reorder tabs within the same window through dragging. You can also remove the tab out to create a new window, or move the tab from one window to another.
+En el Editor de texto, puede reordenar las pestañas dentro de la misma ventana arrastrándolas. También puede eliminar la pestaña para crear una nueva ventana, o mover la pestaña de una ventana a otra.
 
-#### Tab Shortcuts
+#### Accesos directos a las pestañas
 
-| Function   |  Shortcuts |
+| Función | Atajo de teclado |
 | ---------------------------------- | ------------ |
-| New tab   |  Ctrl + T |
-| Next tab | Ctrl + Tab |
-| Previous tab  | Ctrl + Shift + Backtab |
-| Close tab | Ctrl + W |
-| Close other tabs | Ctrl + Shift + W |
-| Restore tab (Reopen closed tab) | Ctrl + Shift + T |
+| Nueva pestaña | Ctrl + T |
+| Pestaña siguiente | Ctrl + Tab |
+| Pestaña anterior | Ctrl + Shift + Backtab |
+| Cerrar pestaña | Ctrl + W |
+| Cerrar otras pestañas | Ctrl + Shift + W |
+| Restaurar pestaña (Reabrir pestaña cerrada) | Ctrl + Shift + T |
 
-## Edit Texts
+## Editar textos
 
-### Move Cursor
+### Mover el cursor
 
-In addition to the arrow keys and mouse clicks, you can also use the following shortcuts to move the cursor quickly:
+Además de las teclas de flecha y los clics del ratón, también puede utilizar los siguientes atajos para mover el cursor rápidamente:
 
-| Function   |  Shortcuts |
+| Función | Atajo de teclado |
 | --------------- | ------------ |
-| Save cursor position | Ctrl + Shift + > |
-| Reset cursor position (Jump to cursor last saving position) | Ctrl + Shift + < |
-| Forward one word (Jump forward over one word) | Ctrl + Right |
-| Backward one word (Jump backward over one word) | Ctrl + Left |
-| Move to end of line | End |
-| Move to start of line | Home |
-| Move to end of text | Ctrl + End |
-| Move to start of text | Ctrl + Home |
-| Move to line indentation | Ctrl + M |
-| Forward over a pair (Jump forward after the right parenthesis) | Alt + P |
-| Backward over a pair (Jump backward before the left parenthesis) | Alt + N |
+| Guardar la posición del cursor | Ctrl + Shift + > |
+| Restablecer la posición del cursor (saltar a la última posición guardada del cursor) | Ctrl + Shift + < |
+| Avanzar una palabra (Saltar una palabra hacia adelante) | Ctrl + Derecha |
+| Avanzar una palabra (Saltar una palabra hacia atrás) | Ctrl + Izquierda |
+| Desplazarse al final de la línea | End |
+| Desplazarse al principio de la línea | Home |
+| Ir al final del texto | Ctrl + Fin |
+| Mover al principio del texto | Ctrl + Inicio |
+| Mover a la sangría de la línea | Ctrl + M |
+| Adelantar sobre un par (saltar hacia adelante a partir del paréntesis derecho) | Alt + P |
+| Retroceder sobre un par (saltar hacia atrás a partir del paréntesis izquierdo) | Alt + N |
 
-### Change Cases
 
-It helps you change the case of selected text. You can change it to lowercase, uppercase, or capitalize the initial.
+### Cambiar mayúsculas y minúsculas
 
-1. Select the text.
-2. Right-click and select **Change Case**.
-3. Choose **Upper Case**, **Lower Case**, or **Capitalize**. The changes will take effect immediately.
+Esta opción le ayuda a cambiar la capitalización del texto seleccionado. Puede cambiarlo a minúsculas, mayúsculas o poner la inicial en mayúsculas.
 
-You can also use **Alt** + **U / L / C** to quickly switch the cases.
+1. Seleccione el texto.
+2. Haga clic con el botón derecho del ratón y seleccione **Cambiar mayúsculas y minúsculas**.
+3. Elija **Mayúsculas**, **Mayúsculas** o **Capitalizar**. Los cambios surtirán efecto inmediatamente.
+
+También puede utilizar **Alt** + **U / L / C** para cambiar rápidamente las mayúsculas.
 
 ![changecase](jpg/changecase.png)
 
-### Highlight Texts
-Text Editor supports highlighting different kinds of texts.
+### Resaltar textos
+El Editor de texto permite resaltar diferentes tipos de textos.
 
-Click the triangle symbol at the far right corner of the status bar at the bottom, and select the type of text you want to highlight. The corresponding contents in the text will be highlighted automatically.
+Haga clic en el símbolo del triángulo en la esquina derecha de la barra de estado en la parte inferior, y seleccione el tipo de texto que desea resaltar. El contenido correspondiente del texto se resaltará automáticamente.
 
 ![highlight](jpg/highlight.png)
 
-### Delete Texts
+### Borrar textos
 
-In addition to deleting characters one by one, you can quickly delete characters by using the following shortcuts:
+Además de borrar los caracteres uno a uno, puede eliminar rápidamente los caracteres utilizando los siguientes atajos:
 
-| Function   |  Shortcuts |
+| Función | Atajo de teclado |
 | --------------- | ------------ |
-| Delete to end of line | Ctrl + K |
-| Delete current line | Ctrl + Shift + K |
-| Delete one word backward | Alt + Shift + N |
-| Delete one word forward | Alt + Shift + M |
+| Borrar hasta el final de la línea | Ctrl + K |
+| Borrar la línea actual| Ctrl + Shift + K |
+| Borrar una palabra anterior | Alt + Shift + N |
+| Borrar una palabra posterior | Alt + Shift + M |
 
-### Undo
+### Deshacer
 
-If you make an incorrect operation, press **Ctrl + Z** to undo it, or right-click to select **Undo**.
+Si realiza una operación incorrecta, pulse **Ctrl + Z** para deshacerla, o haga clic con el botón derecho para seleccionar **Deshacer**.
 
-### Find Texts
+### Buscar textos
 
-1. Click ![menu](icon/icon_menu.svg) and select **Find**, or press **Ctrl** + **F** to open the "Find" box below.
-2. Input the text you want to find. 
-3. Click **Next**, **Previous** to find each match, or press **Enter** key to find the next match.
-4. Press **Esc** key or click the close button to close the dialog box.
+1. Haga clic en ![menú](icon/icon_menu.svg) y seleccione **Buscar**, o pulse **Ctrl** + **F** para abrir el cuadro "Buscar" que aparece a continuación.
+2. Introduzca el texto que desee encontrar. 
+3. Haga clic en **Siguiente**, **Anterior** para encontrar cada coincidencia, o pulse la tecla **Intro** para encontrar la siguiente coincidencia.
+4. Pulse la tecla **Esc** o haga clic en el botón de cierre para cerrar el cuadro de diálogo.
 
-> ![tips](icon/tips.svg)Tips: Select the text and then press **Ctrl + F** and the text will be automatically displayed in the **Find** box.
+> ![tips](icon/tips.svg)Consejo: Seleccione el texto y luego pulse **Ctrl + F** y el texto se mostrará automáticamente en el cuadro **Buscar**.
 
-### Replace Texts
-1. Click ![menu](icon/icon_menu.svg), and select **Replace**, or press **Ctrl + H** to open the **Replace** box below.
-2.  Input the text to be replaced and the new text.
-3.  Click **Replace** to replace the matches one by one and click **Replace Rest** and **Replace All** to replace the rest or all the matches at once. Click **Skip** to skip the current matching text.
-4.  Press **Esc** or click close button to close the dialog box.
+### Reemplazar textos
+1. Haga clic en ![menú](icon/icon_menu.svg), y seleccione **Reemplazar**, o pulse **Ctrl + H** para abrir el cuadro **Reemplazar** que aparece a continuación.
+2.  Introduzca el texto a sustituir y el nuevo texto.
+3.  Haga clic en **Reemplazar** para reemplazar las coincidencias una por una y haga clic en **Reemplazar el resto** y **Reemplazar todo** para reemplazar el resto o todas las coincidencias a la vez. Haga clic en **Saltar** para omitir el texto coincidente actual.
+4.  Pulse **Esc** o haga clic en el botón de cierre para cerrar el cuadro de diálogo.
 
-### Go to Line
-Use Go to Line to jump to the specific line directly.
-Right-click and select **Go to Line**, or press **Ctrl + G** and then input the line number to go to that line.
+### Ir a la línea
+Utilice Ir a la línea para saltar a la línea específica directamente.
+Haga clic con el botón derecho del ratón y seleccione **Ir a la línea**, o pulse **Ctrl + G** y luego introduzca el número de línea para ir a esa línea.
 
-### Edit Line
+### Editar Línea
 
-Use the shortcuts below to edit lines easily:
+Utilice los siguientes atajos para editar fácilmente las líneas:
 
-| Function  |  Shortcuts |
+| Función | Atajo de teclado |
 | ------------ | ------------ |
-| New line above (Insert one line above) | Ctrl + Enter |
-| New line below (Insert one line below) | Ctrl + Shift + Enter |
-| Duplicate line | Ctrl + Shift + D |
-| Swap line up (Swap the current line with above line) | Ctrl + Shift + Up |
-| Swap line down (Swap the current line with below line)  | Ctrl + Shift + Down |
-| Scroll up one line | Super + Shift + Up |
-| Scroll down one line | Super + Shift + Down |
-| Mark | Alt + H |
-| Unmark | Alt + Shift + H |
-| Copy line | Super + C |
-| Cut line | Super + X |
-| Merge lines | Ctrl + J |
+| Nueva línea encima (Inserta una línea superior) | Ctrl + Enter |
+| Nueva línea debajo (Inserta una línea inferior) | Ctrl + Shift + Enter |
+| Duplicar línea | Ctrl + Shift + D |
+| Subir línea (Cambia la línea actual con la superior) | Ctrl + Shift + Up |
+| Bajar línea (Cambia la línea actual con la inferior) |Ctrl + Shift + Down|
+| Desplazar una línea hacia arriba | Super + Shift + Up |
+| Desplazar una línea hacia abajo | Super + Shift + Down |
+| Resaltar                                             | Alt + H |
+| No resaltar                                          | Alt + Shift + H |
+| Copiar línea | Super + C |
+| Cortar línea | Super + X |
+| Combinar líneas | Ctrl + J |
 
-### Enable/Disable Read-only Mode
+### Activar/desactivar modo de sólo lectura
 
-1. Open the document with Text Editor and right-click to select **Turn on Read-only Mode**.
+1. Abra el documento con el Editor de texto y haga clic con el botón derecho para seleccionar **Activar modo de sólo lectura**.
 
 ![readonly](jpg/readonly.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-2.  Right-click to select **Turn off Read-only Mode** under the read-only mode.
+2.  Haga clic con el botón derecho del ratón para seleccionar **Desactivar modo de sólo lectura** cuando está en ese modo.
 
-![read-only](jpg/turnoffreadonly.png)
+![sólo lectura](jpg/turnoffreadonly.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-### Use Column Mode
+### Usar modo de columna
 
-You can input identical content to or remove content from multiple lines of code by using the column mode function efficiently. 
+Puede introducir contenido idéntico o eliminar contenido de múltiples líneas de código utilizando la función de modo columna de forma eficiente. 
 
-- Edit content in multiple lines at the same time: Press and hold the **Alt** key, drag the mouse to select multiple lines, and edit the content.
-- Delete content in multiple lines at the same time: Press and hold the **Alt** key, drag the mouse to select multiple lines, and right-click to select **Delete** or click **Delete** on the keyboard to delete content.
+- Edite contenido en múltiples líneas al mismo tiempo: Mantenga pulsada la tecla **Alt**, arrastre el ratón para seleccionar varias líneas y edite el contenido.
+- Elimine el contenido de varias líneas al mismo tiempo: Mantenga pulsada la tecla **Alt**, arrastre el ratón para seleccionar varias líneas y haga clic con el botón derecho para seleccionar **Borrar** o haga clic en **Borrar** en el teclado para eliminar el contenido.
 
 ![mode](jpg/column mode.png)
 
-### Color Mark
+### Resaltar
 
-Select the text to be marked in Text Editor, right-click to select **Color Mark** and select the corresponding options in the drop-down list as needed.
+Seleccione el texto a marcar en el Editor de texto, haga clic con el botón derecho para seleccionar **Resaltador** y seleccione las opciones correspondientes en la lista desplegable según sea necesario.
 
 ![colormark](jpg/colormark.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-- Select **Mark** to mark a certain line or a paragraph of texts. You can choose from 8 colors displayed through icons.
-   - Place the cursor at any line and you can mark the current line.
-   - Select a paragraph of texts and you can mark the selected texts.
-- Select **Mark All** to mark all the contents in Text Editor, or mark all the matching contents of selected texts in Text Editor. You can choose from 8 colors displayed through icons.
-   - Place the cursor at any line and you can mark all contents.
-   - Select any content and you can mark the same content in the whole document. 
-- Select **Clear Last Mark** to cancel the last mark operation.
-- Select **Clear All Marks** to cancel all the current marks.
+- Seleccione **Resaltar** para colorear una determinada línea o un párrafo de textos. Puede elegir entre 8 colores que se muestran a través de iconos.
+   - Coloque el cursor en cualquier línea y podrá marcar la línea actual.
+   - Seleccione un párrafo de textos y podrá marcar los textos seleccionados.
+- Seleccione **Resaltar todo** para colorear todo el contenido en el Editor de texto, o marcar todo el contenido coincidente de los textos seleccionados en el Editor de texto. Puede elegir entre 8 colores que se muestran a través de iconos.
+   - Coloque el cursor en cualquier línea y podrá marcar todos los contenidos.
+   - Seleccione cualquier contenido y podrá marcar el mismo contenido en todo el documento. 
+- Seleccione **Borrar último resalte** para revertir la última operación de marcado.
+- Seleccione **Borrar todo lo resaltado** para revertir todas las marcas actuales.
 
 
-### Manage Bookmark 
+### Gestionar marcadores
 
-You can add a bookmark for any current line on the Text Editor interface. The icon ![icon](icon/bookmark_normal_light.svg) shows up when you move the cursor to any line in the left column, and the icon ![bookmarkbig](icon/bookmarkbig_checked_light.svg) will appear after a bookmark is successfully added.
+Puede añadir un marcador para cualquier línea actual en la interfaz del Editor de texto. El icono ![icono](icon/bookmark_normal_light.svg) aparece cuando se desplaza el cursor a cualquier línea de la columna de la izquierda, y el icono ![bookmarkbig](icon/bookmarkbig_checked_light.svg) aparecerá después de añadir un marcador con éxito.
 
-- Add bookmark
+- Añadir marcador
 
-   + Click ![icon](icon/bookmark_normal_light.svg) to add a bookmark for the line.
-   + Right-click ![icon](icon/bookmark_normal_light.svg) and select **Add bookmark** to  add a bookmark for the line.
-   + Place the cursor on any line and press **Ctrl + F2** to add a bookmark for the line.
+   + Haga clic en ![icono](icon/bookmark_normal_light.svg) para añadir un marcador para la línea.
+   + Haga clic con el botón derecho del ratón en ![icon](icon/bookmark_normal_light.svg) y seleccione **Añadir marcador** para añadir un marcador para la línea.
+   + Situar el cursor en cualquier línea y pulsar **Ctrl + F2** para añadir un marcador para la línea.
 
--   Delete bookmark  
+- Borrar marcador  
 
-   + Click the colored bookmark icon ![bookmarkbig](icon/bookmarkbig_checked_light.svg) to delete the bookmark of the line directly.
-   + Right-click the colored bookmark icon ![bookmarkbig](icon/bookmarkbig_checked_light.svg) to select **Cancel bookmark** to delete the bookmark in the line.
-   + Right-click a bookmark to select **Clear bookmark** to delete all the bookmarks in the text.
-  >![Notes](icon/notes.svg)Notes: The bookmark icon appears only when cursor is hovered over to the left of the line number in the left column; when it's moved beyond the left bookmark column, the bookmark icon will disappear. Click the icon when it appears and it will be filled with color, after which this filled color icon will remain no matter if the cursor hovers near the bookmark column.
-
-
-### Manage Comment 
-
-You can add comments to any text with a code type suffix, such as cpp and java, among others.
-
-- Add comment
-  - Select the text needed and right-click to select **Add comment**.
-  - Select the text needed and press **Alt + A** to add comment.
-
-- Cancel comment
-     - Select the text needed and right-click to select **Cancel comment**.
-
-     - Select the text needed and press **Alt + Z** to cancel comment.
+   + Haga clic en el icono del marcador de color ![bookmarkbig](icon/bookmarkbig_checked_light.svg) para eliminar el marcador de la línea directamente.
+   + Haga clic con el botón derecho del ratón en el icono del marcador de color ![bookmarkbig](icon/bookmarkbig_checked_light.svg) para seleccionar **Cancelar marcador** para eliminar el marcador de la línea.
+   + Haga clic con el botón derecho en un marcador para seleccionar **Borrar marcador** para eliminar todos los marcadores del texto.
+  > ![notes](icon/notes.svg)Nota: El icono del marcador sólo aparece cuando el cursor se sitúa a la izquierda del número de línea en la columna de la izquierda; cuando se mueve más allá de la columna del marcador de la izquierda, el icono del marcador desaparecerá. Haga clic en el icono cuando aparezca y se llenará de color, después de lo cual este icono de color lleno permanecerá sin importar si el cursor se cierne cerca de la columna del marcador.
 
 
-> ![notes](icon/notes.svg)Notes: This supports comments in different languages. Please refer to actual conditions for detailed information. For example, comment symbol for C, C# and Java is // and comment symbol for Python is #.
+### Gestionar comentarios 
 
-## Main Menu
+Puede añadir comentarios a cualquier texto con un sufijo de tipo de código, como cpp, java, entre otros.
 
-On the main menu, you can  [Create New Windows](#Create Files), [Create New Files](#Create Files), search the contents to be replaced, save files, switch window themes, view help manual and get more information about Text Editor.
+- Añadir comentario
+  - Seleccione el texto necesario y pulse el botón derecho del ratón para seleccionar **Añadir comentario**.
+  - Seleccione el texto necesario y pulse **Alt + A** para añadir el comentario.
 
-### Settings
+- Cancelar comentario
+     - Seleccione el texto necesario y haga clic con el botón derecho para seleccionar **Cancelar comentario**.
 
-You can set the basic information, shortcuts and advanced information in settings.
+     - Seleccione el texto necesario y pulse **Alt + Z** para cancelar el comentario.
 
-#### Basic Settings
 
-Click ![icon_menu](icon/icon_menu.svg)> **Settings** and you can perform the following in the Settings window:
+> ![notes](icon/notes.svg)Nota: Esto admite comentarios en diferentes lenguajes. Consulte las condiciones existentes para obtener información detallada. Por ejemplo, el símbolo de comentario para C, C# y Java es // y el símbolo de comentario para Python es #.
 
-- Select the Font and Font Size.
-- Check or uncheck **Word Wrap**.
-- Check **Code folding flag** and ![next](icon/next.svg) or ![next](icon/next-down.svg) are displayed in the edit area. Right-click to select **Fold/Unfold Current Level** or **Fold/Unfold All** to perform the corresponding operations.
-- Check **Show line numbers** to display the line number in the edit area.
-- Check **Show whitespaces and tabs** to display all the white spaces and tabs. You can also input or delete white spaces and tabs manually.
+## Menú principal
 
-> ![tips](icon/tips.svg)Tips: You can also use **Ctrl + “+”/ “-” ** to adjust the font size, and press **Ctrl + 0** to restore default font size.
+En el menú principal, puede [Crear nuevas ventanas](#Crear archivos), [Crear nuevos archivos](#Crear archivos), buscar el contenido a reemplazar, guardar archivos, cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre el Editor de texto.
 
-#### Shortcuts Settings
-1. Click ![icon_menu](icon/icon_menu.svg)> **Settings** to view the current shortcut in the **Shortcuts** option.
-2. Select a keymap in **Shortcuts** and view the shortcuts.
-3. You can click and customize new shortcuts.
+### Ajustes
 
-> ![notes](icon/notes.svg)Notes: You can choose a proper keymap to fit your habits, including standard keymap, Emacs keymap, or customize it as you like.
+Puede establecer la información básica, los accesos directos y la información avanzada en los ajustes.
 
-#### Advanced Settings
+#### Ajustes básicos
 
-1. Click ![icon_menu](icon/icon_menu.svg)> **Settings**.
-2. In the **Advanced** option, you can set:
-   - Window size: Normal, Maximum, or Full screen;
-   - Tab width: The indentation width when pressing Tab.
+Haga clic en ![icon_menu](icon/icon_menu.svg)> **Ajustes** y podrá realizar lo siguiente en la ventana de Ajustes:
 
-> ![attention](icon/attention.svg)Attention: Clicking **Restore Defaults** will restore all settings to the default status.
+- Seleccione la fuente y el tamaño de la fuente.
+- Marque o desmarque **Ajuste de línea**.
+- Marque **Marcador para contraer el código** y ![siguiente](icon/next.svg) o ![siguiente](icon/next-down.svg) se muestran en el área de edición. Haga clic con el botón derecho del ratón para seleccionar **Mostrar/ocultar el nivel actual** o **Mostrar/ocultar todo** para realizar las operaciones correspondientes.
+- Marque **Mostrar números de línea** para numerar las líneas en el área de edición.
+- Marque **Mostrar espacios en blanco y tabulaciones** para mostrar todos los espacios en blanco y tabulaciones. También puede introducir o eliminar manualmente los espacios en blanco y los tabuladores.
 
-### Theme
+> ![tips](icon/tips.svg)Consejos: También puede utilizar **Ctrl + "+"/ "-" ** para ajustar el tamaño de la fuente, y pulsar **Ctrl + 0** para restaurar el tamaño de la fuente por defecto.
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+#### Ajustes de los atajos de teclado
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)> **Ajustes** para ver el acceso directo actual en la opción **Atajos de teclado**.
+2. Seleccione un mapa de teclas en **Atajos de teclado** y vea los accesos desde el teclado.
+3. Puede hacer clic y personalizar nuevos accesos directos.
 
-1. On the Text Editor interface, click ![icon_menu](icon/icon_menu.svg).
+> ![notes](icon/notes.svg)Nota: Puede elegir un mapa de teclado adecuado a sus hábitos, incluyendo el mapa de teclado estándar, el mapa de teclado de Emacs, o personalizarlo a su gusto.
 
-2.  Click **Theme** to select one theme.
+#### Ajustes avanzados
 
-### Help
+1. Haga clic en ![icon_menu](icon/icon_menu.svg)> **Ajustes**.
+2. En la opción **Avanzada**, puede establecer:
+   - Tamaño de la ventana: Normal, Máximo o Pantalla completa;
+   - Ancho del tabulador: El ancho de la sangría al pulsar el tabulador.
 
-1.  On the Text Editor interface, click ![menu](icon/icon_menu.svg).
-2.  Select **Help** to view the manual of Text Editor.
+> ![attention](icon/attention.svg)Atención: Al hacer clic en **Restablecer valores predeterminados** se restablecerán todos los ajustes al estado predeterminado.
 
-### About
+### Tema
 
-1. On the Text Editor interface, click ![menu](icon/icon_menu.svg).
-2.  Select **About** to view the version and introduction of Text Editor.
+El tema de la ventana ofrece tres tipos de tema, a saber, Tema claro, Tema oscuro y Tema del sistema.
 
-### Exit
+1. En la interfaz del Editor de texto, haga clic en ![icon_menu](icon/icon_menu.svg).
 
-1. On the Text Editor interface, click ![menu](icon/icon_menu.svg).
-2. Click **Exit** to exit Text Editor.  
+2.  Haga clic en **Tema** para seleccionar un tema.
+
+### Ayuda
+
+1.  En la interfaz del Editor de texto, haga clic en ![menú](icon/icon_menu.svg).
+2.  Seleccione **Ayuda** para ver el manual del Editor de texto.
+
+### Acerca de
+
+1. En la interfaz del Editor de texto, haga clic en ![menú](icon/icon_menu.svg).
+2.  Seleccione **Acerca de** para ver la versión y la introducción del Editor de texto.
+
+### Salir
+
+1. En la interfaz del Editor de texto, haga clic en ![menú](icon/icon_menu.svg).
+2. Haga clic en **Salir** para salir del Editor de texto.  
