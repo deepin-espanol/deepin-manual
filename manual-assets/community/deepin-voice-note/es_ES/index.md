@@ -1,208 +1,215 @@
-# Voice Notes|../common/deepin-voice-note.svg|
+# Notas de voz|../common/deepin-voice-note.svg|
 
-## Overview
+## Descripción
 
-Voice Notes is a simple memo software with texts and voice recordings. ![0|voice_recorder](jpg/main.png)
+Notas de voz es un sencillo programa de notas basadas en textos y grabaciones de voz. ![0|voice_recorder](jpg/main.png)
 
 
-## Guide
+## Guía
 
-You can run, exit or create a shortcut for Voice Notes by the following ways.
+Puede ejecutar, salir o crear un acceso directo a Notas de voz de las siguientes maneras.
 
-### Run Voice Notes
+### Ejecutar Notas de voz
 
-1.  Click ![deepin-launcher](icon/deepin-launcher.svg) in the dock to enter the Launcher interface.
-2.  Locate ![deepin-voice-note](icon/deepin-voice-note.svg) by scrolling the mouse wheel or searching "voice notes" in the Launcher interface and click it to run.
-3.  Right-click ![deepin-voice-note](icon/deepin-voice-note.svg) and you can:
+1.  Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2.  Localice ![deepin-voice-note](icon/deepin-voice-note.svg) desplazando la rueda del ratón o buscando "notas de voz" en la interfaz del Lanzador y haga clic en él para ejecutarlo.
+3.  Haga clic con el botón derecho del ratón en ![deepin-voice-note](icon/deepin-voice-note.svg) y podrá:
 
-   - Click **Send to desktop** to create a desktop shortcut.
-   - Click **Send to dock** to fix it in the Dock.
-   - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+   - Hacer clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+   - Hacer clic en **Enviar al muelle** para fijarlo en el Muelle.
+   - Hacer clic en **Añadir al arranque** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
-> ![notes](icon/notes.svg)Notes: If Voice Notes has been fixed in the dock by default, you can click ![deepin-voice-note](icon/deepin-voice-note.svg) in the dock to run it.
+   > ![notes](icon/notes.svg)Nota: Si Notas de voz se ha fijado en el muelle por defecto, puede hacer clic en ![notes](icon/deepin-voice-note.svg) en el muelle para ejecutarlo.
 
-### Exit Voice Notes
+   ### Salir de Notas de voz
 
-- Click ![close](icon/close.svg) on the Voice Notes interface to exit Voice Notes.
-- Right-click ![deepin-voice-note](icon/deepin-voice-note.svg) in the dock and select **Close All** to exit.
-- Click ![icon_menu](icon/icon_menu.svg) on the Voice Notes interface and select **Exit** to exit.
+   - Haga clic en ![close](icon/close.svg) en la interfaz de Notas de voz para salir de Notas de voz.
+   - Haz clic con el botón derecho del ratón en ![notes](icon/deepin-voice-note.svg) en el muelle y selecciona **Cerrar todo** para salir.
+   - Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz de Notas de voz y seleccione **Salir** para cerrar.
 
-### View Shortcuts
+   ### Ver atajos de teclado
 
-On the Voice Notes interface, press **Ctrl** + **Shift** + **?** on the keyboard to view shortcuts. Proficiency in shortcuts will greatly improve your efficiency.
+   En la interfaz de Notas de voz, pulsa **Ctrl** + **Shift** + **?** en el teclado para ver los atajos. El dominio de los atajos mejorará enormemente tu eficacia.
 
- ![1|hotkey](jpg/hotkey.png)
+    ![1|hotkey](jpg/hotkey.png)
 
-## Operations
+   ## Operaciones
 
-### Create Notebook
+   ### Crear cuaderno
 
-- Click **Create Notebook** to create a new notebook when there is none in Voice Notes.
+   - Haga clic en **Crear cuaderno** para crear uno nuevo en caso que Notas de voz no lleve ninguno.
 
-![0|new](jpg/create.png)
+   ![0|new](jpg/create.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-- When a notebook is created in Voice Note, a text is also created by default. Click the ![add](icon/circlebutton_add2.svg) icon on the Voice Notes interface to create more new texts.
+   - Cuando se crea un cuaderno en Notas de voz, también se crea un texto por defecto. Haga clic en el icono ![add](icon/circlebutton_add2.svg) de la interfaz de Notas de voz para crear más textos nuevos.
 
-  You can start recording voices or making texts after creating a text.
-  
-   In the notebook list, you can drag a notebook to set the display sequence and view the number of texts contained in each notebook.
-  
+     Puede empezar a grabar voces o a crear textos después de crear un texto.
+     
+      En la lista de cuadernos, puede arrastrar un cuaderno para establecer la secuencia de visualización y ver el número de textos que contiene cada libreta.
+
 
 ![0|new](jpg/create1.png)
 
 
-### Record/Playback Voice Notes
+### Grabar/Reproducir Notas de voz
 
-You can record audios simply in two steps:
+Puede grabar audios de forma sencilla en dos pasos:
 
-1. Click the![record_normal](icon/record_normal.svg) icon on the Voice Notes interface to start recording.
-2.  Click the ![finish](icon/finish_normal.svg) icon to finish recording.
+1. Haga clic en el icono ![record_normal](icon/record_normal.svg) de la interfaz de Notas de voz para iniciar la grabación.
+2.  Después, clic en el icono ![finish](icon/finish_normal.svg) para terminar la grabación.
 
-> ![tips](icon/tips.svg)Tips: Click the ![pause](icon/pause_red_normal.svg) icon to pause recording during the recording process and click ![record_normal](icon/record_normal.svg) again to resume recording.
+> ![tips](icon/tips.svg)Consejo: Haga clic en el icono ![pausa](icon/pause_red_normal.svg) para pausar la grabación durante el proceso y vuelva a hacer clic en ![record_normal](icon/record_normal.svg) para reanudarla.
 
-> ![notes](icon/notes.svg)Notes: The maximum recording time is 60 minutes. 
+> ![notes](icon/notes.svg)Notas: El tiempo máximo de grabación es de 60 minutos. 
 
-3. Click the ![play_blue_normal](icon/play_blue_normal.svg) icon to listen to the playback after recording is finished.
+3. Haga clic en el icono ![play_blue_normal](icon/play_blue_normal.svg) para escuchar la reproducción una vez finalizada la grabación.
 
 
 ![0|replay](jpg/replay.png)
 
 
-### Search Voice Notes
+### Buscar notas de voz
 
-1. In the search box located in the top center area of the Voice Notes interface, you can:
+1. En el cuadro de búsqueda situado en la zona superior central de la interfaz de Notas de voz, puede:
 
-   - Click ![search](icon/search.svg) to enter keywords.
+   - Hacer clic en ![search](icon/search.svg) para introducir palabras clave.
 
-2. Press the **Enter** key on the keyboard to fast locate.
+2. Pulsar la tecla **Intro** del teclado para realizar una búsqueda rápida.
 
-   - When there is matched information, the search result list will be displayed on the right.
+   - Cuando haya información coincidente, la lista de resultados de la búsqueda se mostrará a la derecha.
 
-   - When there is no matched information, **No search results** will be displayed on the right.
+   - Cuando no haya información coincidente, se mostrará a la derecha **Sin resultados de búsqueda**.
 
-3. Click ![0|three_dots](icon/close_normal-2.svg) in the search box  to clear the current keywords or cancel the search. 
-
-
-### Save Voice Recording
-
-1.   Select a voice file on the Voice Notes interface.
-2.   Right-click and select **Save voice recording**.
-3.   Save it to the storage device.
-
->![tips](icon/tips.svg)Tips: You can also right-click the voice file and select **Save as MP3** to save it.
+3. Haga clic en ![0|three_dots](icon/close_normal-2.svg) en el cuadro de búsqueda para borrar las palabras clave actuales o cancelar la búsqueda. 
 
 
-### Add Text Notes
-1. Select a notebook, right-click and select **New note** or click the![mic](icon/circlebutton_add2.svg) icon on the Voice Notes interface to add a new text note.
-2.  Move the cursor to the right column and click to input the text needed. 
+### Guardar la grabación de voz
 
-> ![tips](icon/tips.svg)Tips: 
+1.   Seleccione un archivo de voz en la interfaz de Notas de voz.
+2.   Haga clic con el botón derecho y seleccione **Guardar grabación de voz**.
+3.   Guárdela en el dispositivo de almacenamiento.
+
+>![tips](icon/tips.svg)Consejos: También puede hacer clic con el botón derecho en el archivo de voz y seleccionar **Guardar como MP3** para guardarlo.
+
+
+### Añadir notas de texto
+1. Seleccione una libreta, haga clic con el botón derecho y seleccione **Nueva nota** o haga clic en el icono ![mic](icon/circlebutton_add2.svg) de la interfaz de Notas de voz para añadir una nueva nota de texto.
+2.  Mueva el cursor a la columna de la derecha y haga clic para introducir el texto necesario. 
+
+> ![tips](icon/tips.svg)Consejos: 
 >
-> - You can record audios in notebooks. Please refer to [Record/Playback Voice Notes](#Record/Playback Voice Notes) for details.
-> - Select a text note in the notebook list and right-click to select **Sticky on Top** to place the text note on top.
+> - Puede grabar audios en los cuadernos. Consulte [Grabar/Reproducir notas de voz](#Grabar/Reproducir notas de voz) para obtener más detalles.
+> - Seleccione una nota de texto en la lista de libretas y haga clic con el botón derecho para seleccionar **Fija arriba** para colocar la nota de texto en la parte superior.
 
 ![0|words_recorder](jpg/main.png)
 
 
-### Save as TXT
+### Guardar como archivo TXT
 
-1.  Select a text note on the Voice Notes interface.
-2.  Right-click and select **Save as TXT**.
-3.  Save the text note to the storage device in TXT format.
+1.  Seleccione una nota de texto en la interfaz de Notas de voz.
+2.  Haga clic con el botón derecho y seleccione **Guardar como TXT**.
+3.  Guarde la nota de texto en el dispositivo de almacenamiento en formato TXT.
     ![0|save](jpg/toTxT.png)
 
-### Move Text Notes
+### Mover notas de texto
 
-1. Select a text note on the Voice Notes interface.
-2. Right-click to select **Move** and select a notebook in the pop-up prompt box.
-3. Click **Confirm** and move the text note to the selected notebook.
+1. Seleccione una nota de texto en la interfaz de Notas de voz.
+2. Haga clic con el botón derecho del ratón para seleccionar **Mover** y seleccione una libreta en el cuadro emergente.
+3. 3. Haga clic en **Confirmar** y mueva la nota de texto a la libreta seleccionada.
 
 ![move](jpg/move.png)
 
-### Rename Notebooks
+### Cambiar el nombre de los cuadernos
 
-The notebook created will be automatically saved as **Note(n)**. You can rename it in the following steps. 
+El cuadernos creado se guardará automáticamente como **Cuaderno(n)**. Puede cambiar su nombre en los siguientes pasos. 
 
-1. On the Voice Notes interface, right-click a notebook.
+1. En la interfaz de Notas de voz, haga clic con el botón derecho en una libreta.
 
-2. Select **Rename**.
+2. Seleccione **Renombrar**.
 
-3. Enter the file name.
+3. Introduzca el nombre del archivo.
 
-4. Click in the blank area on the interface or press the **Enter** key on the keyboard to rename it.
+4. Haga clic en el área en blanco de la interfaz o pulse la tecla **Intro** del teclado para cambiar el nombre.
 
-   > ![tips](icon/tips.svg)Tips: You can also rename each text note under a notebook. 
+   > ![tips](icon/tips.svg)Consejo: También puede cambiar el nombre de cada nota de texto de una libreta. 
 
 ![0|rename](jpg/rename.png)
 
 
-### Delete Voice Notes
+### Borrar notas de voz
 
-1.  Select a voice file on the Voice Notes interface.
-2.  Right-click and select **Delete**.
+1.  Seleccione un archivo de voz en la interfaz de Notas de voz.
+2.  Haga clic con el botón derecho y seleccione **Borrar**.
 
-3.  Click **Confirm** in the pop-up prompt box.
-
-
-### Delete Text Notes
-
-1.   Select a text note on the Voice Notes interface.
-2.  Right-click and select **Delete**.
-
-3.  Click **Confirm** in the pop-up prompt box.
+3.  Haga clic en **Confirmar** en el cuadro emergente.
 
 
-### Delete Notebooks
+### Borrar notas de texto
 
-1. Select a notebook on the Voice Notes interface.
-2. Right-click and select **Delete**.
-3. Click **Confirm** in the pop-up prompt box.
+1.   Seleccione una nota de texto en la interfaz de Notas de voz.
+2.  Haga clic con el botón derecho y seleccione **Borrar**.
 
-### Batch Operation
+3.  Haga clic en **Confirmar** en el cuadro emergente.
 
-You can select multiple text notes at one time assisted by the keyboard to perform batch operations.
 
-1. Press **Ctrl/Shift** to select multiple text notes in the text notes list.
-2. Right-click to select or click **Move**/ **Save as Text**/ **Save voice recording**/**Delete** to perform batch operations.
+### Borrar cuadernos
+
+1. Seleccione un cuaderno en la interfaz de Notas de voz.
+2. Haga clic con el botón derecho y seleccione **Borrar**.
+3. Haga clic en **Confirmar** en el cuadro de aviso emergente.
+
+### Operación por lotes
+
+Puede seleccionar varias notas de texto a la vez con la ayuda del teclado para realizar operaciones por lotes.
+
+1. Pulse **Ctrl/Shift** para seleccionar varias notas de texto en la lista de notas de texto.
+2. Haga clic con el botón derecho del ratón para seleccionar o haga clic en **Mover**/ **Guardar como texto**/ **Guardar grabación de voz**/**Borrar** para realizar operaciones por lotes.
+
+### Operación por lotes
+
+Puede seleccionar varias notas de texto a la vez con la ayuda del teclado para realizar operaciones por lotes.
+
+1. Pulse **Ctrl/Mayúsculas** para seleccionar varias notas de texto en la lista de notas de texto.
+2. Haga clic con el botón derecho del ratón para seleccionar o haga clic en **Mover**/ **Guardar como TXT**/ **Guardar grabación de voz**/**Borrar** para realizar operaciones por lotes.
 
 ![0|multi](jpg/multi.png)
 
 
-## Main Menu
+## Menú principal
 
-On the main menu, you can set audio source, check privacy policy, switch window themes, view help manual, and get more information about Voice Notes.
+En el menú principal, puede configurar la fuente de audio, comprobar la política de privacidad, cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre Voice Notes.
 
-### Settings
+### Ajustes
 
-You can set up audio source from **Internal** and **Microphone** options.
+Puede configurar la fuente de audio desde las opciones **Interna** y **Micrófono**.
 
-1. On the Voice Notes interface, click ![icon_menu](icon/icon_menu.svg).
-2. Set up the audio source:
-   - Select **Internal** source and only system built-in sound will be recorded. 
-   - Select **Microphone** source and only microphone sound will be recorded. 
+1. En la interfaz de Notas de voz, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Configure la fuente de audio:
+   - Seleccione **Fuente interna** y sólo se grabará el sonido integrado en el sistema. 
+   - Seleccione **Fuente de micrófono** y sólo se grabará el sonido del micrófono. 
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, claro, oscuro y sistema.
 
-1. On the Voice Notes interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Theme** to select one theme.
+1. En la interfaz de Notas de voz, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Tema** para seleccionar un tema.
 
-### Help
+### Ayuda
 
-View Help to get more information about Voice Notes.
+Consulte la ayuda para obtener más información sobre Notas de voz.
 
-1.  On the Voice Notes interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Help** to view the manual of Voice Notes.
+1.  En la interfaz de Voice Notes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Ayuda** para ver el manual de Notas de voz.
 
-### About
+### Acerca de
 
-1.  On the Voice Notes interface, click ![icon_menu](icon/icon_menu.svg). 
-2.  Click **About** to view the version and introduction of Voice Notes.
+1.  En la interfaz de Voice Notes, haga clic en ![icon_menu](icon/icon_menu.svg). 
+2.  Haga clic en **About** para ver la versión y la introducción de Notas de voz.
 
-### Exit
+### Salir
 
-1. On the Voice Notes interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Exit** to exit Voice Notes.
+1. En la interfaz de Voice Notes, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Salir** para salir de Notas de voz.
