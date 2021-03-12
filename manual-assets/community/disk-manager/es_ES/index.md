@@ -1,170 +1,171 @@
-# Disk Manager|../common/disk-manager.svg|
+# Administrador de discos|../common/disk-manager.svg|
 
-## Overview
+## Descripción
 
-Disk Manager is a useful tool to help you better manage your disks through disk partitioning, disk data administration, and health management. 
+Administrador de discos es una herramienta útil para ayudarle a gestionar mejor sus discos a través de la partición de discos, la administración de los datos del disco, y la gestión de la salud. 
 
-## Guide
+## Guía
 
-You can run, close, and create shortcuts for Disk Manager in the following ways.
+Puede ejecutar, cerrar y crear accesos directos para el Administrador de discos de las siguientes maneras.
 
-### Run Disk Manager
+### Ejecutar el Administrador de discos
 
-1. Click ![launcher](icon/deepin-launcher.svg) in the Dock and enter the Launcher interface.
-2. Locate ![disk-manager](icon/disk-manager.svg) by scrolling the mouse wheel or searching "disk manager" in the Launcher interface and click it to run. An authentication box pops up. Enter password for authentication. 
+1. Haga clic en ![lanzador](icon/deepin-launcher.svg) en el Muelle y entre en la interfaz del Lanzador.
+2. Localice ![disk-manager](icon/disk-manager.svg) desplazando la rueda del ratón o buscando "administrador de disco" en la interfaz del Lanzador y haga clic en él para ejecutarlo. Aparece un cuadro de autenticación. Introduzca la contraseña para la autenticación. 
 
    ![0|password](jpg/password.png)
 
-3. Right-click ![disk-manager](icon/disk-manager.svg) to:
+3. Haga clic derecho en ![disk-manager](icon/disk-manager.svg) para que:
 
- - Click **Send to desktop** to create a desktop shortcut.
- - Click **Send to dock** to fix the application in the dock.
- - Click **Add to startup** to add the application to startup and it will automatically run when the system starts up.
+ - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+ - Haga clic en **Enviar al muelle** para fijar la aplicación en el muelle.
+ - Haga clic en **Añadir al arranque** para añadir la aplicación al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
-### Exit Disk Manager
+### Salir del Administrador de discos
 
-- On the Disk Manager interface, click![close_icon](icon/close.svg)to exit Disk Manager.
-- Right-click ![disk-manager](icon/disk-manager.svg) in the dock and select **Close All** to exit Disk Manager.
-- On the Disk Manager interface, click ![icon_menu](icon/icon_menu.svg) and select **Exit** to exit Disk Manager.
+- En la interfaz del Administrador de discos, haga clic en ![close_icon](icon/close.svg)para salir del Administrador de discos.
+- Haga clic con el botón derecho del ratón en ![disk-manager](icon/disk-manager.svg) en el muelle y seleccione **Cerrar todo** para salir del Administrador de discos.
+- En la interfaz del Administrador de discos, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir** para salir del Administrador de discos.
 
-## Disk Partitioning
+## Particionamiento de discos
 
-On the Disk Manager interface, a list of disk(s) and information about relevant partition(s) are displayed, including format, capacity, and mount points of partitions. You can create, resize, format, mount, and unmount a partition.
+En la interfaz del Administrador de discos, se muestra una lista de discos e información sobre las particiones relevantes, incluyendo el formato, la capacidad y los puntos de montaje de las particiones. Puede crear, redimensionar, formatear, montar y desmontar una partición.
 
 ![0|disk-main-interface](jpg/disk-main-interface.png)
 
-### Create a Partition
+### Crear una partición
 
-1. On the Disk Manager interface, select an unallocated partition, and click the Partition icon ![partition](icon/partition.svg) on the top toolbar.
-2. A confirmation dialogue pops up. Click **Confirm** to enter the partitioning unallocated interface, where you can check the size, name, and file system of this partition, and read information of the disk where this partition locates. 
-3. In the partition information area, fill in the name and size of partition, select file system of partition, and click the ![add-normal](icon/add-normal.svg) icon. You can also create multiple partitions, and each partition name will be displayed on the bar graph under disk information. You can delete a partition by clicking the ![edit-delete](icon/edit-delete.svg) icon when you're creating a new partition.
+1. En la interfaz del Administrador de discos, seleccione una partición no asignada y haga clic en el icono de la partición ![partition](icon/partition.svg) en la barra de herramientas superior.
+2. Aparecerá un diálogo de confirmación. Haga clic en **Confirmar** para entrar en la interfaz de partición no asignada, donde puede comprobar el tamaño, el nombre y el sistema de archivos de esta partición, y leer la información del disco donde se encuentra esta partición. 
+3. En el área de información de la partición, rellene el nombre y el tamaño de la partición, seleccione el sistema de archivos de la partición, y haga clic en el icono ![add-normal](icon/add-normal.svg). También puede crear múltiples particiones, y el nombre de cada partición se mostrará en el gráfico de barras bajo la información del disco. Puede eliminar una partición haciendo clic en el icono ![edit-delete](icon/edit-delete.svg) cuando esté creando una nueva partición.
 
-![0|partition](jpg/partition.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-> ![attention](icon/attention.svg) Attention: A maximum of 24 partitions can be created. To create a partition, you need a storage space of at least 52 MB. 
-
-4. After setting up, click **Confirm**. The newly created partition will be displayed under the corresponding disk. 
-5. The new partition will be automatically formatted when you create it. You can use the newly created partition after it's mounted. Please refer to [Mount a Partition](#Mount a Partition) for detailed information.
-
-> ![attention](icon/attention.svg) Notes: If the partition is created on a portable device, such as a USB flash drive, this partition will be automatically mounted to the /media/... directory when it's replugged. Thus, You don't need to manually mount the device.
-
-### Resize a Partition
-
-You can resize a partition if the size is too small. Please note that you can only resize an unmounted partition.
-
-1. On the Disk Manager interface, select an unmounted partition, and click the Resize icon ![space-adjustment](icon/space-adjustment.svg) on the top toolbar.
-2. A resizing interface pops up. Fill in the reserved size, and click **Confirm**. 
-
-![0|space-adjustment](jpg/space-adjustment.png)
+![0|partición](jpg/partition.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-3. You can check the capacity of partition once it's resized.
+> ![atención](icon/attention.svg) Atención: Se puede crear hasta 24 particiones. Para crear una partición, necesitas un espacio de almacenamiento de al menos 52 MB. 
 
-### Hide a Partition
+4. Después de la configuración, haga clic en **Confirmar**. La partición recién creada se mostrará bajo el disco correspondiente. 
+5. La nueva partición se formateará automáticamente al crearla. Puede utilizar la partición recién creada después de montarla. Por favor, consulte [Montar una partición](#Montar una partición) para obtener información detallada.
 
-After a partition is hidden, it will not be displayed on the Computer interface. However, it will be displayed on the Disk Manager interface. Documents saved in the hidden partition will not be lost, yet they cannot be accessed normally. 
+> ![atención](icon/attention.svg) Atención: Si la partición se crea en un dispositivo portátil, como una unidad flash USB, esta partición se montará automáticamente en el directorio /media/... cuando se vuelva a conectar. Por lo tanto, no es necesario montar manualmente el dispositivo.
 
-Please note that you can only hide an unmounted partition. Also, system partition cannot be hidden. 
+### Redimensionar una partición
 
-1. On the Disk Manager interface, select a partition and right-click it. 
-2. Select **Hide partition** and a confirmation dialogue pops up. Click **Hide** and the icon of this partition will be changed to the hidden status. 
+Puede redimensionar una partición si el tamaño es demasiado pequeño. Tenga en cuenta que sólo puede redimensionar una partición no montada.
+
+1. En la interfaz del Administrador de discos, seleccione una partición no montada y haga clic en el icono ![space-adjustment](icon/space-adjustment.svg) de la barra de herramientas superior.
+2. Aparece una interfaz de redimensionamiento. Introduzca el tamaño reservado y haga clic en **Confirmar**. 
+
+![0|ajuste-espacio](jpg/space-adjustment.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+3. Puede comprobar la capacidad de la partición una vez redimensionada.
+
+### Ocultar una Partición
+
+Después de ocultar una partición, no se mostrará en la interfaz del ordenador. Sin embargo, se mostrará en la interfaz del Administrador de discos. Los documentos guardados en la partición oculta no se perderán, pero no se podrá acceder a ellos normalmente.
+
+Tenga en cuenta que sólo puede ocultar una partición no montada. Además, que no se puede ocultar la partición del sistema. 
+
+1. En la interfaz del Administrador de discos, seleccione una partición y haga clic con el botón derecho en ella. 
+2. Seleccione **Ocultar partición** y aparecerá un diálogo de confirmación. Haga clic en **Ocultar** y el icono de esta partición cambiará al estado oculto. 
 
 ![0|hidden-partition](jpg/hidden-partition.png)
 
-### Unhide a Partition
+### Mostrar una partición
 
-1. On the Disk Manager interface, select a hidden partition and right-click it. 
-2. Select **Unhide partition** and a confirmation dialogue pops up. Click **Unhide** and the icon of this partition will be changed to the unhidden status. 
-3. Once a partition is unhidden, it will be unmounted automatically. Please manually mount the partition for normal use. 
+1. En la interfaz del Administrador de discos, seleccione una partición oculta y haga clic con el botón derecho en ella. 
+2. Seleccione **Mostrar partición** y aparecerá un diálogo de confirmación. Haga clic en **Mostrar** y el icono de esta partición cambiará al estado de desocultar. 
+3. Una vez que la partición se desoculta, se desmonta automáticamente. Por favor, monte manualmente la partición para su uso normal. 
 
-## Disk Data Administration
+## Administración de datos del disco
 
-### Format a Partition
+### Formatear una partición
 
-Formatting a partition is normally executed to change the format of partitions, and will erase all data on the disk. Please proceed with caution as this action is irreversible. 
+El formateo una partición se ejecuta normalmente para modificar el formato de las particiones, y borrará todos los datos del disco. Por favor, proceda con precaución ya que esta acción es irreversible. 
 
-Notice that you can only format an unmounted partition which is not currently in use.
+Tenga en cuenta que sólo puede formatear una partición no montada que no esté en uso actualmente.
 
-1. On the Disk Manager interface, select a partition and click Format ![format](icon/format.svg) icon on the top toolbar.
-2. A formatting interface pops up. Fill in the name and select file system. 
+1. En la interfaz del Administrador de discos, seleccione una partición y haga clic en el icono Formatear ![format](icon/format.svg) de la barra de herramientas superior.
+2. Aparecerá una interfaz para formateo. Introduzca el nombre y seleccione el sistema de archivos. 
 
 ![0|format](jpg/format.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3. Click **Format** to confirm. 
+3. Haga clic en **Formatear** para confirmar. 
 
-### Mount a Partition
+### Montar una partición
 
-1. On the Disk Manager interface, select an unmounted partition and click Mount ![mount](icon/mount.svg) icon on the top toolbar.
-2. A mounting interface pops up. Select or create a mount point, and click **Mount** to confirm.
+1. En la interfaz del Administrador de discos, seleccione una partición no montada y haga clic en el icono Montar ![mount](icon/mount.svg) de la barra de herramientas superior.
+2. Aparece una interfaz de montaje. Seleccione o cree un punto de montaje y haga clic en **Montar** para confirmar.
 
 ![0|mount](jpg/mount.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-> ![attention](icon/attention.svg) Attention: A partition can be mounted to an existing directory and such directory can be not empty. However, once mounted, all previous files and contents under this directory will not be available. Please proceed with caution. 
+> ![atención](icon/attention.svg) Atención: Una partición puede ser montada en un directorio existente y dicho directorio puede no estar vacío. Sin embargo, una vez montada, todos los archivos y contenidos anteriores bajo este directorio no estarán disponibles. Por favor, proceda con precaución. 
 
-### Unmount a Partition
+### Desmontar una partición
 
-If you want to change the mount point of a partition, you can unmount it first, and then mount it again.
+Si quiere cambiar el punto de montaje de una partición, puede desmontarla primero y luego montarla de nuevo.
 
-1. On the Disk Manager interface, select a partition and click Unmount ![uninstall](icon/uninstall.svg) icon on the top toolbar.
-2. A confirmation dialogue pops up. Click **Unmount** if you confirm that there are no programs running on the partition. 
+1. En la interfaz del Administrador de discos, seleccione una partición y haga clic en el icono Desmontar ![uninstall](icon/uninstall.svg) de la barra de herramientas superior.
+2. Aparece un diálogo de confirmación. Haga clic en **Desmontar** si confirma que no hay programas ejecutándose en la partición. 
 
-### Delete a Partition
+### Borrar una partición
 
-Once a partition is deleted, you will lose all data in it. Please proceed with caution.
+Una vez eliminada una partición, perderá todos los datos que contenga. Por favor, proceda con precaución.
 
-Please note that you can only delete an unmounted partition.
+Tenga en cuenta que sólo puede borrar una partición desmontada.
 
-1. On the Disk Manager interface, select a partition and right-click it. 
-2. Select **Delete partition** and a confirmation dialogue pops up. Click **Delete**, and this partition will disappear under the corresponding disk.
+1. En la interfaz del Administrador de discos, seleccione una partición y haga clic con el botón derecho en ella. 
+2. Seleccione **Borrar partición** y aparecerá un diálogo de confirmación. 3. Haga clic en **Borrar**, y esta partición desaparecerá bajo el disco correspondiente.
 
-## Disk Health Management
+## Gestión del estado de los discos
 
-### Check Disk Info
+### Comprobar la información del disco
 
-1. On the Disk Manager interface, select a disk. Right-click it and select **Disk info**.
-2. You can check the serial number, device model, user capacity, and rotation rate of the disk.
+1. En la interfaz del Administrador de discos, seleccione un disco. Haga clic con el botón derecho y seleccione **Información del disco**.
+2. Puede comprobar el número de serie, el modelo del dispositivo, la capacidad del usuario y la tasa de rotación del disco.
 
 ![0|diskinfo](jpg/diskinfo.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3. Click **Export** to export the disk info to your designated folder. 
+3. Haga clic en **Exportar** para exportar la información del disco a la carpeta designada. 
 
-### Run Health Management
+### Ejecutar la administración de la salud
 
-1. On the Disk Manager interface, select a disk. Right-click it and select **Health Management** > **Check health**. 
-2. You can check the health status, current temperature, and status of different attributes of the disk.
+1. En la interfaz del Administrador de discos, seleccione un disco. Haga clic con el botón derecho y seleccione **Administración de salud** > **Comprobar la salud**. 
+2. Puede comprobar el estado de salud, la temperatura actual y el estado de diferentes atributos del disco.
 
 ![0|health-check](jpg/health-check.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3. Click **Export** to export the health check results of the disk to your designated folder. 
+3. Haga clic en **Exportar** para exportar los resultados de la comprobación de la salud del disco a su carpeta designada. 
 
-### Check Partition Table Error
+### Revisar error de tabla de particiones
 
-1. On the Disk Manager interface, select a disk. Right-click it and select **Health Management** > **Check partition table error**. 
+1. En la interfaz del Administrador de discos, seleccione un disco. Haga clic con el botón derecho y seleccione **Gestión de la salud** > **Comprobar error de tabla de particiones**. 
 
-2. If there is no error in the partition table, a **No errors found in the partition table** prompt will pop up; if an error is found in the partition table, an **Errors in Partition Table** report will pop up. You can fix the problem according to the report. 
+2. Si no hay ningún error en la tabla de particiones, aparecerá un aviso de **No se encontraron errores en la tabla de particiones**; si se encuentra un error en la tabla de particiones, aparecerá un informe de **Errores en la tabla de particiones**. Puede solucionar el problema según el informe. 
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can switch window themes, view help manual, and get more information about Disk Manager.
+En el menú principal, puede cambiar los temas de las ventanas, ver el manual de ayuda y obtener más información sobre el Administrador de discos.
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme, and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, Claro, Oscuro y  Sistema.
 
-1.  On the Disk Manager interface, click ![main_menu](icon/icon_menu.svg).
-2.  Click **Theme** to choose one theme.
+1.  En la interfaz del Administrador de discos, haga clic en ![main_menu](icon/icon_menu.svg).
+2.  Haga clic en **Tema** para elegir un tema.
 
-### Help
+### Ayuda
 
-1.  On the Disk Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Help** to view the manual of Disk Manager.
+1.  En la interfaz del Administrador de discos, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Ayuda** para ver el manual del Administrador de discos.
 
-### About
+### Acerca de
 
-1.  On the Disk Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **About** to view the version and introduction of Disk Manager.
+1.  En la interfaz del Administrador de discos, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Acerca de** para ver la versión y la introducción del Administrador de discos.
 
-### Exit
+### Salir
 
-1.  On the Disk Manager interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **Exit** to exit Disk Manager.
+1.  En la interfaz del Administrador de discos, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  2. Haga clic en **Salir** para salir del Administrador de discos.
