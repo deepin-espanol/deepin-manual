@@ -1,315 +1,313 @@
-# Document Viewer|../common/deepin-reader.svg|
+# Visor de documentos|../common/deepin-reader.svg|
 
-## Overview
+## Descripción
 
-Document Viewer is a powerful and easy-to-use software built-in the system for opening and viewing files quickly, supporting operations such as adding bookmarks, adding notes, and highlighting some text. 
-
-
-## Guide
-
-You can run, close or create a shortcut of Document Viewer as follows. 
+Visor de documentos es un software potente y fácil de usar integrado en el sistema para abrir y ver archivos rápidamente, soportando operaciones como añadir marcadores, añadir notas y resaltar algún texto. 
 
 
-### Run Document Viewer
+## Guía
 
-1. Click   ![deepin-launcher](icon/deepin-launcher.svg) in the lower left corner of the dock to enter launcher interface.
-2. Locate  ![deepin-reader-24](icon/deepin-reader-24.svg) by scrolling up and down the mouse wheel or search in launcher, and click it to run.
-3. Right-click ![deepin-reader-24](icon/deepin-reader-24.svg) to:
-
- - Select **Send to desktop** to create a shortcut on the desktop.
- - Select **Send to dock** to fix it onto the dock.
- - Select **Add to startup** to add it to startup. When the computer starts up, it runs automatically.
-
-> ![tips](icon/tips.svg)Tips: You can set Document Viewer as the default application to view documents in Control Center, refer to  [Default Applications](dman:///dde#Default Application Settings) for details. 
+Puede ejecutar, cerrar o crear un acceso directo al Visor de documentos de la siguiente manera. 
 
 
-### Exit Document Viewer
+### Ejecutar el Visor de documentos
 
-- On Document Viewer interface, click![close_icon](icon/close_normal_light.svg) to exit. 
-- Right-click ![deepin-reader-24](icon/deepin-reader-24.svg) on Dock and select  **Close All** or **Force Quit** to exit.
-- On Document Viewer interface, click  ![icon_menu](icon/icon_menu.svg) and select  **Exit**.
+1. Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en la esquina inferior izquierda del muelle para entrar en la interfaz del Lanzador.
+2. Localice ![deepin-reader-24](icon/deepin-reader-24.svg) desplazando la rueda del ratón hacia arriba y hacia abajo o buscando en el lanzador, y haga clic en él para ejecutarlo.
+3. Haga clic con el botón derecho del ratón en ![deepin-reader-24](icon/deepin-reader-24.svg) para que:
+
+ - Seleccione **Enviar al escritorio** para crear un acceso directo en el escritorio.
+ - Seleccione **Enviar al muelle** para fijarlo en el muelle.
+ - Seleccione **Añadir al arranque** para añadirlo al arranque. Cuando el ordenador se inicia, se ejecuta automáticamente.
+
+> ![tips](icon/tips.svg)Consejos: Puede establecer el Visor de documentos como la aplicación predeterminada para ver los documentos en el Centro de control, consulte [Aplicaciones predeterminadas](dman:///dde#Ajustes de aplicaciones predeterminadas) para obtener más detalles. 
 
 
-### View Shortcut Keys
+### Salir del Visor de documentos
 
-On Document Viewer interface, press  **Ctrl + Shift+ ?** to view all shortcut keys quickly, which helps you to use them skillfully and improves your working efficiency. 
+- En la interfaz del Visor de documentos, haga clic en ![close_icon](icon/close_normal_light.svg) para salir. 
+- Haga clic con el botón derecho del ratón en ![deepin-reader-24](icon/deepin-reader-24.svg) en el muelle y seleccione **Cerrar todo** o **Forzar cierre** para salir.
+- En la interfaz del Visor de documentos, haga clic en ![icon_menu](icon/icon_menu.svg) y seleccione **Salir**.
+
+
+### Ver atajos de teclado
+
+En la interfaz del Visor de documentos, pulse **Ctrl + Shift+ ?** para ver rápidamente todas las teclas de acceso directo, lo que le ayudará a utilizarlas con destreza y a mejorar su eficiencia de trabajo. 
 
 ![1|hotkey](jpg/hotkey.png)
 
+## Funciones básicas
 
-## Basic functions
-
-Document Viewer realizes basic document management such as opening files, saving files, printing files, as well as managing tabs, bookmarks and notes. 
-
-
-### Open files
-
-Document Viewer supports PDF and DJVU formats. You can open a file by: 
-
-- Dragging it directly into the interface or onto the icon. 
-- Right-clicking it and selecting **Open with** > **Select default program**, and then selecting Document Viewer from the list.
-
-   > ![tips](icon/tips.svg)Tips: Document will be opened by default program by directly double clicking on it. You can right-click it and select a default program by clicking on **Properties** > **Open with**. Or you can set a default program for this type of documents in [Default Applications](dman:///dde#Default Application Settings) from Control Center. 
-
-- Clicking **Select File** and selecting a file on Document Viewer interface.
-- On Document Viewer interface, pressing **Ctrl+O** and selecting the file you want to open. 
+El Visor de documentos realiza la gestión básica de documentos, como abrir archivos, guardar archivos, imprimir archivos, así como gestionar pestañas, marcadores y notas. 
 
 
+### Abrir archivos
 
-### Save documents
+Los formatos soportados por el Visor de documentos son PDF y DJVU. Puede abrir un archivo: 
 
-To save the document that has been edited and modified, you can 
+- Arrastrándolo directamente a la interfaz o al icono. 
+- Haciendo clic con el botón derecho y seleccionando **Abrir con** > **Seleccionar programa por defecto**, y luego seleccionando Visor de documentos de la lista.
 
-- Press **Ctrl+S**.
-- Click ![icon_menu](icon/icon_menu.svg) > **Save**.
-- Press **Ctrl + Shift + S** or click ![icon_menu](icon/icon_menu.svg) > **Save as**.
+   > ![tips](icon/tips.svg)Consejo: El documento se abrirá con el programa por defecto haciendo doble clic directamente sobre él. Puede hacer clic con el botón derecho y seleccionar un programa por defecto haciendo clic en **Propiedades** > **Abrir con**. O puede establecer un programa por defecto para este tipo de documentos en [Aplicaciones predeterminadas](dman:///dde#Ajustes de aplicaciones predeterminadas) desde el Centro de control. 
 
-### Print documents
+- Haciendo clic en **Seleccionar archivo** y seleccione un archivo en la interfaz del Visor de documentos.
+- En la interfaz del Visor de documentos, pulsando **Ctrl+O** y seleccionando el archivo que desea abrir. 
 
-To print you have to connect and configure a printer. 
 
-1. Open a document in Document Viewer, right-click and select **Print**, or press **Ctrl  + P** to open the preview page.
-2. In this previewing interface, you can preview and set the printing page. 
-3. In this previewing interface, click **Advanced** to set the page size, print method and other parameters. 
-4. Click **Print**  then the document will be sent to the printer for printing. 
 
+### Guardar documentos
+
+Para guardar el documento que ha sido editado y modificado, puede que:
+
+- Pulse **Ctrl+S**.
+- Haga clic en **![icon_menu](icon/icon_menu.svg) > **Guardar**.
+- Pulse **Ctrl + Shift + S** o haga clic en ![icon_menu](icon/icon_menu.svg) > **Guardar como**.
+
+### Imprimir documentos
+
+Para imprimir hay que conectar y configurar una impresora. 
+
+1. Abra un documento en el Visor de documentos, haga clic con el botón derecho y seleccione **Imprimir**, o pulse **Ctrl + P** para abrir la página de vista previa.
+2. En esta interfaz de previsualización, puede previsualizar y configurar la página de impresión. 
+3. En esta interfaz de previsualización, haga clic en **Avanzado** para configurar el tamaño de la página, el método de impresión y otros parámetros. 
+4. Haga clic en **Imprimir** y el documento se enviará a la impresora para su impresión. 
 ![preview](jpg/previewdoc1.png)
 
 ![pagesetup](jpg/pageSetupdoc.png)
 
 
 
-### Manage tabs
+### Gestionar pestañas
 
-New tab
+Para la nueva pestaña
 
-- Click ![icon_menu](icon/icon_menu.svg) > **New tab** to add a tab. 
-- When there are 2 or more tabs, you will see **+** button. And you can click it to add new tabs.
+- Haga clic en ![icon_menu](icon/icon_menu.svg) > **Nueva pestaña** para añadir una pestaña. 
+- Cuando haya dos o más pestañas, verá el botón **+**. Y puede hacer clic en él para añadir nuevas pestañas.
 
-To switch/adjust tabs, you can:
+Para cambiar/ajustar las pestañas, puede que:
 
-- Drag within the window to adjust the sequence of tabs. 
-- Click the ![previous](icon/previous.svg) or ![next](icon/next.svg)button to move left and right. 
-- Scroll the mouse wheel to switch tabs automatically.  
-- When there is only one window currently, double-click or right-click the file and select Document Viewer to open the file in the window which was opened first.  
-
-
-Operations among windows
-
-- Drag any tab to move it out of the current window and create a new one. 
-- Drag a tab from one window to another. 
-- When there are several windows, double-click or right-click the file and select Document Viewer to open the file in the first window.
+- Arrastre dentro de la ventana para ajustar la secuencia de pestañas. 
+- Haga clic en el botón ![anterior](icon/previous.svg) o ![siguiente](icon/next.svg)para moverse a la izquierda y a la derecha. 
+- Desplace la rueda del ratón para cambiar de pestaña automáticamente.  
+- Si sólo hay una ventana en ese momento, haga doble clic o haga clic con el botón derecho en el archivo y seleccione Visor de documentos para abrir el archivo en la ventana que se abrió primero.  
 
 
-Dragging rule for multiple windows and tabs:
+Realizar operaciones entre ventanas
 
-- When you drag several files to Document Viewer at the same time, they are opened as several tabs in one window. 
-- You can open several windows at a time, and tabs can be dragged from one window to another. 
-- No matter how many windows there are, one file can be opened only once. 
-- If no operation is done to a file, the save button is unavailable. 
+- Arrastre cualquier pestaña para sacarla de la ventana actual y crear una nueva. 
+- Arrastre una pestaña de una ventana a otra. 
+- Cuando hay varias ventanas, haga doble clic o haga clic con el botón derecho en el archivo y seleccione Visor de documentos para abrir el archivo en la primera ventana.
 
-### Manage bookmarks
 
-On Document Viewer interface, open a file. 
+Regla de arrastre para varias ventanas y pestañas:
 
-- Add bookmark:
-   - Right-click any page in Document Viewer, select **Add bookmark** to mark this page. 
-   - Move the cursor to the top right corner of the page until ![view](icon/bookmark_normal_light.svg) appears, click this icon to add a bookmark for this page, and this icon will be filled in blue.
-- Delete bookmark:
-   - Right-click the bookmark and select **Remove bookmark**. 
-   - Click the colored bookmark icon to cancel/delete the bookmark.
+- Cuando se arrastran varios archivos al Visor de documentos al mismo tiempo, se abren como varias pestañas en una sola ventana. 
+- Se pueden abrir varias ventanas a la vez, y las pestañas se pueden arrastrar de una ventana a otra. 
+- No importa cuántas ventanas haya, un archivo sólo puede abrirse una vez. 
+- Si no se realiza ninguna operación en un archivo, el botón de guardar no está disponible.
 
-> ![notes](icon/notes.svg)Notes: The bookmark icon appears only when the cursor moves to the bookmark area, and it disappears when the cursor moves out of the area. It will be colored after you click it when it appears and always displayed no matter where the cursor is.
+### Gestionar los marcadores
 
-### Manage annotation
+En la interfaz del Visor de documentos, abra un archivo y tendrá dos opciones. 
 
-On Document Viewer interface, open a file. 
+- Añadir marcador:
+   - Haga clic con el botón derecho en cualquier página del Visor de documentos y seleccione **Añadir marcador** para marcar esta página. 
+   - Mueva el cursor a la esquina superior derecha de la página hasta que aparezca ![view](icon/bookmark_normal_light.svg), haga clic en este icono para añadir un marcador para esta página, y este icono se llenará de color azul.
+- Quitar marcador:
+   - Haga clic con el botón derecho del ratón en el marcador y seleccione **Quitar de marcador**. 
+   - Haga clic en el icono de color del marcador para cancelar/eliminar el marcador.
 
-- Add annotation
+> ![notes](icon/notes.svg)Nota: El icono del marcador aparece sólo cuando el cursor se mueve al área correspondiente, y desaparece cuando el cursor se mueve fuera del área. Se coloreará después de hacer clic en él cuando aparezca y se mostrará siempre sin importar dónde esté el cursor.
 
-   - Select text using the selecting tool and right-click, select **Add annotation**. The selected text will be highlighted after the annotation is added successfully.
-   - Right-click at any blank area or the place you want to add an annotation and select **Add annotation**. After a note is successfully added, a highlighted note icon appears.
+### Gestionar anotaciones
+
+En la interfaz del Visor de documentos, abra un archivo. y tendrá dos opciones 
+
+- Añadir una anotación
+
+   - Seleccione el texto con la herramienta de selección y haga clic con el botón derecho del ratón, seleccione **Añadir anotación**. El texto seleccionado se resaltará una vez que la anotación se haya añadido correctamente.
+   - Haga clic derecho en cualquier área en blanco o en el lugar donde desee añadir una anotación y seleccione **Añadir anotación**. Después de añadir una nota con éxito, aparecerá un icono de nota resaltada.
      
-      > ![notes](icon/notes.svg)Notes: 
+      > ![notes](icon/notes.svg)Notas: 
       >
-      > - Click in any blank area outside the window without inputing any content, then the note is not added successfully or is deleted automatically. 
-      > - Click in any blank area outside the window after inputing some content, the content will be saved automatically and displayed as a small icon. 
+      > - Haga clic en cualquier área en blanco fuera de la ventana sin introducir ningún contenido, entonces la nota no se añade con éxito o se elimina automáticamente. 
+      > - Haga clic en cualquier área en blanco fuera de la ventana después de introducir algún contenido, el contenido se guardará automáticamente y se mostrará como un pequeño icono. 
 
-- Copy note
-   -  Right-click the highlighted text to which a note is successfully added and select **Copy** to copy the content.
-   -  Right-click the note icon, select **Copy** to copy the content.
-   -  Click![menu](icon/thumbnail_normal_light.svg) and the catalog icon ![view](icon/comments_normal_light.svg) on the left and select a note, right-click and select **Copy**. 
+- Copiar nota
+   - Haga clic derecho en el texto resaltado al que se ha añadido correctamente una nota y seleccione **Copiar** para copiar el contenido.
+   - Haga clic derecho en el icono de la nota y seleccione **Copiar** para copiar el contenido.
+   - Haga clic en ![menú](icon/thumbnail_normal_light.svg) y en el icono del catálogo ![vista](icon/comments_normal_light.svg) de la izquierda y seleccione una nota, haga clic con el botón derecho y seleccione **Copiar**. 
    
-- Show note  
-   1.  Hove the cursor over the note icon to show the content. 
-   2.  Click the note icon to pop up a window, you can view and re-edit. 
+- Mostrar nota  
+   1.  Pase el cursor sobre el icono de la nota para mostrar el contenido. 
+   2.  Haga clic en el icono de la nota para que aparezca una ventana, en la que podrá ver y reeditar. 
 
-- Delete note 
-   - Right-click the highlighted text to which you have added a note, and select **Remove highlight**. 
-   - Right-click the note icon and select **Remove annotation**. 
-   - Click the catalog icon ![view](icon/comments_normal_light.svg) on the left column, and select a note, right-click to select **Remove annotation**, this note is deleted and so is its content. 
+- Borrar nota 
+   - Haga clic con el botón derecho del ratón en el texto resaltado al que ha añadido una nota y seleccione **Quitar resaltado**. 
+   - Haga clic con el botón derecho del ratón en el icono de la nota y seleccione **Borrar anotación**. 
+   - Haga clic en el icono del catálogo ![vista](icon/comments_normal_light.svg) en la columna de la izquierda, y seleccione una nota, haga clic con el botón derecho para seleccionar **Borrar anotación**, esta nota se elimina y también su contenido. 
 
-   > ![notes](icon\notes.svg)Notes: 
-   > + You can move the note icon in the current page.
-   > + You can not add annotations to DJVU files.
+   > ![notes](icon\notes.svg)Notas: 
+   > + Puede mover el icono de la nota en la página actual.
+   > + No se pueden añadir anotaciones a archivos DJVU.
 
-## Common operations
+## Operaciones comunes
 
-Document Viewer integrates many features to make document management simpler and more efficient. 
+El Visor de documentos integra muchas funciones para que la gestión de los documentos sea más sencilla y eficaz. 
 
-### Search
-This function is only applicable for the current tab.
-1. On Document Viewer interface, open a file. 
-2. Right-click and select **Search** or press **Ctrl**+**F** to open a searching window. 
+### Buscar
+Esta función sólo es aplicable a la pestaña actual.
+1. En la interfaz del Visor de documentos, abra un archivo. 
+2. Haga clic con el botón derecho y seleccione **Buscar** o pulse **Ctrl**+**F** para abrir una ventana de búsqueda. 
    
-3. In the searching box, you can click ![search](icon/search.svg) to input keywords. 
+3. En el cuadro de búsqueda, puede hacer clic en ![buscar](icon/search.svg) para introducir palabras clave. 
    
-4. Press  **Enter** to locate quickly. 
-   - All matching information will be displayed in a list and are highlighted in the document.
-   - If searching fails, "No search results" will be displayed. 
+4. Pulse **Intro** para localizar rápidamente. 
+   - Toda la información que coincida se mostrará en una lista y se resaltará en el documento.
+   - Si la búsqueda falla, se mostrará "Sin resultados de búsqueda". 
    
-5.  When matching results are found, click![search](icon/previous-up.svg) or ![search](icon/next-down.svg) to view results one by one. 
+5.  Cuando se encuentren resultados coincidentes, haga clic en ![buscar](icon/previous-up.svg) o ![buscar](icon/next-down.svg) para ver los resultados uno por uno. 
 
-6. Click one result, you can skip to the page where it's located, and it's highlighted. 
-> ![attention](icon/attention.svg)Attention: Searching fails in case the text is coded in pictures in some PDF files. 
+6. Si hace clic en un resultado, puede saltar a la página donde se encuentra resaltada. 
+> ![atención](icon/attention.svg)Atención: La búsqueda falla en caso de que el texto esté codificado en imágenes en algunos archivos PDF. 
 
-7. Clear up words in the searching box to clear up all results. 
+7. Borre las palabras en el cuadro de búsqueda para borrar todos los resultados. 
 
-> ![notes](icon\notes.svg)Notes: You can not search in DJVU files.
-
-
-### Move in files
-
-To move in each page of the file you can: 
-
-- Scroll the mouse wheel up and down. 
-- Drag the scroll bar up and down in the window. 
-- Press the up key and down key on the keyboard. 
-- Click ![icon_menu](icon/icon_menu.svg) > **Tools** > **Hand Tool**, you will see ![hand](icon/hand_small_normal_light.svg) and drag by the mouse, just like you are holding the page by your hand. 
-
-### Flip pages quickly 
-
-To move from page to page, you can: 
-
-- Right-click and select **Previous page** or **Next page**. 
-- Press ![Down](icon/Down.svg)  or ![Up](icon/Up.svg) on the keyboard. 
-- To go to a specialized page, you can: 
-  - Input the page number and press **Enter** key. 
-  - To go the beginning or the end of the file, you can right-click and select **First page** or **Last page**. 
-
-### Switch catalog 
-
-Using thumbnails you can switch file thumbnails catalog![view](icon/view_normal.svg), file catalog![catalog](icon/catalog.svg), bookmark catalog![view](icon/bookmark_normal.svg) and annotation catalog![view](icon/comments_normal_light.svg). Drag the frame of the catalog, thumbnails vary as the width that can be dragged changes. 
-
-### Fullscreen
-
-1. On Document Viewer interface, right-click and select **Fullscreen** or press shortcut key **F11**.
-2. Move the cursor to the top or the left part of the window to call out the top tool bar or the left tool bar. Otherwise, the tool bar will be hidden.
-3. After you call out the side tool bar under **Fullscreen** mode, click ![icon](icon/thumbnail_normal_light.svg) to keep it shown.
-4. Press **Esc** or **F11** key to exit **Fullscreen** mode.
-
-### Slide show
-
-1. On Document Viewer interface, right-click and select **Slide show** to display the file as slides. 
-3. Click![play](icon/previous.svg)or![play](icon/next.svg) to switch pages, or click ![play](icon/suspend_normal.svg)to pause. 
-4. Press **Esc** key to quit. 
-
-### Zoom in and out
-
-To zoom in or out a page, you can:
-
-- Press **Ctrl +“+”**  or **Ctrl +“-”** .
-- Press **Ctrl** and scroll the mouse wheel up and down at the same time. 
-- On Document Viewer interface, click "**+**"  or  "**-**". 
-- Manual input is supported here. You can choose display percentage from the drop-down box of the menu bar: 10%, 25%, 50%, 75%, 100%, 125%, 150%, 175%, 200%, 300%, 400%, and 500%, according to which the file is zoomed in and out.
-> ![notes](icon/notes.svg)Notes: If you are using a computer equipped with a touchscreen or a touchpad, you can use gestures instead of the  mouse:
->    - On the touchscreen, pinch two fingers to zoom out on the page; open two fingers to zoom in on the page.
->    -  On the touchpad that supports multiple-point touch, pinch two fingers to zoom out on the page; open two fingers to zoom in on the page.  
+> ![notas](icon\notes.svg)Nota: No se puede buscar en archivos DJVU.
 
 
-### Highlight
+### Mover en archivos
 
-1. On Document Viewer interface, select some text and right-click, select **Highlight**, there are several colors for you to choose. 
+Para moverse en cada página del archivo puede: 
 
-> ![notes](icon/notes.svg)Notes: If no text is highlighted, **Remove highlight** button is unavailable. 
+- Desplazar la rueda del ratón hacia arriba y hacia abajo. 
+- Arrastrar la barra de desplazamiento hacia arriba y hacia abajo en la ventana. 
+- Pulsar la tecla arriba y abajo del teclado. 
+- Hacer clic en ![icon_menu](icon/icon_menu.svg) > **Herramientas** > **Herramienta de mano**, aparecerá ![mano](icon/hand_small_normal_light.svg) y arrastrar con el ratón, como si estuviera sujetando la página con la mano. 
 
-3. Select a color, the text selected will be highlighted in that color. 
+### Pasar páginas rápidamente 
 
-4. Select the highlighted text, click **Remove highlight** to restore it to the status it was. 
+Para pasar de una página a otra, puede 
 
-> ![notes](icon/notes.svg)Notes: 
+- Hacer clic con el botón derecho y seleccionar **Página anterior** o **Página siguiente**. 
+- Pulsar ![Abajo](icon/Down.svg) o ![Arriba](icon/Up.svg) en el teclado. 
+- Para ir a una página especializada, tendrá que: 
+  - Introducir el número de página y pulsar la tecla **Intro**. 
+  - Para ir al principio o al final del archivo, puede hacer clic con el botón derecho y seleccionar **Primera página** o **Última página**. 
+
+### Cambiar de catálogo 
+
+Usando las miniaturas puede cambiar las miniaturas de los archivos del catálogo ![view](icon/view_normal.svg), del catálogo de archivos ![catalog](icon/catalog.svg), del catálogo de marcadores ![view](icon/bookmark_normal.svg) y del catálogo de anotaciones ![view](icon/comments_normal_light.svg). Arrastre el marco del catálogo, las miniaturas varían según el ancho que se puede arrastrar. 
+
+### Pantalla completa
+
+1. En la interfaz del Visor de documentos, haga clic con el botón derecho y seleccione **Pantalla completa** o pulse la tecla de acceso directo **F11**.
+2. Mueva el cursor a la parte superior o a la izquierda de la ventana para llamar la barra de herramientas superior o la barra de herramientas izquierda. De lo contrario, la barra de herramientas estará oculta.
+3. Después de llamar a la barra de herramientas lateral en el modo **Pantalla completa**, haga clic en ![icono](icon/thumbnail_normal_light.svg) para mantenerla mostrada.
+4. Pulse la tecla **Esc** o **F11** para salir del modo **Pantalla completa**.
+
+### Presentación de diapositivas
+
+1. En la interfaz del Visor de documentos, haga clic con el botón derecho y seleccione **Presentación** para mostrar el archivo en forma de diapositivas. 
+3. Haga clic en ![play](icon/previous.svg)o ![play](icon/next.svg) para cambiar de página, o haga clic en ![play](icon/suspend_normal.svg)para hacer una pausa. 
+4. Pulse la tecla **Esc** para salir. 
+
+### Acercar y alejar vista
+
+Para acercar o alejar la vista de una página, puede:
+
+- Pulsar **Ctrl +"+"** o **Ctrl +"-"** .
+- Pulsar **Ctrl** y desplazar la rueda del ratón hacia arriba y hacia abajo al mismo tiempo. 
+- En la interfaz del Visor de documentos, pulse "**+**" o "**-**". 
+- Aquí se admite introducir manualmente. Puede elegir el porcentaje de visualización en el cuadro desplegable de la barra de menú: 10%, 25%, 50%, 75%, 100%, 125%, 150%, 175%, 200%, 300%, 400% y 500%, según el cual el archivo se amplía o se reduce.
+> ![notes](icon/notes.svg)Nota: Si utiliza un equipo provisto con una pantalla táctil o un panel táctil, puede utilizar gestos en lugar del ratón:
+> - En la pantalla táctil, pellizca con dos dedos para alejar la página; abre dos dedos para acercar la página.
+> - En el panel táctil que admite el toque de varios puntos, pellizca con dos dedos para alejar la página; abre dos dedos para acercar la página.  
+
+
+### Resaltar
+
+1. En la interfaz del Visor de documentos, seleccione un texto y haga clic con el botón derecho, seleccione **Resaltar**, hay varios colores para elegir. 
+
+> ![notes](icon/notes.svg)Nota: Si no hay texto resaltado, el botón **Quitar resaltado** no está disponible. 
+
+3. Seleccione un color, el texto seleccionado se resaltará en ese color. 
+
+4. Seleccione el texto resaltado, haga clic en **Quitar el resaltado** para devolverlo al estado en que estaba. 
+
+> ![notes](icon/notes.svg)Nota: 
 >
-> - Document Viewer memorizes the color choice of the user, which will be the default color used when the user highlights any text the next time.  You can change the color as you wish. 
-> - You can not highlight in DJVU files.
+> - El Visor de documentos memoriza el color elegido por el usuario, que será el color principal utilizado cuando el usuario resalte cualquier texto la próxima vez.  Puede cambiar el color como desee. 
+> - No se puede resaltar en archivos DJVU.
 
-### Adjust view
+### Ajustar la vista
 
-Click![view](icon/setting_normal_light.svg) , and in its submenu you can:
+Haga clic en ![vista](icon/setting_normal_light.svg) , y en su submenú podrá:
 
-- Click **Two-page View** to view two pages at a time. 
-- Click **1:1 size** to display the file in 100% ratio.
-- Click **Fit Page** to display a whole page in the current window.
-- Click **Fit Height** to display the page in the window fully in vertical direction. 
-- Click **Fit Width**  to display the page in the window fully in horizontal direction.
+- Hacer clic en **Vista de dos páginas** para leer dos páginas a la vez. 
+- Hacer clic en **Tamaño 1:1** para visualizar el archivo en una proporción del 100%.
+- Hacer clic en **Ajustar a página** para mostrar una página completa en la ventana actual.
+- Haga clic en **Ajustar a lo largo** para mostrar la página en la ventana completamente en dirección vertical. 
+- Haga clic en **Ajustar a lo ancho** para mostrar la página en la ventana completamente en dirección horizontal.
 
-### Adapt window
+### Adaptar ventana
 
-To make the window adapted to all sizes, you can:
+Para que la ventana se adapte a todos los tamaños, puede:
 
-- Drag the window, and the file will be displayed as the window size varies automatically.
-- The size of the left catalog column is adapted to the window size as you change it. 
-- In case of high-resolution screen, the width of the left column of thumbnails is adapted to the resolution and the width of the screen. 
+- Arrastrar la ventana, y el archivo se mostrará al variar el tamaño de la ventana automáticamente.
+- El tamaño de la columna izquierda del catálogo se adapta al tamaño de la ventana a medida que se modifica. 
+- Para la pantalla de alta resolución, el ancho de la columna izquierda de miniaturas se adapta a la resolución y al ancho de la pantalla. 
 
-### Rotate
+### Girar
 
-1. On Document Viewer interface, open a document. 
-2. Right-click and select **Rotate Left** or **Rotate Right** from the submenu, the page will rotate to the left or right by 90°. 
-> ![notes](icon/notes.svg)Notes:  If you are using a computer equipped with a touchscreen or a touchpad, you can use gestures instead of the  mouse:
->    - On the touchscreen, place two fingers on the picture with a certain distance and rotate the two fingers at the same time to rotate the page.
->    - On the touchpad that supports multiple-point touch, place two fingers on the picture with a certain distance and rotate the two fingers at the same time to rotate the page.
+1. En la interfaz del Visor de documentos, abra un documento. 
+2. Haga clic con el botón derecho y seleccione **Girar a la izquierda** o **Girar a la derecha** en el submenú, la página girará a la izquierda o a la derecha en 90°. 
+> ![notes](icon/notes.svg)Notas:  Si utiliza un equipo provisto con una pantalla táctil o un panel táctil, puede utilizar gestos en lugar del ratón:
+> - En la pantalla táctil, coloque dos dedos sobre la imagen con una cierta distancia y gire los dos dedos al mismo tiempo para girar la página.
+> - En el panel táctil que admite el toque de varios puntos, coloque dos dedos en la imagen con una cierta distancia y gire los dos dedos al mismo tiempo para girar la página.
 
-### Document info
-1. On Document Viewer interface, open a document. 
-2. Right-click and select **Document info** to check the relevant information such as properties about the document.
+### Información del documento
+1. En la interfaz del Visor de documentos, abra un documento. 
+2. Haga clic con el botón derecho del ratón y seleccione **Información del documento** para comprobar la información relevante, como las propiedades del documento.
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can create new window and new tabs, [save](#Save documents), [search](#Search), switch themes, view help to know more about Document Viewer. 
+En el menú principal, puede crear una nueva ventana y nuevas pestañas, [guardar](#Guardar documentos), [buscar](#Buscar), cambiar de tema, ver la ayuda para saber más sobre el Visor de documentos. 
 
-### Display in file manager
+### Visualización en el administrador de archivos
 
-1. Click ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **Display in file manager** to open and show the file's storing location in File Manager. 
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Mostrar en el administrador de archivos** para abrir y mostrar la ubicación de almacenamiento del archivo en el Administrador de archivos. 
 
-### Magnifier 
+### Lupa 
 
-1. On Document Viewer interface, open a document. 
-2. Click![icon_menu](icon/icon_menu.svg) >  **Magnifier**.
-3. Move the cursor to the area you want to view to magnify. 
-4. Press **Esc** or right-click to cancel magnifying. 
+1. En la interfaz del Visor de documentos, abra un documento. 
+2. Haga clic en ![icon_menu](icon/icon_menu.svg) > **Lupa**.
+3. Mueva el cursor al área que desea ver para ampliar. 
+4. Pulse **Esc** o haga clic con el botón derecho para cancelar la ampliación.
 
-### Theme
+### Tema
 
-There are options including light theme, dark theme and system theme.
+Hay opciones que incluyen el tema claro, el tema oscuro y el tema del sistema.
 
-   1. Click ![icon_menu](icon/icon_menu.svg) on the main interface.
-   2. Click **Theme** to select one.
+   1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+   2. Haga clic en **Tema** para seleccionar uno.
 
-### Help
+### Ayuda
 
-click Help to get the manual, which will help you further know and use Document Viewer.
+Haga clic en Ayuda para obtener el manual, que le ayudará a conocer y utilizar mejor el Visor de documentos.
 
-   1. Click ![icon_menu](icon/icon_menu.svg) on the main interface.
-   2. Click **Help** to view the manual.
+   1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+   2. Haga clic en **Ayuda** para ver el manual.
 
 
-### About
+### Acerca de
 
-1. Click ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click **About** to view version information and introduction about Document Viewer. 
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Acerca de** para ver la información de la versión y la introducción sobre el Visor de documentos. 
 
-### Exit
+### Salir
 
-1. Click ![icon_menu](icon/icon_menu.svg) on the main interface.
-2. Click  **Exit**.
+1. Haga clic en ![icon_menu](icon/icon_menu.svg) en la interfaz principal.
+2. Haga clic en **Salir**.
 
