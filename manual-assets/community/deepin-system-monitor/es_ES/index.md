@@ -1,172 +1,172 @@
-# System Monitor |../common/deepin-system-monitor.svg|
+# Monitor del sistema |../common/deepin-system-monitor.svg|
 
-## Overview
+## Descripción
 
-System Monitor is a system tool monitoring and managing hardware load, program running and system services. It supports real-time monitoring of CPU status, memory footprint, and upload/download speed, helps manage system and application process, and enables searching and force ending of processes.
+Monitor del sistema es una herramienta de monitorización y gestión de la carga del hardware, la ejecución de programas y los servicios del sistema. Soporta la monitorización en tiempo real del estado de la CPU, el uso de la memoria y la velocidad de carga/descarga, ayuda a gestionar los procesos del sistema y de las aplicaciones, y permite buscar y forzar la finalización de los procesos.
 
 
-## Basic Operations
+## Operaciones básicas
 
-### Search Process
+### Buscar proceso
 
-1. In the Search box, click ![search](icon/search.svg) to input keywords. 
-2. Press **Enter** key on the keyboard to locate quickly. 
-   - When there is information matched, a search result list will be displayed on the interface.
-   - When there is no information matched, **No search results** will be displayed on the interface.
+1. En el cuadro de búsqueda, haga clic en ![search](icon/search.svg) para introducir las palabras clave. 
+2. Pulse la tecla **Intro** del teclado para localizar rápidamente. 
+   - Cuando haya información coincidente, se mostrará una lista de resultados de búsqueda en la interfaz.
+   - Si no se encuentra ninguna información, se mostrará **ningún resultado de búsqueda** en la interfaz.
 
 ![1|search](jpg/search.png)
 
 
 
-### Hardware Monitoring
+### Monitorización del hardware
 
-System Monitor can monitor the CPU, memory and network status of your system:
+El Monitor del sistema puede vigilar el estado de la CPU, la memoria y la red de su sistema:
 
-- CPU monitoring: you can view the CPU usage and recent usage trends through graphics, numerical and curve displays.
+- Monitorización de la CPU: puede ver el uso de la CPU y las tendencias recientes de uso a través de gráficos, pantallas numéricas y curvas.
 
-  - In **Expand view**, CPU load is displayed in doughnut chart with percentage. The curve inside the doughnut shows the recent CPU load summary, the height of which automatically fits the inner height of doughnut. 
+  - En la **vista extendida**, la carga de la CPU se muestra en un gráfico con forma de rosquilla con porcentaje. La curva dentro del gráfico muestra el resumen de la carga reciente de la CPU, cuya altura se ajusta automáticamente a la altura interior del gráfico. 
   ![1|monitor](jpg/expand.png)
-  - In **Compact view**, CPU load is displayed in oscillogram with percentage. The curve shows the recent CPU load summary, the height of which automatically fits the height of the oscillogram. 
+  - En la **vista compacta**, la carga de la CPU se muestra en forma de oscilograma con porcentaje. La curva muestra el resumen de la carga reciente de la CPU, cuya altura se ajusta automáticamente a la altura del oscilograma. 
   ![1|monitor](jpg/compact.png)
-- Memory monitoring shows the real-time usage of memory, total memory and current usage, total swap space and current usage in percentage and graphics.
-- Network monitoring shows the current downloading and uploading speed, and the recent trend of such activities in waves.
-- Disk monitoring shows the current reading and writing speed, and the recent trend of such activities in waves.
+- La monitorización de la memoria muestra el uso en tiempo real de la memoria, la memoria total y el uso actual, el espacio de intercambio total y el uso actual en porcentaje y gráficos.
+- La monitorización de la red muestra la velocidad actual de descarga y subida, y la tendencia reciente de dichas actividades en gráfico lineal.
+- La monitorización del disco muestra la velocidad de lectura y escritura actual, y la tendencia reciente de dichas actividades en gráfico lineal.
 
 
-### Process Management
+### Gestión de procesos
 
-#### Switch Process Tabs
+#### Cambiar las pestañas de los procesos
 
-Click the top right tabs on the System Monitoring interface to view **Applications**, **My processes** and **All processes**.
+Haga clic en las pestañas de la parte superior derecha de la interfaz de monitorización del sistema para ver **Aplicaciones**, **Mis procesos** y **Todos los procesos**.
 
-- Click ![application](jpg/app-process.png) to switch to **Applications**. 
-- Click ![user](jpg/my-process.png) to switch to **My processes**. 
-- Click ![all](jpg/all-process.png) to switch to **All processes**.
+- Haga clic en ![aplicación](jpg/app-process.png) para cambiar a **Aplicaciones**. 
+- Haga clic en ![usuario](jpg/my-process.png) para pasar a **Mis procesos**. 
+- Haga clic en ![todos](jpg/all-process.png) para pasar a **Todos los procesos**.
 
 ![1|monitor](jpg/tab-switch.png)
 
-#### Adjust Process Order
+#### Ajustar el orden de los procesos
 
-You can adjust the process order by Name, CPU, User, Memory, Upload, Download, Disk read, Disk write, PID, Nice and Priority.
+Puede ajustar el orden de los procesos por Nombre, CPU, Usuario, Memoria, Carga, Descarga, Lectura en disco, Escritura en disco, PID, Niza y Prioridad.
 
-- On System Monitor interface, click the tabs in the top of the process list to sort the processes. Multiple clicks allow sorting from low to high or high to low.
-- Right-click the top tabs to check the options you want to view or uncheck the options you want to hide.
+- En la interfaz del Monitor del sistema, haga clic en las pestañas de la parte superior de la lista de procesos para ordenarlos. Múltiples clics permiten ordenar de menor a mayor o de mayor a menor.
+- Haga clic derecho en las pestañas superiores para marcar o desmarcar las opciones que desee ver u ocultar.
 
-![1|sort](jpg/sort.png)
+![1|ordenación](jpg/sort.png)
 
 
-#### End Process
+#### Finalizar proceso
 
-System Monitor can be used to end processes.
+El Monitor del sistema se puede utilizar para finalizar procesos.
 
-1. On the System Monitor interface, right-click the process you want to end.
-2. Select **End Process**.
-3. Click **End** in the pop-up window to confirm.
+1. En la interfaz del Monitor del sistema, haga clic con el botón derecho del ratón en el proceso que desea finalizar.
+2. Seleccione **Finalizar proceso**.
+3. Haga clic en **Finalizar** en la ventana emergente para confirmar.
 
 ![1|kill](jpg/kill.png)
 
-#### End Application
+#### Terminar la aplicación
 
-1. On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
+1. En la interfaz del Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
 
-2. Select **Force end application**.
-> ![notes](icon/notes.svg)Notes: This function can only end graphical processes.
+2. Seleccione **Forzar cierre de aplicación**.
+> ![notes](icon/notes.svg)Nota: Esta función sólo puede finalizar procesos con interfaz gráfica.
 
-3. Click the window of application you want to close according to the prompt.
+3. Haga clic en la ventana de la aplicación que desea cerrar según el aviso.
 
-4. Click **Force End** in the pop-up window to confirm.
+4. Haga clic en **Forzar cierre** en la ventana emergente para confirmar.
 
-> ![tips](icon/tips.svg)Tips: You can end a process by selecting a process, right-clicking it and selecting **End Process**. 
-
-
-#### Suspend/Resume Process
-
-1. On the System Monitor interface, right-click the process you want to suspend.
-2. Select **Suspend process**. The process will be tagged with **(Suspend)** and turned red in the list. 
-3. Right-click it again and select **Resume process** to resume it.
-
-![1|pause](jpg/pause.png)
+> ![tips](icon/tips.svg)Consejo: Puede finalizar un proceso seleccionando un proceso, haciendo clic con el botón derecho y seleccionando **Finalizar proceso**. 
 
 
-#### Change Process Priority 
+#### Suspender/Reanudar proceso
 
-1. On the System Monitor interface, right-click a process.
+1. En la interfaz del Monitor del sistema, haga clic con el botón derecho en el proceso que desea suspender.
+2. Seleccione **Suspender proceso**. El proceso será etiquetado con **(Suspendido)** y se volverá rojo en la lista. 
+3. Vuelva a hacer clic con el botón derecho del ratón y seleccione **Reanudar proceso** para reanudarlo.
 
-2. Select **Change priority** and select a priority level.
+![1|pausa](jpg/pause.png)
 
-![notes](icon/notes.svg)Notes: You can also select **Custom** priority level.
+
+#### Cambiar la prioridad del proceso 
+
+1. En la interfaz del Monitor del sistema, haga clic con el botón derecho en un proceso.
+
+2. Seleccione **Cambiar prioridad** y seleccione un nivel de prioridad.
+
+![notes](icon/notes.svg)Nota: También puede seleccionar el nivel de prioridad **Personalizado**.
 
 ![1|priority](jpg/priority.png)
 
 
-#### View Process Location
+#### Ver ubicación del proceso
 
-1. On the System Monitor interface, right-click the process you want to view.
-2. Select **View command location** to open the location in File Manager. 
+1. En la interfaz del Monitor del sistema, haga clic con el botón derecho del ratón en el proceso que desee ver.
+2. Seleccione **Ver ubicación del proceso** para abrir la ubicación en el Administrador de archivos. 
 
-#### View Process Properties
+#### Ver las propiedades del proceso
 
-1. On the System Monitor interface, right-click the process you want to view.
-2. Select **Properties** to view the name, command line and start time of the process.
+1. En la interfaz del Monitor del sistema, haga clic con el botón derecho en el proceso que desee ver.
+2. Seleccione **Propiedades** para ver el nombre, la línea de comandos y la hora de inicio del proceso.
 
 ![0|info](jpg/info.png)
 
-### System service management
+### Gestión de servicios del sistema
 
-You can start, stop, restart, set startup type, refresh system service processes.
-In the list of system services, force-ending application is prohibited.
+Puede iniciar, detener, reiniciar, establecer el tipo de inicio y actualizar los procesos de los servicios del sistema.
+En la lista de servicios del sistema, está prohibido forzar la finalización de la aplicación.
 
->![attention](icon/attention.svg)Attention: For better system operation, please don't end any processes of the system services and root processes.
+>![atención](icon/attention.svg)Atención: Para un mejor funcionamiento del sistema, por favor, no finalice ningún proceso de los servicios del sistema ni de los procesos root.
 
-#### Start system service
-1. Select **Services** tab on the System Monitor interface.
-2. Select a process that is not started yet, right-click and select **Start**. Enter the password if the authentication window pops up.
-3. **active** is displayed in the **Active** column.
-4. Right-click the service and select **Startup type** to select from **Auto** and **Manual** options.
-5. Right-click the service and select **Refresh**.
+#### Iniciar el servicio del sistema
+1. Seleccione la pestaña **Servicios** en la interfaz del Monitor del sistema.
+2. Seleccione un proceso que aún no se haya iniciado, haga clic con el botón derecho y seleccione **Iniciar**. Introduzca la contraseña si aparece la ventana de autenticación.
+3. En la columna **Activo** se muestra el servicio **activo**.
+4. Haga clic con el botón derecho del ratón en el servicio y seleccione **Tipo de inicio** para elegir entre las opciones **Auto** y **Manual**.
+5. Haga clic con el botón derecho del ratón en el servicio y seleccione **Actualizar**.
 
-#### Stop system service
+#### Detener el servicio del sistema
 
-1. Select **Services** tab on the System Monitor interface.
-2. Select a process that is started already, right-click and select **Stop**. Enter the password if the authentication window pops up.
-3. **inactive** is displayed in the **Active** column.
-4. Right-click the service and select **Refresh**.
+1. Seleccione la pestaña **Servicios** en la interfaz del Monitor del sistema.
+2. Seleccione un proceso ya iniciado, haga clic con el botón derecho del ratón y seleccione **Detener**. Introduzca la contraseña si aparece la ventana de autenticación.
+3. En la columna **Activo** se muestra el servicio **inactivo**.
+4. Haga clic con el botón derecho en el servicio y seleccione **Actualizar**.
 
-You can also right-click a system process and select **Restart**. 
+También puede hacer clic con el botón derecho en un proceso del sistema y seleccionar **Reiniciar**. 
 
-## Main Menu
+## Menú principal
 
-In the main menu, you can switch monitoring modes and themes, view help manual and learn more information of System Monitor.
+En el menú principal, puede cambiar los modos y temas de monitorización, ver el manual de ayuda y obtener más información del Monitor del sistema.
 
-### Theme
+### Tema
 
-The window theme provides three theme types, namely Light Theme, Dark Theme and System Theme.
+El tema de la ventana ofrece tres tipos de temas, a saber, Tema claro, Tema oscuro y Tema del sistema.
 
-1. On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Theme** to select one theme.
+1. En la interfaz de Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Tema** para seleccionar un tema.
 
-### View
+### Vista
 
-System Monitor offers Expand view and Compact view for your choice.
+Monitor del sistema ofrece la vista Expandir y la vista Compacta para su elección.
 
-1. On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
+1. En la interfaz de Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
 
-2. Click **View** to select one mode.
+2. Haga clic en **Vista** para seleccionar un modo.
 
-> ![notes](icon/notes.svg)Notes: Compact view and expand view are only available for processes. 
+> ![notes](icon/notes.svg)Nota: La vista compacta y la vista expandida sólo están disponibles para los procesos. 
 
 
-### Help
+### Ayuda
 
-1. On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Help** to view the manual of System Monitor.
+1. En la interfaz del Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Ayuda** para ver el manual del Monitor del sistema.
 
-### About
+### Acerca de
 
-1.  On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
-2.  Click **About** to view the version and introduction of System Monitor.
+1.  En la interfaz de Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
+2.  Haga clic en **Acerca de** para ver la versión y la presentación del Monitor del sistema.
 
-### Exit
+### Salir
 
-1. On the System Monitor interface, click ![icon_menu](icon/icon_menu.svg).
-2. Click **Exit** to exit System Monitor.
+1. En la interfaz de Monitor del sistema, haga clic en ![icon_menu](icon/icon_menu.svg).
+2. Haga clic en **Salir** para cerrar el Monitor del sistema.
