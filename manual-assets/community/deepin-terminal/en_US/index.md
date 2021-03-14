@@ -235,7 +235,7 @@ You can open remote management panel to add remote servers via the main menu or 
 
    >  ![notes](icon/notes.svg)Notes: If you need to set up more parameters, please click **Advanced options**. Or, you can keep the default values and edit them when you need.
 
- ![1|addssh](jpg/addsshall.png)
+ ![1|addssh](jpg/addssh-all.png)
 
 
 

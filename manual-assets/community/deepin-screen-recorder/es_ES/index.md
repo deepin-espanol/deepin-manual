@@ -1,181 +1,185 @@
-# Screen Capture|../common/deepin-screen-capture.svg|
+# Captura de pantalla|../common/deepin-screen-capture.svg|
 
-## Overview
+## Descripción
 
-Screen Capture is a tool which integrates the screen capture and recorder functions into one. You are free to select windows or areas automatically or manually during screen capturing or recording. 
+Captura de pantalla es una herramienta que integra las funciones de captura y grabación de pantalla en una sola. Puede seleccionar ventanas o áreas de forma automática o manual durante la captura o grabación de la pantalla. 
 
 ![partarea](jpg/partarea.png)
 
 
 
-## Guide
+## Guía
 
-You can run, close or create shortcuts for Screen Capture by the following operations.
+Puede ejecutar, cerrar o crear accesos directos para la Captura de pantalla mediante las siguientes operaciones.
 
-### Run Screen Capture
+### Ejecutar Captura de pantalla
 
-1.  Click ![deepin-launcher](icon/deepin-launcher.svg) in the dock to enter the launcher interface.
-2.  Locate ![deepin-screenshot](icon/deepin-screenshot.svg) by scrolling the mouse wheel or searching **Screen Capture** in the Launcher interface and click it to run. 
-3.  Right click ![deepin-screenshot](icon/deepin-screenshot.svg) and you can:
+1.  Haga clic en ![deepin-launcher](icon/deepin-launcher.svg) en el muelle para entrar en la interfaz del Lanzador.
+2.  Localice ![deepin-screenshot](icon/deepin-screenshot.svg) desplazando la rueda del ratón o buscando **Captura de pantalla** en la interfaz del Lanzador y haga clic en él para ejecutarlo. 
+3.  Haga clic con el botón derecho del ratón en el icono deepin-screenshot.svg y podrá que:
 
-    - Click **Send to desktop** to create a desktop shortcut.
-    - Click **Send to dock** to fix it in the Dock.
-    - Click **Add to startup** to add it to startup and it will automatically run when the system starts up.
+    - Haga clic en **Enviar al escritorio** para crear un acceso directo al escritorio.
+    - Haga clic en **Enviar al muelle** para fijarlo en el Dock.
+    - Haga clic en **Añadir al arranque** para añadirlo al inicio y que se ejecute automáticamente cuando se inicie el sistema.
 
-> ![notes](icon/notes.svg)Notes: If Screen Capture has been fixed in the dock by default, you can click ![deepin-screenshot](icon/deepin-screenshot.svg) in the dock to run it.
+> ![notes](icon/notes.svg)Notas: Si Captura de pantalla se ha fijado en el muelle por defecto, puede hacer clic en ![deepin-screenshot](icon/deepin-screenshot.svg) en el muelle para ejecutarlo.
 
-### Close Screen Capture
+### Cerrar Captura de pantalla
 
-- Screen Capture will exit automatically after screen capturing or screen recording completes.
-- On the Screen Capture interface, click ![close](icon/close-normal.svg) to exit Screen Capture.
-- On the Screen Capture interface, press **Ctrl + S** or **Esc** on the keyboard to save the screen capture or exit.
-- On the Screen Capture interface, right-click to select **Save** or **Exit**.
+- Captura de pantalla se cerrará automáticamente después de que la captura de pantalla o la grabación de pantalla se haya completado.
+- En la interfaz de Captura de pantalla, pulse ![close](icon/close-normal.svg) para salir de Captura de pantalla.
+- En la interfaz de Captura de pantalla, pulse **Ctrl + S** o **Esc** en el teclado para guardar la captura de pantalla o salir.
+- En la interfaz de Captura de pantalla, haga clic con el botón derecho para seleccionar **Guardar** o **Salir**.
 
-## Operations
+## Operaciones
 
-### Take Sceenshots
+### Tomar capturas de pantalla
 
-You can quickly capture screenshots in the following ways:
+Puede capturar rápidamente la pantalla de las siguientes maneras:
 
-- Press the ![print](icon/Print.svg) key on the keyboard to capture the entire monitor screen.
-- Use the screen capture features of various applications such as Tencent QQ and Chrome browser.
-- Use the specialized screen capture software to take screenshots, such as the Screen Capture software that comes with the operating system.
+- Pulse la tecla ![print](icon/Print.svg) del teclado para capturar toda la pantalla del monitor.
+- Utilice las funciones de captura de pantalla de varias aplicaciones, como Tencent QQ y el navegador Chrome.
+- Utilice el software especializado de captura de pantalla para realizar capturas, como el software de Captura de pantalla que viene con el sistema operativo.
 
-#### Shortcuts
+#### Accesos directos
 
-In the Screenshot mode on the Screen Capture interface, press **Ctrl + Shift + ?** to view shortcuts. Proficiency in shortcuts will greatly improve your efficiency.
+En el modo de Captura de pantalla de la interfaz de Captura de pantalla, pulse **Ctrl + Shift + ?** para ver los accesos directos. El dominio de los atajos mejorará en gran medida su eficiencia.
 
-![1|快捷键](jpg/hotkey.png)
+![1|hotkey](jpg/hotkey.png)
 
 
-#### Select Screenshot Area
 
-There are three kinds of common screenshot areas, namely the full screen, program window and customized area. When a screenshot is captured, the selected area will be bordered with dashed white line and looks brighter than the other area.
+#### Seleccionar el área de captura de pantalla
 
-> ![notes](icon/notes.svg)Notes: When the computer is connected to multiple monitors, you can also use Screen Capture to capture areas on different monitors.
+Hay tres tipos de áreas de captura de pantalla comunes, concretamente la pantalla completa, la ventana del programa y el área personalizada. Cuando se realiza una captura de pantalla, el área seleccionada estará delimitada por una línea blanca discontinua y tendrá un aspecto más brillante que la otra área.
 
-##### Select Full Screen
+> ![notes](icon/notes.svg)Nota: Cuando el ordenador está conectado a varios monitores, también puede utilizar la Captura de pantalla para capturar áreas en diferentes monitores.
 
-Full screen selection is used to identify the entire screen of the current monitor.
+##### Seleccionar pantalla completa
 
-![1|全屏截图](jpg/fullscreen.png)
+La selección de pantalla completa se utiliza para identificar toda la pantalla del monitor actual.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-You can select the full screen in the following ways:
-
-1.  Press **Ctrl + Alt + A** on the keyboard to enter the screen capture mode.
-2.  Move the pointer to the desktop and the full screen will be selected automatically. The screenshot dimension will be displayed in the upper left corner. 
-3.  Click the desktop and a toolbar will pop up.
-4.  Click ![关闭](icon/close.svg) on the toolbar or right-click to select **Exit** to exit Screen Capture.
-
-You can also take a full screen screenshot directly in the following ways:
-
-- If Screen Capture has been fixed in the dock, right-click ![deepin-screenshot](icon/deepin-screenshot.svg) in the dock to select **Full screenshot**. 
-- Press ![print](icon/Print.svg) on the keyboard to take a full screen screenshot.
-
-##### Select Program Window
-
-Program window selection is used to identify the current application window automatically.
-
-![1|窗口截图](jpg/window.png)
+![1|fullscreen](jpg/fullscreen.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-1.  Press **Ctrl + Alt + A** on the keyboard to enter the screen capture mode.
-2.  Move the pointer to the application window and the window will be selected automatically. The screenshot dimension will be displayed above the upper left corner. 
-3.  Click the window and a toolbar will pop up.
-4.  Click ![ ](icon/close.svg) on the toolbar or right-click to select **Exit** to exit Screen Capture.
+Puede seleccionar la pantalla completa de las siguientes maneras:
 
-##### Select Customized Area
+1.  Pulse **Ctrl + Alt + A** en el teclado para entrar en el modo de captura de pantalla.
+2.  Mueva el puntero al escritorio y la pantalla completa se seleccionará automáticamente. La dimensión de la captura de pantalla se mostrará en la esquina superior izquierda. 
+3.  Haga clic en el escritorio y aparecerá una barra de herramientas.
+4.  Haga clic en ![cerrar](icon/close.svg) en la barra de herramientas o haga clic con el botón derecho para seleccionar **Salir** para salir de la Captura de pantalla.
 
-Customized area selection is used to select the screenshot area freely by dragging the mouse.
+También puede tomar una captura de pantalla completa directamente de las siguientes maneras:
 
-![1|区域截图](jpg/partarea.png)
+- Si Captura de pantalla se ha fijado en el muelle, haga clic con el botón derecho en ![deepin-screenshot](icon/deepin-screenshot.svg) en el muelle para seleccionar **Captura de pantalla completa**. 
+- Pulsa ![print](icon/Print.svg) en el teclado para hacer una captura de pantalla completa.
+
+##### Seleccionar ventana de programa
+
+La selección de la ventana del programa se utiliza para identificar automáticamente la ventana de la aplicación actual.
+
+![1|window](jpg/window.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-1.  Press **Ctrl + Alt + A** on the keyboard to enter the screen capture mode.
-2.  Hold down and drag the left mouse button to select the screen capture area. The screenshot dimension will be displayed in the upper left. 
-3.  Release the left mouse button to to complete area selection and a toolbar will pop up.
-4.  Click ![关闭](icon/close.svg) on the toolbar or right-click to select **Exit** to exit the screen capture.
+1.  Pulse **Ctrl + Alt + A** en el teclado para entrar en el modo de captura de pantalla.
+2.  Mueva el puntero a la ventana de la aplicación y la ventana se seleccionará automáticamente. La dimensión de la captura de pantalla se mostrará sobre la esquina superior izquierda. 
+3.  Haga clic en la ventana y aparecerá una barra de herramientas.
+4.  Clic en ![ ](icon/close.svg) en la barra de herramientas o haga clic con el botón derecho para seleccionar **Salir** para salir de la Captura de pantalla.
 
-#### Adjust the Screenshot Area
+##### Seleccionar área personalizada
 
-You can fine-tune the screenshot area. For example, you can enlarge or reduce the captured area, move the screenshot position, among other functions. 
+La selección de área personalizada se utiliza para indicar libremente el área de captura al arrastrar el ratón.
 
-##### Enlarge/Reduce the Screenshot Area
+![1|partarea](jpg/partarea.png)
 
-Place the pointer over the white boarder of the screenshot area and the pointer will be changed to ![双箭头](icon/Mouse_Arrow.svg)You can:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-- Hold down the left mouse button and drag the mouse to enlarge or reduce the screenshot area. 
-- Press **Ctrl** + ![向上](icon/Up.svg) , ![向下](icon/Down.svg) , ![向左](icon/Left.svg) or ![向右](icon/Right.svg) and drag the mouse to enlarge or reduce the screenshot area vertically or horizontally.
+1.  Pulse **Ctrl + Alt + A** en el teclado para entrar en el modo de captura de pantalla.
+2.  Mantenga pulsado y arrastre el botón izquierdo del ratón para seleccionar el área de captura de pantalla. La dimensión de la captura de pantalla se mostrará en la parte superior izquierda. 
+3.  Suelte el botón izquierdo del ratón para completar la selección del área y aparecerá una barra de herramientas.
+4.  Haga clic en ![close](icon/close.svg) en la barra de herramientas o haga clic con el botón derecho para seleccionar **Salir** para dejar la captura de pantalla.
 
-##### Move the Screenshot Position
+#### Ajustar el área de captura de pantalla
 
-Place the pointer over the screenshot area and it will be changed to ![手指](jpg/fingers2.png). You can:
+Puede ajustar el área de captura de pantalla. Por ejemplo, puede ampliar o reducir el área capturada, mover la posición de la captura de pantalla, entre otras funciones. 
 
-- Hold down the left mouse button and drag the mouse to move the position of the screenshot area.
-- Press ![向上](icon/Up.svg) , ![向下](icon/Down.svg) , ![向左](icon/Left.svg) or ![向右](icon/Right.svg) on the keyboard to move the screenshot area vertically or horizontally.
+##### Ampliar/reducir el área de captura de pantalla
 
-#### Edit Screenshot
+Coloque el puntero sobre el tablero blanco del área de captura de pantalla y el puntero cambiará a ![Mouse_Arrow](icon/Mouse_Arrow.svg)Puede:
 
-Screen Capture can help you process pictures with a variety of editing features for your daily needs, including graphics markup, text annotation, etc. You can also mosaic pictures to protect your privacy. 
+- Mantener pulsado el botón izquierdo del ratón y arrastrarlo para ampliar o reducir el área de captura de pantalla. 
+- Pulsar **Ctrl** + ![Up](icon/Up.svg) , ![Down](icon/Down.svg) , ![Left](icon/Left.svg) o ![Right](icon/Right.svg) y arrastrar el ratón para ampliar o reducir el área de captura de pantalla vertical u horizontalmente.
 
-You can edit screenshots in the following ways:
+##### Mover la posición de la captura de pantalla
 
-- Click the tool icon on the toolbar. 
-- Quickly switch between various editing tools through shortcuts.
-- Right-click to choose the editing tools after selecting the screenshot area.
+Coloque el puntero sobre el área de captura de pantalla y se cambiará a ![fingers2](jpg/fingers2.png). Puede:
 
-#### Draw
+- Mantener pulsado el botón izquierdo del ratón y arrastrarlo para mover la posición del área de captura de pantalla.
+- Pulsar ![Up](icon/Up.svg) , ![Down](icon/Down.svg) , ![Left](icon/Left.svg) o ![Right](icon/Right.svg) en el teclado para mover el área de captura de pantalla vertical u horizontalmente.
 
-You can draw some simple graphics in the screenshots, such as rectangle, ellipse and other shapes.
+#### Editar captura de pantalla
 
-##### Toolbar
+Captura de pantalla puede ayudarle a procesar imágenes con una variedad de funciones de edición para tus necesidades diarias, incluyendo el marcado de gráficos, la anotación de texto, etc. También puede pixelar el área para proteger su privacidad. 
 
-While capturing screenshots, you can click the icons on the toolbar to complete various operations. Run Screen Capture and the toolbar will automatically appear below the screenshot area after selecting the screenshot area. 
+Puedes editar las capturas de pantalla de las siguientes maneras:
 
-> ![attention](icon/attention.svg)Attention: Your settings in the toolbar and attribute column, such as the line weight and font size, are remembered and applied by default and will be resumed the next time when you launch the Screen Capture. You are also able to reset it. 
+- Haz clic en el icono de la herramienta en la barra de herramientas. 
+- Cambia rápidamente entre varias herramientas de edición a través de accesos directos.
+- Haga clic con el botón derecho para elegir las herramientas de edición después de seleccionar el área de la captura de pantalla.
+
+#### Dibujar formas
+
+Puede dibujar algunos gráficos sencillos en las capturas de pantalla, como el rectángulo, la elipse y otras formas.
+
+##### Barra de herramientas
+
+Durante la captura de pantalla, puede hacer clic en los iconos de la barra de herramientas para realizar diversas operaciones. Ejecute Captura de pantalla y la barra de herramientas aparecerá automáticamente debajo del área de captura de pantalla después de seleccionar el área de captura de pantalla. 
+
+> ![atención](icon/attention.svg)Atención: Sus ajustes en la barra de herramientas y en la columna de atributos, como el ancho de la línea y el tamaño de la fuente, se conservan y se aplican de facto y se reanudarán la próxima vez que inicie la Captura de pantalla. También puede restablecerla. 
 
 
-![0|截图工具栏](jpg/capture-bar.png)
+![0|capture-bar](jpg/capture-bar.png)
 
 <table class="block1">
-    <caption>Icon Description</caption>
+    <caption>Descripción del icono</caption>
     <tbody>
         <tr>
-            <td><img src="icon/rectangle-normal.svg" alt="Rectangle" class="inline" /></td>
-            <td>Rectangle</td>
+            <td><img src="icon/rectangle-normal.svg" alt="Rectángulo" class="inline" /></td>
+            <td>Rectángulo</td>
             <td class="blank"></td>
             <td><img src="icon/oval-normal.svg" alt="Elipse" class="inline" /></td>
             <td>Elipse</td>
         <td class="blank"></td>
-            <td><img src="icon/line-normal.svg" alt="Arrow" class="inline" /></td>
-            <td>Line</td>
+            <td><img src="icon/line-normal.svg" alt="Flecha" class="inline" /></td>
+            <td>Línea</td>
         </tr>
           <tr>
-            <td><img src="icon/Combined_Shape-normal.svg" alt="Pencil" class="inline" /></td>
-            <td>Pencil</td>
+            <td><img src="icon/Combined_Shape-normal.svg" alt="Lápiz" class="inline" /></td>
+            <td>Lápiz</td>
             <td class="blank"></td>
-            <td><img src="icon/text_normal.svg" alt="文本工具" class="inline" /></td>
-            <td>Text</td>
+            <td><img src="icon/text_normal.svg" alt="Texto" class="inline" /></td>
+            <td>Texto</td>
             <td class="blank"></td>
-            <td><img src="icon/close-normal.svg" alt="关闭" class="inline" /></td>
-            <td>Exit</td>
+            <td><img src="icon/close-normal.svg" alt="Salir" class="inline" /></td>
+            <td>Salir</td>
         </tr>
     </tbody>
-</table>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-##### Rectangle
+</tabla>
 
-![1|矩形工具](jpg/recttool.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-1.  Click ![矩形](icon/rectangle-normal.svg) on the toolbar which appears beside the screenshot area.
-2.  In the toolbar extension panel, select the weight of outline for the rectangle shape. 
-3.  Place the pointer on the screenshot area and the pointer will be changed to ![矩形指针](icon/rect_mouse.svg).
-4.  Hold down the left mouse button and drag the mouse to complete drawing.
-5.  Click ![模糊](icon/vague_normal.svg) or ![马赛克](icon/Mosaic_normal.svg) in the toolbar extension panel to mosaic the private information in the screenshot (if any).
+
+##### Rectángulo
+
+![1|recttool](jpg/recttool.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+1.  Haga clic en ![rectangle-normal](icon/rectangle-normal.svg) en la barra de herramientas que aparece al lado del área de captura de pantalla.
+2.  En el panel de extensión de la barra de herramientas, seleccione el ancho del contorno para la forma del rectángulo. 
+3.  Coloque el puntero sobre el área de captura de pantalla y el puntero cambiará a ![rect_mouse](icon/rect_mouse.svg).
+4.  Mantenga pulsado el botón izquierdo del ratón y arrástrelo para completar el dibujo.
+5.  Haga clic en ![vague_normal](icon/vague_normal.svg) o ![Mosaic_normal](icon/Mosaic_normal.svg) en el panel de extensión de la barra de herramientas para hacer un mosaico de la información privada en la captura de pantalla (si la hay).
 
 ![2|blurtool](jpg/blurtool.png)
 
@@ -184,216 +188,221 @@ While capturing screenshots, you can click the icons on the toolbar to complete 
 
 
 
-##### Ellipse
-![1|椭圆工具](jpg/ellipsetool.png)
+##### Elipse
+![1|ellipsetool](jpg/ellipsetool.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-1.  Click ![椭圆](icon/oval-normal.svg) on the toolbar which appears beside the screenshot area.
-2.  In the toolbar extension panel, select the weight of outline for the ellipse shape. 
-3.  Place the pointer on the screenshot area and the pointer will be changed to ![椭圆指针](icon/ellipse_mouse.svg).
-4.  Hold down the left mouse button and drag the mouse to complete drawing.
-5.  Click ![模糊](icon/vague_normal.svg) or ![马赛克](icon/Mosaic_normal.svg)in the toolbar extension panel to mosaic the private information in the screenshot (if any).
+1.  Haga clic en ![oval-normal](icon/oval-normal.svg) en la barra de herramientas que aparece al lado del área de captura de pantalla.
+2.  En el panel de extensión de la barra de herramientas, seleccione el peso del contorno para la forma de la elipse. 
+3.  Coloque el puntero sobre el área de captura de pantalla y el puntero cambiará a ![ellipse_mouse](icon/ellipse_mouse.svg).
+4.  Mantenga pulsado el botón izquierdo del ratón y arrástrelo para completar el dibujo.
+5.  Haga clic en ![vague_normal](icon/vague_normal.svg) o ![Mosaic_normal](icon/Mosaic_normal.svg)en el panel de extensión de la barra de herramientas para hacer un mosaico de la información privada en la captura de pantalla (si la hay).
 
 
-##### Straight Line and Arrow
-![1|线条工具](jpg/line.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-1.  Click ![直线](icon/line-normal.svg) on the toolbar which appears beside the screenshot area.
-2.  In the toolbar extension panel, select the weight of line. 
-3.  Click ![直线](icon/line-normal.svg) or ![箭头](icon/Arrow-normal.svg) to toggle between straight line and arrow.
-4.  Place the pointer on the screenshot area and the pointer will be changed to ![线条指针](icon/line_mouse.svg) or ![箭头指针](icon/arrow_mouse.svg).
-5.  Hold down the left mouse button and drag the mouse to complete drawing.
-
-
-##### Pencil
-![1|pencil](jpg/pencil.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-1.  Click ![画笔](icon/Combined_Shape-normal.svg) on the toolbar beside the screenshot area.
-2.  In the toolbar extension panel, select the weight of pencil. 
-3.  Place the pointer on the screenshot area and the pointer will be changed to ![画笔指针](icon/brush red.svg).
-4.  Hold down the left mouse button and drag the mouse to complete drawing.
-
-If you need to draw a square, circle, or other shapes, you can:
-
-- Hold down the **Shift** key on the keyboard and select ![矩形](icon/rectangle-normal.svg) to draw a square.
-- Hold down the **Shift** key on the keyboard and select ![椭圆](icon/oval-normal.svg) to draw a circle.
-- Hold down the **Shift** key on the keyboard and select ![直线](icon/line-normal.svg) or ![箭头](icon/Arrow-normal.svg) to draw a straight line or straight line with arrow horizontally or vertically.
-
-
-#### Modify Graphics
-
-You can modify and move the drawn graphics in the screenshot.
-
-![1|修改图形](jpg/changetool.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-##### Move Graphics
-1.  Place the pointer over the graphics border line and the mouse will be changed to ![手指](jpg/fingers.png).
-2.  Hold down the left mouse button and drag the graphics to any place in the screenshot area.
-3.  Press ![向上](icon/Up.svg) , ![向下](icon/Down.svg) , ![向左](icon/Left.svg) or ![向右](icon/Right.svg) on the keyboard to move the graphics vertically or horizontally.
-
-
-##### Edit Graphics
-
-1.  Place the pointer over the outline of graphics.
-2.  Left-click to enter the editing mode and you can:
-    - Press the **Delete** key on the keyboard to delete the graphics.
-    - Press **Ctrl + Z** on the keyboard to return to the previous step.
-    - Place the pointer over the edit box and the mouse will be changed to![双箭头](icon/Mouse_Arrow.svg). Enlarge or reduce the graphic area by dragging the pointer.
-    - Press **Ctrl** + ![向上](icon/Up.svg) , ![向下](icon/Down.svg) , ![向左](icon/Left.svg) or ![向左](icon/Right.svg) to extend the graphics area vertically or horizontally.
-    - Place the pointer over ![旋转](icon/icon_rotate.svg) in the edit box and the pointer will be changed to ![旋转](icon/rotate_mouse.svg). Rotate the graphics by dragging the pointer.
-3.  Left-click outside the edit box to exit the editing mode.
-
-
-#### Add Text Annotation
-
-Add text annotations to the screenshot in order to help others better understand.
-
-![0|文本框](jpg/text.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-1.  Click ![文字](icon/text_normal.svg) on the toolbar which appears beside the screenshot area.
-2.  In the toolbar extension panel, select the font size via the scroll bar. 
-3.  Place the pointer over the screenshot and the mouse will be changed to ![文字指针](icon/text_mouse.svg).
-4.  Click where you want to add an annotation and a text box will appear.
-5.  Enter texts in the text box.
-
-
-#### Modify Text Annotations
-
-You can modify and move the text annotations after they're entered.
-
-##### Move Text Annotations
-
-1.   Place the pointer over the text and the pointer will be changed to ![手指](jpg/fingers.png).
-2.   Hold down the left mouse button and drag to move the text anywhere in the screenshot area.
-
-##### Edit Text Annotations
-
-1.  Place the pointer over the text and the pointer will be changed to ![手指](jpg/fingers.png).
-2.  Left-click to enter the text editing mode and you can:
-    - Press **Delete** on the keyboard to delete text annotations.
-    - Press **Ctrl + Z** on the keyboard to return to the previous step.
-    - Modify the text in the text box.
-3.  Click outside the text box to exit editing mode.
-
-
-#### Set Colors
-
-Four colors are provided in Screen Capture for you to mark the graphics.
-
-1.  Select a tool on the toolbar that appears beside the screenshot area.
-2.  Click![颜色](icon/red.svg),![颜色](icon/yellow.svg),![颜色](icon/blue.svg)or![颜色](icon/green.svg)in the toolbar extension panel and select a color.
-
-
-#### Save Screenshots
-
-Save the screenshot for future use.
-
-When the screenshot is saved successfully, you can see a prompt message in the upper right corner of the desktop. Click **View** to open the folder where the screenshot is located.
-
-You can save the screenshot in the following ways after launching Screen Capture and selecting the screenshot area:
-
-- Double-click to save the screen capture.
-- Click the ![notes](icon/capture.svg) in the toolbar.
-
-> ![notes](icon/notes.svg)Notes: If you are using a computer equipped with a touchscreen or touchpad, you can use touchscreen gestures to operate instead of the mouse: Double-click with one finger to finish screenshots.
-
--  Press **Ctrl + S** to save the screenshot.
-- Right-click the screenshot and select **Save** to save the screenshot.
-
-> ![notes](icon/notes.svg)Notes: The screenshot is saved to the desktop by default.
-
-Click **Options** in the toolbar of the Screen Capture interface and expand the drop-down list:
-
-![0|保存](jpg/option-1.png)
+##### Líneas recta y flecha
+![1|line](jpg/line.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-- Select **Clipboard** to save the screenshot to clipboard.
-- Click **Desktop** (default) and the screenshot will be saved to the desktop.
-- Click **Pictures** and the screenshot will be saved to the pictures folder.
-- Click **Folder**. Select the destination folder of the screenshot and the screenshot will be saved to the folder directory selected by you. 
-- Select **Show pointer** and the pointer will be displayed in the screenshot area. Its position and pattern will also be saved in the picture.
-- Select **PNG/JPG/BMP** to set the screenshot format.
+1.  Haga clic en ![line-normal](icon/line-normal.svg) en la barra de herramientas que aparece al lado del área de capturas de pantalla.
+2.  En el panel de extensión de la barra de herramientas, seleccione el peso de la línea. 
+3.  Haga clic en ![line-normal](icon/line-normal.svg) o ![Arrow-normal.svg](icon/Arrow-normal.svg) para alternar entre línea recta y flecha.
+4.  Coloque el puntero en el área de la captura de pantalla y el puntero cambiará a ![line_mouse](icon/line_mouse.svg) o ![arrow_mouse](icon/arrow_mouse.svg).
+5.  Mantenga pulsado el botón izquierdo del ratón y arrástrelo para completar el dibujo.
 
 
-### Record a Screen
-
-#### Toolbar Instructions
-
-![0|工具栏](jpg/recorder-bar.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
->![notes](icon/notes.svg)Notes: 
-   - If window effect is turned off in Control Center, screen recording will be hidden.
-   - Screen recording is not available on Loongson and SW platforms.
-
-<table class="block1">
-    <caption>Icon Description</caption>
-    <tbody>
-        <tr>
-            <td><img src="icon/microphone_normal.svg" alt="录制声音" class="inline" /></td>
-            <td>Microphone</td>
-            <td class="blank"></td>
-            <td><img src="icon/audio-frequency_normal.svg" alt="录制声音" class="inline" /></td>
-            <td>Sound On</td>
-        <td class="blank"></td>
-            <td><img src="icon/key_mormal.svg" alt="按键" class="inline" /></td>
-            <td>Show Keystroke</td>
-        </tr>
-          <tr>
-            <td><img src="icon/webcam_normal.svg" alt="摄像头" class="inline" /></td>
-            <td>Webcam On</td>
-            <td class="blank"></td>
-            <td><img src="icon/mouse_mormal.svg" alt="鼠标点击" class="inline" /></td>
-            <td>Show Click</td>
-            <td class="blank"></td>
-            <td><img src="icon/close-normal.svg" alt="关闭" class="inline" /></td>
-            <td>Exit</td>
-        </tr>
-    </tbody>
-</table>
+##### Lápiz
+![1|lápiz](jpg/pencil.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-#### Select Recording Area
+1.  Haga clic en ![Combined_Shape-normal](icon/Combined_Shape-normal.svg) en la barra de herramientas junto al área de captura de pantalla.
+2.  En el panel de extensión de la barra de herramientas, seleccione el peso del lápiz. 
+3.  Coloque el puntero sobre el área de captura de pantalla y el puntero cambiará a ![brush red](icon/brush red.svg).
+4.  Mantenga pulsado el botón izquierdo del ratón y arrástrelo para completar el dibujo.
 
-After running screen recorder, you can select the recording area, namely the full screen, automatic recognition window and custom window.
+Si necesita dibujar un cuadrado, un círculo u otras formas, puede que:
 
-- Full screen and automatic recognition window: when you select the recording area, screen recorder will automatically recognize the window on the desktop along with the movement of your mouse, and there will be a rectangle selection box in the identified window. Click to select the current window recording. As the desktop is also a type of window, therefore, when the mouse is located on the desktop, full screen recording will be recognized.
-- Custom window: when you select the recording area, you can use the mouse to select any area freely. The selected area will be bordered with dashed white line. You can later adjust the position and size of the selected area by dragging the mouse inside the area or dragging the dashed white line. Then, click to select the current window for recording.
+- Mantenga pulsada la tecla **Shift** del teclado y seleccione ![rectangle-normal](icon/rectangle-normal.svg) para dibujar un cuadrado.
+- Mantenga pulsada la tecla **Shift** del teclado y seleccione ![oval-normal](icon/oval-normal.svg) para dibujar un círculo.
+- Mantenga pulsada la tecla **Shift** del teclado y seleccione ![line-normal](icon/line-normal.svg) o ![Arrow-normal](icon/Arrow-normal.svg) para dibujar una línea recta o una línea recta con flecha horizontal o vertical.
 
-#### Set Sound, Keystroke, Camera and Click for Recording 
 
-On the toolbar of Screen Capture, you can set sound, keystroke, camera, etc. to get ready for video recording.
+#### Modificar gráficos
 
-- Record sound: including microphone and built-in audio (enabled by default).
-- Keystroke: hover the pointer over ![icon](icon/key_mormal.svg) and **Show Keystroke** will display. Click it and the operation keystroke will be displayed during screen recording. Up to five recent operation keystrokes can be displayed at the same time. Click the icon again to enable **Hide Keystroke** and cancel keystroke display.
-- Camera: hover the pointer over ![icon](icon/webcam_normal.svg) and **Webcam On** will display. Click it and the camera window will be displayed on the recording screen. Drag the camera window outline to adjust the window size and position. Click the icon again to disable the camera. No image can be displayed except for a black screen.
-- Click: hover the pointer over ![icon](icon/mouse_mormal.svg) and **Show Click** will display. Click it to display mouse and touchscreen during screen recording. Click it again to cancel display.
+Puede modificar y mover los gráficos dibujados en la captura de pantalla.
 
-> ![attention](icon/attention.svg)Attention: First, check whether the device connected supports sound recording and camera functions.
->   - When the device connected supports sound recording and camera functions, you are able to process relevant operations.
->   - When the device connected does not support sound recording and camera functions, the icons are grayed out and you are not able to process relevant operations.
+![1|changetool](jpg/changetool.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-#### Set Recording Format and FPS (Frame Per Second)
+##### Mover gráficos
+1.  Coloque el puntero sobre la línea del borde de los gráficos y el ratón se cambiará a ![fingers](jpg/fingers.png).
+2.  Mantenga pulsado el botón izquierdo del ratón y arrastre los gráficos a cualquier lugar del área de captura de pantalla.
+3.  Pulse ![Up](icon/Up.svg) , ![Down](icon/Down.svg) , ![Left](icon/Left.svg) o ![Right](icon/Right.svg) en el teclado para mover los gráficos vertical u horizontalmente.
 
-Click **Options** to expand the drop-down list on the **Screen Capture** toolbar. Select the options and you are able to record videos in GIF, MP4 and MKV format. You can also set the FPS.
 
-> ![notes](icon/notes.svg)Notes: Start video recording after making changes to the settings if the default setting doesn't meet your needs.
+##### Editar gráficos
 
-#### Record Videos
+1.  Coloque el puntero sobre el contorno de los gráficos.
+2.  Haga clic con el botón izquierdo del ratón para entrar en el modo de edición y podrá:
+    - Pulsar la tecla **Suprimir** del teclado para eliminar los gráficos.
+    - Pulsar **Ctrl + Z** en el teclado para volver al paso anterior.
+    - Colocar el puntero sobre el cuadro de edición y el ratón se cambiará a![Mouse_Arrow](icon/Mouse_Arrow.svg). Amplíe o reduzca el área gráfica arrastrando el puntero.
+    - Pulse **Ctrl** + ![Up](icon/Up.svg) , ![Down](icon/Down.svg) , ![Left](icon/Left.svg) o ![Right](icon/Right.svg) para ampliar la zona gráfica vertical u horizontalmente.
+    - Coloque el puntero sobre ![icon_rotate](icon/icon_rotate.svg) en el cuadro de edición y el puntero cambiará a ![rotate_mouse](icon/rotate_mouse.svg). Rota los gráficos arrastrando el puntero.
+3.  Haga clic con el botón izquierdo del ratón fuera del cuadro de edición para salir del modo de edición.
 
-You can customize the recording area and select the recording format before recording.
 
-1. Click ![ctrl](icon/screencap-normal.svg) **Record** to select the recording area after launching screen recorder.
+#### Añadir anotación de texto
 
-2. Select the recording format.
+Añade anotaciones de texto a la captura de pantalla para ayudar a otros a entenderla mejor.
 
-3. Click **Start Record** and the flickering **Record** icon appears in the system tray.
+![0|text](jpg/text.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1.  Haga clic en ![text_normal](icon/text_normal.svg) en la barra de herramientas que aparece al lado del área de captura de pantalla.
+2.  En el panel de extensión de la barra de herramientas, seleccione el tamaño de la fuente mediante la barra de desplazamiento. 
+3.  Coloque el puntero sobre la captura de pantalla y el ratón pasará a ![text_mouse](icon/text_mouse.svg).
+4.  Haz clic donde quieras añadir una anotación y aparecerá un cuadro de texto.
+5.  Introduzca el texto en el cuadro correspondiente.
 
-4. Click the icon in the dock or in the system tray to complete recording.
 
-The recorded video will be saved to the desktop automatically.
+#### Modificar las anotaciones de texto
 
-> ![notes](icon/notes.svg)Notes: During video recording, if multiple monitors are connected, whether the multi-screen display is in copy mode or extended mode, only the current operation screen is recorded.
+Puede modificar y mover las anotaciones de texto después de haberlas introducido.
 
-### View Help
+##### Mover anotaciones de texto
 
-Press ![F1](icon/F1.svg) on the keyboard to view the help manual after launching Screen Capture.
+1.   Coloque el puntero sobre el texto y el puntero cambiará a ![fingers](jpg/fingers.png).
+2.   Mantenga pulsado el botón izquierdo del ratón y arrástrelo para mover el texto a cualquier parte del área de la captura de pantalla.
+
+##### Editar anotaciones de texto
+
+1.  Coloque el puntero sobre el texto y el puntero cambiará a ![fingers](jpg/fingers.png).
+2.  Haga clic con el botón izquierdo del ratón para entrar en el modo de edición de texto y podrá:
+    - Pulsar **Suprimir** en el teclado para eliminar las anotaciones de texto.
+    - Pulsar **Ctrl + Z** en el teclado para volver al paso anterior.
+    - Modificar el texto en el cuadro de texto.
+3.  Haga clic fuera del cuadro de texto para salir del modo de edición.
+
+
+#### Ajustar colores
+
+En Captura de pantalla se proporcionan cuatro colores para que marque los gráficos.
+
+1.  Seleccione una herramienta en la barra de herramientas que aparece al lado del área de captura de pantalla.
+2.  Haga clic en![red](icon/red.svg),![yellow](icon/yellow.svg),![blue](icon/blue.svg)o![green](icon/green.svg) en el panel de extensión de la barra de herramientas y seleccione un color.
+
+
+#### Guardar capturas de pantalla
+
+Guarde la captura de pantalla para utilizarla en el futuro.
+
+Cuando la captura de pantalla se guarda correctamente, puede ver un mensaje de aviso en la esquina superior derecha del escritorio. Haga clic en **Ver** para abrir la carpeta donde se encuentra la captura de pantalla.
+
+Puede guardar la captura de pantalla de las siguientes maneras después de iniciar Captura de pantalla y seleccionar el área de captura de pantalla:
+
+- Haga doble clic para guardar la captura de pantalla.
+- Haga clic en el ![notes](icon/capture.svg) de la barra de herramientas.
+
+> ![notes](icon/notes.svg)Nota: Si utiliza un ordenador equipado con pantalla táctil o touchpad, puede utilizar los gestos de la pantalla táctil para operar en lugar del ratón: Haz doble clic con un dedo para finalizar las capturas de pantalla.
+
+- Pulse **Ctrl + S** para guardar la captura de pantalla.
+- Haz clic con el botón derecho del ratón en la captura de pantalla y selecciona **Guardar** para guardarla.
+
+> ![notes](icon/notes.svg)Nota: La captura de pantalla se guarda por defecto en el escritorio.
+
+Haga clic en **Opciones** en la barra de herramientas de la interfaz de Captura de pantalla y amplíe la lista desplegable:
+
+![0|option](jpg/option-1.png)
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+- Seleccione **Tablero** para guardar la captura de pantalla en el portapapeles.
+- Haga clic en **Escritorio** (por defecto) y la captura de pantalla se guardará en el escritorio.
+- Haga clic en **Imágenes** y la captura de pantalla se guardará en la carpeta de imágenes.
+- Haga clic en **Carpeta**. Seleccione la carpeta de destino de la captura de pantalla y la captura de pantalla se guardará en el directorio de la carpeta seleccionada por usted. 
+- Seleccione **Mostrar puntero** y el puntero se mostrará en el área de la captura de pantalla. Su posición y patrón también se guardarán en la imagen.
+- Seleccione **PNG/JPG/BMP** para establecer el formato de la captura de pantalla.
+
+
+### Grabar una pantalla
+
+#### Instrucciones de la barra de herramientas
+
+![0|recorder](jpg/recorder-bar.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+>![notes](icon/notes.svg)Nota: 
+   - Si el efecto ventana está desactivado en el Centro de Control, la grabación de pantalla estará oculta.
+   - La grabación de pantalla no está disponible en las plataformas Loongson y SW.
+
+ <table class="block1">
+     <caption>Descripción del icono</caption>
+     <tbody>
+         <tr>
+             <td><img src="icon/microphone_normal.svg" alt="Micrófono" class="inline" /></td>
+             <td>Micrófono</td>
+             <td class="blank"></td>
+             <td><img src="icon/audio-frequency_normal.svg" alt="Sonido activado" class="inline" /></td>
+             <td>Sonido activado</td>
+         <td class="blank"></td>
+             <td><img src="icon/key_mormal.svg" alt="Teclas" class="inline" /></td>
+             <td>Mostrar la pulsación de teclas</td>
+         </tr>
+           <tr>
+             <td><img src="icon/webcam_normal.svg" alt="Cámara encendida" class="inline" /></td>
+             <td>Cámara web encendida</td>
+             <td class="blank"></td>
+             <td><img src="icon/mouse_mormal.svg" alt="Mostrar clic" class="inline" /></td>
+             <td>Mostrar clic</td>
+             <td class="blank"></td>
+             <td><img src="icon/close-normal.svg" alt="Salir" class="inline" /></td>
+             <td>Salir</td>
+         </tr>
+     </tbody>
+ </table>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ #### Seleccionar el área de grabación
+
+Después de ejecutar el grabador de pantalla, puede seleccionar el área de grabación, cuyos elementos son la pantalla completa, la ventana de reconocimiento automático y la ventana personalizada.
+
+ - Pantalla completa y ventana de reconocimiento automático: cuando seleccione el área de grabación, el grabador de pantalla reconocerá automáticamente la ventana en el escritorio junto con el movimiento de su ratón, y habrá un cuadro de selección rectangular en la ventana identificada. Haga clic para seleccionar la grabación de la ventana actual. Como el escritorio también es un tipo de ventana, por lo tanto, cuando el ratón se encuentre en el escritorio, se reconocerá la grabación a pantalla completa.
+ - Ventana personalizada: cuando seleccione el área de grabación, se puede utilizar el ratón para seleccionar cualquier área libremente. El área seleccionada estará delimitada por una línea blanca discontinua. Posteriormente, puede ajustar la posición y el tamaño del área seleccionada arrastrando el ratón dentro del área o arrastrando la línea blanca discontinua. A continuación, haga clic para seleccionar la ventana actual para la grabación.
+
+ #### Ajustar el sonido, la pulsación de tecla, la cámara y el seguimiento por clics
+
+ En la barra de herramientas de Captura de pantalla, puedes configurar el sonido, la pulsación de teclas, la cámara, etc. para prepararte para la grabación de vídeo.
+
+ - Grabar sonido: incluyendo el micrófono y el audio incorporado (activado por defecto).
+ - Pulsación de teclas: pase el puntero por encima de ![icono](icon/key_mormal.svg) y se mostrará la opción **Mostrar pulsación de tecla**. Haga clic en él y se mostrará la pulsación de la operación durante la grabación de la pantalla. Se pueden mostrar hasta cinco pulsaciones recientes al mismo tiempo. Vuelva a hacer clic en el icono para activar **Ocultar pulsaciones** y cancelar la visualización de las pulsaciones.
+ - Cámara: pase el puntero por encima del icono ![icon](icon/webcam_normal.svg) y aparecerá **Encender cámara web**. Haga clic en él y se mostrará la ventana de la cámara en la pantalla de grabación. Arrastre el contorno de la ventana de la cámara para ajustar el tamaño y la posición de la misma. Vuelva a hacer clic en el icono para desactivar la cámara. No se podrá mostrar ninguna imagen, salvo una pantalla negra.
+ - Clic: pase el puntero por encima de ![icono](icon/mouse_mormal.svg) y se mostrará **Mostrar clic**. Haga clic en él para mostrar el ratón y la pantalla táctil durante la grabación de la pantalla. Vuelva a hacer clic para cancelar la visualización.
+
+ > ![atención](icon/attention.svg)Atención: En primer lugar, compruebe si el dispositivo conectado admite la grabación de sonido y las funciones de la cámara.
+ >
+ > * Si el dispositivo conectado es compatible con las funciones de grabación de sonido y de cámara, podrá realizar las operaciones pertinentes.
+ > * Cuando el dispositivo conectado no es compatible con las funciones de grabación de sonido y cámara, los iconos aparecen en gris y no podrá realizar estas operaciones.
+
+ #### Ajustar el formato de grabación y los FPS (fotogramas por segundo)
+
+ Haga clic en **Opciones** para ampliar la lista desplegable de la barra de herramientas de **Captura de pantalla**. Seleccione las opciones y podrá grabar vídeos en formato GIF, MP4 y MKV. También puedes configurar los FPS.
+
+ > ![notes](icon/notes.svg)Nota: Inicie la grabación de vídeo después de realizar cambios en los ajustes si la configuración predeterminada no satisface sus necesidades.
+
+ #### Grabar vídeos
+
+ Puede personalizar el área de grabación y seleccionar el formato de grabación antes de grabar.
+
+ 1. Haga clic en ![ctrl](icon/screencap-normal.svg) **Grabar** para seleccionar el área de grabación después de iniciar el grabador de pantalla.
+
+ 2. Seleccione el formato de grabación.
+
+ 3. Haga clic en **Iniciar grabación** y aparecerá el icono parpadeante de **Grabación** en la bandeja del sistema.
+
+ 4. Haz clic en el icono del muelle o de la bandeja del sistema para completar la grabación.
+
+ El vídeo grabado se guardará en el escritorio automáticamente.
+
+ > ![notes](icon/notes.svg)Nota: Durante la grabación de vídeo, si se conectan varios monitores, tanto si la pantalla múltiple está en modo de duplicado como en modo extendido, sólo se graba la pantalla de funcionamiento actual.
+
+ ### Ver ayuda
+
+Pulse ![F1](icon/F1.svg) en el teclado para ver el manual de ayuda después de iniciar la Captura de pantalla.
