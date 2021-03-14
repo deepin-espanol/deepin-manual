@@ -1,3 +1,15 @@
+deepin-manual (5.7.0.44) unstable; urgency=medium
+
+  * Added partial Spanish translation by @sguinetti
+
+ -- Amaro Martínez <xoas@airmail.cc>  Sat, 06 Mar 2021 02:57:03 -0500
+
+deepin-manual (5.7.0.43-1) unstable; urgency=medium
+
+  * update
+
+ -- Deepin Sysdev <sysdev@deepin.com>  Thu, 17 Dec 2020 17:26:21 +0800
+
 deepin-manual (5.5.5) stable; urgency=medium
 
   * Update manual
